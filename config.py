@@ -25,3 +25,7 @@ OLLAMA_MODEL: str = os.environ.get("OLLAMA_MODEL", "qwen3.6:35b")
 # --- Shared settings ---
 INPUT_DIR: str = os.environ.get("INPUT_DIR", "input")
 OUTPUT_DIR: str = os.environ.get("OUTPUT_DIR", "output")
+
+# --- Concurrency ---
+# Number of parallel API calls. Keep <= 3 on Gemini free tier (15 RPM limit).
+MAX_WORKERS: int = int(os.environ.get("MAX_WORKERS", "3"))

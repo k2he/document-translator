@@ -19,16 +19,18 @@ Configuration (via .env):
 import os
 import sys
 import time
+import threading
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from docx import Document
+from tqdm import tqdm
 
 import config
 from src.docx_builder import apply_body_translations, apply_table_translations
 from src.docx_parser import (
     has_chinese,
     iter_body_paragraphs,
-    iter_table_paragraphs,
     load_document,
 )
 from src.pdf_exporter import convert_to_pdf
@@ -36,22 +38,67 @@ from src.translator import translate_batch
 
 BATCH_SIZE = 10  # paragraphs per API call (smaller = fewer rate limit hits)
 
+# Stay under Gemini free-tier cap (15 RPM). Proactive limiting avoids retries.
+_RPM_LIMIT = 12  # conservative headroom under 15
 
-def _translate_segments(segments: list[tuple]) -> dict:
-    """Translate a flat list of (key, text) segments and return key→translation."""
+
+class _RateLimiter:
+    """Sliding-window rate limiter: at most max_calls per 60 seconds."""
+
+    def __init__(self, max_calls: int):
+        self._max = max_calls
+        self._times: list[float] = []
+        self._lock = threading.Lock()
+
+    def acquire(self) -> None:
+        while True:
+            with self._lock:
+                now = time.time()
+                self._times = [t for t in self._times if now - t < 60.0]
+                if len(self._times) < self._max:
+                    self._times.append(now)
+                    return
+                wait = 60.0 - (now - self._times[0]) + 0.1
+            time.sleep(wait)
+
+
+_limiter = _RateLimiter(max_calls=_RPM_LIMIT)
+
+
+def _translate_segments(segments: list[tuple], label: str = "paragraphs") -> dict:
+    """Translate segments in parallel batches, rate-limited to stay under RPM cap."""
     result: dict = {}
-    for i in range(0, len(segments), BATCH_SIZE):
-        batch = segments[i : i + BATCH_SIZE]
-        keys = [k for k, _ in batch]
-        texts = [t for _, t in batch]
-        batch_num = i // BATCH_SIZE + 1
-        total_batches = (len(segments) + BATCH_SIZE - 1) // BATCH_SIZE
-        print(f"  Translating batch {batch_num}/{total_batches} ({len(texts)} paragraphs)...")
+    batches = [
+        (i, [k for k, _ in segments[i:i+BATCH_SIZE]], [t for _, t in segments[i:i+BATCH_SIZE]])
+        for i in range(0, len(segments), BATCH_SIZE)
+    ]
+    total_batches = len(batches)
+
+    def _do_batch(batch_idx: int, keys: list, texts: list) -> tuple:
+        _limiter.acquire()
         translated = translate_batch(texts)
-        for key, trans in zip(keys, translated):
-            result[key] = trans
-        if i + BATCH_SIZE < len(segments):
-            time.sleep(2)  # brief pause between batches to stay within rate limits
+        return batch_idx, keys, translated
+
+    with tqdm(
+        total=len(segments),
+        desc=f"  {label}",
+        unit="para",
+        ncols=88,
+        bar_format="  {desc}: {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] {bar} {postfix}",
+    ) as pbar:
+        with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as executor:
+            futures = {
+                executor.submit(_do_batch, idx, keys, texts): idx
+                for idx, keys, texts in batches
+            }
+            completed = 0
+            for future in as_completed(futures):
+                batch_idx, keys, translated = future.result()
+                for key, trans in zip(keys, translated):
+                    result[key] = trans
+                pbar.update(len(keys))
+                completed += 1
+                pbar.set_postfix_str(f"{completed}/{total_batches} batches done", refresh=True)
     return result
 
 
@@ -67,10 +114,6 @@ def process_file(input_path: str, output_dir: str) -> None:
     print(f"  Body paragraphs with Chinese text: {len(body_segments)}")
 
     # --- Table cell paragraphs ---
-    table_raw = list(iter_table_paragraphs(doc))
-    # Build a stable key: (table_index, row_index, para_index) using cell identity
-    # Remap to (cell_id, para_index) for lookup during apply step.
-    # We need table/row indices to match apply_table_translations key format.
     table_segments: list[tuple[tuple[int, int, int], str]] = []
     for t_idx, table in enumerate(doc.tables):
         for r_idx, row in enumerate(table.rows):
@@ -87,6 +130,13 @@ def process_file(input_path: str, output_dir: str) -> None:
 
     print(f"  Table paragraphs with Chinese text: {len(table_segments)}")
 
+    total_paras = len(body_segments) + len(table_segments)
+    total_calls = (
+        (len(body_segments) + BATCH_SIZE - 1) // BATCH_SIZE
+        + (len(table_segments) + BATCH_SIZE - 1) // BATCH_SIZE
+    )
+    print(f"  Total: {total_paras} paragraphs, ~{total_calls} API calls\n")
+
     if not body_segments and not table_segments:
         print("  No Chinese text found — skipping file.")
         return
@@ -98,8 +148,8 @@ def process_file(input_path: str, output_dir: str) -> None:
         )
 
     # --- Translate ---
-    body_translations = _translate_segments(body_segments)
-    table_translations = _translate_segments(table_segments)
+    body_translations = _translate_segments(body_segments, label="Body")
+    table_translations = _translate_segments(table_segments, label="Tables")
 
     # --- Apply translations ---
     apply_body_translations(doc, body_translations)
@@ -110,7 +160,7 @@ def process_file(input_path: str, output_dir: str) -> None:
     stem = Path(input_path).stem
     out_docx = os.path.join(output_dir, stem + "_translated.docx")
     doc.save(out_docx)
-    print(f"  Saved DOCX: {out_docx}")
+    print(f"\n  Saved DOCX: {out_docx}")
 
     # --- Convert to PDF ---
     try:
