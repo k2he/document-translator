@@ -23,7 +23,7 @@ Supports two translation backends:
 - Python 3.10+
 - [LibreOffice](https://www.libreoffice.org/download/) (for PDF export)
 - **OpenAI provider**: An OpenAI API key with access to `gpt-4o`
-- **Ollama provider**: [Ollama](https://ollama.com) installed locally with `qwen2.5:72b` pulled (no API key needed)
+- **Ollama provider**: [Ollama](https://ollama.com) installed locally with `qwen3.6:35b` pulled (no API key needed)
 
 ---
 
@@ -38,17 +38,18 @@ The tool supports two providers, switchable via the `TRANSLATION_PROVIDER` varia
 
 ### Which Ollama model to use?
 
-**Recommended: `qwen2.5:72b`** — Alibaba's Qwen2.5 is purpose-built for Chinese language tasks and matches GPT-4 quality on Chinese→English academic translation. It understands mathematical terminology and academic register.
+**Recommended: `qwen3.6:35b`** — Alibaba's Qwen3 is the latest generation, with significantly improved Chinese→English translation quality over Qwen2.5. It handles academic register, mathematical terminology, and mixed Chinese/formula text well.
 
 | Model | VRAM | Quality |
 |---|---|---|
-| `qwen2.5:72b` | ~45 GB | Best — recommended |
-| `qwen2.5:32b` | ~20 GB | Very good |
-| `qwen2.5:14b` | ~10 GB | Good — runs on 16 GB RAM |
+| `qwen3:72b` | ~45 GB | Best quality |
+| `qwen3.6:35b` | ~22 GB | **Recommended** — excellent quality, practical VRAM |
+| `qwen3:14b` | ~10 GB | Good — runs on 16 GB RAM |
+| `qwen3:8b` | ~6 GB | Acceptable for lighter use |
 
 Pull your chosen model before running:
 ```bash
-ollama pull qwen2.5:72b
+ollama pull qwen3:32b
 ```
 
 ---
@@ -97,13 +98,13 @@ Download and install from https://www.libreoffice.org/download/
 If you prefer local/offline translation, install [Ollama](https://ollama.com) and pull the recommended model:
 
 ```bash
-ollama pull qwen2.5:72b
+ollama pull qwen3:32b
 ```
 
 Then set in `.env`:
 ```
 TRANSLATION_PROVIDER=ollama
-OLLAMA_MODEL=qwen2.5:72b
+OLLAMA_MODEL=qwen3:32b
 ```
 
 No API key is required when using Ollama.
