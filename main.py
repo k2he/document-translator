@@ -31,7 +31,7 @@ from src.docx_parser import (
     load_document,
 )
 from src.pdf_exporter import convert_to_pdf
-from src.translator import translate_batch
+from src.translator import translate_batch, ping_llm
 
 BATCH_SIZE = 10  # paragraphs per API call (smaller = fewer rate limit hits)
 
@@ -143,6 +143,7 @@ def main() -> None:
         return
 
     print(f"Found {len(docx_files)} file(s) in '{input_dir}/'")
+    ping_llm()
     for f in docx_files:
         process_file(str(f), config.OUTPUT_DIR)
 

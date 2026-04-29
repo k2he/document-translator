@@ -94,6 +94,21 @@ def _call_api(text: str, retries: int = 6) -> str:
     raise RuntimeError("Translation failed after maximum retries.")
 
 
+def ping_llm() -> None:
+    """Make a lightweight test call to verify the LLM is reachable before translation."""
+    model = _active_model()
+    print(f"\nChecking LLM connection ({config.TRANSLATION_PROVIDER} / {model})...")
+    start = time.time()
+    response = _get_client().chat.completions.create(
+        model=model,
+        messages=[{"role": "user", "content": "Reply with exactly: Ready to translate."}],
+        temperature=0.0,
+    )
+    elapsed = time.time() - start
+    reply = response.choices[0].message.content.strip()
+    print(f"  LLM response ({elapsed:.1f}s): {reply}")
+
+
 def translate_batch(texts: list[str]) -> list[str]:
     """Translate a list of paragraph texts in a single API call.
 
