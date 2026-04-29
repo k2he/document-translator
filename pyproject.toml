@@ -7,4 +7,5 @@ dependencies = [
     "openai>=1.0.0",
     "python-docx>=1.1.0",
     "python-dotenv>=1.0.0",
+    "tqdm>=4.0.0",
 ]
