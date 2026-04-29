@@ -3,7 +3,7 @@
 A Python tool that translates Chinese Calculus textbooks (DOCX format) into English, while preserving all mathematical equations, graphs, images, and formatting. Outputs both a translated DOCX and a PDF.
 
 Supports two translation backends:
-- **OpenAI GPT-4o** — cloud-based, highest quality
+- **Google Gemini** — cloud-based, highest quality
 - **Ollama (local)** — fully offline, no API key required (recommended model: `qwen2.5:72b`)
 
 ---
@@ -12,7 +12,7 @@ Supports two translation backends:
 
 1. Reads `.docx` files from the `input/` directory
 2. Detects paragraphs and table cells containing Chinese text
-3. Translates them in batches via OpenAI GPT-4o or a local Ollama model
+3. Translates them in batches via Google Gemini or a local Ollama model
 4. Writes translations back into the document — OMML math equations and images are never touched
 5. Saves a translated `.docx` and converts it to `.pdf` via LibreOffice
 
@@ -21,8 +21,9 @@ Supports two translation backends:
 ## Prerequisites
 
 - Python 3.10+
+- [UV](https://docs.astral.sh/uv/) (Python package manager)
 - [LibreOffice](https://www.libreoffice.org/download/) (for PDF export)
-- **OpenAI provider**: An OpenAI API key with access to `gpt-4o`
+- **Gemini provider**: A Google AI Studio API key (get one free at https://aistudio.google.com/app/apikey)
 - **Ollama provider**: [Ollama](https://ollama.com) installed locally with `qwen3.6:35b` pulled (no API key needed)
 
 ---
@@ -33,7 +34,7 @@ The tool supports two providers, switchable via the `TRANSLATION_PROVIDER` varia
 
 | Provider | Setting | Best for |
 |---|---|---|
-| **OpenAI GPT-4o** | `TRANSLATION_PROVIDER=openai` | Best quality, requires API key and internet |
+| **Google Gemini 2.5 Pro** | `TRANSLATION_PROVIDER=gemini` | Best quality, requires API key and internet |
 | **Ollama (local)** | `TRANSLATION_PROVIDER=ollama` | Offline, private, no API cost |
 
 ### Which Ollama model to use?
@@ -56,13 +57,27 @@ ollama pull qwen3:32b
 
 ## Setup
 
-### 1. Install Python dependencies
+### 1. Install UV
 
 ```bash
-pip install -r requirements.txt
+# macOS / Linux
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Windows (PowerShell)
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-### 2. Configure your API key
+Or via pip: `pip install uv`
+
+### 2. Install project dependencies
+
+```bash
+uv sync
+```
+
+This creates a `.venv` and installs all dependencies in one step.
+
+### 3. Configure your API key
 
 ```bash
 cp .env.example .env
@@ -71,29 +86,30 @@ cp .env.example .env
 Open `.env` and set your key:
 
 ```
-OPENAI_API_KEY=sk-...
+GOOGLE_API_KEY=AIza...
 ```
 
 Optional settings in `.env`:
 
 | Variable | Default | Description |
 |---|---|---|
-| `TRANSLATION_PROVIDER` | `openai` | `openai` or `ollama` |
-| `OPENAI_API_KEY` | — | **Required when using OpenAI.** Your API key |
-| `OPENAI_MODEL` | `gpt-4o` | OpenAI model name |
+| `TRANSLATION_PROVIDER` | `gemini` | `gemini` or `ollama` |
+| `GOOGLE_API_KEY` | — | **Required when using Gemini.** Google AI Studio key |
+| `GEMINI_MODEL` | `gemini-2.5-flash` | Gemini model name |
+| `GEMINI_BASE_URL` | `https://generativelanguage.googleapis.com/v1beta/openai/` | Gemini API endpoint |
 | `OLLAMA_BASE_URL` | `http://localhost:11434/v1` | Ollama API endpoint |
-| `OLLAMA_MODEL` | `qwen2.5:72b` | Ollama model to use |
+| `OLLAMA_MODEL` | `qwen3.6:35b` | Ollama model to use |
 | `INPUT_DIR` | `input` | Folder containing source `.docx` files |
 | `OUTPUT_DIR` | `output` | Folder where translated files are saved |
 
-### 3. Install LibreOffice
+### 4. Install LibreOffice
 
 Download and install from https://www.libreoffice.org/download/
 
 - **macOS**: Install the `.dmg` to `/Applications/LibreOffice.app` (default location, detected automatically)
 - **Windows**: Install to `C:\Program Files\LibreOffice` (default location, detected automatically)
 
-### 4. (Optional) Set up Ollama for local translation
+### 5. (Optional) Set up Ollama for local translation
 
 If you prefer local/offline translation, install [Ollama](https://ollama.com) and pull the recommended model:
 
@@ -127,7 +143,7 @@ input/
 ### 2. Run the translator
 
 ```bash
-python main.py
+uv run python main.py
 ```
 
 ### 3. Collect output
@@ -151,12 +167,13 @@ output/
 document-translator/
 ├── src/
 │   ├── docx_parser.py     # Detects Chinese text; skips OMML math / images
-│   ├── translator.py      # Batches paragraphs → GPT-4o or Ollama; handles retries
+│   ├── translator.py      # Batches paragraphs → Gemini or Ollama; handles retries
 │   ├── docx_builder.py    # Writes translations back into the DOCX
 │   └── pdf_exporter.py    # Converts DOCX → PDF via LibreOffice (headless)
 ├── main.py                # Entry point — orchestrates the pipeline
 ├── config.py              # Loads settings from .env
-├── requirements.txt
+├── pyproject.toml
+├── uv.lock
 ├── .env.example
 └── input/                 # Drop .docx files here before running
 ```

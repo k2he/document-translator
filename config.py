@@ -6,12 +6,17 @@ from dotenv import load_dotenv
 load_dotenv(Path(__file__).parent / ".env")
 
 # --- Provider selection ---
-# Set TRANSLATION_PROVIDER=ollama to use a local Ollama model instead of OpenAI.
-TRANSLATION_PROVIDER: str = os.environ.get("TRANSLATION_PROVIDER", "openai").lower()
+# Set TRANSLATION_PROVIDER=gemini to use Google Gemini (default).
+# Set TRANSLATION_PROVIDER=ollama to use a local Ollama model.
+TRANSLATION_PROVIDER: str = os.environ.get("TRANSLATION_PROVIDER", "gemini").lower()
 
-# --- OpenAI settings ---
-OPENAI_API_KEY: str = os.environ.get("OPENAI_API_KEY", "")
-OPENAI_MODEL: str = os.environ.get("OPENAI_MODEL", "gpt-4o")
+# --- Gemini settings (used when TRANSLATION_PROVIDER=gemini) ---
+# Uses Google AI Studio API key with the OpenAI-compatible Gemini endpoint.
+GOOGLE_API_KEY: str = os.environ.get("GOOGLE_API_KEY", "")
+GEMINI_MODEL: str = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+GEMINI_BASE_URL: str = os.environ.get(
+    "GEMINI_BASE_URL", "https://generativelanguage.googleapis.com/v1beta/openai/"
+)
 
 # --- Ollama settings ---
 OLLAMA_BASE_URL: str = os.environ.get("OLLAMA_BASE_URL", "http://localhost:11434/v1")

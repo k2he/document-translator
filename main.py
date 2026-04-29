@@ -1,20 +1,24 @@
 """Document Translator — Entry point.
 
 Translates all .docx files in INPUT_DIR from Chinese to English using
-OpenAI GPT-4o, then converts each translated file to PDF via LibreOffice.
+Google Gemini or a local Ollama model, then converts each file to PDF
+via LibreOffice.
 
 Usage:
-    python main.py
+    uv run python main.py
 
 Configuration (via .env):
-    OPENAI_API_KEY  — required
-    OPENAI_MODEL    — default: gpt-4o
-    INPUT_DIR       — default: input
-    OUTPUT_DIR      — default: output
+    TRANSLATION_PROVIDER  — gemini (default) or ollama
+    GOOGLE_API_KEY        — required when using Gemini
+    GEMINI_MODEL          — default: gemini-2.5-flash
+    OLLAMA_MODEL          — default: qwen3.6:35b
+    INPUT_DIR             — default: input
+    OUTPUT_DIR            — default: output
 """
 
 import os
 import sys
+import time
 from pathlib import Path
 
 from docx import Document
@@ -30,7 +34,7 @@ from src.docx_parser import (
 from src.pdf_exporter import convert_to_pdf
 from src.translator import translate_batch
 
-BATCH_SIZE = 20  # paragraphs per GPT-4o call
+BATCH_SIZE = 10  # paragraphs per API call (smaller = fewer rate limit hits)
 
 
 def _translate_segments(segments: list[tuple]) -> dict:
@@ -46,6 +50,8 @@ def _translate_segments(segments: list[tuple]) -> dict:
         translated = translate_batch(texts)
         for key, trans in zip(keys, translated):
             result[key] = trans
+        if i + BATCH_SIZE < len(segments):
+            time.sleep(2)  # brief pause between batches to stay within rate limits
     return result
 
 
@@ -86,9 +92,9 @@ def process_file(input_path: str, output_dir: str) -> None:
         return
 
     # Validate API key before the first real translation call
-    if not config.OPENAI_API_KEY:
+    if config.TRANSLATION_PROVIDER == "gemini" and not config.GOOGLE_API_KEY:
         sys.exit(
-            "ERROR: OPENAI_API_KEY is not set. Copy .env.example to .env and add your key."
+            "ERROR: GOOGLE_API_KEY is not set. Copy .env.example to .env and add your key."
         )
 
     # --- Translate ---
