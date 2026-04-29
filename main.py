@@ -18,9 +18,6 @@ Configuration (via .env):
 
 import os
 import sys
-import time
-import threading
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from docx import Document
@@ -38,47 +35,15 @@ from src.translator import translate_batch
 
 BATCH_SIZE = 10  # paragraphs per API call (smaller = fewer rate limit hits)
 
-# Stay under Gemini free-tier cap (10 RPM for gemini-2.5-flash).
-_RPM_LIMIT = 8  # conservative headroom under 10
-
-
-class _RateLimiter:
-    """Sliding-window rate limiter: at most max_calls per 60 seconds."""
-
-    def __init__(self, max_calls: int):
-        self._max = max_calls
-        self._times: list[float] = []
-        self._lock = threading.Lock()
-
-    def acquire(self) -> None:
-        while True:
-            with self._lock:
-                now = time.time()
-                self._times = [t for t in self._times if now - t < 60.0]
-                if len(self._times) < self._max:
-                    self._times.append(now)
-                    return
-                wait = 60.0 - (now - self._times[0]) + 0.1
-            time.sleep(wait)
-
-
-_limiter = _RateLimiter(max_calls=_RPM_LIMIT)
-
 
 def _translate_segments(segments: list[tuple], label: str = "paragraphs") -> dict:
-    """Translate segments in parallel batches, rate-limited to stay under RPM cap."""
+    """Translate segments sequentially in batches."""
     result: dict = {}
     batches = [
-        (i, [k for k, _ in segments[i:i+BATCH_SIZE]], [t for _, t in segments[i:i+BATCH_SIZE]])
+        ([k for k, _ in segments[i:i+BATCH_SIZE]], [t for _, t in segments[i:i+BATCH_SIZE]])
         for i in range(0, len(segments), BATCH_SIZE)
     ]
     total_batches = len(batches)
-
-    def _do_batch(batch_idx: int, keys: list, texts: list) -> tuple:
-        _limiter.acquire()
-        pbar.set_postfix_str(f"batch {batch_idx + 1}/{total_batches} sending...", refresh=True)
-        translated = translate_batch(texts)
-        return batch_idx, keys, translated
 
     with tqdm(
         total=len(segments),
@@ -87,19 +52,13 @@ def _translate_segments(segments: list[tuple], label: str = "paragraphs") -> dic
         ncols=88,
         bar_format="  {desc}: {n_fmt}/{total_fmt} [{elapsed}<{remaining}, {rate_fmt}] {bar} {postfix}",
     ) as pbar:
-        with ThreadPoolExecutor(max_workers=config.MAX_WORKERS) as executor:
-            futures = {
-                executor.submit(_do_batch, idx, keys, texts): idx
-                for idx, keys, texts in batches
-            }
-            completed = 0
-            for future in as_completed(futures):
-                batch_idx, keys, translated = future.result()
-                for key, trans in zip(keys, translated):
-                    result[key] = trans
-                pbar.update(len(keys))
-                completed += 1
-                pbar.set_postfix_str(f"{completed}/{total_batches} batches done", refresh=True)
+        for batch_num, (keys, texts) in enumerate(batches, 1):
+            pbar.set_postfix_str(f"batch {batch_num}/{total_batches} sending...", refresh=True)
+            translated = translate_batch(texts)
+            for key, trans in zip(keys, translated):
+                result[key] = trans
+            pbar.update(len(keys))
+            pbar.set_postfix_str(f"{batch_num}/{total_batches} batches done", refresh=True)
     return result
 
 
