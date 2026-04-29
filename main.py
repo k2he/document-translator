@@ -38,8 +38,8 @@ from src.translator import translate_batch
 
 BATCH_SIZE = 10  # paragraphs per API call (smaller = fewer rate limit hits)
 
-# Stay under Gemini free-tier cap (15 RPM). Proactive limiting avoids retries.
-_RPM_LIMIT = 12  # conservative headroom under 15
+# Stay under Gemini free-tier cap (10 RPM for gemini-2.5-flash).
+_RPM_LIMIT = 8  # conservative headroom under 10
 
 
 class _RateLimiter:
@@ -76,6 +76,7 @@ def _translate_segments(segments: list[tuple], label: str = "paragraphs") -> dic
 
     def _do_batch(batch_idx: int, keys: list, texts: list) -> tuple:
         _limiter.acquire()
+        pbar.set_postfix_str(f"batch {batch_idx + 1}/{total_batches} sending...", refresh=True)
         translated = translate_batch(texts)
         return batch_idx, keys, translated
 

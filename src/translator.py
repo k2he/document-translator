@@ -3,6 +3,7 @@
 import time
 
 from openai import OpenAI, RateLimitError, APIError
+from tqdm import tqdm
 
 import config
 
@@ -76,12 +77,14 @@ def _call_api(text: str, retries: int = 6) -> str:
             )
             return response.choices[0].message.content.strip()
         except RateLimitError:
-            wait = 10 * (2 ** attempt)  # 10s, 20s, 40s, 80s ...
-            print(f"    Rate limited. Waiting {wait}s before retry {attempt + 1}/{retries}...")
+            wait = min(15 * (2 ** attempt), 120)  # cap at 2 minutes
+            tqdm.write(f"  ⚠ Rate limited. Waiting {wait}s (retry {attempt + 1}/{retries})...")
             time.sleep(wait)
         except APIError as exc:
             if attempt < retries - 1:
-                time.sleep(5 * (2 ** attempt))
+                wait = min(5 * (2 ** attempt), 60)
+                tqdm.write(f"  ⚠ API error, retrying in {wait}s: {exc}")
+                time.sleep(wait)
             else:
                 raise RuntimeError(f"API error after {retries} retries: {exc}") from exc
     raise RuntimeError("Translation failed after maximum retries.")
