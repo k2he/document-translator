@@ -67,6 +67,8 @@ def _call_api(text: str, retries: int = 6) -> str:
     model = _active_model()
     for attempt in range(retries):
         try:
+            char_count = len(text)
+            tqdm.write(f"  → Sending request to {model} ({char_count} chars)...")
             response = client.chat.completions.create(
                 model=model,
                 messages=[
@@ -75,7 +77,9 @@ def _call_api(text: str, retries: int = 6) -> str:
                 ],
                 temperature=0.1,
             )
-            return response.choices[0].message.content.strip()
+            result = response.choices[0].message.content.strip()
+            tqdm.write(f"  ✓ Response received ({len(result)} chars).")
+            return result
         except RateLimitError:
             wait = min(15 * (2 ** attempt), 120)  # cap at 2 minutes
             tqdm.write(f"  ⚠ Rate limited. Waiting {wait}s (retry {attempt + 1}/{retries})...")
@@ -112,7 +116,8 @@ def translate_batch(texts: list[str]) -> list[str]:
         "Falling back to individual translation."
     )
     results = []
-    for t in texts:
+    for i, t in enumerate(texts, 1):
+        tqdm.write(f"    Translating paragraph {i}/{len(texts)} individually...")
         results.append(_call_api(t))
         time.sleep(1)  # 1s pause between individual calls to avoid rate limits
     return results
