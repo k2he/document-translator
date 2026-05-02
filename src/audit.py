@@ -158,13 +158,49 @@ _W_NS = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
 _M_NS = 'http://schemas.openxmlformats.org/officeDocument/2006/math'
 
 
+def _has_manual_superscript(para) -> bool:
+    """Return True if any run in the paragraph uses manual baseline-raise + small font
+    to simulate a superscript exponent (e.g. x³, x¹⁰⁰, aˣ in this source doc).
+
+    Detection heuristic: w:position >= 4 (raised ≥ 2 pt) AND w:sz <= 16 (font ≤ 8 pt).
+    Normal body text never combines a large raise with a very small font size.
+    """
+    for r in para._element.findall(f'.//{{{_W_NS}}}r'):
+        rPr = r.find(f'{{{_W_NS}}}rPr')
+        if rPr is None:
+            continue
+        pos_el = rPr.find(f'{{{_W_NS}}}position')
+        sz_el  = rPr.find(f'{{{_W_NS}}}sz')
+        if pos_el is None or sz_el is None:
+            continue
+        try:
+            pos = int(pos_el.get(f'{{{_W_NS}}}val', '0'))
+            sz  = int(sz_el.get(f'{{{_W_NS}}}val', '99'))
+        except ValueError:
+            continue
+        if pos >= 4 and sz <= 16:
+            return True
+    return False
+
+
 def _has_protected_content(para) -> bool:
-    """Return True if the paragraph contains drawings (pictures) or math formulas."""
+    """Return True if the paragraph contains content that must not be modified.
+
+    Protected element types:
+    - w:drawing       — DrawingML inline/anchored images (Format Picture)
+    - w:pict          — VML picture container (Format Object, e.g. formula images)
+    - m:oMath         — OMML math equations (Insert → Equation)
+    - m:oMathPara     — OMML display math block
+    - manual raised   — w:position >= 4 + w:sz <= 16 (hand-typeset exponents
+                        like x³, x¹⁰⁰, aˣ using baseline shift + small font)
+    """
     p = para._element
     return (
         p.find(f'.//{{{_W_NS}}}drawing') is not None
+        or p.find(f'.//{{{_W_NS}}}pict') is not None
         or p.find(f'.//{{{_M_NS}}}oMath') is not None
         or p.find(f'.//{{{_M_NS}}}oMathPara') is not None
+        or _has_manual_superscript(para)
     )
 
 
