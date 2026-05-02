@@ -21,7 +21,7 @@ from pathlib import Path
 import docx
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from config import WORK_DIR, AUDIT_SEGMENTS, AUDITED_SEGMENTS
+from config import WORK_DIR, AUDIT_SEGMENTS, AUDITED_SEGMENTS, TRANSLATION_STYLE
 
 # Only audit paragraphs that have enough English text to be meaningful
 _MIN_ALPHA_CHARS = 3
@@ -76,10 +76,15 @@ def extract_for_audit(docx_path: Path) -> None:
                 table_para_offset += len(cell.paragraphs)
 
     WORK_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "style_instruction": TRANSLATION_STYLE,
+        "segments": segments,
+    }
     with open(AUDIT_SEGMENTS, "w", encoding="utf-8") as f:
-        json.dump(segments, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
-    print(f"Extracted {len(segments)} paragraph(s) for AI audit → {AUDIT_SEGMENTS}", flush=True)
+    style_note = f" | style: '{TRANSLATION_STYLE[:60]}…'" if TRANSLATION_STYLE else ""
+    print(f"Extracted {len(segments)} paragraph(s) for AI audit → {AUDIT_SEGMENTS}{style_note}", flush=True)
 
 
 def apply_audit(docx_path: Path) -> None:
@@ -97,7 +102,12 @@ def apply_audit(docx_path: Path) -> None:
         sys.exit(1)
 
     with open(AUDIT_SEGMENTS, encoding="utf-8") as f:
-        audit_segs = json.load(f)
+        _audit_data = json.load(f)
+    # Support both old list format and new {style_instruction, segments} format
+    if isinstance(_audit_data, dict):
+        audit_segs = _audit_data["segments"]
+    else:
+        audit_segs = _audit_data
 
     with open(AUDITED_SEGMENTS, encoding="utf-8") as f:
         audited_segs = json.load(f)

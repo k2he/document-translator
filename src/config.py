@@ -1,19 +1,43 @@
 """
-config.py — Centralized paths and North American formatting constants.
+config.py — Centralized paths, formatting constants, and user-configurable
+translation style loaded from translation_config.json in the project root.
 """
 
+import json as _json
 from pathlib import Path
 
 # ── Directory layout ──────────────────────────────────────────────────────────
 ROOT = Path(__file__).resolve().parent.parent
 INPUT_DIR = ROOT / "input"
-OUTPUT_DIR = ROOT / "output"
 WORK_DIR = ROOT / "work"
 
 EXTRACTED_SEGMENTS = WORK_DIR / "extracted_segments.json"
 TRANSLATED_SEGMENTS = WORK_DIR / "translated_segments.json"
 AUDIT_SEGMENTS    = WORK_DIR / "audit_segments.json"
 AUDITED_SEGMENTS  = WORK_DIR / "audited_segments.json"
+
+# ── User-configurable translation style ──────────────────────────────────────
+# Edit translation_config.json in the project root to change the style.
+_TRANSLATION_CONFIG = ROOT / "translation_config.json"
+
+def _load_config() -> tuple[str, str]:
+    """Return (active_preset_name, style_text)."""
+    if _TRANSLATION_CONFIG.exists():
+        try:
+            data = _json.loads(_TRANSLATION_CONFIG.read_text(encoding="utf-8"))
+            if "presets" in data:
+                active = data.get("active", "none")
+                return active, data["presets"].get(active, "")
+            # Legacy format: {"style": "..."}
+            return "default", data.get("style", "")
+        except Exception:
+            pass
+    return "default", ""
+
+_ACTIVE_PRESET, TRANSLATION_STYLE = _load_config()
+
+# Output is scoped to the active preset: output/storytelling/, output/formal/, etc.
+OUTPUT_DIR = ROOT / "output" / _ACTIVE_PRESET
 
 # ── North American textbook formatting ────────────────────────────────────────
 # Page size: US Letter (8.5 × 11 inches expressed in EMUs: 1 inch = 914400 EMU)

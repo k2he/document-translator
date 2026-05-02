@@ -2,7 +2,7 @@
 
 Translate a Chinese university Calculus textbook (DOCX) into North American English while preserving all mathematical equations, images, and document structure.
 
-**Key features**: Uses your active GitHub Copilot model for translation and AI audit — no API key required.
+**Key features**: Uses your active GitHub Copilot model for translation and AI audit — no API key required. Translation voice and tone are configurable via `translation_config.json`.
 
 ---
 
@@ -14,14 +14,33 @@ cd document-translator
 pip install -r requirements.txt
 ```
 
-### 2. Place your DOCX file
+### 2. (Optional) Set your translation style
+
+Open `translation_config.json` and set `"active"` to the preset you want:
+
+```json
+{
+  "active": "storytelling",
+
+  "presets": {
+    "storytelling": "Chinese storytelling teach-and-learn calculus textbook — conversational, everyday analogies...",
+    "formal":       "Formal North American academic textbook — precise, concise, third-person...",
+    "study_guide":  "Friendly undergraduate study guide — supportive, explains the why...",
+    "none":         ""
+  }
+}
+```
+
+Change `"active"` to `"formal"`, `"study_guide"`, or `"none"` to switch instantly. See [Translation Style](#translation-style) for details.
+
+### 3. Place your DOCX file
 Copy your Chinese DOCX file to the `input/` directory:
 ```
 input/
 └── my-chapter.docx
 ```
 
-### 3. Translate (choose one method below)
+### 4. Translate (choose one method below)
 
 **Method A: Using Copilot Skill (Easiest)**
 
@@ -57,7 +76,7 @@ python src/audit.py apply output/my-chapter_translated.docx
 python src/to_pdf.py output/my-chapter_translated.docx
 ```
 
-### 4. Find your output
+### 5. Find your output
 - **Translated DOCX**: `output/my-chapter_translated.docx`
 - **Translated PDF**: `output/my-chapter_translated.pdf` (if LibreOffice installed)
 
@@ -128,8 +147,8 @@ Since the tool uses your active Copilot model, you can compare translation quali
 
 1. **Model A**: Select in VS Code model picker (e.g., Claude Sonnet 4.6)
 2. **Run**: `@document-translator test mode, first 5 pages`
-3. **Inspect**: Review `output/my-chapter_translated.docx`
-4. **Reset**: Delete `work/` folder: `rm -rf work/`
+3. **Inspect**: Review `output/storytelling/my-chapter_translated.docx`
+4. **Reset work**: Delete `work/` folder: `rm -rf work/`
 5. **Model B**: Switch model in VS Code picker (e.g., GPT-5.3-Codex)
 6. **Re-run**: `@document-translator test mode, first 5 pages`
 7. **Compare**: Open both outputs side-by-side
@@ -142,16 +161,22 @@ Since the tool uses your active Copilot model, you can compare translation quali
 document-translator/
 ├── README.md                              ← You are here
 ├── requirements.txt                       ← Python dependencies
+├── translation_config.json               ← Edit this to set translation voice/tone
 ├── input/
 │   └── *.docx                            ← Place source files here
 ├── output/
-│   ├── *_translated.docx                 ← Translated Word document
-│   └── *_translated.pdf                  ← Translated PDF (if LibreOffice installed)
+│   ├── storytelling/                     ← Output when active preset = "storytelling"
+│   │   ├── *_translated.docx
+│   │   └── *_translated.pdf
+│   ├── formal/                           ← Output when active preset = "formal"
+│   │   ├── *_translated.docx
+│   │   └── *_translated.pdf
+│   └── study_guide/                      ← Output when active preset = "study_guide"
 ├── work/
 │   ├── extracted_segments.json           ← Intermediate: Chinese segments
 │   ├── translated_segments.json          ← Intermediate: English translations
-│   ├── audit_segments.json               ← Intermediate: English paragraphs for AI review
-│   └── audited_segments.json             ← Intermediate: AI-fixed paragraphs
+│   ├── audit_segments.json               ← Intermediate: English paragraphs + style for AI review
+│   └── audited_segments.json             ← Intermediate: AI-fixed + styled paragraphs
 ├── src/
 │   ├── config.py                         ← Paths and formatting constants
 │   ├── extract.py                        ← Extract Chinese text from DOCX
@@ -167,6 +192,8 @@ document-translator/
             └── SKILL.md                  ← Copilot skill definition
 ```
 
+> **Output isolation**: each preset gets its own subfolder under `output/`. Switching `"active"` in `translation_config.json` never overwrites a previous run.
+
 ---
 
 ## Features
@@ -177,12 +204,46 @@ Automatically fixes punctuation spacing at the paragraph level during rebuild:
 - Ensures space after punctuation: `"chapters,we"` → `"chapters, we"`
 - Works across segment boundaries — fixes issues between joined translation runs
 
+### Translation Style
+
+Control the voice and tone of the translated output via `translation_config.json`. The file uses an `"active"` key to select from named presets — no commenting/uncommenting needed, just change one word:
+
+```json
+{
+  "active": "storytelling",
+
+  "presets": {
+    "storytelling": "Chinese storytelling teach-and-learn calculus textbook — conversational and engaging tone, uses everyday analogies from Chinese life, warm and encouraging, explains concepts through vivid stories and relatable examples, occasional light humour, addresses the reader directly as a fellow learner",
+
+    "formal": "Formal North American academic textbook — precise, concise, third-person passive voice, no analogies, no humour, definitions and theorems stated rigorously",
+
+    "study_guide": "Friendly undergraduate study guide — supportive and motivating tone, explains the 'why' behind each concept, uses 'you' and 'we', highlights common mistakes and exam tips",
+
+    "none": ""
+  }
+}
+```
+
+**Built-in presets:**
+
+| `"active"` value | Voice / Tone |
+|---|---|
+| `"storytelling"` | Warm, conversational, Chinese-life analogies, light humour |
+| `"formal"` | Precise, academic, third-person, no analogies |
+| `"study_guide"` | Supportive, explains the why, exam tips, uses "you" |
+| `"none"` | No style — neutral output |
+
+**To add your own preset**, add a new key under `"presets"` and set `"active"` to that key.
+
+The style is applied in the **AI audit phase** only — it never changes math notation, technical terms, or sentence meaning.
+
 ### AI Audit (Post-Rebuild)
 After rebuild, the Copilot model reviews every English paragraph and fixes:
 - Extra spaces between words: `"We also  spent"` → `"We also spent"`
 - Broken word boundaries from segment joins: `"spentconsiderable"` → `"spent considerable"`
 - Missing space after sentence-ending period before capital letter
 - Awkward phrasing at translation segment boundaries
+- **Applies `translation_config.json` style** to rewrite prose in the desired voice
 - **Does not** change meaning, math, or technical terminology
 
 ### North American Textbook Formatting
@@ -365,7 +426,7 @@ python src/rebuild.py input/my-chapter.docx
 **Output**: `output/my-chapter_translated.docx` (formatted DOCX)
 
 ### `audit.py`
-Extracts English paragraphs for Copilot AI review, then patches fixes back into the DOCX.
+Extracts English paragraphs for Copilot AI review, then patches fixes back into the DOCX. The style from `translation_config.json` is automatically embedded into the extract output.
 
 ```bash
 # Step 1: Extract paragraphs for AI review
@@ -381,15 +442,20 @@ python src/audit.py apply output/my-chapter_translated.docx
 **`extract` output**: `work/audit_segments.json`
 
 ```json
-[
-  {
-    "id": "audit_00001",
-    "location": "body",
-    "para_index": 1,
-    "text": "In the first two chapters, we clarified..."
-  }
-]
+{
+  "style_instruction": "Chinese storytelling teach-and-learn calculus textbook...",
+  "segments": [
+    {
+      "id": "audit_00001",
+      "location": "body",
+      "para_index": 1,
+      "text": "In the first two chapters, we clarified..."
+    }
+  ]
+}
 ```
+
+The `style_instruction` is read from `translation_config.json` at extract time. Copilot uses it in Step 2 to apply the desired voice and tone while writing `audited_segments.json`.
 
 **`apply` input**: `work/audited_segments.json` (written by Copilot)
 
@@ -430,6 +496,47 @@ To manually edit translations:
    ```
 
 The rebuild will patch your custom translations back into the DOCX.
+
+---
+
+## Advanced: Changing Translation Style
+
+The translation style is applied during the AI audit phase, so you can switch styles and re-audit **without re-translating**.
+
+**To switch to a different built-in preset**, just change `"active"` in `translation_config.json`:
+
+```json
+{ "active": "formal" }
+```
+
+**To add a custom preset**, add it under `"presets"` and set `"active"` to its key:
+
+```json
+{
+  "active": "my_style",
+  "presets": {
+    "my_style": "Describe your desired voice and tone here",
+    "storytelling": "..."
+  }
+}
+```
+
+**Workflow to re-audit with a new style (no re-translation needed):**
+
+```bash
+# 1. Change "active" in translation_config.json
+# 2. Re-run the audit
+python src/audit.py extract output/my-chapter_translated.docx
+# (Copilot reviews work/audit_segments.json → writes work/audited_segments.json)
+python src/audit.py apply output/my-chapter_translated.docx
+# 3. Export PDF (optional)
+python src/to_pdf.py output/my-chapter_translated.docx
+```
+
+Or via Copilot Chat after updating `translation_config.json`:
+```
+@document-translator re-audit with new style
+```
 
 ---
 

@@ -1,0 +1,9 @@
+{
+  "active": "formal",
+  "presets": {
+    "storytelling": "Chinese storytelling teach-and-learn calculus textbook — conversational and engaging tone, uses everyday analogies from Chinese life, warm and encouraging, explains concepts through vivid stories and relatable examples, occasional light humour, addresses the reader directly as a fellow learner",
+    "formal": "Formal North American academic textbook — precise, concise, third-person passive voice, no analogies, no humour, definitions and theorems stated rigorously",
+    "study_guide": "Friendly undergraduate study guide — supportive and motivating tone, explains the 'why' behind each concept, uses 'you' and 'we', highlights common mistakes and exam tips",
+    "none": ""
+  }
+}

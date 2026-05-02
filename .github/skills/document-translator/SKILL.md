@@ -149,37 +149,44 @@ This phase uses the active Copilot model to review every English paragraph for s
 cd document-translator && python src/audit.py extract output/charpter-4_translated.docx
 ```
 
-This writes `work/audit_segments.json` — a JSON array of all auditable paragraphs:
+This writes `work/audit_segments.json` — a JSON object with two keys:
 
 ```json
-[
-  {
-    "id": "audit_00000",
-    "location": "body",
-    "para_index": 0,
-    "text": "In the first two chapters, we clarified..."
-  }
-]
+{
+  "style_instruction": "Chinese storytelling teach-and-learn calculus textbook ...",
+  "segments": [
+    {
+      "id": "audit_00000",
+      "location": "body",
+      "para_index": 0,
+      "text": "In the first two chapters, we clarified..."
+    }
+  ]
+}
 ```
+
+The `style_instruction` is read from `translation_config.json` in the project root. Users can edit that file to change the translation style at any time.
 
 #### Step 2 — AI Review: Read and fix each paragraph
 
-Read `work/audit_segments.json`. For **every element** produce a corrected entry and write all results to `work/audited_segments.json`.
+Read `work/audit_segments.json`. Note the `style_instruction` field at the top — this is the **target voice and tone** for the entire document.
 
-**Audit rules — fix only these issues:**
+For **every element** in `segments`, produce a corrected entry and write all results to `work/audited_segments.json`.
+
+**Audit rules — fix these issues AND apply the style:**
 1. Remove extra spaces between words (e.g., `"We also  spent"` → `"We also spent"`)
 2. Ensure single space after sentence-ending period before a capital letter
 3. Fix spacing around punctuation (comma, period, semicolon, colon)
 4. Remove leading/trailing whitespace per paragraph
 5. Fix obviously broken word boundaries (e.g., `"spentconsiderable"` → `"spent considerable"`)
 6. Ensure natural English phrasing — fix awkward joins between translated segments
+7. **Apply the `style_instruction`**: rewrite prose sentences so they match the specified voice and tone (e.g., conversational, storytelling, encouraging). Keep all facts, math, and structure unchanged.
 
 **Do NOT:**
 - Change mathematical notation, formulas, or variable names
 - Change technical terminology (derivative, limit, theorem, etc.)
 - Add, remove, or reorder sentences
 - Alter the meaning of the text
-- Fix stylistic preferences — only fix clear errors
 
 **Output format** — write `work/audited_segments.json`:
 

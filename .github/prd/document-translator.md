@@ -68,15 +68,23 @@ document-translator/
 │   ├── chapter-4.pdf             ← reference only, not processed
 │   └── charpter-4.docx           ← source (note: filename has typo, harmless)
 ├── output/
-│   ├── chapter-4_translated.docx
-│   └── chapter-4_translated.pdf
+│   ├── storytelling/             ← output when active preset = "storytelling"
+│   │   ├── chapter-4_translated.docx
+│   │   └── chapter-4_translated.pdf
+│   ├── formal/                   ← output when active preset = "formal"
+│   └── study_guide/              ← output when active preset = "study_guide"
 ├── work/
 │   ├── extracted_segments.json   ← intermediate: Chinese text segments
-│   └── translated_segments.json  ← intermediate: English translations
+│   ├── translated_segments.json  ← intermediate: English translations
+│   ├── audit_segments.json       ← intermediate: English paragraphs + style_instruction
+│   └── audited_segments.json     ← intermediate: AI-fixed + styled paragraphs
+├── translation_config.json       ← user-editable: active preset + preset library
 ├── src/
-│   ├── config.py                 ← paths, page format constants
+│   ├── config.py                 ← paths, page format constants, style loader
 │   ├── extract.py                ← walk DOCX, detect Chinese, write segments
+│   ├── translate.py              ← apply translation dictionary
 │   ├── rebuild.py                ← patch translated text back into DOCX copy
+│   ├── audit.py                  ← extract paragraphs for AI review; apply fixes
 │   └── to_pdf.py                 ← LibreOffice headless → PDF
 └── requirements.txt
 ```
@@ -87,7 +95,17 @@ document-translator/
 input/*.docx
     → extract.py        (detect Chinese runs → extracted_segments.json)
     → SKILL.md          (Copilot translates segments → translated_segments.json)
-    → rebuild.py        (patch DOCX copy with translations; apply NA formatting)
+    → rebuild.py        (patch DOCX copy with translations; apply NA formatting;
+                         normalize punctuation spacing)
+    → audit.py extract  (pull English paragraphs + embed style_instruction
+                         from translation_config.json → audit_segments.json)
+    → SKILL.md Phase 4.5 (Copilot reviews + applies active style preset
+                         → audited_segments.json)
+    → audit.py apply    (patch AI-fixed paragraphs back into DOCX)
+    → output/<preset>/*_translated.docx
+    → to_pdf.py         (LibreOffice headless subprocess)
+    → output/<preset>/*_translated.pdf
+```
     → output/*_translated.docx
     → to_pdf.py         (LibreOffice headless subprocess)
     → output/*_translated.pdf
@@ -99,16 +117,44 @@ input/*.docx
 |---|---|---|
 | Extractor | `src/extract.py` | Load DOCX; walk all paragraphs and table cells; detect Chinese text via Unicode range `\u4e00`–`\u9fff`; write `work/extracted_segments.json`; supports `--test --pages N` |
 | Translator | `src/translate.py` | Read `work/extracted_segments.json`; apply translation dictionary; write `work/translated_segments.json` |
-| Rebuilder | `src/rebuild.py` | Read `work/translated_segments.json`; patch translated text back into DOCX copy; **normalize English punctuation spacing at paragraph level** (remove spaces before ,. and ensure space after); apply North American page formatting; write `output/<name>_translated.docx` |
+| Rebuilder | `src/rebuild.py` | Read `work/translated_segments.json`; patch translated text back into DOCX copy; **normalize English punctuation spacing at paragraph level**; skip paragraphs containing `<w:drawing>` or `<m:oMath>` to preserve images and math; apply North American page formatting; write `output/<preset>/<name>_translated.docx` |
+| AI Auditor | `src/audit.py` | Extract English paragraphs from rebuilt DOCX; embed `style_instruction` from `translation_config.json` into `work/audit_segments.json`; apply Copilot-reviewed fixes back into DOCX in-place; skips paragraphs containing pictures or math |
 | PDF Exporter | `src/to_pdf.py` | Run `soffice --headless --convert-to pdf` subprocess; auto-detect LibreOffice path on macOS and Windows |
-| Config | `src/config.py` | Centralize directory paths and North American formatting constants |
-| Skill | `.github/skills/document-translator/SKILL.md` | Orchestrate the three scripts; read extracted segments; translate Chinese → North American English using active Copilot model; write translated segments |
+| Config | `src/config.py` | Centralize directory paths and North American formatting constants; load `translation_config.json` to resolve `_ACTIVE_PRESET` and `TRANSLATION_STYLE`; set `OUTPUT_DIR = output/<active_preset>/` |
+| Translation Config | `translation_config.json` | User-editable preset library; `"active"` key selects the current style; switching presets automatically changes the output directory |
+| Skill | `.github/skills/document-translator/SKILL.md` | Orchestrate all scripts; read extracted segments; translate Chinese → North American English using active Copilot model; write translated segments; apply active style preset during AI audit phase |
 
 ### Math Equation Preservation Detail
 
 DOCX stores inline math as `<m:oMath>` elements and display math as `<m:oMathPara>` elements. These are siblings of `<w:r>` (text run) elements inside `<w:p>` (paragraph) nodes. `python-docx`'s `paragraph.runs` only yields `<w:r>` elements — OMML elements are never returned and therefore never modified. Patching `.text` on a run touches only `<w:t>` nodes inside `<w:r>` nodes.
 
 **Consequence**: A paragraph mixing Chinese prose with inline math will have its text runs translated and its OMML elements preserved in place. This holds for images and graphs embedded as `<w:drawing>` elements for the same reason.
+
+---
+
+## Translation Style Presets
+
+Users control the voice and tone of the English output via `translation_config.json` in the project root. The file stores a named preset library and an `"active"` key that selects the current style:
+
+```json
+{
+  "active": "storytelling",
+  "presets": {
+    "storytelling": "Chinese storytelling teach-and-learn calculus textbook — conversational...",
+    "formal":       "Formal North American academic textbook — precise, concise...",
+    "study_guide":  "Friendly undergraduate study guide — supportive, explains the why...",
+    "none":         ""
+  }
+}
+```
+
+Switching `"active"` to a different preset:
+1. Changes the `TRANSLATION_STYLE` passed to the AI audit phase
+2. Changes `OUTPUT_DIR` to `output/<preset>/` — each preset's output is isolated
+
+The style is applied by the Copilot model in the **AI audit phase** (Phase 4.5). It does not affect translation dictionary lookups or DOCX rebuilding. Math, formulas, and technical terms are never modified regardless of preset.
+
+Users can add custom presets by adding a new key under `"presets"` without modifying any Python code.
 
 ---
 
@@ -251,20 +297,28 @@ No `openai` package. No API key. No `.env` file required.
 # 1. Install Python dependencies
 pip install -r requirements.txt
 
-# 2. Place input files
+# 2. (Optional) Set translation style
+# Edit translation_config.json — change "active" to the desired preset:
+# "storytelling", "formal", "study_guide", or "none"
+
+# 3. Place input files
 # Ensure .docx files are in the input/ directory
 
-# 3. Test mode — translate first 5 pages only
+# 4. Test mode — translate first 5 pages only
 #    (invoke via Copilot skill in VS Code)
 #    The skill runs: python src/extract.py input/charpter-4.docx --test --pages 5
-#    Then translates and rebuilds automatically.
+#    Then translates, rebuilds, AI audits, and applies style automatically.
 
-# 4. Full run — translate the entire document
+# 5. Full run — translate the entire document
 #    Invoke the skill without --test flag.
 
-# Output appears in output/ as:
+# Output appears in output/<active_preset>/ as:
 #   charpter-4_translated.docx
 #   charpter-4_translated.pdf
+#
+# Example with active="storytelling":
+#   output/storytelling/charpter-4_translated.docx
+#   output/storytelling/charpter-4_translated.pdf
 ```
 
 ---
@@ -274,6 +328,7 @@ pip install -r requirements.txt
 | Limitation | Impact | Status |
 |---|---|---|
 | English punctuation spacing at segment boundaries | Combined segments may have spacing issues (e.g., "chapters ,we") | ✅ **FIXED (v2.1)**: Paragraph-level normalization in `rebuild.py` fixes all spacing across run boundaries |
+| Math formulas and inline pictures stripped during paragraph normalization | Images/formulas lost from paragraphs that are rewritten | ✅ **FIXED (v2.2)**: `_has_protected_content()` guard skips paragraphs containing `<w:drawing>` or `<m:oMath>` |
 | Inline math position may shift to end of paragraph when text runs are collapsed | Visual only; math content preserved | v3: per-run translation with position mapping |
 | Headers and footers not translated | Section headings in headers may remain Chinese | v3: iterate `doc.sections[].header` paragraphs |
 | Nested tables not walked recursively | Rare in textbooks | v3: recursive cell walker |

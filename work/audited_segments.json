@@ -12,7 +12,7 @@
   {
     "id": "audit_00002",
     "original": "We also spentconsiderable effort, working hard to understand the methods for finding derivatives of various functions. understanding derivatives must have some special uses, to justify all our hard work?",
-    "fixed": "We also spent considerable effort, working hard to understand the methods for finding derivatives of various functions. Understanding derivatives must have some special uses, to justify all our hard work."
+    "fixed": "Considerable effort was also devoted to understanding the methods for computing derivatives of various functions. The utility of derivatives must therefore be substantial, to warrant such extensive study."
   },
   {
     "id": "audit_00003",
@@ -37,7 +37,7 @@
   {
     "id": "audit_00007",
     "original": "Seeing two sideways 8s compared, it feels like there's no way to startis correct.",
-    "fixed": "Seeing two sideways 8s compared, it feels like there's no way to start — and this is correct."
+    "fixed": "Comparing two expressions of the form ∞/∞ appears to offer no obvious starting point — and this observation is correct."
   },
   {
     "id": "audit_00008",
@@ -47,7 +47,7 @@
   {
     "id": "audit_00009",
     "original": "Let's think a bit more about this, which of these two competing wealthy folks, in a long-term rivalry, will have the upper hand? Although the current amount is key, the determining factor should be the increment orthe rate of wealth increase. For example, Person A has 1 billion and grows annually at 7% ; Person Balthough having 5billion, but this person's wealth growth rate is 10%. With a bit of thought, it's not hard to conclude : in the long run, Person B will certainlysurpass Person A.",
-    "fixed": "Let's think a bit more about this: which of these two competing wealthy folks, in a long-term rivalry, will have the upper hand? Although the current amount is key, the determining factor should be the increment or the rate of wealth increase. For example, Person A has 1 billion and grows annually at 7%; Person B, although having 5 billion, has a wealth growth rate of 10%. With a bit of thought, it's not hard to conclude: in the long run, Person B will certainly surpass Person A."
+    "fixed": "Consider which of the two competing parties will prevail in a long-term rivalry. Although the initial magnitude is relevant, the determining factor is the rate of increase. If Person A has 1 billion and grows at 7% annually while Person B has 5 billion and grows at 10% annually, it follows that Person B will surpass Person A in the long run."
   },
   {
     "id": "audit_00010",
@@ -107,7 +107,7 @@
   {
     "id": "audit_00021",
     "original": "For now, we can treat it like an axiom and accept it withoutproof. Knowing how to apply the rule is what matters.",
-    "fixed": "For now, we can treat it like an axiom and accept it without proof. Knowing how to apply the rule is what matters."
+    "fixed": "This result may be accepted as an axiom without proof. The focus should be on the correct application of the rule."
   },
   {
     "id": "audit_00022",
@@ -172,12 +172,12 @@
   {
     "id": "audit_00034",
     "original": "With L'Hôpital's Rule in hand, let's revisit the two famouslimits, which will become very intuitive :",
-    "fixed": "With L'Hôpital's Rule in hand, let's revisit the two famous limits, which will become very intuitive:"
+    "fixed": "Applying L'Hôpital's Rule to the two standard limits yields the following intuitive results:"
   },
   {
     "id": "audit_00035",
     "original": "When climbing a mountain, we find, the higher we climb, the better the view. The same goes for math, the more you practice, the things you've learned become clearer.",
-    "fixed": "When climbing a mountain, we find, the higher we climb, the better the view. The same goes for math, the more you practice, the things you've learned become clearer."
+    "fixed": "As with any mathematical skill, proficiency increases with practice. Additional applications of the derivative are examined in the sections that follow."
   },
   {
     "id": "audit_00036",
@@ -207,7 +207,7 @@
   {
     "id": "audit_00041",
     "original": "Definition of Local Maximum (localmaximum) : If for some open interval containing c point allx values, the inequality f(x) ≤f(c) holds. then f(c) is a f(x) local maximum. Local maximum, is sometimes also called relative maximum (relativemaximum).",
-    "fixed": "Definition of Local Maximum (local maximum): If for some open interval containing point c, all x values satisfy the inequality f(x) ≤ f(c), then f(c) is a local maximum of f(x). Local maximum is sometimes also called relative maximum (relative maximum)."
+    "fixed": "Definition (Local Maximum): If there exists an open interval containing c such that f(x) ≤ f(c) for all x in that interval, then f(c) is a local maximum of f(x). A local maximum is equivalently referred to as a relative maximum."
   },
   {
     "id": "audit_00042",
@@ -227,27 +227,27 @@
   {
     "id": "audit_00045",
     "original": "also called absolute maximum (absolutemaximum).",
-    "fixed": "also called absolute maximum (absolute maximum)."
+    "fixed": "equivalently termed the absolute maximum."
   },
   {
     "id": "audit_00046",
     "original": "Let's continue discussing  our understanding of these two concepts. The term local, means :  as long as these in equal ity f(x) ≤f(c) holds even in a very small interval, f(c) it is a local maximum.",
-    "fixed": "Let's continue discussing our understanding of these two concepts. The term 'local' means: as long as the inequality f(x) ≤ f(c) holds even in a very small interval, f(c) is a local maximum."
+    "fixed": "To clarify the distinction between local and global extrema: the term 'local' indicates that the inequality f(x) ≤ f(c) need only hold within an arbitrarily small open interval containing c."
   },
   {
     "id": "audit_00047",
     "original": "For example, if we consider Earth's elevation as a function, then the height of the Five Sacred Mountains' peakswould all be local maxima. At the same time, the height of each stair step on your way home, or even the height of your slippers on the floor, are all genuine local maxima. But Mount Everest is the global maximum of this function.",
-    "fixed": "For example, if we consider Earth's elevation as a function, then the height of the Five Sacred Mountains' peaks would all be local maxima. At the same time, the height of each stair step on your way home, or even the height of your slippers on the floor, are all genuine local maxima. But Mount Everest is the global maximum of this function."
+    "fixed": "For example, if elevation is regarded as a function defined on Earth's surface, then the summits of the Five Sacred Mountains are each local maxima. Similarly, any local high point — regardless of scale — constitutes a local maximum. Mount Everest, however, is the unique global maximum of this function."
   },
   {
     "id": "audit_00048",
     "original": "Another example, if we consider official rank as a function. Although a governor is impressive, a governor anda village chief alike, are both local maximum officials. Only the President, is the global maximum official.",
-    "fixed": "Another example, if we consider official rank as a function. Although a governor is impressive, a governor and a village chief alike are both local maximum officials. Only the President is the global maximum official."
+    "fixed": "Consider official rank as a function. Although a provincial governor holds a high position, both a governor and a village chief are local maximum officials within their respective domains. Only the head of state constitutes the global maximum."
   },
   {
     "id": "audit_00049",
     "original": "Everyone should have a scale in their heart to measure local versus global, and never overestimateyourself. How much love and hatred in the martial world, all arise from unclear judgment between local and global. How many oncequite  decent local bosses, lost their lives by mistaking themselves for global bosses. No matter how far you've  advanced, always consider yourself an ordinary person in a local, small local context, and things will probably turn out fine.",
-    "fixed": "Everyone should have a scale in their heart to measure local versus global, and never overestimate yourself. How much love and hatred in the martial world arise from unclear judgment between local and global. How many once quite decent local bosses lost their lives by mistaking themselves for global bosses. No matter how far you've advanced, always consider yourself an ordinary person in a local context, and things will probably turn out fine."
+    "fixed": "It is important to maintain a clear distinction between local and global extrema and to avoid conflating the two. Numerous historical errors in judgment have resulted from treating a local optimum as though it were a global one. Maintaining appropriate perspective on one's position within a larger context is therefore advisable."
   },
   {
     "id": "audit_00050",
@@ -257,7 +257,7 @@
   {
     "id": "audit_00051",
     "original": "Definition of Local Minimum (localminimum) : If for some open interval containing cpoint all x values, the inequality f(x) ≥f(c) holds. Then f(c) is the function f(x) 's local minimum. Local minimum, is sometimes also called relative minimum (relativeminimum).",
-    "fixed": "Definition of Local Minimum (local minimum): If for some open interval containing point c, all x values satisfy the inequality f(x) ≥ f(c), then f(c) is the local minimum of f(x). Local minimum is sometimes also called relative minimum (relative minimum)."
+    "fixed": "Definition (Local Minimum): If there exists an open interval containing c such that f(x) ≥ f(c) for all x in that interval, then f(c) is the local minimum of f(x). A local minimum is equivalently referred to as a relative minimum."
   },
   {
     "id": "audit_00052",
@@ -282,7 +282,7 @@
   {
     "id": "audit_00056",
     "original": "points cand d, such that f(c) is the absolute maximum, f(d) isthe absolute minimum. The figure below illustrates the Extreme Value Theorem.",
-    "fixed": "points c and d, such that f(c) is the absolute maximum and f(d) is the absolute minimum. The figure below illustrates the Extreme Value Theorem."
+    "fixed": "points c and d such that f(c) is the absolute maximum and f(d) is the absolute minimum. The figure below illustrates the Extreme Value Theorem."
   },
   {
     "id": "audit_00057",
@@ -302,7 +302,7 @@
   {
     "id": "audit_00060",
     "original": "From the figure, we can see, the function on the left has no maximum, the function on the right has neither maximum, nor mini values. The reason is : the left function is not continuous, the right function's domain is notclosed.",
-    "fixed": "From the figure, we can see: the function on the left has no maximum, the function on the right has neither maximum nor minimum values. The reason is: the left function is not continuous, the right function's domain is not closed."
+    "fixed": "As shown in the figure: the function on the left attains no maximum value, and the function on the right attains neither a maximum nor a minimum. This occurs because the left function is discontinuous and the right function's domain is not a closed interval."
   },
   {
     "id": "audit_00061",
@@ -317,12 +317,12 @@
   {
     "id": "audit_00063",
     "original": "Fermat (Fermat) 's Theorem : If c is a point where function f(x) has a local extreme value, and f'(c) ex ists, then :",
-    "fixed": "Fermat's Theorem: If c is a point where function f(x) has a local extreme value, and f'(c) exists, then f'(c) = 0."
+    "fixed": "Fermat's Theorem: If f(x) has a local extreme value at c and f'(c) exists, then f'(c) = 0."
   },
   {
     "id": "audit_00064",
     "original": "Proof : Let's first assume c is a local maximum of f(x), the minimumcase can be proved similarly. cBeing a local maximum, means : in a small region containing c, the following inequality holds :",
-    "fixed": "Proof: Let's first assume c is a local maximum of f(x); the minimum case can be proved similarly. Being a local maximum means: in a small region containing c, the following inequality holds:"
+    "fixed": "Proof: Assume c is a local maximum of f(x); the argument for a local minimum is analogous. The local maximum condition requires that within some open interval containing c, the following inequality holds:"
   },
   {
     "id": "audit_00065",
@@ -347,12 +347,12 @@
   {
     "id": "audit_00069",
     "original": "At this point, we have obtained that the function at chas left and right derivatives that are non-negative on one side and non-positive on the other, the conclusion. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be : f'(c) =0.",
-    "fixed": "At this point, we have obtained that the function at c has left and right derivatives that are non-negative on one side and non-positive on the other. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be: f'(c) = 0."
+    "fixed": "It has thus been established that the one-sided derivatives of f at c are non-negative on one side and non-positive on the other. Since f'(c) exists, the left-hand and right-hand derivatives must be equal. The only value satisfying both conditions is zero; hence f'(c) = 0."
   },
   {
     "id": "audit_00070",
     "original": "Important point : Fermat's Theorem only tells you, if a local extreme point has a derivative, then that derivative equals 0. It doesn't say, all local extreme points have derivative equal to 0. Why? Because :some local extreme points have derivatives that  do not exist!",
-    "fixed": "Important point: Fermat's Theorem only tells you that if a local extreme point has a derivative, then that derivative equals 0. It doesn't say all local extreme points have derivative equal to 0. Why? Because some local extreme points have derivatives that do not exist!"
+    "fixed": "Remark: Fermat's Theorem asserts only that a local extreme point with an existing derivative must have derivative equal to zero. It does not assert that every local extreme point has a derivative equal to zero, since some local extreme points have no derivative."
   },
   {
     "id": "audit_00071",
@@ -362,22 +362,22 @@
   {
     "id": "audit_00072",
     "original": "After all this hard work, we've finally found some methods for finding extreme values!  First, findthe function's critical points, that is, those points where the derivative doesn't exist or equals 0 exist ; second, compare function values at interval endpoints and critical points, to determine global and local extreme values.",
-    "fixed": "After all this hard work, we've finally found some methods for finding extreme values! First, find the function's critical points, that is, those points where the derivative doesn't exist or equals 0; second, compare function values at interval endpoints and critical points to determine global and local extreme values."
+    "fixed": "A systematic method for locating extreme values is now available. Step 1: identify the critical points of the function — points at which the derivative either does not exist or equals zero. Step 2: compare the function values at the critical points and at the interval endpoints to determine the global and local extreme values."
   },
   {
     "id": "audit_00073",
     "original": "The reason we need to separately compare the function values at interval endpoints, is because interval endpoints, although not satis fying the definition of local extreme points, may still be global extreme points. For example, strictly monotonic func where, always attain global extreme values at endpoints, and have no local extreme points in the interior.",
-    "fixed": "The reason we need to separately compare the function values at interval endpoints is because interval endpoints, although not satisfying the definition of local extreme points, may still be global extreme points. For example, a strictly monotonic function always attains global extreme values at endpoints and has no local extreme points in the interior."
+    "fixed": "The function values at the interval endpoints must be examined separately because, although endpoints do not satisfy the definition of local extreme points, they may nonetheless be global extreme points. For instance, a strictly monotonic function attains its global extreme values exclusively at the endpoints."
   },
   {
     "id": "audit_00074",
     "original": "then, how do we determine whether the critical points we've worked hard to find are local maxima, orlocal mini ma?",
-    "fixed": "Then, how do we determine whether the critical points we've worked hard to find are local maxima or local minima?"
+    "fixed": "It remains to determine whether a given critical point corresponds to a local maximum or a local minimum."
   },
   {
     "id": "audit_00075",
     "original": "To solve this problem, we need to call upon the local trend—derivative. We introduced in the previous chapter, the  sign of a function's derivative at a point, determines whether the function is increasingor decreasing at that point. From  this, it's not hard to deduce, if on some interval, the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing.",
-    "fixed": "To solve this problem, we need to call upon the local trend — the derivative. We introduced in the previous chapter that the sign of a function's derivative at a point determines whether the function is increasing or decreasing at that point. From this, it's not hard to deduce that if on some interval the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing."
+    "fixed": "This determination relies on the sign of the derivative in the vicinity of the critical point. As established previously, the sign of the derivative on an interval determines whether the function is increasing or decreasing on that interval: a positive derivative implies an increasing function; a negative derivative implies a decreasing function."
   },
   {
     "id": "audit_00076",
@@ -392,12 +392,12 @@
   {
     "id": "audit_00078",
     "original": "At this point, we have obtained that the function at chas left and right derivatives that are non-negative on one side and non-positive on the other, the conclusion. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be : f'(c) =0.",
-    "fixed": "At this point, we have obtained that the function at c has left and right derivatives that are non-negative on one side and non-positive on the other. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be: f'(c) = 0."
+    "fixed": "It has thus been established that the one-sided derivatives of f at c are non-negative on one side and non-positive on the other. Since f'(c) exists, the left-hand and right-hand derivatives must be equal, and the only admissible value is zero. Hence f'(c) = 0."
   },
   {
     "id": "audit_00079",
     "original": "Important point : Fermat's Theorem only tells you, if a local extreme point has a derivative, then that derivative equals 0. It doesn't say, all local extreme points have derivative equal to 0. Why? Because :some local extreme points have derivatives that  do not exist!",
-    "fixed": "Important point: Fermat's Theorem only tells you that if a local extreme point has a derivative, then that derivative equals 0. It doesn't say all local extreme points have derivative equal to 0. Why? Because some local extreme points have derivatives that do not exist!"
+    "fixed": "Remark: Fermat's Theorem asserts only that a local extreme point with an existing derivative must have derivative equal to zero. It does not assert that every local extreme point has a derivative equal to zero, since some local extreme points have no derivative."
   },
   {
     "id": "audit_00080",
@@ -407,22 +407,22 @@
   {
     "id": "audit_00081",
     "original": "After all this hard work, we've finally found some methods for finding extreme values!  First, findthe function's critical points, that is, those points where the derivative doesn't exist or equals 0 exist ; second, compare function values at interval endpoints and critical points, to determine global and local extreme values.",
-    "fixed": "After all this hard work, we've finally found some methods for finding extreme values! First, find the function's critical points, that is, those points where the derivative doesn't exist or equals 0; second, compare function values at interval endpoints and critical points to determine global and local extreme values."
+    "fixed": "A systematic method for locating extreme values is now available. Step 1: identify the critical points — points at which the derivative does not exist or equals zero. Step 2: compare the function values at the critical points and at the interval endpoints to determine the global and local extreme values."
   },
   {
     "id": "audit_00082",
     "original": "The reason we need to separately compare the function values at interval endpoints, is because interval endpoints, although not satis fying the definition of local extreme points, may still be global extreme points. For example, strictly monotonic func where, always attain global extreme values at endpoints, and have no local extreme points in the interior.",
-    "fixed": "The reason we need to separately compare the function values at interval endpoints is because interval endpoints, although not satisfying the definition of local extreme points, may still be global extreme points. For example, a strictly monotonic function always attains global extreme values at endpoints and has no local extreme points in the interior."
+    "fixed": "The function values at the interval endpoints must be examined separately because endpoints, although not satisfying the definition of local extreme points, may be global extreme points. A strictly monotonic function, for example, attains its global extreme values exclusively at the endpoints."
   },
   {
     "id": "audit_00083",
     "original": "then, how do we determine whether the critical points we've worked hard to find are local maxima, orlocal mini ma?",
-    "fixed": "Then, how do we determine whether the critical points we've worked hard to find are local maxima or local minima?"
+    "fixed": "It remains to determine whether a given critical point is a local maximum or a local minimum."
   },
   {
     "id": "audit_00084",
     "original": "To solve this problem, we need to call upon the local trend—derivative. We introduced in the previous chapter, the  sign of a function's derivative at a point, determines whether the function is increasingor decreasing at that point. From  this, it's not hard to deduce, if on some interval, the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing.",
-    "fixed": "To solve this problem, we need to call upon the local trend — the derivative. We introduced in the previous chapter that the sign of a function's derivative at a point determines whether the function is increasing or decreasing at that point. From this, it's not hard to deduce that if on some interval the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing."
+    "fixed": "This determination relies on the sign of the derivative in the vicinity of the critical point. A positive derivative on an interval implies the function is increasing on that interval; a negative derivative implies the function is decreasing."
   },
   {
     "id": "audit_00085",
