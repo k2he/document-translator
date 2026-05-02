@@ -1,0 +1,7618 @@
+[
+  {
+    "id": "seg_00000",
+    "source": "布克",
+    "location": "body",
+    "para_index": 52,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00001",
+    "source": "校样[成品尺寸:170",
+    "location": "body",
+    "para_index": 52,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00002",
+    "source": ";版心",
+    "location": "body",
+    "para_index": 52,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00003",
+    "source": "33行×34字]",
+    "location": "body",
+    "para_index": 52,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00004",
+    "source": "前两章",
+    "location": "table_0",
+    "para_index": 64,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00005",
+    "source": "我们弄清楚了微积分中最重要的极限概念，又升华了中学就学过的",
+    "location": "table_0",
+    "para_index": 64,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00006",
+    "source": "斜率概念",
+    "location": "table_0",
+    "para_index": 64,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00007",
+    "source": "，",
+    "location": "table_0",
+    "para_index": 64,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00008",
+    "source": "引入了导数",
+    "location": "table_0",
+    "para_index": 64,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00009",
+    "source": "。",
+    "location": "table_0",
+    "para_index": 64,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00010",
+    "source": "我们还耗费了",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00011",
+    "source": "大量笔墨",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 1
+  },
+  {
+    "id": "seg_00012",
+    "source": ",努力搞清楚了各种函数的小趋势导数的求",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00013",
+    "source": "法",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00014",
+    "source": "。",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00015",
+    "source": "这",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00016",
+    "source": "导数总得有点特别的用途",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00017",
+    "source": "，才对得起我们的心血吧",
+    "location": "table_0",
+    "para_index": 65,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00018",
+    "source": "没错",
+    "location": "table_0",
+    "para_index": 66,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00019",
+    "source": ",导数真的很有用!",
+    "location": "table_0",
+    "para_index": 66,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00020",
+    "source": "再论极限",
+    "location": "table_0",
+    "para_index": 67,
+    "run_index": 1
+  },
+  {
+    "id": "seg_00021",
+    "source": "罗必塔法则(L",
+    "location": "table_0",
+    "para_index": 67,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00022",
+    "source": "如前所述",
+    "location": "table_0",
+    "para_index": 69,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00023",
+    "source": ",极限问题是微积分的核心问题",
+    "location": "table_0",
+    "para_index": 69,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00024",
+    "source": ",我们在处理极限问题的时候",
+    "location": "table_0",
+    "para_index": 69,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00025",
+    "source": ",经",
+    "location": "table_0",
+    "para_index": 69,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00026",
+    "source": "常碰到两种棘手的极限问题",
+    "location": "table_0",
+    "para_index": 69,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00027",
+    "source": "型和",
+    "location": "table_0",
+    "para_index": 70,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00028",
+    "source": "型",
+    "location": "table_0",
+    "para_index": 70,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00029",
+    "source": "看到两个横躺着的 8相比",
+    "location": "table_0",
+    "para_index": 71,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00030",
+    "source": ",感觉无从下手",
+    "location": "table_0",
+    "para_index": 71,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00031",
+    "source": "是对的。",
+    "location": "table_0",
+    "para_index": 71,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00032",
+    "source": "正好比",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00033",
+    "source": ",我们普罗大众",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00034",
+    "source": ",看两个大款斗富",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00035",
+    "source": ",他们都有着我们几辈子花不完的",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00036",
+    "source": "钱",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00037",
+    "source": ",到底谁更牛、笑到最后",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00038",
+    "source": ",真是不好判断。",
+    "location": "table_0",
+    "para_index": 72,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00039",
+    "source": "让我们再开动一下脑子想想",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00040",
+    "source": ",到底俩斗富的货",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00041",
+    "source": ",长期掐下去",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00042",
+    "source": ",哪个更占上风?",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00043",
+    "source": "虽然存量很关键",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00044",
+    "source": ",但是决定的因素应该是增量或者",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00045",
+    "source": "说是财富增加的速度。",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00046",
+    "source": "比如",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00047",
+    "source": "甲货有银子 10亿并且每年增长",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00048",
+    "source": "乙货",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00049",
+    "source": "虽有银",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00050",
+    "source": "亿",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00051",
+    "source": "但是这货的财富增长率",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 30
+  },
+  {
+    "id": "seg_00052",
+    "source": "是 ",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00053",
+    "source": "。",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00054",
+    "source": "细想一下不难得出结论",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 36
+  },
+  {
+    "id": "seg_00055",
+    "source": ":长期下来",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 38
+  },
+  {
+    "id": "seg_00056",
+    "source": ",乙货一定",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 40
+  },
+  {
+    "id": "seg_00057",
+    "source": "是要战胜甲货的。",
+    "location": "table_0",
+    "para_index": 73,
+    "run_index": 41
+  },
+  {
+    "id": "seg_00058",
+    "source": "我们之所以得出乙货得胜的结论",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00059",
+    "source": "是因为他的",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00060",
+    "source": "10%增长率实在是比",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00061",
+    "source": "7%的",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00062",
+    "source": "增长率厉害得多。",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00063",
+    "source": "啥是增长率",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00064",
+    "source": ",不就是变化率吗。",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00065",
+    "source": "啥是变化率呢?",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00066",
+    "source": "导数呗!",
+    "location": "table_0",
+    "para_index": 74,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00067",
+    "source": "由此我们想到",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00068",
+    "source": ",如果两个",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00069",
+    "source": "相比没有结论",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00070",
+    "source": ",而他们的导数之比有高下的话",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00071",
+    "source": "那他们本身之比也就有了结果。",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00072",
+    "source": "这个朴素的想法",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00073",
+    "source": "已经在被法国数学家罗必塔",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00074",
+    "source": ")先生在 3百多年前证明了",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00075",
+    "source": "。",
+    "location": "table_0",
+    "para_index": 75,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00076",
+    "source": "罗必塔法则(L",
+    "location": "table_0",
+    "para_index": 76,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00077",
+    "source": "假设函数 f(",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00078",
+    "source": "和 g(",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00079",
+    "source": ", 在含有点",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00080",
+    "source": "的某个区域内",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00081",
+    "source": "可导(不要求一定在 ",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00082",
+    "source": "可导)",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00083",
+    "source": "而且",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00084",
+    "source": "。",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 28
+  },
+  {
+    "id": "seg_00085",
+    "source": "如果",
+    "location": "table_0",
+    "para_index": 77,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00086",
+    "source": "或者",
+    "location": "table_0",
+    "para_index": 79,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00087",
+    "source": "那么",
+    "location": "table_0",
+    "para_index": 80,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00088",
+    "source": "当然",
+    "location": "table_0",
+    "para_index": 81,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00089",
+    "source": ",前提是右边的极限存在。",
+    "location": "table_0",
+    "para_index": 81,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00090",
+    "source": "导数有啥用",
+    "location": "table_1",
+    "para_index": 89,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00091",
+    "source": "第四章",
+    "location": "table_1",
+    "para_index": 89,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00092",
+    "source": "罗必塔法则",
+    "location": "table_1",
+    "para_index": 91,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00093",
+    "source": ",一石二鸟",
+    "location": "table_1",
+    "para_index": 91,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00094",
+    "source": "同时解决了两种难缠的问题",
+    "location": "table_1",
+    "para_index": 91,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00095",
+    "source": "。关于这个法则",
+    "location": "table_1",
+    "para_index": 91,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00096",
+    "source": ",我们",
+    "location": "table_1",
+    "para_index": 91,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00097",
+    "source": "要提醒几点。",
+    "location": "table_1",
+    "para_index": 91,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00098",
+    "source": "首先",
+    "location": "table_1",
+    "para_index": 92,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00099",
+    "source": "当",
+    "location": "table_1",
+    "para_index": 92,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00100",
+    "source": "时",
+    "location": "table_1",
+    "para_index": 92,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00101",
+    "source": "该法则同样适用",
+    "location": "table_1",
+    "para_index": 92,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00102",
+    "source": "其次",
+    "location": "table_1",
+    "para_index": 93,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00103",
+    "source": ",如果两个函数的导数之比的极限又是 ",
+    "location": "table_1",
+    "para_index": 93,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00104",
+    "source": "型和 ",
+    "location": "table_1",
+    "para_index": 93,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00105",
+    "source": "型的",
+    "location": "table_1",
+    "para_index": 93,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00106",
+    "source": ",可以再次使用",
+    "location": "table_1",
+    "para_index": 93,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00107",
+    "source": "该法则到二阶导数甚至",
+    "location": "table_1",
+    "para_index": 94,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00108",
+    "source": "阶导数上。",
+    "location": "table_1",
+    "para_index": 94,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00109",
+    "source": "最后",
+    "location": "table_1",
+    "para_index": 95,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00110",
+    "source": ",该法则的证明",
+    "location": "table_1",
+    "para_index": 95,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00111",
+    "source": ",需要更高深的数学知识。",
+    "location": "table_1",
+    "para_index": 95,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00112",
+    "source": "眼下",
+    "location": "table_1",
+    "para_index": 96,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00113",
+    "source": ",我们可以把它当公理一样地认为它不证",
+    "location": "table_1",
+    "para_index": 96,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00114",
+    "source": "自明",
+    "location": "table_1",
+    "para_index": 96,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00115",
+    "source": "。会用法则是硬道理。",
+    "location": "table_1",
+    "para_index": 96,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00116",
+    "source": "例 ",
+    "location": "table_1",
+    "para_index": 97,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00117",
+    "source": "1):求",
+    "location": "table_1",
+    "para_index": 97,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00118",
+    "source": "解",
+    "location": "table_1",
+    "para_index": 98,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00119",
+    "source": ":根据罗必塔法则",
+    "location": "table_1",
+    "para_index": 98,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00120",
+    "source": ",我们有",
+    "location": "table_1",
+    "para_index": 98,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00121",
+    "source": "例 ",
+    "location": "table_1",
+    "para_index": 100,
+    "run_index": 1
+  },
+  {
+    "id": "seg_00122",
+    "source": "2):求 ",
+    "location": "table_1",
+    "para_index": 100,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00123",
+    "source": "解",
+    "location": "table_1",
+    "para_index": 101,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00124",
+    "source": ":用罗必塔法则",
+    "location": "table_1",
+    "para_index": 101,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00125",
+    "source": ",得到",
+    "location": "table_1",
+    "para_index": 101,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00126",
+    "source": "好玩吧?",
+    "location": "table_1",
+    "para_index": 103,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00127",
+    "source": "再看一下这两个极限",
+    "location": "table_1",
+    "para_index": 103,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00128",
+    "source": "例 ",
+    "location": "table_1",
+    "para_index": 104,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00129",
+    "source": "3):求",
+    "location": "table_1",
+    "para_index": 104,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00130",
+    "source": "解",
+    "location": "table_1",
+    "para_index": 105,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00131",
+    "source": ":求这个极限",
+    "location": "table_1",
+    "para_index": 105,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00132",
+    "source": ",得对分子分母分别求 3次导数",
+    "location": "table_1",
+    "para_index": 105,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00133",
+    "source": ",才能看清楚结果",
+    "location": "table_1",
+    "para_index": 105,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00134",
+    "source": "由本题的解题过程可知",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00135",
+    "source": "即使分子上不是",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00136",
+    "source": ", 而是",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00137",
+    "source": "或者更高次方",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00138",
+    "source": ",也不",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00139",
+    "source": "会改变极限的结果。",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00140",
+    "source": "同样",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00141",
+    "source": ",只要分子上 ",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00142",
+    "source": "中的",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00143",
+    "source": ", 结果不会变",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00144",
+    "source": ",都是 ",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00145",
+    "source": "。",
+    "location": "table_1",
+    "para_index": 108,
+    "run_index": 36
+  },
+  {
+    "id": "seg_00146",
+    "source": "这也就印证了我们前面说过的",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00147",
+    "source": "型的 ",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00148",
+    "source": "是所谓部级的 ",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00149",
+    "source": ", 跟",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00150",
+    "source": "这些地",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00151",
+    "source": "市级的 ",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00152",
+    "source": "没有可比性",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00153",
+    "source": "。我们再看一下地市级的 ",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00154",
+    "source": "遇",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00155",
+    "source": "上 ",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00156",
+    "source": "这种区县级的 ",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 28
+  },
+  {
+    "id": "seg_00157",
+    "source": "会发生什么",
+    "location": "table_1",
+    "para_index": 109,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00158",
+    "source": "例",
+    "location": "table_1",
+    "para_index": 110,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00159",
+    "source": "这一次",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00160",
+    "source": ",地市级 ",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00161",
+    "source": "派出的分子是二分之一次方",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00162",
+    "source": ",而区县级 ",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00163",
+    "source": "留守的分母是",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00164",
+    "source": "平方",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00165",
+    "source": "结果同样是 ",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00166",
+    "source": "看来",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00167",
+    "source": ",“官大一级压死人”绝非虚言!",
+    "location": "table_2",
+    "para_index": 123,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00168",
+    "source": "再重申一次",
+    "location": "table_2",
+    "para_index": 124,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00169",
+    "source": ",如果碰到 ",
+    "location": "table_2",
+    "para_index": 124,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00170",
+    "source": "型的极限问题",
+    "location": "table_2",
+    "para_index": 124,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00171",
+    "source": ",分子分母只留下级别最高的",
+    "location": "table_2",
+    "para_index": 124,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00172",
+    "source": "值班即可",
+    "location": "table_2",
+    "para_index": 124,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00173",
+    "source": ",结果不会错。",
+    "location": "table_2",
+    "para_index": 124,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00174",
+    "source": "有了罗必塔法则在手",
+    "location": "table_2",
+    "para_index": 125,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00175",
+    "source": ",再来看我们在第二章要求您记住的两个著名",
+    "location": "table_2",
+    "para_index": 125,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00176",
+    "source": "极限",
+    "location": "table_2",
+    "para_index": 125,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00177",
+    "source": ",将",
+    "location": "table_2",
+    "para_index": 125,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00178",
+    "source": "会显得非常直观",
+    "location": "table_2",
+    "para_index": 125,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00179",
+    "source": "我们登山时会发现",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00180",
+    "source": ",登得越高",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00181",
+    "source": ",视野越好",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00182",
+    "source": "。玩数学也一样",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00183",
+    "source": ",玩得越多",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00184",
+    "source": "玩过的",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00185",
+    "source": "东东看得越清楚。",
+    "location": "table_2",
+    "para_index": 128,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00186",
+    "source": "让我们看看导数还有啥用。",
+    "location": "table_2",
+    "para_index": 129,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00187",
+    "source": "极值问题(",
+    "location": "table_2",
+    "para_index": 130,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00188",
+    "source": "人们总爱关注离自己稍微远点的、极端点的事物。",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00189",
+    "source": "例如",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00190",
+    "source": ":皇室的故事",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00191",
+    "source": ",总是",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00192",
+    "source": " 在平民百姓中有市场",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00193",
+    "source": "。再例如",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00194",
+    "source": ":最有钱的、最漂亮的、最高的、最险的等等总是最 ",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00195",
+    "source": "能吸引我们的眼球。",
+    "location": "table_2",
+    "para_index": 131,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00196",
+    "source": "同样",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00197",
+    "source": ",对我们研究的函数而言",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00198",
+    "source": "函数的最大值和最",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00199",
+    "source": "小值问题",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00200",
+    "source": ", 自然引起了人",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00201",
+    "source": "们的极大兴趣。",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00202",
+    "source": "因为在生活中",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00203",
+    "source": ",极值问题太有用了。",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00204",
+    "source": "怎样把有限的资源发挥到",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00205",
+    "source": "极致",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00206",
+    "source": ",永远是我们的追求。",
+    "location": "table_2",
+    "para_index": 132,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00207",
+    "source": "要解决极值问题",
+    "location": "table_2",
+    "para_index": 133,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00208",
+    "source": ",导数可以帮上大忙",
+    "location": "table_2",
+    "para_index": 133,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00209",
+    "source": "。先厘清几个关于极值问题的概念",
+    "location": "table_2",
+    "para_index": 133,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00210",
+    "source": "局部最大值定义(",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00211",
+    "source": "如果对包含 ",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00212",
+    "source": "点在内的某个开区间内",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00213",
+    "source": "所有",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00214",
+    "source": "值",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00215",
+    "source": "不等式",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00216",
+    "source": ") 都成立",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00217",
+    "source": "。",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00218",
+    "source": "那么",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00219",
+    "source": ") 就是函数",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00220",
+    "source": "的一个局部",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 36
+  },
+  {
+    "id": "seg_00221",
+    "source": "最大值",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 38
+  },
+  {
+    "id": "seg_00222",
+    "source": "。",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 40
+  },
+  {
+    "id": "seg_00223",
+    "source": "局部最大值",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 41
+  },
+  {
+    "id": "seg_00224",
+    "source": "有时候也称为相对最大值(",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 44
+  },
+  {
+    "id": "seg_00225",
+    "source": "。",
+    "location": "table_2",
+    "para_index": 134,
+    "run_index": 48
+  },
+  {
+    "id": "seg_00226",
+    "source": "有局部就有全局。",
+    "location": "table_2",
+    "para_index": 135,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00227",
+    "source": "全局最大值定义(",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00228",
+    "source": "如果对所有的 ",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00229",
+    "source": "值",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00230",
+    "source": "不等式 ",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00231",
+    "source": "都成立",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00232",
+    "source": "。",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00233",
+    "source": "那么 f(",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00234",
+    "source": "就是函数 f(",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00235",
+    "source": "的全局最大值",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00236",
+    "source": "。",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00237",
+    "source": "全局最大值",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00238",
+    "source": "有时候",
+    "location": "table_2",
+    "para_index": 136,
+    "run_index": 37
+  },
+  {
+    "id": "seg_00239",
+    "source": "导数有啥用",
+    "location": "table_3",
+    "para_index": 144,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00240",
+    "source": "第四章",
+    "location": "table_3",
+    "para_index": 144,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00241",
+    "source": "也被称作绝对最大值(",
+    "location": "table_3",
+    "para_index": 146,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00242",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 146,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00243",
+    "source": "接着聊一",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00244",
+    "source": "下",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00245",
+    "source": "对",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00246",
+    "source": "这",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00247",
+    "source": "两",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00248",
+    "source": "个",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00249",
+    "source": "概",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00250",
+    "source": "念 的",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00251",
+    "source": "理",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00252",
+    "source": "解。",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00253",
+    "source": "所",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00254",
+    "source": "谓",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00255",
+    "source": "局",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00256",
+    "source": "部",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00257",
+    "source": "就",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 30
+  },
+  {
+    "id": "seg_00258",
+    "source": "是",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00259",
+    "source": ": 只",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00260",
+    "source": "要",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 36
+  },
+  {
+    "id": "seg_00261",
+    "source": "那",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 38
+  },
+  {
+    "id": "seg_00262",
+    "source": "个",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 40
+  },
+  {
+    "id": "seg_00263",
+    "source": "不",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 42
+  },
+  {
+    "id": "seg_00264",
+    "source": "等",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 44
+  },
+  {
+    "id": "seg_00265",
+    "source": "式",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 46
+  },
+  {
+    "id": "seg_00266",
+    "source": "在哪怕很小的区间内成立",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 55
+  },
+  {
+    "id": "seg_00267",
+    "source": "就是一个局部最大值",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 62
+  },
+  {
+    "id": "seg_00268",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 147,
+    "run_index": 63
+  },
+  {
+    "id": "seg_00269",
+    "source": "例如",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00270",
+    "source": ",如果把地球上的海拔高度做为函数",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00271",
+    "source": ",那五岳之巅的高度",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00272",
+    "source": "都会是一个局",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00273",
+    "source": "部最大值。",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00274",
+    "source": "与此同时",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00275",
+    "source": ",您回家上楼的每一阶楼梯高度、甚至您放在地上拖鞋的高",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00276",
+    "source": "度",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00277",
+    "source": ",也都是不折不扣的一个局部最大值。",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00278",
+    "source": "而珠穆朗玛峰才是这个函数的全球最",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00279",
+    "source": "大值。",
+    "location": "table_3",
+    "para_index": 148,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00280",
+    "source": "再比如",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00281",
+    "source": ",如果把官职的高低做为函数",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00282",
+    "source": "。虽然省长很牛",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00283",
+    "source": ",但是一个省长和",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00284",
+    "source": "一个",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00285",
+    "source": "村长一样",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00286",
+    "source": ",都是一个局部最高官。",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00287",
+    "source": "只有国家主席",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00288",
+    "source": ",才是全局最高官。",
+    "location": "table_3",
+    "para_index": 149,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00289",
+    "source": "人人心中都应该有一个衡量局部和全局的秤",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00290",
+    "source": ",千万别把自己掂量",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00291",
+    "source": "的太重了。",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00292",
+    "source": "武林中有多少爱恨情仇",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00293",
+    "source": ",皆因对局部和全局判断不清所起",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00294",
+    "source": "。甚至有多少本",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00295",
+    "source": "来挺",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00296",
+    "source": "不错的局部老大",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00297",
+    "source": "因误以为自己个是全局老大而送了卿卿性命。",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00298",
+    "source": "不管进步到啥",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00299",
+    "source": "程度",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00300",
+    "source": ",永远把自己当成局部、小局部的一般人",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00301",
+    "source": ",大概结果不会差。",
+    "location": "table_3",
+    "para_index": 150,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00302",
+    "source": "易经的洋洋 64卦中",
+    "location": "table_3",
+    "para_index": 151,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00303",
+    "source": ",只有谦卦",
+    "location": "table_3",
+    "para_index": 151,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00304",
+    "source": ",没啥副作用!",
+    "location": "table_3",
+    "para_index": 151,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00305",
+    "source": "有了最大值的概念",
+    "location": "table_3",
+    "para_index": 151,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00306",
+    "source": ",最小值的概念顺理成章。",
+    "location": "table_3",
+    "para_index": 151,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00307",
+    "source": "局部最小值定义(",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00308",
+    "source": "如果对包含",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00309",
+    "source": "点在内的某个开区间内的",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00310",
+    "source": "所有",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00311",
+    "source": "值",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00312",
+    "source": "不等式 f(",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00313",
+    "source": "都成立",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00314",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00315",
+    "source": "那么 ",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00316",
+    "source": "就是函数 f(",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00317",
+    "source": "的一个局",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00318",
+    "source": "部最小值",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 35
+  },
+  {
+    "id": "seg_00319",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 37
+  },
+  {
+    "id": "seg_00320",
+    "source": "局部最小值",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 38
+  },
+  {
+    "id": "seg_00321",
+    "source": "有时候也称为相对最小值(",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 41
+  },
+  {
+    "id": "seg_00322",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 152,
+    "run_index": 45
+  },
+  {
+    "id": "seg_00323",
+    "source": "全局最小值定义(",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00324",
+    "source": "如果对所有的 ",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00325",
+    "source": "值",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00326",
+    "source": "不等式 ",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00327",
+    "source": "都成立",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00328",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00329",
+    "source": "那么 f(",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00330",
+    "source": "就是函数 f(",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00331",
+    "source": "的全局最小值",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00332",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00333",
+    "source": "全局最小值",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00334",
+    "source": "有时候",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 37
+  },
+  {
+    "id": "seg_00335",
+    "source": "也被称作绝对最小值(",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 39
+  },
+  {
+    "id": "seg_00336",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 153,
+    "run_index": 43
+  },
+  {
+    "id": "seg_00337",
+    "source": "明白了极值的概念",
+    "location": "table_3",
+    "para_index": 154,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00338",
+    "source": ",就可以探讨如何找出极值了。",
+    "location": "table_3",
+    "para_index": 154,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00339",
+    "source": "要研究如何求极值问题",
+    "location": "table_3",
+    "para_index": 155,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00340",
+    "source": ",首先得确定它的存在性",
+    "location": "table_3",
+    "para_index": 155,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00341",
+    "source": "。所以",
+    "location": "table_3",
+    "para_index": 155,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00342",
+    "source": "了解极值定理",
+    "location": "table_3",
+    "para_index": 155,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00343",
+    "source": ",很",
+    "location": "table_3",
+    "para_index": 155,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00344",
+    "source": "有必要。",
+    "location": "table_3",
+    "para_index": 155,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00345",
+    "source": "极值定理",
+    "location": "table_3",
+    "para_index": 156,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00346",
+    "source": ":如果函数 f(",
+    "location": "table_3",
+    "para_index": 156,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00347",
+    "source": ") 在闭区间 [",
+    "location": "table_3",
+    "para_index": 156,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00348",
+    "source": "] 上连续",
+    "location": "table_3",
+    "para_index": 156,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00349",
+    "source": ",则此区间上一定存在两",
+    "location": "table_3",
+    "para_index": 156,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00350",
+    "source": "个点 ",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00351",
+    "source": "和d",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00352",
+    "source": "使得 f(",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00353",
+    "source": "为绝对最大值",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00354",
+    "source": "为",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00355",
+    "source": "绝对最小值",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00356",
+    "source": "。",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00357",
+    "source": "下图为极值定理的示意图。",
+    "location": "table_3",
+    "para_index": 157,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00358",
+    "source": "我对这个定理的学习心得是",
+    "location": "table_3",
+    "para_index": 159,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00359",
+    "source": "虽然闭区间的绝对极值一定可以达到",
+    "location": "table_4",
+    "para_index": 169,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00360",
+    "source": ",但是不一定唯一",
+    "location": "table_4",
+    "para_index": 169,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00361",
+    "source": "定理存在的两个条件",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00362",
+    "source": "“连续”和",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00363",
+    "source": "“闭区间”缺一不可。",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00364",
+    "source": "下图就是分别缺了",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00365",
+    "source": "连续和区间封闭这两种条件的情况下",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00366",
+    "source": ",导致极值定理不成立的",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00367",
+    "source": "情形。",
+    "location": "table_4",
+    "para_index": 170,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00368",
+    "source": "由图可见",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00369",
+    "source": ",左边的函数没有最大值",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00370",
+    "source": ",右边的函数既没有最大值",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00371",
+    "source": ",也没有最小",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00372",
+    "source": "值",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00373",
+    "source": "。原因就是",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00374",
+    "source": ":左边的函数不连续",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00375",
+    "source": ",右边的函数定义区间不",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00376",
+    "source": "封闭。",
+    "location": "table_4",
+    "para_index": 172,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00377",
+    "source": "存在性的问题解决了",
+    "location": "table_4",
+    "para_index": 173,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00378",
+    "source": ",下面的任务就是根据极值点的特点想办法找到它们。",
+    "location": "table_4",
+    "para_index": 173,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00379",
+    "source": "对一个连续函数来说",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00380",
+    "source": ",既然全局的极值点在封闭区间存在。",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00381",
+    "source": "而一般来说",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00382",
+    "source": ",全",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00383",
+    "source": "局极值点又是从众多的局部极值点选拔出来的",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00384",
+    "source": "因而",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00385",
+    "source": ",先找出局部极值点就成了",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00386",
+    "source": "当务之急",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00387",
+    "source": "。那么局部极值点长啥样呢?",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00388",
+    "source": "请看定理",
+    "location": "table_4",
+    "para_index": 174,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00389",
+    "source": "费尔马(",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00390",
+    "source": "定理",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00391",
+    "source": "如果 ",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00392",
+    "source": "点是函数 f(",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00393",
+    "source": "的局部极值点,",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00394",
+    "source": "而 ",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00395",
+    "source": "存",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00396",
+    "source": "在",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00397",
+    "source": ",那么",
+    "location": "table_4",
+    "para_index": 175,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00398",
+    "source": "证明",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00399",
+    "source": ":不妨先假设 ",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00400",
+    "source": "点是 f(",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00401",
+    "source": "的局部最大值",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00402",
+    "source": ",极小值",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00403",
+    "source": "的情形也可同样证",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00404",
+    "source": "明",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00405",
+    "source": "。",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00406",
+    "source": "点是局部最大值",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00407",
+    "source": "也就意味着",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00408",
+    "source": "在包含 ",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00409",
+    "source": "的一个小区域内",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00410",
+    "source": "下列不等式",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00411",
+    "source": "成立",
+    "location": "table_4",
+    "para_index": 177,
+    "run_index": 35
+  },
+  {
+    "id": "seg_00412",
+    "source": "于是",
+    "location": "table_4",
+    "para_index": 179,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00413",
+    "source": ",我们有",
+    "location": "table_4",
+    "para_index": 179,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00414",
+    "source": "上式中",
+    "location": "table_4",
+    "para_index": 181,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00415",
+    "source": "由于分子非负",
+    "location": "table_4",
+    "para_index": 181,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00416",
+    "source": "分母为负",
+    "location": "table_4",
+    "para_index": 181,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00417",
+    "source": "因此",
+    "location": "table_4",
+    "para_index": 181,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00418",
+    "source": "同理",
+    "location": "table_4",
+    "para_index": 181,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00419",
+    "source": ",我们有",
+    "location": "table_4",
+    "para_index": 181,
+    "run_index": 28
+  },
+  {
+    "id": "seg_00420",
+    "source": "导数有啥用",
+    "location": "table_5",
+    "para_index": 191,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00421",
+    "source": "第四章",
+    "location": "table_5",
+    "para_index": 191,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00422",
+    "source": "至此",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00423",
+    "source": ",我们得到了函数在 ",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00424",
+    "source": "点的左右导数一边非负、一边非正的结",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00425",
+    "source": "论。",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00426",
+    "source": "既然",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00427",
+    "source": "存在",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00428",
+    "source": "其左右导数必然相等",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00429",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00430",
+    "source": "那就只有",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00431",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 193,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00432",
+    "source": "敲黑板",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00433",
+    "source": ":费尔马定理只告诉您",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00434",
+    "source": ",如果局部极值点存在导数",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00435",
+    "source": ",那么该导数为 ",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00436",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00437",
+    "source": "他可没说",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00438",
+    "source": ",所有的局部极值点,导数都为 ",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00439",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00440",
+    "source": "为啥?  因为",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00441",
+    "source": "有的局部极值点,导数",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00442",
+    "source": "不存在",
+    "location": "table_5",
+    "para_index": 194,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00443",
+    "source": "这些",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00444",
+    "source": "导",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00445",
+    "source": "数",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00446",
+    "source": "不",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00447",
+    "source": "存",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00448",
+    "source": "在 的",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00449",
+    "source": "点",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00450",
+    "source": "和",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00451",
+    "source": "导",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00452",
+    "source": "数",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00453",
+    "source": "为",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00454",
+    "source": "的",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00455",
+    "source": "点,统",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00456",
+    "source": "称",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00457",
+    "source": "为 函",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00458",
+    "source": "数 的",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00459",
+    "source": "临",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00460",
+    "source": "界",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 35
+  },
+  {
+    "id": "seg_00461",
+    "source": "点 ",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 37
+  },
+  {
+    "id": "seg_00462",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 195,
+    "run_index": 43
+  },
+  {
+    "id": "seg_00463",
+    "source": "辛苦走到这里",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00464",
+    "source": ",总算是找到了一点求极值的道道了!",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00465",
+    "source": "首先",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00466",
+    "source": ",找出",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00467",
+    "source": "函数的临界",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00468",
+    "source": "点,也就是那些不存在导数或者导数为 ",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00469",
+    "source": "的",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00470",
+    "source": "点",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00471",
+    "source": ";其次",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00472",
+    "source": "比较函数在区间端点和临",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00473",
+    "source": "界点的值",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00474",
+    "source": "即可确定全局极值和局部极值。",
+    "location": "table_5",
+    "para_index": 196,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00475",
+    "source": "之所以要把区间端点的函数值",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00476",
+    "source": ",单拿出来比较",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00477",
+    "source": ",是因为区间的端点,虽不满",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00478",
+    "source": "足关于局部极值点的定义",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00479",
+    "source": ",但是它有可能是全局极值点。",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00480",
+    "source": "例如",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00481",
+    "source": ",严格的单调函",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00482",
+    "source": "数",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00483",
+    "source": ",一定是在端点取得全局极值",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00484",
+    "source": ",并且内部没有局部极值点的。",
+    "location": "table_5",
+    "para_index": 197,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00485",
+    "source": "那么",
+    "location": "table_5",
+    "para_index": 198,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00486",
+    "source": ",如何判断我们辛苦找出来的函数的临界点是局部最大值",
+    "location": "table_5",
+    "para_index": 198,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00487",
+    "source": ",还",
+    "location": "table_5",
+    "para_index": 198,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00488",
+    "source": "是局部最",
+    "location": "table_5",
+    "para_index": 198,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00489",
+    "source": "小值呢?",
+    "location": "table_5",
+    "para_index": 198,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00490",
+    "source": "要解决这个问题",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00491",
+    "source": ",还得请小趋势",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00492",
+    "source": "导数出马",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00493",
+    "source": "。我们在上一章就介绍过",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00494",
+    "source": "函",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00495",
+    "source": "数的在一点的导数值的正负",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00496",
+    "source": ",决定着函数在此点的上升",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00497",
+    "source": "或者下降的小趋势。",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00498",
+    "source": "由",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00499",
+    "source": "此不难推出",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00500",
+    "source": ",如果在某个区间内",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00501",
+    "source": "函数的导数为正",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00502",
+    "source": ",则函数在此区间为增函数。",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00503",
+    "source": "反之",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00504",
+    "source": ",导数值为负",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00505",
+    "source": ",则函数为减函数。",
+    "location": "table_5",
+    "para_index": 199,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00506",
+    "source": "当然也可以说",
+    "location": "table_5",
+    "para_index": 200,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00507",
+    "source": "函数切线的斜率的正负",
+    "location": "table_5",
+    "para_index": 200,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00508",
+    "source": ",决定着函数是递增函数",
+    "location": "table_5",
+    "para_index": 200,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00509",
+    "source": ",还是",
+    "location": "table_5",
+    "para_index": 200,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00510",
+    "source": "递减",
+    "location": "table_5",
+    "para_index": 200,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00511",
+    "source": "导数有啥用",
+    "location": "table_5",
+    "para_index": 204,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00512",
+    "source": "第四章",
+    "location": "table_5",
+    "para_index": 204,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00513",
+    "source": "至此",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00514",
+    "source": ",我们得到了函数在 ",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00515",
+    "source": "点的左右导数一边非负、一边非正的结",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00516",
+    "source": "论。",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00517",
+    "source": "既然",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00518",
+    "source": "存在",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00519",
+    "source": "其左右导数必然相等",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00520",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00521",
+    "source": "那就只有",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00522",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 206,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00523",
+    "source": "敲黑板",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00524",
+    "source": ":费尔马定理只告诉您",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00525",
+    "source": ",如果局部极值点存在导数",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00526",
+    "source": ",那么该导数为 ",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00527",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00528",
+    "source": "他可没说",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00529",
+    "source": ",所有的局部极值点,导数都为 ",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00530",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00531",
+    "source": "为啥?  因为",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00532",
+    "source": "有的局部极值点,导数",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00533",
+    "source": "不存在",
+    "location": "table_5",
+    "para_index": 207,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00534",
+    "source": "这些",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00535",
+    "source": "导",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00536",
+    "source": "数",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00537",
+    "source": "不",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00538",
+    "source": "存",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00539",
+    "source": "在 的",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00540",
+    "source": "点",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00541",
+    "source": "和",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00542",
+    "source": "导",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00543",
+    "source": "数",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00544",
+    "source": "为",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00545",
+    "source": "的",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00546",
+    "source": "点,统",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00547",
+    "source": "称",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00548",
+    "source": "为 函",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00549",
+    "source": "数 的",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00550",
+    "source": "临",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00551",
+    "source": "界",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 35
+  },
+  {
+    "id": "seg_00552",
+    "source": "点 ",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 37
+  },
+  {
+    "id": "seg_00553",
+    "source": "。",
+    "location": "table_5",
+    "para_index": 208,
+    "run_index": 43
+  },
+  {
+    "id": "seg_00554",
+    "source": "辛苦走到这里",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00555",
+    "source": ",总算是找到了一点求极值的道道了!",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00556",
+    "source": "首先",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00557",
+    "source": ",找出",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00558",
+    "source": "函数的临界",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00559",
+    "source": "点,也就是那些不存在导数或者导数为 ",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00560",
+    "source": "的",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00561",
+    "source": "点",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00562",
+    "source": ";其次",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00563",
+    "source": "比较函数在区间端点和临",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00564",
+    "source": "界点的值",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00565",
+    "source": "即可确定全局极值和局部极值。",
+    "location": "table_5",
+    "para_index": 209,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00566",
+    "source": "之所以要把区间端点的函数值",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00567",
+    "source": ",单拿出来比较",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00568",
+    "source": ",是因为区间的端点,虽不满",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00569",
+    "source": "足关于局部极值点的定义",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00570",
+    "source": ",但是它有可能是全局极值点。",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00571",
+    "source": "例如",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00572",
+    "source": ",严格的单调函",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00573",
+    "source": "数",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00574",
+    "source": ",一定是在端点取得全局极值",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00575",
+    "source": ",并且内部没有局部极值点的。",
+    "location": "table_5",
+    "para_index": 210,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00576",
+    "source": "那么",
+    "location": "table_5",
+    "para_index": 211,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00577",
+    "source": ",如何判断我们辛苦找出来的函数的临界点是局部最大值",
+    "location": "table_5",
+    "para_index": 211,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00578",
+    "source": ",还",
+    "location": "table_5",
+    "para_index": 211,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00579",
+    "source": "是局部最",
+    "location": "table_5",
+    "para_index": 211,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00580",
+    "source": "小值呢?",
+    "location": "table_5",
+    "para_index": 211,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00581",
+    "source": "要解决这个问题",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00582",
+    "source": ",还得请小趋势",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00583",
+    "source": "导数出马",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00584",
+    "source": "。我们在上一章就介绍过",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00585",
+    "source": "函",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00586",
+    "source": "数的在一点的导数值的正负",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00587",
+    "source": ",决定着函数在此点的上升",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00588",
+    "source": "或者下降的小趋势。",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00589",
+    "source": "由",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00590",
+    "source": "此不难推出",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00591",
+    "source": ",如果在某个区间内",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00592",
+    "source": "函数的导数为正",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00593",
+    "source": ",则函数在此区间为增函数。",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00594",
+    "source": "反之",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00595",
+    "source": ",导数值为负",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 31
+  },
+  {
+    "id": "seg_00596",
+    "source": ",则函数为减函数。",
+    "location": "table_5",
+    "para_index": 212,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00597",
+    "source": "当然也可以说",
+    "location": "table_5",
+    "para_index": 213,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00598",
+    "source": "函数切线的斜率的正负",
+    "location": "table_5",
+    "para_index": 213,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00599",
+    "source": ",决定着函数是递增函数",
+    "location": "table_5",
+    "para_index": 213,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00600",
+    "source": ",还是",
+    "location": "table_5",
+    "para_index": 213,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00601",
+    "source": "递减",
+    "location": "table_5",
+    "para_index": 213,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00602",
+    "source": "函数。",
+    "location": "table_5",
+    "para_index": 214,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00603",
+    "source": "如上图所示",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00604",
+    "source": "函数在",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00605",
+    "source": "段和",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00606",
+    "source": "段都是增函数",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00607",
+    "source": "同时其切线斜率或者说导",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00608",
+    "source": "数都为正数。",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00609",
+    "source": "而函数在 ",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00610",
+    "source": "段导数为负",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00611",
+    "source": "因而是减函数。",
+    "location": "table_5",
+    "para_index": 218,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00612",
+    "source": "很明显",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00613",
+    "source": "函数在 ",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00614",
+    "source": "、",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00615",
+    "source": "两点的导数为",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00616",
+    "source": "也就是说",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00617",
+    "source": "都是函数的相对极",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00618",
+    "source": "值点。",
+    "location": "table_5",
+    "para_index": 219,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00619",
+    "source": "函数经过 ",
+    "location": "table_5",
+    "para_index": 220,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00620",
+    "source": "的时候",
+    "location": "table_5",
+    "para_index": 220,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00621",
+    "source": ",其导数是经历过一个由正而零、而负的过程",
+    "location": "table_5",
+    "para_index": 220,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00622",
+    "source": "的。",
+    "location": "table_5",
+    "para_index": 220,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00623",
+    "source": "相应",
+    "location": "table_5",
+    "para_index": 220,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00624",
+    "source": "如上图所示",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00625",
+    "source": "函数在",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00626",
+    "source": "段和",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00627",
+    "source": "段都是增函数",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00628",
+    "source": "同时其切线斜率或者说导",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00629",
+    "source": "数都为正数。",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00630",
+    "source": "而函数在 ",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00631",
+    "source": "段导数为负",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00632",
+    "source": "因而是减函数。",
+    "location": "table_5",
+    "para_index": 225,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00633",
+    "source": "很明显",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00634",
+    "source": "函数在 ",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00635",
+    "source": "、",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00636",
+    "source": "两点的导数为",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00637",
+    "source": "也就是说",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00638",
+    "source": "都是函数的相对极",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00639",
+    "source": "值点。",
+    "location": "table_5",
+    "para_index": 226,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00640",
+    "source": "函数经过 ",
+    "location": "table_5",
+    "para_index": 227,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00641",
+    "source": "的时候",
+    "location": "table_5",
+    "para_index": 227,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00642",
+    "source": ",其导数是经历过一个由正而零、而负的过程",
+    "location": "table_5",
+    "para_index": 227,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00643",
+    "source": "的。",
+    "location": "table_5",
+    "para_index": 227,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00644",
+    "source": "相应",
+    "location": "table_5",
+    "para_index": 227,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00645",
+    "source": "地",
+    "location": "table_6",
+    "para_index": 237,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00646",
+    "source": "函数是由增函数变为减函数的。",
+    "location": "table_6",
+    "para_index": 237,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00647",
+    "source": "因而",
+    "location": "table_6",
+    "para_index": 237,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00648",
+    "source": "点是相对极大值点。",
+    "location": "table_6",
+    "para_index": 237,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00649",
+    "source": "而函数经过 C",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00650",
+    "source": "点的时候",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00651",
+    "source": ",其导数是经历过一个由负而零、而正的过程的。",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00652",
+    "source": "与之相对应",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00653",
+    "source": "函数则是从 C点前的减函数",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00654",
+    "source": ",变为 C点后的增函数。",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00655",
+    "source": "因此",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00656",
+    "source": ",C点是",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00657",
+    "source": "函数的相对最小值点。",
+    "location": "table_6",
+    "para_index": 238,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00658",
+    "source": "结论",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00659",
+    "source": ":如果函数的临界点左右的导数是由正变负",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00660",
+    "source": ",则该临界",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00661",
+    "source": "点为局部最大值",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00662",
+    "source": "点",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00663",
+    "source": "。相反",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00664",
+    "source": ",如果函数的临界点左右的导数是由负变正",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00665",
+    "source": ",则该临界点为函数",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00666",
+    "source": "的局部",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00667",
+    "source": "最小值点。",
+    "location": "table_6",
+    "para_index": 239,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00668",
+    "source": "至此",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00669",
+    "source": ",求函数极值的套路算是基本摸清",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00670",
+    "source": "。那就把我们刚学",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00671",
+    "source": "的花拳绣腿",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00672",
+    "source": ",拿出",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00673",
+    "source": "来比划比划",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00674",
+    "source": ",看看中不中用。",
+    "location": "table_6",
+    "para_index": 240,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00675",
+    "source": "例 ",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00676",
+    "source": "5):求函数 f(",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00677",
+    "source": "在区间 [-2",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00678",
+    "source": "的绝",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00679",
+    "source": "对极值",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00680",
+    "source": "。",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00681",
+    "source": "解",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00682",
+    "source": ":我们按套路出牌",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 28
+  },
+  {
+    "id": "seg_00683",
+    "source": ",先找出临界点",
+    "location": "table_6",
+    "para_index": 241,
+    "run_index": 30
+  },
+  {
+    "id": "seg_00684",
+    "source": "由此可见",
+    "location": "table_6",
+    "para_index": 243,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00685",
+    "source": "和",
+    "location": "table_6",
+    "para_index": 243,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00686",
+    "source": "是该函数的临界点",
+    "location": "table_6",
+    "para_index": 243,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00687",
+    "source": "比较临界点和端点的",
+    "location": "table_6",
+    "para_index": 243,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00688",
+    "source": "函数值我们",
+    "location": "table_6",
+    "para_index": 243,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00689",
+    "source": "发现",
+    "location": "table_6",
+    "para_index": 243,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00690",
+    "source": "因此",
+    "location": "table_6",
+    "para_index": 244,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00691",
+    "source": "。",
+    "location": "table_6",
+    "para_index": 244,
+    "run_index": 36
+  },
+  {
+    "id": "seg_00692",
+    "source": "本题的故事",
+    "location": "table_6",
+    "para_index": 245,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00693",
+    "source": ",如下图所示",
+    "location": "table_6",
+    "para_index": 245,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00694",
+    "source": "例 ",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00695",
+    "source": "6):求出函数",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00696",
+    "source": "的所有极值点以及相应的函数值",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00697",
+    "source": "。",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00698",
+    "source": "解",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00699",
+    "source": ":废话少说",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00700",
+    "source": ",先找临界点",
+    "location": "table_6",
+    "para_index": 247,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00701",
+    "source": "临界点为",
+    "location": "table_6",
+    "para_index": 248,
+    "run_index": 28
+  },
+  {
+    "id": "seg_00702",
+    "source": "。",
+    "location": "table_6",
+    "para_index": 248,
+    "run_index": 35
+  },
+  {
+    "id": "seg_00703",
+    "source": "下一步",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00704",
+    "source": ",考察临界点左右导数的正负。",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00705",
+    "source": "观察可知",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00706",
+    "source": ":在",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00707",
+    "source": "-2点左边",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00708",
+    "source": ",导数",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00709",
+    "source": "为负",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00710",
+    "source": "在(-2,0)上",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00711",
+    "source": ",导数为正",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00712",
+    "source": ";在(0,2)上导数为",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00713",
+    "source": "负",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00714",
+    "source": ";在 2点的右边",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00715",
+    "source": ",导数为正。",
+    "location": "table_6",
+    "para_index": 249,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00716",
+    "source": "导数有啥用",
+    "location": "table_7",
+    "para_index": 257,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00717",
+    "source": "第四章",
+    "location": "table_7",
+    "para_index": 257,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00718",
+    "source": "由此可见,点",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00719",
+    "source": "-2和",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00720",
+    "source": "为函数的相对极小值点,",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00721",
+    "source": "点 ",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00722",
+    "source": "为函数的相对极大值",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00723",
+    "source": "点",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00724",
+    "source": "。",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00725",
+    "source": "函数值分别为",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00726",
+    "source": "。",
+    "location": "table_7",
+    "para_index": 259,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00727",
+    "source": "仔细考察可知",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00728",
+    "source": "实际上",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00729",
+    "source": "函数 f(",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00730",
+    "source": "没有绝对最大值",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00731",
+    "source": ",但是有绝对最小值。",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00732",
+    "source": "本题中的相对最小值",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00733",
+    "source": ",恰好也就是绝对最小值。",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00734",
+    "source": "推而广之",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00735",
+    "source": ",所有的 4次函数",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00736",
+    "source": ",都",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00737",
+    "source": "没有绝对最大值",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00738",
+    "source": ",但是一定存在绝对最小值。",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 28
+  },
+  {
+    "id": "seg_00739",
+    "source": "当然",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 30
+  },
+  {
+    "id": "seg_00740",
+    "source": ",闭区间的情形除外。",
+    "location": "table_7",
+    "para_index": 260,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00741",
+    "source": "下图就是本题讲述的故事。",
+    "location": "table_7",
+    "para_index": 261,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00742",
+    "source": "线性近似(",
+    "location": "table_7",
+    "para_index": 264,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00743",
+    "source": "我们在前面介绍过",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00744",
+    "source": ",微积分处理曲线的方法",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00745",
+    "source": ",就是",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00746",
+    "source": "分而治之",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00747",
+    "source": "。换句话说",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00748",
+    "source": ",就是",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00749",
+    "source": "把曲线分成若干段",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00750",
+    "source": ",每一段按直线对待。",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00751",
+    "source": "当然",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00752",
+    "source": ",这种处理结果并不精确",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00753",
+    "source": "。但是",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00754",
+    "source": ",当",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00755",
+    "source": "这个若干段的“若干”值变得无穷大的时候",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00756",
+    "source": ",这种直线处理的结果可以视为真理。",
+    "location": "table_7",
+    "para_index": 265,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00757",
+    "source": "那么",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00758",
+    "source": ",选择什么样的直线做为曲线的近似标的呢?  ",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00759",
+    "source": "既然曲线在一个点的小",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00760",
+    "source": "趋势是切线的方向",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00761",
+    "source": ",那么自然就可以选择曲线在一个点的切线来替代曲线。",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00762",
+    "source": "一",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00763",
+    "source": "般来说",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00764",
+    "source": ",离这个特定点越近",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00765",
+    "source": ",近似程度越高。",
+    "location": "table_7",
+    "para_index": 266,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00766",
+    "source": "如上图所示",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00767",
+    "source": ":所谓线性近似就是在 ",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00768",
+    "source": "点附近",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00769",
+    "source": ",用线性函数",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00770",
+    "source": "切线",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00771",
+    "source": "来",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00772",
+    "source": "近似地代表 f(",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00773",
+    "source": "。",
+    "location": "table_7",
+    "para_index": 268,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00774",
+    "source": "过点 ",
+    "location": "table_8",
+    "para_index": 278,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00775",
+    "source": "的切线方程就是",
+    "location": "table_8",
+    "para_index": 278,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00776",
+    "source": "因而",
+    "location": "table_8",
+    "para_index": 279,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00777",
+    "source": "点附近的线性近似就是",
+    "location": "table_8",
+    "para_index": 279,
+    "run_index": 18
+  },
+  {
+    "id": "seg_00778",
+    "source": "线性近似是一种简洁的方式",
+    "location": "table_8",
+    "para_index": 281,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00779",
+    "source": ",但同时也是一种没有办法的办法。",
+    "location": "table_8",
+    "para_index": 281,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00780",
+    "source": "用二次函",
+    "location": "table_8",
+    "para_index": 281,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00781",
+    "source": "数或者更高次函数来做近似的工具其精确性当然更高",
+    "location": "table_8",
+    "para_index": 281,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00782",
+    "source": ",但是那得多费很多力气。",
+    "location": "table_8",
+    "para_index": 281,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00783",
+    "source": "尽管此法不完美",
+    "location": "table_8",
+    "para_index": 282,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00784",
+    "source": ",但是挺实用",
+    "location": "table_8",
+    "para_index": 282,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00785",
+    "source": "。有人还给它起了一个更高大上的",
+    "location": "table_8",
+    "para_index": 282,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00786",
+    "source": "名字叫",
+    "location": "table_8",
+    "para_index": 282,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00787",
+    "source": ":线",
+    "location": "table_8",
+    "para_index": 282,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00788",
+    "source": "性逼近。",
+    "location": "table_8",
+    "para_index": 282,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00789",
+    "source": "来个例题诠释一下线性逼近是咋回事儿。",
+    "location": "table_8",
+    "para_index": 283,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00790",
+    "source": "例 ",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00791",
+    "source": "7):求函数 f(",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00792",
+    "source": "在点 ",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00793",
+    "source": "的线性逼近",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00794",
+    "source": "并用它来估算",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00795",
+    "source": "(精确",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00796",
+    "source": "到小数点后四位数) ,",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00797",
+    "source": "比较这个估算值和精确值。",
+    "location": "table_8",
+    "para_index": 284,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00798",
+    "source": "解",
+    "location": "table_8",
+    "para_index": 285,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00799",
+    "source": "由题意可知 f(27)",
+    "location": "table_8",
+    "para_index": 285,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00800",
+    "source": ",而函数的导函数为",
+    "location": "table_8",
+    "para_index": 285,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00801",
+    "source": "所以",
+    "location": "table_8",
+    "para_index": 287,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00802",
+    "source": ",要求的线性逼近就是",
+    "location": "table_8",
+    "para_index": 287,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00803",
+    "source": "另一方面",
+    "location": "table_8",
+    "para_index": 291,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00804",
+    "source": "用计算器直接计算得出",
+    "location": "table_8",
+    "para_index": 291,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00805",
+    "source": "由此可见",
+    "location": "table_8",
+    "para_index": 292,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00806",
+    "source": "估算值略大于精确值",
+    "location": "table_8",
+    "para_index": 292,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00807",
+    "source": "。",
+    "location": "table_8",
+    "para_index": 292,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00808",
+    "source": "经过计算可知",
+    "location": "table_8",
+    "para_index": 292,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00809",
+    "source": "其精确度达到了",
+    "location": "table_8",
+    "para_index": 292,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00810",
+    "source": "。",
+    "location": "table_8",
+    "para_index": 292,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00811",
+    "source": "现在",
+    "location": "table_8",
+    "para_index": 293,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00812",
+    "source": ",我们串一下两个知识点,线性近似和微分",
+    "location": "table_8",
+    "para_index": 293,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00813",
+    "source": "。再把那个介绍函数微",
+    "location": "table_8",
+    "para_index": 293,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00814",
+    "source": "分的",
+    "location": "table_8",
+    "para_index": 293,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00815",
+    "source": "图拿来看一下",
+    "location": "table_8",
+    "para_index": 293,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00816",
+    "source": "我们知道",
+    "location": "table_8",
+    "para_index": 295,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00817",
+    "source": "点线性近似为",
+    "location": "table_8",
+    "para_index": 295,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00818",
+    "source": "导数有啥用",
+    "location": "table_9",
+    "para_index": 303,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00819",
+    "source": "第四章",
+    "location": "table_9",
+    "para_index": 303,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00820",
+    "source": "其对应的点为",
+    "location": "table_9",
+    "para_index": 304,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00821",
+    "source": "。",
+    "location": "table_9",
+    "para_index": 304,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00822",
+    "source": "而精确值为",
+    "location": "table_9",
+    "para_index": 305,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00823",
+    "source": "它在图上的对应点是",
+    "location": "table_9",
+    "para_index": 306,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00824",
+    "source": "Q点。",
+    "location": "table_9",
+    "para_index": 306,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00825",
+    "source": "近似值和精确值的差就是 ",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00826",
+    "source": "。",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00827",
+    "source": "显然",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00828",
+    "source": "越小",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00829",
+    "source": "这种误差也就越",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00830",
+    "source": "小",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00831",
+    "source": "。",
+    "location": "table_9",
+    "para_index": 307,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00832",
+    "source": "线性逼近看起来并不复杂",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00833",
+    "source": ",甚至有时候并不是那么方便。",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00834",
+    "source": "而且随着计算机",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00835",
+    "source": "技术日新月异的发展",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00836",
+    "source": ",其实用性会再打折扣",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00837",
+    "source": "。但是我们还是单列一节来介",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00838",
+    "source": "绍",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00839",
+    "source": ",一",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00840",
+    "source": "是因为",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00841",
+    "source": ",它的化繁为简的解决问题的方法",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00842",
+    "source": ",既是微积分的基本手法",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00843",
+    "source": ",也",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00844",
+    "source": "可以用来",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00845",
+    "source": "指导我们的日常工作;二是因为",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00846",
+    "source": ",这个看似简单的方法",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00847",
+    "source": "曾经很有作用",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 30
+  },
+  {
+    "id": "seg_00848",
+    "source": ",并且耗费",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00849",
+    "source": "了许多前辈的辛勤劳动",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00850",
+    "source": "向他们致敬!",
+    "location": "table_9",
+    "para_index": 308,
+    "run_index": 38
+  },
+  {
+    "id": "seg_00851",
+    "source": "摸着石头过河",
+    "location": "table_9",
+    "para_index": 309,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00852",
+    "source": "牛顿(",
+    "location": "table_9",
+    "para_index": 309,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00853",
+    "source": ")法",
+    "location": "table_9",
+    "para_index": 309,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00854",
+    "source": "提起一元一次方程",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00855",
+    "source": ",可能很多小学生都能解得像模像样。",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00856",
+    "source": "而一元二次方程",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00857",
+    "source": "差不多每一个高中生",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00858",
+    "source": ",都能写出它的求根公式",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00859",
+    "source": "。但是",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00860",
+    "source": ",再",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00861",
+    "source": "复杂一点呢?",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00862",
+    "source": "例如",
+    "location": "table_9",
+    "para_index": 310,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00863",
+    "source": "有点晕对吗?",
+    "location": "table_9",
+    "para_index": 311,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00864",
+    "source": "那要是再复杂点呢?",
+    "location": "table_9",
+    "para_index": 311,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00865",
+    "source": "例如",
+    "location": "table_9",
+    "para_index": 311,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00866",
+    "source": "谁要让你给出个解这样方程的公式",
+    "location": "table_9",
+    "para_index": 313,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00867",
+    "source": ",你准得跟人急!",
+    "location": "table_9",
+    "para_index": 313,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00868",
+    "source": "先别着急",
+    "location": "table_9",
+    "para_index": 314,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00869",
+    "source": ",真要对这样的方程写出求根公式",
+    "location": "table_9",
+    "para_index": 314,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00870",
+    "source": ",不但你不行",
+    "location": "table_9",
+    "para_index": 314,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00871",
+    "source": "随便找个数学家",
+    "location": "table_9",
+    "para_index": 314,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00872",
+    "source": "来干这活",
+    "location": "table_9",
+    "para_index": 314,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00873",
+    "source": ",也不行!",
+    "location": "table_9",
+    "para_index": 314,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00874",
+    "source": "古代先贤教育我们",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00875",
+    "source": ":人生不如意十之八九",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00876",
+    "source": "。精辟!",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00877",
+    "source": "数学也如此",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00878",
+    "source": "方程无求根",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00879",
+    "source": "公式者",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00880",
+    "source": ",十之九九!",
+    "location": "table_9",
+    "para_index": 315,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00881",
+    "source": "残酷的现实告诉我们",
+    "location": "table_9",
+    "para_index": 316,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00882",
+    "source": ",各种应用科学中碰到的方程问",
+    "location": "table_9",
+    "para_index": 316,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00883",
+    "source": "题",
+    "location": "table_9",
+    "para_index": 316,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00884",
+    "source": "写不出求根公式",
+    "location": "table_9",
+    "para_index": 316,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00885",
+    "source": "的",
+    "location": "table_9",
+    "para_index": 316,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00886",
+    "source": "占压倒性的绝大多数。",
+    "location": "table_9",
+    "para_index": 316,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00887",
+    "source": "数学前辈们早就发现很多方程不能得出精确的解",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00888",
+    "source": "。但是他们没有气馁",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00889",
+    "source": ",不",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00890",
+    "source": "能得出精确的解",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00891",
+    "source": ",就想尽一切办法去求出近似解",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00892",
+    "source": "。退而求其次、与不完美",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00893",
+    "source": "拥抱、",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00894",
+    "source": "与现实和解",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00895",
+    "source": ",是人生的大智慧!",
+    "location": "table_9",
+    "para_index": 317,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00896",
+    "source": "大师牛顿(",
+    "location": "table_9",
+    "para_index": 318,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00897",
+    "source": "就采取了一种非常优美的方法来求出方程的",
+    "location": "table_9",
+    "para_index": 318,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00898",
+    "source": "近似解。",
+    "location": "table_9",
+    "para_index": 318,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00899",
+    "source": "牛顿采用的方法",
+    "location": "table_9",
+    "para_index": 319,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00900",
+    "source": ",就是微积分的标准手法",
+    "location": "table_9",
+    "para_index": 319,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00901",
+    "source": ":用直线的方法解决非直线的问",
+    "location": "table_9",
+    "para_index": 319,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00902",
+    "source": "题",
+    "location": "table_10",
+    "para_index": 329,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00903",
+    "source": "。思路如下",
+    "location": "table_10",
+    "para_index": 329,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00904",
+    "source": "如图所示",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00905",
+    "source": "假设我们的任务是求出 ",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00906",
+    "source": "的根 ",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00907",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00908",
+    "source": "没有头绪的我们",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00909",
+    "source": "只能先蒙一个 ",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00910",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 22
+  },
+  {
+    "id": "seg_00911",
+    "source": "当然",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00912",
+    "source": ",几乎",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00913",
+    "source": "可以断",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 27
+  },
+  {
+    "id": "seg_00914",
+    "source": "定",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00915",
+    "source": "不是我们要求的",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 36
+  },
+  {
+    "id": "seg_00916",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 330,
+    "run_index": 39
+  },
+  {
+    "id": "seg_00917",
+    "source": "接下来",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00918",
+    "source": ",我们请出曲线在点",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00919",
+    "source": "的切线L。",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 9
+  },
+  {
+    "id": "seg_00920",
+    "source": "由于是",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00921",
+    "source": "直线",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00922",
+    "source": ",我们会很容易找出直线 L和",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00923",
+    "source": "轴的交叉点",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00924",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 331,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00925",
+    "source": "很自然",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00926",
+    "source": "也大概率地不是",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00927",
+    "source": "先生",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00928",
+    "source": "。但是",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00929",
+    "source": "由于切线方向是函数的小趋",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00930",
+    "source": "势",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 19
+  },
+  {
+    "id": "seg_00931",
+    "source": ",代表着曲线在点 ",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00932",
+    "source": "处的 f(",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00933",
+    "source": "的走",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00934",
+    "source": "向。",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 30
+  },
+  {
+    "id": "seg_00935",
+    "source": "因而我们知道",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 32
+  },
+  {
+    "id": "seg_00936",
+    "source": ",尽管 ",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 34
+  },
+  {
+    "id": "seg_00937",
+    "source": "也不是 ",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 38
+  },
+  {
+    "id": "seg_00938",
+    "source": "但",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 40
+  },
+  {
+    "id": "seg_00939",
+    "source": "是它应该比 ",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 42
+  },
+  {
+    "id": "seg_00940",
+    "source": "离",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 46
+  },
+  {
+    "id": "seg_00941",
+    "source": "更近",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 49
+  },
+  {
+    "id": "seg_00942",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 332,
+    "run_index": 50
+  },
+  {
+    "id": "seg_00943",
+    "source": "隆重请出曲线在点 ",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00944",
+    "source": "的切线",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00945",
+    "source": "并找出它和 ",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00946",
+    "source": "轴的交点",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00947",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00948",
+    "source": "比 ",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 20
+  },
+  {
+    "id": "seg_00949",
+    "source": "更",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 24
+  },
+  {
+    "id": "seg_00950",
+    "source": "接近",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 26
+  },
+  {
+    "id": "seg_00951",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 333,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00952",
+    "source": "重复以上步骤",
+    "location": "table_10",
+    "para_index": 334,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00953",
+    "source": "可以得到 ",
+    "location": "table_10",
+    "para_index": 334,
+    "run_index": 5
+  },
+  {
+    "id": "seg_00954",
+    "source": "。",
+    "location": "table_10",
+    "para_index": 334,
+    "run_index": 16
+  },
+  {
+    "id": "seg_00955",
+    "source": "由上图易见",
+    "location": "table_10",
+    "para_index": 336,
+    "run_index": 1
+  },
+  {
+    "id": "seg_00956",
+    "source": "推而广之",
+    "location": "table_10",
+    "para_index": 339,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00957",
+    "source": "即",
+    "location": "table_10",
+    "para_index": 341,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00958",
+    "source": "结论",
+    "location": "table_10",
+    "para_index": 342,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00959",
+    "source": ":就是",
+    "location": "table_10",
+    "para_index": 342,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00960",
+    "source": "值越大",
+    "location": "table_10",
+    "para_index": 342,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00961",
+    "source": "越接近",
+    "location": "table_10",
+    "para_index": 342,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00962",
+    "source": "。也就是",
+    "location": "table_10",
+    "para_index": 342,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00963",
+    "source": "看到极限",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00964",
+    "source": ",先别感觉麻烦",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00965",
+    "source": ",学校真要考你的话",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00966",
+    "source": ",最多也就是算个两三",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00967",
+    "source": "步",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 7
+  },
+  {
+    "id": "seg_00968",
+    "source": "比划",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 11
+  },
+  {
+    "id": "seg_00969",
+    "source": "一下就得了。",
+    "location": "table_10",
+    "para_index": 343,
+    "run_index": 13
+  },
+  {
+    "id": "seg_00970",
+    "source": "导数有啥用",
+    "location": "table_11",
+    "para_index": 351,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00971",
+    "source": "第四章",
+    "location": "table_11",
+    "para_index": 351,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00972",
+    "source": "但是",
+    "location": "table_11",
+    "para_index": 353,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00973",
+    "source": ",这种数学思想",
+    "location": "table_11",
+    "para_index": 353,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00974",
+    "source": ",值得好好揣摩。",
+    "location": "table_11",
+    "para_index": 353,
+    "run_index": 4
+  },
+  {
+    "id": "seg_00975",
+    "source": "好",
+    "location": "table_11",
+    "para_index": 353,
+    "run_index": 6
+  },
+  {
+    "id": "seg_00976",
+    "source": ",接下来",
+    "location": "table_11",
+    "para_index": 353,
+    "run_index": 8
+  },
+  {
+    "id": "seg_00977",
+    "source": ",学以致用",
+    "location": "table_11",
+    "para_index": 353,
+    "run_index": 10
+  },
+  {
+    "id": "seg_00978",
+    "source": "例 ",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00979",
+    "source": "8):从",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 3
+  },
+  {
+    "id": "seg_00980",
+    "source": "出发",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 12
+  },
+  {
+    "id": "seg_00981",
+    "source": ",求方程",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 14
+  },
+  {
+    "id": "seg_00982",
+    "source": "的根的近似值",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 29
+  },
+  {
+    "id": "seg_00983",
+    "source": "。",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 33
+  },
+  {
+    "id": "seg_00984",
+    "source": "解",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 35
+  },
+  {
+    "id": "seg_00985",
+    "source": ":我们知道",
+    "location": "table_11",
+    "para_index": 354,
+    "run_index": 37
+  },
+  {
+    "id": "seg_00986",
+    "source": "所以",
+    "location": "table_11",
+    "para_index": 355,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00987",
+    "source": ",按照牛顿方法我们有",
+    "location": "table_11",
+    "para_index": 355,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00988",
+    "source": "因而",
+    "location": "table_11",
+    "para_index": 357,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00989",
+    "source": "的精确度如何呢?",
+    "location": "table_11",
+    "para_index": 360,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00990",
+    "source": "随便找个计算器按两下",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00991",
+    "source": ",就可以得到",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00992",
+    "source": "。",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 15
+  },
+  {
+    "id": "seg_00993",
+    "source": "可见",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 17
+  },
+  {
+    "id": "seg_00994",
+    "source": "的精确度相当了得?",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 21
+  },
+  {
+    "id": "seg_00995",
+    "source": "那么",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 23
+  },
+  {
+    "id": "seg_00996",
+    "source": ",为啥举这个例子呢?",
+    "location": "table_11",
+    "para_index": 361,
+    "run_index": 25
+  },
+  {
+    "id": "seg_00997",
+    "source": "记住了",
+    "location": "table_11",
+    "para_index": 362,
+    "run_index": 0
+  },
+  {
+    "id": "seg_00998",
+    "source": ",这道题目就是就是牛顿先生介绍牛顿法",
+    "location": "table_11",
+    "para_index": 362,
+    "run_index": 2
+  },
+  {
+    "id": "seg_00999",
+    "source": "的论文中的原装题目!",
+    "location": "table_11",
+    "para_index": 362,
+    "run_index": 3
+  },
+  {
+    "id": "seg_01000",
+    "source": "虽然牛顿方法非常好用",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01001",
+    "source": ",但要真是没有章法地乱用",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 2
+  },
+  {
+    "id": "seg_01002",
+    "source": ",有的时候就会陷入误",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 4
+  },
+  {
+    "id": "seg_01003",
+    "source": "区",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 6
+  },
+  {
+    "id": "seg_01004",
+    "source": ",得不到应有的效果",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 8
+  },
+  {
+    "id": "seg_01005",
+    "source": "。例如下图所示的情",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 10
+  },
+  {
+    "id": "seg_01006",
+    "source": "形",
+    "location": "table_11",
+    "para_index": 363,
+    "run_index": 11
+  },
+  {
+    "id": "seg_01007",
+    "source": "看着还像那么回事",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 3
+  },
+  {
+    "id": "seg_01008",
+    "source": ",但是从 ",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 5
+  },
+  {
+    "id": "seg_01009",
+    "source": "往后",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 9
+  },
+  {
+    "id": "seg_01010",
+    "source": ",和",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 11
+  },
+  {
+    "id": "seg_01011",
+    "source": "是渐行渐远啊",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 14
+  },
+  {
+    "id": "seg_01012",
+    "source": "。那可真是黄鼠",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 16
+  },
+  {
+    "id": "seg_01013",
+    "source": "狼下崽",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 18
+  },
+  {
+    "id": "seg_01014",
+    "source": ",一窝不如一窝!",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 20
+  },
+  {
+    "id": "seg_01015",
+    "source": "何也?  因为牛顿法中的第一步",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 22
+  },
+  {
+    "id": "seg_01016",
+    "source": "的",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 27
+  },
+  {
+    "id": "seg_01017",
+    "source": "选择",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 28
+  },
+  {
+    "id": "seg_01018",
+    "source": "是个技",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 32
+  },
+  {
+    "id": "seg_01019",
+    "source": "术活!",
+    "location": "table_11",
+    "para_index": 365,
+    "run_index": 34
+  },
+  {
+    "id": "seg_01020",
+    "source": "就像大师手稿中的例题",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01021",
+    "source": "他选择",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 3
+  },
+  {
+    "id": "seg_01022",
+    "source": "为啥不选 ",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 10
+  },
+  {
+    "id": "seg_01023",
+    "source": "、",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 12
+  },
+  {
+    "id": "seg_01024",
+    "source": "、",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 14
+  },
+  {
+    "id": "seg_01025",
+    "source": "呢?",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 16
+  },
+  {
+    "id": "seg_01026",
+    "source": "  比较一下就",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 17
+  },
+  {
+    "id": "seg_01027",
+    "source": "知道了",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 19
+  },
+  {
+    "id": "seg_01028",
+    "source": "。",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 21
+  },
+  {
+    "id": "seg_01029",
+    "source": "显然",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 22
+  },
+  {
+    "id": "seg_01030",
+    "source": ",f(-1)=-4而",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 29
+  },
+  {
+    "id": "seg_01031",
+    "source": "。",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 33
+  },
+  {
+    "id": "seg_01032",
+    "source": "即使让你",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 35
+  },
+  {
+    "id": "seg_01033",
+    "source": "选",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 37
+  },
+  {
+    "id": "seg_01034",
+    "source": "你也会选择函数值离 0最近的 2做为 ",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 40
+  },
+  {
+    "id": "seg_01035",
+    "source": "吧",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 43
+  },
+  {
+    "id": "seg_01036",
+    "source": "。",
+    "location": "table_11",
+    "para_index": 366,
+    "run_index": 44
+  },
+  {
+    "id": "seg_01037",
+    "source": "牛顿方法的思想",
+    "location": "table_11",
+    "para_index": 367,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01038",
+    "source": ",可以用一句伟人的经典语录概括",
+    "location": "table_11",
+    "para_index": 367,
+    "run_index": 2
+  },
+  {
+    "id": "seg_01039",
+    "source": ":摸着石头过河。",
+    "location": "table_11",
+    "para_index": 367,
+    "run_index": 4
+  },
+  {
+    "id": "seg_01040",
+    "source": "但是",
+    "location": "table_11",
+    "para_index": 367,
+    "run_index": 6
+  },
+  {
+    "id": "seg_01041",
+    "source": ",先摸哪块石头",
+    "location": "table_11",
+    "para_index": 367,
+    "run_index": 8
+  },
+  {
+    "id": "seg_01042",
+    "source": ",是个智慧活儿。",
+    "location": "table_11",
+    "para_index": 367,
+    "run_index": 10
+  },
+  {
+    "id": "seg_01043",
+    "source": "在 ",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01044",
+    "source": "技术日趋发展的今天",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 2
+  },
+  {
+    "id": "seg_01045",
+    "source": ",牛顿法有着非常巨大的现实意义。",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 4
+  },
+  {
+    "id": "seg_01046",
+    "source": "现在",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 6
+  },
+  {
+    "id": "seg_01047",
+    "source": ",很多",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 8
+  },
+  {
+    "id": "seg_01048",
+    "source": "学生用的高级计算器都可以解各种非常规方程",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 10
+  },
+  {
+    "id": "seg_01049",
+    "source": ",其内核原理",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 12
+  },
+  {
+    "id": "seg_01050",
+    "source": ",大多是",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 14
+  },
+  {
+    "id": "seg_01051",
+    "source": "借用的牛顿",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 15
+  },
+  {
+    "id": "seg_01052",
+    "source": "方法。",
+    "location": "table_12",
+    "para_index": 377,
+    "run_index": 17
+  },
+  {
+    "id": "seg_01053",
+    "source": "再来一道例题熟悉一下流程",
+    "location": "table_12",
+    "para_index": 378,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01054",
+    "source": "例 ",
+    "location": "table_12",
+    "para_index": 379,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01055",
+    "source": "9):用牛顿法求方程 ",
+    "location": "table_12",
+    "para_index": 379,
+    "run_index": 3
+  },
+  {
+    "id": "seg_01056",
+    "source": "的根",
+    "location": "table_12",
+    "para_index": 379,
+    "run_index": 11
+  },
+  {
+    "id": "seg_01057",
+    "source": "要求精确到小数点后四位",
+    "location": "table_12",
+    "para_index": 379,
+    "run_index": 14
+  },
+  {
+    "id": "seg_01058",
+    "source": "。",
+    "location": "table_12",
+    "para_index": 379,
+    "run_index": 15
+  },
+  {
+    "id": "seg_01059",
+    "source": "解",
+    "location": "table_12",
+    "para_index": 380,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01060",
+    "source": "我们先画出",
+    "location": "table_12",
+    "para_index": 380,
+    "run_index": 3
+  },
+  {
+    "id": "seg_01061",
+    "source": "以及g(",
+    "location": "table_12",
+    "para_index": 380,
+    "run_index": 15
+  },
+  {
+    "id": "seg_01062",
+    "source": "的草",
+    "location": "table_12",
+    "para_index": 380,
+    "run_index": 21
+  },
+  {
+    "id": "seg_01063",
+    "source": "图",
+    "location": "table_12",
+    "para_index": 380,
+    "run_index": 22
+  },
+  {
+    "id": "seg_01064",
+    "source": "由图可见",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01065",
+    "source": "大致在不到 ",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 3
+  },
+  {
+    "id": "seg_01066",
+    "source": "的地方",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 6
+  },
+  {
+    "id": "seg_01067",
+    "source": "两线相交",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 9
+  },
+  {
+    "id": "seg_01068",
+    "source": "。",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 10
+  },
+  {
+    "id": "seg_01069",
+    "source": "因此我们选",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 12
+  },
+  {
+    "id": "seg_01070",
+    "source": "75来求方",
+    "location": "table_12",
+    "para_index": 383,
+    "run_index": 18
+  },
+  {
+    "id": "seg_01071",
+    "source": "程h(",
+    "location": "table_12",
+    "para_index": 384,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01072",
+    "source": "的根",
+    "location": "table_12",
+    "para_index": 384,
+    "run_index": 18
+  },
+  {
+    "id": "seg_01073",
+    "source": "因为",
+    "location": "table_12",
+    "para_index": 384,
+    "run_index": 22
+  },
+  {
+    "id": "seg_01074",
+    "source": "所以",
+    "location": "table_12",
+    "para_index": 385,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01075",
+    "source": "把 ",
+    "location": "table_12",
+    "para_index": 386,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01076",
+    "source": "75带入上式中依次计算可以得到",
+    "location": "table_12",
+    "para_index": 386,
+    "run_index": 6
+  },
+  {
+    "id": "seg_01077",
+    "source": "点",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 26
+  },
+  {
+    "id": "seg_01078",
+    "source": "四",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 39
+  },
+  {
+    "id": "seg_01079",
+    "source": "经",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 50
+  },
+  {
+    "id": "seg_01080",
+    "source": "重",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 52
+  },
+  {
+    "id": "seg_01081",
+    "source": "合",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 54
+  },
+  {
+    "id": "seg_01082",
+    "source": "就",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 55
+  },
+  {
+    "id": "seg_01083",
+    "source": "。",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 64
+  },
+  {
+    "id": "seg_01084",
+    "source": "是",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 65
+  },
+  {
+    "id": "seg_01085",
+    "source": "。",
+    "location": "table_12",
+    "para_index": 388,
+    "run_index": 71
+  },
+  {
+    "id": "seg_01086",
+    "source": "导数有啥用",
+    "location": "table_13",
+    "para_index": 398,
+    "run_index": 0
+  },
+  {
+    "id": "seg_01087",
+    "source": "第四章",
+    "location": "table_13",
+    "para_index": 398,
+    "run_index": 4
+  }
+]

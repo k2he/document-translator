@@ -1,0 +1,5442 @@
+[
+  {
+    "id": "seg_00000",
+    "source": "布克",
+    "translation": "Book"
+  },
+  {
+    "id": "seg_00001",
+    "source": "校样[成品尺寸:170",
+    "translation": "Proof [Final size: 170"
+  },
+  {
+    "id": "seg_00002",
+    "source": ";版心",
+    "translation": "; text block"
+  },
+  {
+    "id": "seg_00003",
+    "source": "33行×34字]",
+    "translation": "33 lines × 34 characters]"
+  },
+  {
+    "id": "seg_00004",
+    "source": "前两章",
+    "translation": "In the first two chapters"
+  },
+  {
+    "id": "seg_00005",
+    "source": "我们弄清楚了微积分中最重要的极限概念，又升华了中学就学过的",
+    "translation": "we clarified the most important concept of limits in calculus, and elevated what we learned in high school about"
+  },
+  {
+    "id": "seg_00006",
+    "source": "斜率概念",
+    "translation": "the concept of slope"
+  },
+  {
+    "id": "seg_00007",
+    "source": "，",
+    "translation": ","
+  },
+  {
+    "id": "seg_00008",
+    "source": "引入了导数",
+    "translation": "introducing the derivative"
+  },
+  {
+    "id": "seg_00009",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00010",
+    "source": "我们还耗费了",
+    "translation": "We also spent"
+  },
+  {
+    "id": "seg_00011",
+    "source": "大量笔墨",
+    "translation": "considerable effort"
+  },
+  {
+    "id": "seg_00012",
+    "source": ",努力搞清楚了各种函数的小趋势导数的求",
+    "translation": ", working hard to understand the methods for finding derivatives of various functions"
+  },
+  {
+    "id": "seg_00013",
+    "source": "法",
+    "translation": ""
+  },
+  {
+    "id": "seg_00014",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00015",
+    "source": "这",
+    "translation": "understanding"
+  },
+  {
+    "id": "seg_00016",
+    "source": "导数总得有点特别的用途",
+    "translation": "derivatives must have some special uses"
+  },
+  {
+    "id": "seg_00017",
+    "source": "，才对得起我们的心血吧",
+    "translation": ", to justify all our hard work"
+  },
+  {
+    "id": "seg_00018",
+    "source": "没错",
+    "translation": "Exactly"
+  },
+  {
+    "id": "seg_00019",
+    "source": ",导数真的很有用!",
+    "translation": ", derivatives really are useful!"
+  },
+  {
+    "id": "seg_00020",
+    "source": "再论极限",
+    "translation": "More on Limits"
+  },
+  {
+    "id": "seg_00021",
+    "source": "罗必塔法则(L",
+    "translation": "L'Hôpital's Rule (L"
+  },
+  {
+    "id": "seg_00022",
+    "source": "如前所述",
+    "translation": "As mentioned earlier"
+  },
+  {
+    "id": "seg_00023",
+    "source": ",极限问题是微积分的核心问题",
+    "translation": ", limit problems are the core of calculus"
+  },
+  {
+    "id": "seg_00024",
+    "source": ",我们在处理极限问题的时候",
+    "translation": ", and when dealing with limit problems"
+  },
+  {
+    "id": "seg_00025",
+    "source": ",经",
+    "translation": ", we often"
+  },
+  {
+    "id": "seg_00026",
+    "source": "常碰到两种棘手的极限问题",
+    "translation": "encounter two tricky types of limit problems"
+  },
+  {
+    "id": "seg_00027",
+    "source": "型和",
+    "translation": "type and"
+  },
+  {
+    "id": "seg_00028",
+    "source": "型",
+    "translation": "type"
+  },
+  {
+    "id": "seg_00029",
+    "source": "看到两个横躺着的 8相比",
+    "translation": "Seeing two sideways 8s compared"
+  },
+  {
+    "id": "seg_00030",
+    "source": ",感觉无从下手",
+    "translation": ", it feels like there's no way to start"
+  },
+  {
+    "id": "seg_00031",
+    "source": "是对的。",
+    "translation": "is correct."
+  },
+  {
+    "id": "seg_00032",
+    "source": "正好比",
+    "translation": "It's just like"
+  },
+  {
+    "id": "seg_00033",
+    "source": ",我们普罗大众",
+    "translation": ", we ordinary people"
+  },
+  {
+    "id": "seg_00034",
+    "source": ",看两个大款斗富",
+    "translation": ", watching two tycoons compete in wealth"
+  },
+  {
+    "id": "seg_00035",
+    "source": ",他们都有着我们几辈子花不完的",
+    "translation": ", they both have more than we could spend in several lifetimes of"
+  },
+  {
+    "id": "seg_00036",
+    "source": "钱",
+    "translation": "money"
+  },
+  {
+    "id": "seg_00037",
+    "source": ",到底谁更牛、笑到最后",
+    "translation": ", so who's really better and will have the last laugh"
+  },
+  {
+    "id": "seg_00038",
+    "source": ",真是不好判断。",
+    "translation": ", is really hard to judge."
+  },
+  {
+    "id": "seg_00039",
+    "source": "让我们再开动一下脑子想想",
+    "translation": "Let's think a bit more about this"
+  },
+  {
+    "id": "seg_00040",
+    "source": ",到底俩斗富的货",
+    "translation": ", which of these two competing wealthy folks"
+  },
+  {
+    "id": "seg_00041",
+    "source": ",长期掐下去",
+    "translation": ", in a long-term rivalry"
+  },
+  {
+    "id": "seg_00042",
+    "source": ",哪个更占上风?",
+    "translation": ", will have the upper hand?"
+  },
+  {
+    "id": "seg_00043",
+    "source": "虽然存量很关键",
+    "translation": "Although the current amount is key"
+  },
+  {
+    "id": "seg_00044",
+    "source": ",但是决定的因素应该是增量或者",
+    "translation": ", the determining factor should be the increment or"
+  },
+  {
+    "id": "seg_00045",
+    "source": "说是财富增加的速度。",
+    "translation": "the rate of wealth increase."
+  },
+  {
+    "id": "seg_00046",
+    "source": "比如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00047",
+    "source": "甲货有银子 10亿并且每年增长",
+    "translation": "Person A has 1 billion and grows annually at"
+  },
+  {
+    "id": "seg_00048",
+    "source": "乙货",
+    "translation": "Person B"
+  },
+  {
+    "id": "seg_00049",
+    "source": "虽有银",
+    "translation": "although having"
+  },
+  {
+    "id": "seg_00050",
+    "source": "亿",
+    "translation": "billion"
+  },
+  {
+    "id": "seg_00051",
+    "source": "但是这货的财富增长率",
+    "translation": "but this person's wealth growth rate"
+  },
+  {
+    "id": "seg_00052",
+    "source": "是 ",
+    "translation": "is "
+  },
+  {
+    "id": "seg_00053",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00054",
+    "source": "细想一下不难得出结论",
+    "translation": "With a bit of thought, it's not hard to conclude"
+  },
+  {
+    "id": "seg_00055",
+    "source": ":长期下来",
+    "translation": ": in the long run"
+  },
+  {
+    "id": "seg_00056",
+    "source": ",乙货一定",
+    "translation": ", Person B will certainly"
+  },
+  {
+    "id": "seg_00057",
+    "source": "是要战胜甲货的。",
+    "translation": "surpass Person A."
+  },
+  {
+    "id": "seg_00058",
+    "source": "我们之所以得出乙货得胜的结论",
+    "translation": "The reason we conclude Person B wins"
+  },
+  {
+    "id": "seg_00059",
+    "source": "是因为他的",
+    "translation": "is because their"
+  },
+  {
+    "id": "seg_00060",
+    "source": "10%增长率实在是比",
+    "translation": "10% growth rate is really much better than"
+  },
+  {
+    "id": "seg_00061",
+    "source": "7%的",
+    "translation": "7%"
+  },
+  {
+    "id": "seg_00062",
+    "source": "增长率厉害得多。",
+    "translation": "growth rate."
+  },
+  {
+    "id": "seg_00063",
+    "source": "啥是增长率",
+    "translation": "What is growth rate"
+  },
+  {
+    "id": "seg_00064",
+    "source": ",不就是变化率吗。",
+    "translation": ", isn't it just rate of change."
+  },
+  {
+    "id": "seg_00065",
+    "source": "啥是变化率呢?",
+    "translation": "What is rate of change?"
+  },
+  {
+    "id": "seg_00066",
+    "source": "导数呗!",
+    "translation": "The derivative!"
+  },
+  {
+    "id": "seg_00067",
+    "source": "由此我们想到",
+    "translation": "This leads us to think"
+  },
+  {
+    "id": "seg_00068",
+    "source": ",如果两个",
+    "translation": ", if two"
+  },
+  {
+    "id": "seg_00069",
+    "source": "相比没有结论",
+    "translation": "compared give no conclusion"
+  },
+  {
+    "id": "seg_00070",
+    "source": ",而他们的导数之比有高下的话",
+    "translation": ", but the ratio of their derivatives shows a difference"
+  },
+  {
+    "id": "seg_00071",
+    "source": "那他们本身之比也就有了结果。",
+    "translation": "then the ratio of the originals also has a result."
+  },
+  {
+    "id": "seg_00072",
+    "source": "这个朴素的想法",
+    "translation": "This simple idea"
+  },
+  {
+    "id": "seg_00073",
+    "source": "已经在被法国数学家罗必塔",
+    "translation": "was already proven by the French mathematician L'Hôpital"
+  },
+  {
+    "id": "seg_00074",
+    "source": ")先生在 3百多年前证明了",
+    "translation": ") over 300 years ago"
+  },
+  {
+    "id": "seg_00075",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00076",
+    "source": "罗必塔法则(L",
+    "translation": "L'Hôpital's Rule (L"
+  },
+  {
+    "id": "seg_00077",
+    "source": "假设函数 f(",
+    "translation": "Suppose functions f("
+  },
+  {
+    "id": "seg_00078",
+    "source": "和 g(",
+    "translation": "and g("
+  },
+  {
+    "id": "seg_00079",
+    "source": ", 在含有点",
+    "translation": ", in a region containing point"
+  },
+  {
+    "id": "seg_00080",
+    "source": "的某个区域内",
+    "translation": ""
+  },
+  {
+    "id": "seg_00081",
+    "source": "可导(不要求一定在 ",
+    "translation": "are differentiable (not necessarily at "
+  },
+  {
+    "id": "seg_00082",
+    "source": "可导)",
+    "translation": "differentiable)"
+  },
+  {
+    "id": "seg_00083",
+    "source": "而且",
+    "translation": "and"
+  },
+  {
+    "id": "seg_00084",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00085",
+    "source": "如果",
+    "translation": "If"
+  },
+  {
+    "id": "seg_00086",
+    "source": "或者",
+    "translation": "or"
+  },
+  {
+    "id": "seg_00087",
+    "source": "那么",
+    "translation": "then"
+  },
+  {
+    "id": "seg_00088",
+    "source": "当然",
+    "translation": "Of course"
+  },
+  {
+    "id": "seg_00089",
+    "source": ",前提是右边的极限存在。",
+    "translation": ", provided that the limit on the right exists."
+  },
+  {
+    "id": "seg_00090",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00091",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00092",
+    "source": "罗必塔法则",
+    "translation": "L'Hôpital's Rule"
+  },
+  {
+    "id": "seg_00093",
+    "source": ",一石二鸟",
+    "translation": ", kills two birds with one stone"
+  },
+  {
+    "id": "seg_00094",
+    "source": "同时解决了两种难缠的问题",
+    "translation": "solving two tricky problems at once"
+  },
+  {
+    "id": "seg_00095",
+    "source": "。关于这个法则",
+    "translation": ". Regarding this rule"
+  },
+  {
+    "id": "seg_00096",
+    "source": ",我们",
+    "translation": ", we"
+  },
+  {
+    "id": "seg_00097",
+    "source": "要提醒几点。",
+    "translation": "need to point out a few things."
+  },
+  {
+    "id": "seg_00098",
+    "source": "首先",
+    "translation": "First"
+  },
+  {
+    "id": "seg_00099",
+    "source": "当",
+    "translation": "when"
+  },
+  {
+    "id": "seg_00100",
+    "source": "时",
+    "translation": ""
+  },
+  {
+    "id": "seg_00101",
+    "source": "该法则同样适用",
+    "translation": "the rule also applies"
+  },
+  {
+    "id": "seg_00102",
+    "source": "其次",
+    "translation": "Second"
+  },
+  {
+    "id": "seg_00103",
+    "source": ",如果两个函数的导数之比的极限又是 ",
+    "translation": ", if the limit of the ratio of the two functions' derivatives is again "
+  },
+  {
+    "id": "seg_00104",
+    "source": "型和 ",
+    "translation": "type and "
+  },
+  {
+    "id": "seg_00105",
+    "source": "型的",
+    "translation": "type"
+  },
+  {
+    "id": "seg_00106",
+    "source": ",可以再次使用",
+    "translation": ", you can apply the rule again"
+  },
+  {
+    "id": "seg_00107",
+    "source": "该法则到二阶导数甚至",
+    "translation": "to the second derivative or even"
+  },
+  {
+    "id": "seg_00108",
+    "source": "阶导数上。",
+    "translation": "th order derivative."
+  },
+  {
+    "id": "seg_00109",
+    "source": "最后",
+    "translation": "Finally"
+  },
+  {
+    "id": "seg_00110",
+    "source": ",该法则的证明",
+    "translation": ", the proof of this rule"
+  },
+  {
+    "id": "seg_00111",
+    "source": ",需要更高深的数学知识。",
+    "translation": ", requires more advanced mathematical knowledge."
+  },
+  {
+    "id": "seg_00112",
+    "source": "眼下",
+    "translation": "For now"
+  },
+  {
+    "id": "seg_00113",
+    "source": ",我们可以把它当公理一样地认为它不证",
+    "translation": ", we can treat it like an axiom and accept it without"
+  },
+  {
+    "id": "seg_00114",
+    "source": "自明",
+    "translation": "proof"
+  },
+  {
+    "id": "seg_00115",
+    "source": "。会用法则是硬道理。",
+    "translation": ". Knowing how to apply the rule is what matters."
+  },
+  {
+    "id": "seg_00116",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00117",
+    "source": "1):求",
+    "translation": "1): Find"
+  },
+  {
+    "id": "seg_00118",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00119",
+    "source": ":根据罗必塔法则",
+    "translation": ": By L'Hôpital's Rule"
+  },
+  {
+    "id": "seg_00120",
+    "source": ",我们有",
+    "translation": ", we have"
+  },
+  {
+    "id": "seg_00121",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00122",
+    "source": "2):求 ",
+    "translation": "2): Find "
+  },
+  {
+    "id": "seg_00123",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00124",
+    "source": ":用罗必塔法则",
+    "translation": ": Using L'Hôpital's Rule"
+  },
+  {
+    "id": "seg_00125",
+    "source": ",得到",
+    "translation": ", we get"
+  },
+  {
+    "id": "seg_00126",
+    "source": "好玩吧?",
+    "translation": "Fun, right?"
+  },
+  {
+    "id": "seg_00127",
+    "source": "再看一下这两个极限",
+    "translation": "Let's look at these two limits"
+  },
+  {
+    "id": "seg_00128",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00129",
+    "source": "3):求",
+    "translation": "3): Find"
+  },
+  {
+    "id": "seg_00130",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00131",
+    "source": ":求这个极限",
+    "translation": ": To find this limit"
+  },
+  {
+    "id": "seg_00132",
+    "source": ",得对分子分母分别求 3次导数",
+    "translation": ", we need to differentiate both numerator and denominator 3 times"
+  },
+  {
+    "id": "seg_00133",
+    "source": ",才能看清楚结果",
+    "translation": ", before we can see the result clearly"
+  },
+  {
+    "id": "seg_00134",
+    "source": "由本题的解题过程可知",
+    "translation": "From the solution process, we can see that"
+  },
+  {
+    "id": "seg_00135",
+    "source": "即使分子上不是",
+    "translation": "even if the numerator is not"
+  },
+  {
+    "id": "seg_00136",
+    "source": ", 而是",
+    "translation": ", but rather"
+  },
+  {
+    "id": "seg_00137",
+    "source": "或者更高次方",
+    "translation": "or higher powers"
+  },
+  {
+    "id": "seg_00138",
+    "source": ",也不",
+    "translation": ", it would not"
+  },
+  {
+    "id": "seg_00139",
+    "source": "会改变极限的结果。",
+    "translation": "change the result of the limit."
+  },
+  {
+    "id": "seg_00140",
+    "source": "同样",
+    "translation": "Similarly"
+  },
+  {
+    "id": "seg_00141",
+    "source": ",只要分子上 ",
+    "translation": ", as long as the numerator has "
+  },
+  {
+    "id": "seg_00142",
+    "source": "中的",
+    "translation": "in the"
+  },
+  {
+    "id": "seg_00143",
+    "source": ", 结果不会变",
+    "translation": ", the result won't change"
+  },
+  {
+    "id": "seg_00144",
+    "source": ",都是 ",
+    "translation": ", it's all "
+  },
+  {
+    "id": "seg_00145",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00146",
+    "source": "这也就印证了我们前面说过的",
+    "translation": "This confirms what we said earlier about"
+  },
+  {
+    "id": "seg_00147",
+    "source": "型的 ",
+    "translation": "type "
+  },
+  {
+    "id": "seg_00148",
+    "source": "是所谓部级的 ",
+    "translation": "being so-called ministerial-level "
+  },
+  {
+    "id": "seg_00149",
+    "source": ", 跟",
+    "translation": ", compared to"
+  },
+  {
+    "id": "seg_00150",
+    "source": "这些地",
+    "translation": "these"
+  },
+  {
+    "id": "seg_00151",
+    "source": "市级的 ",
+    "translation": "municipal-level "
+  },
+  {
+    "id": "seg_00152",
+    "source": "没有可比性",
+    "translation": "there's no comparison"
+  },
+  {
+    "id": "seg_00153",
+    "source": "。我们再看一下地市级的 ",
+    "translation": ". Let's look at municipal-level "
+  },
+  {
+    "id": "seg_00154",
+    "source": "遇",
+    "translation": "meeting"
+  },
+  {
+    "id": "seg_00155",
+    "source": "上 ",
+    "translation": " "
+  },
+  {
+    "id": "seg_00156",
+    "source": "这种区县级的 ",
+    "translation": "this county-level "
+  },
+  {
+    "id": "seg_00157",
+    "source": "会发生什么",
+    "translation": "what happens"
+  },
+  {
+    "id": "seg_00158",
+    "source": "例",
+    "translation": "Example"
+  },
+  {
+    "id": "seg_00159",
+    "source": "这一次",
+    "translation": "This time"
+  },
+  {
+    "id": "seg_00160",
+    "source": ",地市级 ",
+    "translation": ", the municipal-level "
+  },
+  {
+    "id": "seg_00161",
+    "source": "派出的分子是二分之一次方",
+    "translation": "sends out a numerator with power one-half"
+  },
+  {
+    "id": "seg_00162",
+    "source": ",而区县级 ",
+    "translation": ", while the county-level "
+  },
+  {
+    "id": "seg_00163",
+    "source": "留守的分母是",
+    "translation": "remains in the denominator as"
+  },
+  {
+    "id": "seg_00164",
+    "source": "平方",
+    "translation": "squared"
+  },
+  {
+    "id": "seg_00165",
+    "source": "结果同样是 ",
+    "translation": "The result is still "
+  },
+  {
+    "id": "seg_00166",
+    "source": "看来",
+    "translation": "It seems"
+  },
+  {
+    "id": "seg_00167",
+    "source": ",“官大一级压死人”绝非虚言!",
+    "translation": ",“官大一级压死人”绝非虚言!"
+  },
+  {
+    "id": "seg_00168",
+    "source": "再重申一次",
+    "translation": "Let me emphasize again"
+  },
+  {
+    "id": "seg_00169",
+    "source": ",如果碰到 ",
+    "translation": ", if you encounter "
+  },
+  {
+    "id": "seg_00170",
+    "source": "型的极限问题",
+    "translation": "type limit problems"
+  },
+  {
+    "id": "seg_00171",
+    "source": ",分子分母只留下级别最高的",
+    "translation": ", just keep the highest-ranking term in numerator and denominator"
+  },
+  {
+    "id": "seg_00172",
+    "source": "值班即可",
+    "translation": "on duty"
+  },
+  {
+    "id": "seg_00173",
+    "source": ",结果不会错。",
+    "translation": ", and the result will be correct."
+  },
+  {
+    "id": "seg_00174",
+    "source": "有了罗必塔法则在手",
+    "translation": "With L'Hôpital's Rule in hand"
+  },
+  {
+    "id": "seg_00175",
+    "source": ",再来看我们在第二章要求您记住的两个著名",
+    "translation": ", let's revisit the two famous"
+  },
+  {
+    "id": "seg_00176",
+    "source": "极限",
+    "translation": "limits"
+  },
+  {
+    "id": "seg_00177",
+    "source": ",将",
+    "translation": ", which will"
+  },
+  {
+    "id": "seg_00178",
+    "source": "会显得非常直观",
+    "translation": "become very intuitive"
+  },
+  {
+    "id": "seg_00179",
+    "source": "我们登山时会发现",
+    "translation": "When climbing a mountain, we find"
+  },
+  {
+    "id": "seg_00180",
+    "source": ",登得越高",
+    "translation": ", the higher we climb"
+  },
+  {
+    "id": "seg_00181",
+    "source": ",视野越好",
+    "translation": ", the better the view"
+  },
+  {
+    "id": "seg_00182",
+    "source": "。玩数学也一样",
+    "translation": ". The same goes for math"
+  },
+  {
+    "id": "seg_00183",
+    "source": ",玩得越多",
+    "translation": ", the more you practice"
+  },
+  {
+    "id": "seg_00184",
+    "source": "玩过的",
+    "translation": "the things you've learned"
+  },
+  {
+    "id": "seg_00185",
+    "source": "东东看得越清楚。",
+    "translation": "become clearer."
+  },
+  {
+    "id": "seg_00186",
+    "source": "让我们看看导数还有啥用。",
+    "translation": "Let's see what else derivatives are good for."
+  },
+  {
+    "id": "seg_00187",
+    "source": "极值问题(",
+    "translation": "Extreme Value Problems ("
+  },
+  {
+    "id": "seg_00188",
+    "source": "人们总爱关注离自己稍微远点的、极端点的事物。",
+    "translation": "People always like to focus on things that are a bit distant or extreme."
+  },
+  {
+    "id": "seg_00189",
+    "source": "例如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00190",
+    "source": ":皇室的故事",
+    "translation": ": stories about royalty"
+  },
+  {
+    "id": "seg_00191",
+    "source": ",总是",
+    "translation": ", always"
+  },
+  {
+    "id": "seg_00192",
+    "source": " 在平民百姓中有市场",
+    "translation": " have an audience among common people"
+  },
+  {
+    "id": "seg_00193",
+    "source": "。再例如",
+    "translation": ". Another example"
+  },
+  {
+    "id": "seg_00194",
+    "source": ":最有钱的、最漂亮的、最高的、最险的等等总是最 ",
+    "translation": ": the richest, most beautiful, tallest, most dangerous, etc., always attract "
+  },
+  {
+    "id": "seg_00195",
+    "source": "能吸引我们的眼球。",
+    "translation": "our attention the most."
+  },
+  {
+    "id": "seg_00196",
+    "source": "同样",
+    "translation": "Similarly"
+  },
+  {
+    "id": "seg_00197",
+    "source": ",对我们研究的函数而言",
+    "translation": ", for the functions we study"
+  },
+  {
+    "id": "seg_00198",
+    "source": "函数的最大值和最",
+    "translation": "the maximum and mini"
+  },
+  {
+    "id": "seg_00199",
+    "source": "小值问题",
+    "translation": "mum value problems"
+  },
+  {
+    "id": "seg_00200",
+    "source": ", 自然引起了人",
+    "translation": ", naturally attract people's"
+  },
+  {
+    "id": "seg_00201",
+    "source": "们的极大兴趣。",
+    "translation": "great interest."
+  },
+  {
+    "id": "seg_00202",
+    "source": "因为在生活中",
+    "translation": "Because in real life"
+  },
+  {
+    "id": "seg_00203",
+    "source": ",极值问题太有用了。",
+    "translation": ", extreme value problems are extremely useful."
+  },
+  {
+    "id": "seg_00204",
+    "source": "怎样把有限的资源发挥到",
+    "translation": "How to maximize limited resources to their"
+  },
+  {
+    "id": "seg_00205",
+    "source": "极致",
+    "translation": "fullest potential"
+  },
+  {
+    "id": "seg_00206",
+    "source": ",永远是我们的追求。",
+    "translation": ", is always our pursuit."
+  },
+  {
+    "id": "seg_00207",
+    "source": "要解决极值问题",
+    "translation": "To solve extreme value problems"
+  },
+  {
+    "id": "seg_00208",
+    "source": ",导数可以帮上大忙",
+    "translation": ", derivatives can be a great help"
+  },
+  {
+    "id": "seg_00209",
+    "source": "。先厘清几个关于极值问题的概念",
+    "translation": ". Let's first clarify some concepts about extreme values"
+  },
+  {
+    "id": "seg_00210",
+    "source": "局部最大值定义(",
+    "translation": "Definition of Local Maximum ("
+  },
+  {
+    "id": "seg_00211",
+    "source": "如果对包含 ",
+    "translation": "If for some open interval containing "
+  },
+  {
+    "id": "seg_00212",
+    "source": "点在内的某个开区间内",
+    "translation": "point"
+  },
+  {
+    "id": "seg_00213",
+    "source": "所有",
+    "translation": "all"
+  },
+  {
+    "id": "seg_00214",
+    "source": "值",
+    "translation": "values"
+  },
+  {
+    "id": "seg_00215",
+    "source": "不等式",
+    "translation": "the inequality"
+  },
+  {
+    "id": "seg_00216",
+    "source": ") 都成立",
+    "translation": ") holds"
+  },
+  {
+    "id": "seg_00217",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00218",
+    "source": "那么",
+    "translation": "then"
+  },
+  {
+    "id": "seg_00219",
+    "source": ") 就是函数",
+    "translation": ") is a"
+  },
+  {
+    "id": "seg_00220",
+    "source": "的一个局部",
+    "translation": "local"
+  },
+  {
+    "id": "seg_00221",
+    "source": "最大值",
+    "translation": "maximum"
+  },
+  {
+    "id": "seg_00222",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00223",
+    "source": "局部最大值",
+    "translation": "Local maximum"
+  },
+  {
+    "id": "seg_00224",
+    "source": "有时候也称为相对最大值(",
+    "translation": "is sometimes also called relative maximum ("
+  },
+  {
+    "id": "seg_00225",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00226",
+    "source": "有局部就有全局。",
+    "translation": "Where there's local, there's global."
+  },
+  {
+    "id": "seg_00227",
+    "source": "全局最大值定义(",
+    "translation": "Definition of Global Maximum ("
+  },
+  {
+    "id": "seg_00228",
+    "source": "如果对所有的 ",
+    "translation": "If for all "
+  },
+  {
+    "id": "seg_00229",
+    "source": "值",
+    "translation": "values"
+  },
+  {
+    "id": "seg_00230",
+    "source": "不等式 ",
+    "translation": "the inequality "
+  },
+  {
+    "id": "seg_00231",
+    "source": "都成立",
+    "translation": "holds"
+  },
+  {
+    "id": "seg_00232",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00233",
+    "source": "那么 f(",
+    "translation": "Then f("
+  },
+  {
+    "id": "seg_00234",
+    "source": "就是函数 f(",
+    "translation": "is the function f("
+  },
+  {
+    "id": "seg_00235",
+    "source": "的全局最大值",
+    "translation": "'s global maximum"
+  },
+  {
+    "id": "seg_00236",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00237",
+    "source": "全局最大值",
+    "translation": "Global maximum"
+  },
+  {
+    "id": "seg_00238",
+    "source": "有时候",
+    "translation": "is sometimes"
+  },
+  {
+    "id": "seg_00239",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00240",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00241",
+    "source": "也被称作绝对最大值(",
+    "translation": "also called absolute maximum ("
+  },
+  {
+    "id": "seg_00242",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00243",
+    "source": "接着聊一",
+    "translation": "Let's continue discussing"
+  },
+  {
+    "id": "seg_00244",
+    "source": "下",
+    "translation": ""
+  },
+  {
+    "id": "seg_00245",
+    "source": "对",
+    "translation": "our"
+  },
+  {
+    "id": "seg_00246",
+    "source": "这",
+    "translation": "understanding"
+  },
+  {
+    "id": "seg_00247",
+    "source": "两",
+    "translation": "of"
+  },
+  {
+    "id": "seg_00248",
+    "source": "个",
+    "translation": "these"
+  },
+  {
+    "id": "seg_00249",
+    "source": "概",
+    "translation": "two"
+  },
+  {
+    "id": "seg_00250",
+    "source": "念 的",
+    "translation": "concepts"
+  },
+  {
+    "id": "seg_00251",
+    "source": "理",
+    "translation": ""
+  },
+  {
+    "id": "seg_00252",
+    "source": "解。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00253",
+    "source": "所",
+    "translation": "The"
+  },
+  {
+    "id": "seg_00254",
+    "source": "谓",
+    "translation": "term"
+  },
+  {
+    "id": "seg_00255",
+    "source": "局",
+    "translation": "local"
+  },
+  {
+    "id": "seg_00256",
+    "source": "部",
+    "translation": ""
+  },
+  {
+    "id": "seg_00257",
+    "source": "就",
+    "translation": "means"
+  },
+  {
+    "id": "seg_00258",
+    "source": "是",
+    "translation": ":"
+  },
+  {
+    "id": "seg_00259",
+    "source": ": 只",
+    "translation": " as"
+  },
+  {
+    "id": "seg_00260",
+    "source": "要",
+    "translation": "long"
+  },
+  {
+    "id": "seg_00261",
+    "source": "那",
+    "translation": "as"
+  },
+  {
+    "id": "seg_00262",
+    "source": "个",
+    "translation": "these"
+  },
+  {
+    "id": "seg_00263",
+    "source": "不",
+    "translation": "in"
+  },
+  {
+    "id": "seg_00264",
+    "source": "等",
+    "translation": "equal"
+  },
+  {
+    "id": "seg_00265",
+    "source": "式",
+    "translation": "ity"
+  },
+  {
+    "id": "seg_00266",
+    "source": "在哪怕很小的区间内成立",
+    "translation": "holds even in a very small interval"
+  },
+  {
+    "id": "seg_00267",
+    "source": "就是一个局部最大值",
+    "translation": "it is a local maximum"
+  },
+  {
+    "id": "seg_00268",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00269",
+    "source": "例如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00270",
+    "source": ",如果把地球上的海拔高度做为函数",
+    "translation": ", if we consider Earth's elevation as a function"
+  },
+  {
+    "id": "seg_00271",
+    "source": ",那五岳之巅的高度",
+    "translation": ", then the height of the Five Sacred Mountains' peaks"
+  },
+  {
+    "id": "seg_00272",
+    "source": "都会是一个局",
+    "translation": "would all be local"
+  },
+  {
+    "id": "seg_00273",
+    "source": "部最大值。",
+    "translation": "maxima."
+  },
+  {
+    "id": "seg_00274",
+    "source": "与此同时",
+    "translation": "At the same time"
+  },
+  {
+    "id": "seg_00275",
+    "source": ",您回家上楼的每一阶楼梯高度、甚至您放在地上拖鞋的高",
+    "translation": ", the height of each stair step on your way home, or even the height of your slippers on the floor"
+  },
+  {
+    "id": "seg_00276",
+    "source": "度",
+    "translation": ""
+  },
+  {
+    "id": "seg_00277",
+    "source": ",也都是不折不扣的一个局部最大值。",
+    "translation": ", are all genuine local maxima."
+  },
+  {
+    "id": "seg_00278",
+    "source": "而珠穆朗玛峰才是这个函数的全球最",
+    "translation": "But Mount Everest is the global"
+  },
+  {
+    "id": "seg_00279",
+    "source": "大值。",
+    "translation": "maximum of this function."
+  },
+  {
+    "id": "seg_00280",
+    "source": "再比如",
+    "translation": "Another example"
+  },
+  {
+    "id": "seg_00281",
+    "source": ",如果把官职的高低做为函数",
+    "translation": ", if we consider official rank as a function"
+  },
+  {
+    "id": "seg_00282",
+    "source": "。虽然省长很牛",
+    "translation": ". Although a governor is impressive"
+  },
+  {
+    "id": "seg_00283",
+    "source": ",但是一个省长和",
+    "translation": ", a governor and"
+  },
+  {
+    "id": "seg_00284",
+    "source": "一个",
+    "translation": "a"
+  },
+  {
+    "id": "seg_00285",
+    "source": "村长一样",
+    "translation": "village chief alike"
+  },
+  {
+    "id": "seg_00286",
+    "source": ",都是一个局部最高官。",
+    "translation": ", are both local maximum officials."
+  },
+  {
+    "id": "seg_00287",
+    "source": "只有国家主席",
+    "translation": "Only the President"
+  },
+  {
+    "id": "seg_00288",
+    "source": ",才是全局最高官。",
+    "translation": ", is the global maximum official."
+  },
+  {
+    "id": "seg_00289",
+    "source": "人人心中都应该有一个衡量局部和全局的秤",
+    "translation": "Everyone should have a scale in their heart to measure local versus global"
+  },
+  {
+    "id": "seg_00290",
+    "source": ",千万别把自己掂量",
+    "translation": ", and never overestimate"
+  },
+  {
+    "id": "seg_00291",
+    "source": "的太重了。",
+    "translation": "yourself."
+  },
+  {
+    "id": "seg_00292",
+    "source": "武林中有多少爱恨情仇",
+    "translation": "How much love and hatred in the martial world"
+  },
+  {
+    "id": "seg_00293",
+    "source": ",皆因对局部和全局判断不清所起",
+    "translation": ", all arise from unclear judgment between local and global"
+  },
+  {
+    "id": "seg_00294",
+    "source": "。甚至有多少本",
+    "translation": ". How many once"
+  },
+  {
+    "id": "seg_00295",
+    "source": "来挺",
+    "translation": "quite"
+  },
+  {
+    "id": "seg_00296",
+    "source": "不错的局部老大",
+    "translation": "decent local bosses"
+  },
+  {
+    "id": "seg_00297",
+    "source": "因误以为自己个是全局老大而送了卿卿性命。",
+    "translation": "lost their lives by mistaking themselves for global bosses."
+  },
+  {
+    "id": "seg_00298",
+    "source": "不管进步到啥",
+    "translation": "No matter how far you've"
+  },
+  {
+    "id": "seg_00299",
+    "source": "程度",
+    "translation": "advanced"
+  },
+  {
+    "id": "seg_00300",
+    "source": ",永远把自己当成局部、小局部的一般人",
+    "translation": ", always consider yourself an ordinary person in a local, small local context"
+  },
+  {
+    "id": "seg_00301",
+    "source": ",大概结果不会差。",
+    "translation": ", and things will probably turn out fine."
+  },
+  {
+    "id": "seg_00302",
+    "source": "易经的洋洋 64卦中",
+    "translation": "Among the grand 64 hexagrams of the I Ching"
+  },
+  {
+    "id": "seg_00303",
+    "source": ",只有谦卦",
+    "translation": ", only the Modesty hexagram"
+  },
+  {
+    "id": "seg_00304",
+    "source": ",没啥副作用!",
+    "translation": ", has no side effects!"
+  },
+  {
+    "id": "seg_00305",
+    "source": "有了最大值的概念",
+    "translation": "With the concept of maximum"
+  },
+  {
+    "id": "seg_00306",
+    "source": ",最小值的概念顺理成章。",
+    "translation": ", the concept of minimum follows naturally."
+  },
+  {
+    "id": "seg_00307",
+    "source": "局部最小值定义(",
+    "translation": "Definition of Local Minimum ("
+  },
+  {
+    "id": "seg_00308",
+    "source": "如果对包含",
+    "translation": "If for some open interval containing"
+  },
+  {
+    "id": "seg_00309",
+    "source": "点在内的某个开区间内的",
+    "translation": "point"
+  },
+  {
+    "id": "seg_00310",
+    "source": "所有",
+    "translation": "all"
+  },
+  {
+    "id": "seg_00311",
+    "source": "值",
+    "translation": "values"
+  },
+  {
+    "id": "seg_00312",
+    "source": "不等式 f(",
+    "translation": "the inequality f("
+  },
+  {
+    "id": "seg_00313",
+    "source": "都成立",
+    "translation": "holds"
+  },
+  {
+    "id": "seg_00314",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00315",
+    "source": "那么 ",
+    "translation": "Then "
+  },
+  {
+    "id": "seg_00316",
+    "source": "就是函数 f(",
+    "translation": "is the function f("
+  },
+  {
+    "id": "seg_00317",
+    "source": "的一个局",
+    "translation": "'s local"
+  },
+  {
+    "id": "seg_00318",
+    "source": "部最小值",
+    "translation": "minimum"
+  },
+  {
+    "id": "seg_00319",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00320",
+    "source": "局部最小值",
+    "translation": "Local minimum"
+  },
+  {
+    "id": "seg_00321",
+    "source": "有时候也称为相对最小值(",
+    "translation": "is sometimes also called relative minimum ("
+  },
+  {
+    "id": "seg_00322",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00323",
+    "source": "全局最小值定义(",
+    "translation": "Definition of Global Minimum ("
+  },
+  {
+    "id": "seg_00324",
+    "source": "如果对所有的 ",
+    "translation": "If for all "
+  },
+  {
+    "id": "seg_00325",
+    "source": "值",
+    "translation": "values"
+  },
+  {
+    "id": "seg_00326",
+    "source": "不等式 ",
+    "translation": "the inequality "
+  },
+  {
+    "id": "seg_00327",
+    "source": "都成立",
+    "translation": "holds"
+  },
+  {
+    "id": "seg_00328",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00329",
+    "source": "那么 f(",
+    "translation": "Then f("
+  },
+  {
+    "id": "seg_00330",
+    "source": "就是函数 f(",
+    "translation": "is the function f("
+  },
+  {
+    "id": "seg_00331",
+    "source": "的全局最小值",
+    "translation": "'s global minimum"
+  },
+  {
+    "id": "seg_00332",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00333",
+    "source": "全局最小值",
+    "translation": "Global minimum"
+  },
+  {
+    "id": "seg_00334",
+    "source": "有时候",
+    "translation": "is sometimes"
+  },
+  {
+    "id": "seg_00335",
+    "source": "也被称作绝对最小值(",
+    "translation": "also called absolute minimum ("
+  },
+  {
+    "id": "seg_00336",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00337",
+    "source": "明白了极值的概念",
+    "translation": "Now that we understand the concept of extreme values"
+  },
+  {
+    "id": "seg_00338",
+    "source": ",就可以探讨如何找出极值了。",
+    "translation": ", we can discuss how to find them."
+  },
+  {
+    "id": "seg_00339",
+    "source": "要研究如何求极值问题",
+    "translation": "To study how to find extreme values"
+  },
+  {
+    "id": "seg_00340",
+    "source": ",首先得确定它的存在性",
+    "translation": ", we must first establish their existence"
+  },
+  {
+    "id": "seg_00341",
+    "source": "。所以",
+    "translation": ". Therefore"
+  },
+  {
+    "id": "seg_00342",
+    "source": "了解极值定理",
+    "translation": "understanding the Extreme Value Theorem"
+  },
+  {
+    "id": "seg_00343",
+    "source": ",很",
+    "translation": ", is"
+  },
+  {
+    "id": "seg_00344",
+    "source": "有必要。",
+    "translation": "necessary."
+  },
+  {
+    "id": "seg_00345",
+    "source": "极值定理",
+    "translation": "The Extreme Value Theorem"
+  },
+  {
+    "id": "seg_00346",
+    "source": ":如果函数 f(",
+    "translation": ": If function f("
+  },
+  {
+    "id": "seg_00347",
+    "source": ") 在闭区间 [",
+    "translation": ") is continuous on closed interval ["
+  },
+  {
+    "id": "seg_00348",
+    "source": "] 上连续",
+    "translation": "]"
+  },
+  {
+    "id": "seg_00349",
+    "source": ",则此区间上一定存在两",
+    "translation": ", then there must exist two"
+  },
+  {
+    "id": "seg_00350",
+    "source": "个点 ",
+    "translation": "points "
+  },
+  {
+    "id": "seg_00351",
+    "source": "和d",
+    "translation": "and d"
+  },
+  {
+    "id": "seg_00352",
+    "source": "使得 f(",
+    "translation": "such that f("
+  },
+  {
+    "id": "seg_00353",
+    "source": "为绝对最大值",
+    "translation": "is the absolute maximum"
+  },
+  {
+    "id": "seg_00354",
+    "source": "为",
+    "translation": "is"
+  },
+  {
+    "id": "seg_00355",
+    "source": "绝对最小值",
+    "translation": "the absolute minimum"
+  },
+  {
+    "id": "seg_00356",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00357",
+    "source": "下图为极值定理的示意图。",
+    "translation": "The figure below illustrates the Extreme Value Theorem."
+  },
+  {
+    "id": "seg_00358",
+    "source": "我对这个定理的学习心得是",
+    "translation": "My insights from studying this theorem are"
+  },
+  {
+    "id": "seg_00359",
+    "source": "虽然闭区间的绝对极值一定可以达到",
+    "translation": "although the absolute extreme values on a closed interval are always attained"
+  },
+  {
+    "id": "seg_00360",
+    "source": ",但是不一定唯一",
+    "translation": ", they may not be unique"
+  },
+  {
+    "id": "seg_00361",
+    "source": "定理存在的两个条件",
+    "translation": "The two conditions for the theorem"
+  },
+  {
+    "id": "seg_00362",
+    "source": "“连续”和",
+    "translation": "“连续”和"
+  },
+  {
+    "id": "seg_00363",
+    "source": "“闭区间”缺一不可。",
+    "translation": "“闭区间”缺一不可。"
+  },
+  {
+    "id": "seg_00364",
+    "source": "下图就是分别缺了",
+    "translation": "The figure below shows cases missing"
+  },
+  {
+    "id": "seg_00365",
+    "source": "连续和区间封闭这两种条件的情况下",
+    "translation": "continuity and interval closure respectively"
+  },
+  {
+    "id": "seg_00366",
+    "source": ",导致极值定理不成立的",
+    "translation": ", causing the Extreme Value Theorem to fail"
+  },
+  {
+    "id": "seg_00367",
+    "source": "情形。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00368",
+    "source": "由图可见",
+    "translation": "From the figure, we can see"
+  },
+  {
+    "id": "seg_00369",
+    "source": ",左边的函数没有最大值",
+    "translation": ", the function on the left has no maximum"
+  },
+  {
+    "id": "seg_00370",
+    "source": ",右边的函数既没有最大值",
+    "translation": ", the function on the right has neither maximum"
+  },
+  {
+    "id": "seg_00371",
+    "source": ",也没有最小",
+    "translation": ", nor mini"
+  },
+  {
+    "id": "seg_00372",
+    "source": "值",
+    "translation": "values"
+  },
+  {
+    "id": "seg_00373",
+    "source": "。原因就是",
+    "translation": ". The reason is"
+  },
+  {
+    "id": "seg_00374",
+    "source": ":左边的函数不连续",
+    "translation": ": the left function is not continuous"
+  },
+  {
+    "id": "seg_00375",
+    "source": ",右边的函数定义区间不",
+    "translation": ", the right function's domain is not"
+  },
+  {
+    "id": "seg_00376",
+    "source": "封闭。",
+    "translation": "closed."
+  },
+  {
+    "id": "seg_00377",
+    "source": "存在性的问题解决了",
+    "translation": "The existence problem is solved"
+  },
+  {
+    "id": "seg_00378",
+    "source": ",下面的任务就是根据极值点的特点想办法找到它们。",
+    "translation": ", now the task is to find ways to locate them based on the characteristics of extreme points."
+  },
+  {
+    "id": "seg_00379",
+    "source": "对一个连续函数来说",
+    "translation": "For a continuous function"
+  },
+  {
+    "id": "seg_00380",
+    "source": ",既然全局的极值点在封闭区间存在。",
+    "translation": ", since global extreme points exist on a closed interval."
+  },
+  {
+    "id": "seg_00381",
+    "source": "而一般来说",
+    "translation": "Generally speaking"
+  },
+  {
+    "id": "seg_00382",
+    "source": ",全",
+    "translation": ", global"
+  },
+  {
+    "id": "seg_00383",
+    "source": "局极值点又是从众多的局部极值点选拔出来的",
+    "translation": "extreme points are selected from among many local extreme points"
+  },
+  {
+    "id": "seg_00384",
+    "source": "因而",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00385",
+    "source": ",先找出局部极值点就成了",
+    "translation": ", finding local extreme points first becomes"
+  },
+  {
+    "id": "seg_00386",
+    "source": "当务之急",
+    "translation": "the top priority"
+  },
+  {
+    "id": "seg_00387",
+    "source": "。那么局部极值点长啥样呢?",
+    "translation": ". So what do local extreme points look like?"
+  },
+  {
+    "id": "seg_00388",
+    "source": "请看定理",
+    "translation": "See the theorem"
+  },
+  {
+    "id": "seg_00389",
+    "source": "费尔马(",
+    "translation": "Fermat ("
+  },
+  {
+    "id": "seg_00390",
+    "source": "定理",
+    "translation": "'s Theorem"
+  },
+  {
+    "id": "seg_00391",
+    "source": "如果 ",
+    "translation": "If "
+  },
+  {
+    "id": "seg_00392",
+    "source": "点是函数 f(",
+    "translation": "is a point where function f("
+  },
+  {
+    "id": "seg_00393",
+    "source": "的局部极值点,",
+    "translation": "has a local extreme value,"
+  },
+  {
+    "id": "seg_00394",
+    "source": "而 ",
+    "translation": "and "
+  },
+  {
+    "id": "seg_00395",
+    "source": "存",
+    "translation": "ex"
+  },
+  {
+    "id": "seg_00396",
+    "source": "在",
+    "translation": "ists"
+  },
+  {
+    "id": "seg_00397",
+    "source": ",那么",
+    "translation": ", then"
+  },
+  {
+    "id": "seg_00398",
+    "source": "证明",
+    "translation": "Proof"
+  },
+  {
+    "id": "seg_00399",
+    "source": ":不妨先假设 ",
+    "translation": ": Let's first assume "
+  },
+  {
+    "id": "seg_00400",
+    "source": "点是 f(",
+    "translation": "is a local maximum of f("
+  },
+  {
+    "id": "seg_00401",
+    "source": "的局部最大值",
+    "translation": ""
+  },
+  {
+    "id": "seg_00402",
+    "source": ",极小值",
+    "translation": ", the minimum"
+  },
+  {
+    "id": "seg_00403",
+    "source": "的情形也可同样证",
+    "translation": "case can be proved similarly"
+  },
+  {
+    "id": "seg_00404",
+    "source": "明",
+    "translation": ""
+  },
+  {
+    "id": "seg_00405",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00406",
+    "source": "点是局部最大值",
+    "translation": "Being a local maximum"
+  },
+  {
+    "id": "seg_00407",
+    "source": "也就意味着",
+    "translation": "means"
+  },
+  {
+    "id": "seg_00408",
+    "source": "在包含 ",
+    "translation": "in a small region containing "
+  },
+  {
+    "id": "seg_00409",
+    "source": "的一个小区域内",
+    "translation": ""
+  },
+  {
+    "id": "seg_00410",
+    "source": "下列不等式",
+    "translation": "the following inequality"
+  },
+  {
+    "id": "seg_00411",
+    "source": "成立",
+    "translation": "holds"
+  },
+  {
+    "id": "seg_00412",
+    "source": "于是",
+    "translation": "Thus"
+  },
+  {
+    "id": "seg_00413",
+    "source": ",我们有",
+    "translation": ", we have"
+  },
+  {
+    "id": "seg_00414",
+    "source": "上式中",
+    "translation": "In the above expression"
+  },
+  {
+    "id": "seg_00415",
+    "source": "由于分子非负",
+    "translation": "since the numerator is non-negative"
+  },
+  {
+    "id": "seg_00416",
+    "source": "分母为负",
+    "translation": "the denominator is negative"
+  },
+  {
+    "id": "seg_00417",
+    "source": "因此",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00418",
+    "source": "同理",
+    "translation": "Similarly"
+  },
+  {
+    "id": "seg_00419",
+    "source": ",我们有",
+    "translation": ", we have"
+  },
+  {
+    "id": "seg_00420",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00421",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00422",
+    "source": "至此",
+    "translation": "At this point"
+  },
+  {
+    "id": "seg_00423",
+    "source": ",我们得到了函数在 ",
+    "translation": ", we have obtained that the function at "
+  },
+  {
+    "id": "seg_00424",
+    "source": "点的左右导数一边非负、一边非正的结",
+    "translation": "has left and right derivatives that are non-negative on one side and non-positive on the other, the con"
+  },
+  {
+    "id": "seg_00425",
+    "source": "论。",
+    "translation": "clusion."
+  },
+  {
+    "id": "seg_00426",
+    "source": "既然",
+    "translation": "Since"
+  },
+  {
+    "id": "seg_00427",
+    "source": "存在",
+    "translation": "exists"
+  },
+  {
+    "id": "seg_00428",
+    "source": "其左右导数必然相等",
+    "translation": "its left and right derivatives must be equal"
+  },
+  {
+    "id": "seg_00429",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00430",
+    "source": "那就只有",
+    "translation": "Then it can only be"
+  },
+  {
+    "id": "seg_00431",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00432",
+    "source": "敲黑板",
+    "translation": "Important point"
+  },
+  {
+    "id": "seg_00433",
+    "source": ":费尔马定理只告诉您",
+    "translation": ": Fermat's Theorem only tells you"
+  },
+  {
+    "id": "seg_00434",
+    "source": ",如果局部极值点存在导数",
+    "translation": ", if a local extreme point has a derivative"
+  },
+  {
+    "id": "seg_00435",
+    "source": ",那么该导数为 ",
+    "translation": ", then that derivative equals "
+  },
+  {
+    "id": "seg_00436",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00437",
+    "source": "他可没说",
+    "translation": "It doesn't say"
+  },
+  {
+    "id": "seg_00438",
+    "source": ",所有的局部极值点,导数都为 ",
+    "translation": ", all local extreme points have derivative equal to "
+  },
+  {
+    "id": "seg_00439",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00440",
+    "source": "为啥?  因为",
+    "translation": "Why? Because"
+  },
+  {
+    "id": "seg_00441",
+    "source": "有的局部极值点,导数",
+    "translation": "some local extreme points have derivatives that"
+  },
+  {
+    "id": "seg_00442",
+    "source": "不存在",
+    "translation": "do not exist"
+  },
+  {
+    "id": "seg_00443",
+    "source": "这些",
+    "translation": "These"
+  },
+  {
+    "id": "seg_00444",
+    "source": "导",
+    "translation": "points"
+  },
+  {
+    "id": "seg_00445",
+    "source": "数",
+    "translation": "where"
+  },
+  {
+    "id": "seg_00446",
+    "source": "不",
+    "translation": "in"
+  },
+  {
+    "id": "seg_00447",
+    "source": "存",
+    "translation": "ex"
+  },
+  {
+    "id": "seg_00448",
+    "source": "在 的",
+    "translation": "在 的"
+  },
+  {
+    "id": "seg_00449",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_00450",
+    "source": "和",
+    "translation": "and"
+  },
+  {
+    "id": "seg_00451",
+    "source": "导",
+    "translation": "points"
+  },
+  {
+    "id": "seg_00452",
+    "source": "数",
+    "translation": "where"
+  },
+  {
+    "id": "seg_00453",
+    "source": "为",
+    "translation": "is"
+  },
+  {
+    "id": "seg_00454",
+    "source": "的",
+    "translation": ""
+  },
+  {
+    "id": "seg_00455",
+    "source": "点,统",
+    "translation": ", are"
+  },
+  {
+    "id": "seg_00456",
+    "source": "称",
+    "translation": "collectively"
+  },
+  {
+    "id": "seg_00457",
+    "source": "为 函",
+    "translation": "called"
+  },
+  {
+    "id": "seg_00458",
+    "source": "数 的",
+    "translation": "the function's"
+  },
+  {
+    "id": "seg_00459",
+    "source": "临",
+    "translation": "critical"
+  },
+  {
+    "id": "seg_00460",
+    "source": "界",
+    "translation": ""
+  },
+  {
+    "id": "seg_00461",
+    "source": "点 ",
+    "translation": "points "
+  },
+  {
+    "id": "seg_00462",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00463",
+    "source": "辛苦走到这里",
+    "translation": "After all this hard work"
+  },
+  {
+    "id": "seg_00464",
+    "source": ",总算是找到了一点求极值的道道了!",
+    "translation": ", we've finally found some methods for finding extreme values!"
+  },
+  {
+    "id": "seg_00465",
+    "source": "首先",
+    "translation": "First"
+  },
+  {
+    "id": "seg_00466",
+    "source": ",找出",
+    "translation": ", find"
+  },
+  {
+    "id": "seg_00467",
+    "source": "函数的临界",
+    "translation": "the function's critical"
+  },
+  {
+    "id": "seg_00468",
+    "source": "点,也就是那些不存在导数或者导数为 ",
+    "translation": "points, that is, those points where the derivative doesn't exist or equals "
+  },
+  {
+    "id": "seg_00469",
+    "source": "的",
+    "translation": ""
+  },
+  {
+    "id": "seg_00470",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_00471",
+    "source": ";其次",
+    "translation": "; second"
+  },
+  {
+    "id": "seg_00472",
+    "source": "比较函数在区间端点和临",
+    "translation": "compare function values at interval endpoints and critical"
+  },
+  {
+    "id": "seg_00473",
+    "source": "界点的值",
+    "translation": "points"
+  },
+  {
+    "id": "seg_00474",
+    "source": "即可确定全局极值和局部极值。",
+    "translation": "to determine global and local extreme values."
+  },
+  {
+    "id": "seg_00475",
+    "source": "之所以要把区间端点的函数值",
+    "translation": "The reason we need to separately compare the function values at interval endpoints"
+  },
+  {
+    "id": "seg_00476",
+    "source": ",单拿出来比较",
+    "translation": ""
+  },
+  {
+    "id": "seg_00477",
+    "source": ",是因为区间的端点,虽不满",
+    "translation": ", is because interval endpoints, although not satis"
+  },
+  {
+    "id": "seg_00478",
+    "source": "足关于局部极值点的定义",
+    "translation": "fying the definition of local extreme points"
+  },
+  {
+    "id": "seg_00479",
+    "source": ",但是它有可能是全局极值点。",
+    "translation": ", may still be global extreme points."
+  },
+  {
+    "id": "seg_00480",
+    "source": "例如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00481",
+    "source": ",严格的单调函",
+    "translation": ", strictly monotonic func"
+  },
+  {
+    "id": "seg_00482",
+    "source": "数",
+    "translation": "where"
+  },
+  {
+    "id": "seg_00483",
+    "source": ",一定是在端点取得全局极值",
+    "translation": ", always attain global extreme values at endpoints"
+  },
+  {
+    "id": "seg_00484",
+    "source": ",并且内部没有局部极值点的。",
+    "translation": ", and have no local extreme points in the interior."
+  },
+  {
+    "id": "seg_00485",
+    "source": "那么",
+    "translation": "then"
+  },
+  {
+    "id": "seg_00486",
+    "source": ",如何判断我们辛苦找出来的函数的临界点是局部最大值",
+    "translation": ", how do we determine whether the critical points we've worked hard to find are local maxima"
+  },
+  {
+    "id": "seg_00487",
+    "source": ",还",
+    "translation": ", or"
+  },
+  {
+    "id": "seg_00488",
+    "source": "是局部最",
+    "translation": "local mini"
+  },
+  {
+    "id": "seg_00489",
+    "source": "小值呢?",
+    "translation": "ma?"
+  },
+  {
+    "id": "seg_00490",
+    "source": "要解决这个问题",
+    "translation": "To solve this problem"
+  },
+  {
+    "id": "seg_00491",
+    "source": ",还得请小趋势",
+    "translation": ", we need to call upon the local trend"
+  },
+  {
+    "id": "seg_00492",
+    "source": "导数出马",
+    "translation": "derivative"
+  },
+  {
+    "id": "seg_00493",
+    "source": "。我们在上一章就介绍过",
+    "translation": ". We introduced in the previous chapter"
+  },
+  {
+    "id": "seg_00494",
+    "source": "函",
+    "translation": "the"
+  },
+  {
+    "id": "seg_00495",
+    "source": "数的在一点的导数值的正负",
+    "translation": "sign of a function's derivative at a point"
+  },
+  {
+    "id": "seg_00496",
+    "source": ",决定着函数在此点的上升",
+    "translation": ", determines whether the function is increasing"
+  },
+  {
+    "id": "seg_00497",
+    "source": "或者下降的小趋势。",
+    "translation": "or decreasing at that point."
+  },
+  {
+    "id": "seg_00498",
+    "source": "由",
+    "translation": "From"
+  },
+  {
+    "id": "seg_00499",
+    "source": "此不难推出",
+    "translation": "this, it's not hard to deduce"
+  },
+  {
+    "id": "seg_00500",
+    "source": ",如果在某个区间内",
+    "translation": ", if on some interval"
+  },
+  {
+    "id": "seg_00501",
+    "source": "函数的导数为正",
+    "translation": "the function's derivative is positive"
+  },
+  {
+    "id": "seg_00502",
+    "source": ",则函数在此区间为增函数。",
+    "translation": ", then the function is increasing on that interval."
+  },
+  {
+    "id": "seg_00503",
+    "source": "反之",
+    "translation": "Conversely"
+  },
+  {
+    "id": "seg_00504",
+    "source": ",导数值为负",
+    "translation": ", if the derivative is negative"
+  },
+  {
+    "id": "seg_00505",
+    "source": ",则函数为减函数。",
+    "translation": ", then the function is decreasing."
+  },
+  {
+    "id": "seg_00506",
+    "source": "当然也可以说",
+    "translation": "当然也可以说"
+  },
+  {
+    "id": "seg_00507",
+    "source": "函数切线的斜率的正负",
+    "translation": "函数切线的斜率的正负"
+  },
+  {
+    "id": "seg_00508",
+    "source": ",决定着函数是递增函数",
+    "translation": ",决定着函数是递增函数"
+  },
+  {
+    "id": "seg_00509",
+    "source": ",还是",
+    "translation": ",还是"
+  },
+  {
+    "id": "seg_00510",
+    "source": "递减",
+    "translation": "递减"
+  },
+  {
+    "id": "seg_00511",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00512",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00513",
+    "source": "至此",
+    "translation": "At this point"
+  },
+  {
+    "id": "seg_00514",
+    "source": ",我们得到了函数在 ",
+    "translation": ", we have obtained that the function at "
+  },
+  {
+    "id": "seg_00515",
+    "source": "点的左右导数一边非负、一边非正的结",
+    "translation": "has left and right derivatives that are non-negative on one side and non-positive on the other, the con"
+  },
+  {
+    "id": "seg_00516",
+    "source": "论。",
+    "translation": "clusion."
+  },
+  {
+    "id": "seg_00517",
+    "source": "既然",
+    "translation": "Since"
+  },
+  {
+    "id": "seg_00518",
+    "source": "存在",
+    "translation": "exists"
+  },
+  {
+    "id": "seg_00519",
+    "source": "其左右导数必然相等",
+    "translation": "its left and right derivatives must be equal"
+  },
+  {
+    "id": "seg_00520",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00521",
+    "source": "那就只有",
+    "translation": "Then it can only be"
+  },
+  {
+    "id": "seg_00522",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00523",
+    "source": "敲黑板",
+    "translation": "Important point"
+  },
+  {
+    "id": "seg_00524",
+    "source": ":费尔马定理只告诉您",
+    "translation": ": Fermat's Theorem only tells you"
+  },
+  {
+    "id": "seg_00525",
+    "source": ",如果局部极值点存在导数",
+    "translation": ", if a local extreme point has a derivative"
+  },
+  {
+    "id": "seg_00526",
+    "source": ",那么该导数为 ",
+    "translation": ", then that derivative equals "
+  },
+  {
+    "id": "seg_00527",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00528",
+    "source": "他可没说",
+    "translation": "It doesn't say"
+  },
+  {
+    "id": "seg_00529",
+    "source": ",所有的局部极值点,导数都为 ",
+    "translation": ", all local extreme points have derivative equal to "
+  },
+  {
+    "id": "seg_00530",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00531",
+    "source": "为啥?  因为",
+    "translation": "Why? Because"
+  },
+  {
+    "id": "seg_00532",
+    "source": "有的局部极值点,导数",
+    "translation": "some local extreme points have derivatives that"
+  },
+  {
+    "id": "seg_00533",
+    "source": "不存在",
+    "translation": "do not exist"
+  },
+  {
+    "id": "seg_00534",
+    "source": "这些",
+    "translation": "These"
+  },
+  {
+    "id": "seg_00535",
+    "source": "导",
+    "translation": "points"
+  },
+  {
+    "id": "seg_00536",
+    "source": "数",
+    "translation": "where"
+  },
+  {
+    "id": "seg_00537",
+    "source": "不",
+    "translation": "in"
+  },
+  {
+    "id": "seg_00538",
+    "source": "存",
+    "translation": "ex"
+  },
+  {
+    "id": "seg_00539",
+    "source": "在 的",
+    "translation": "在 的"
+  },
+  {
+    "id": "seg_00540",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_00541",
+    "source": "和",
+    "translation": "and"
+  },
+  {
+    "id": "seg_00542",
+    "source": "导",
+    "translation": "points"
+  },
+  {
+    "id": "seg_00543",
+    "source": "数",
+    "translation": "where"
+  },
+  {
+    "id": "seg_00544",
+    "source": "为",
+    "translation": "is"
+  },
+  {
+    "id": "seg_00545",
+    "source": "的",
+    "translation": ""
+  },
+  {
+    "id": "seg_00546",
+    "source": "点,统",
+    "translation": ", are"
+  },
+  {
+    "id": "seg_00547",
+    "source": "称",
+    "translation": "collectively"
+  },
+  {
+    "id": "seg_00548",
+    "source": "为 函",
+    "translation": "called"
+  },
+  {
+    "id": "seg_00549",
+    "source": "数 的",
+    "translation": "the function's"
+  },
+  {
+    "id": "seg_00550",
+    "source": "临",
+    "translation": "critical"
+  },
+  {
+    "id": "seg_00551",
+    "source": "界",
+    "translation": ""
+  },
+  {
+    "id": "seg_00552",
+    "source": "点 ",
+    "translation": "points "
+  },
+  {
+    "id": "seg_00553",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00554",
+    "source": "辛苦走到这里",
+    "translation": "After all this hard work"
+  },
+  {
+    "id": "seg_00555",
+    "source": ",总算是找到了一点求极值的道道了!",
+    "translation": ", we've finally found some methods for finding extreme values!"
+  },
+  {
+    "id": "seg_00556",
+    "source": "首先",
+    "translation": "First"
+  },
+  {
+    "id": "seg_00557",
+    "source": ",找出",
+    "translation": ", find"
+  },
+  {
+    "id": "seg_00558",
+    "source": "函数的临界",
+    "translation": "the function's critical"
+  },
+  {
+    "id": "seg_00559",
+    "source": "点,也就是那些不存在导数或者导数为 ",
+    "translation": "points, that is, those points where the derivative doesn't exist or equals "
+  },
+  {
+    "id": "seg_00560",
+    "source": "的",
+    "translation": ""
+  },
+  {
+    "id": "seg_00561",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_00562",
+    "source": ";其次",
+    "translation": "; second"
+  },
+  {
+    "id": "seg_00563",
+    "source": "比较函数在区间端点和临",
+    "translation": "compare function values at interval endpoints and critical"
+  },
+  {
+    "id": "seg_00564",
+    "source": "界点的值",
+    "translation": "points"
+  },
+  {
+    "id": "seg_00565",
+    "source": "即可确定全局极值和局部极值。",
+    "translation": "to determine global and local extreme values."
+  },
+  {
+    "id": "seg_00566",
+    "source": "之所以要把区间端点的函数值",
+    "translation": "The reason we need to separately compare the function values at interval endpoints"
+  },
+  {
+    "id": "seg_00567",
+    "source": ",单拿出来比较",
+    "translation": ""
+  },
+  {
+    "id": "seg_00568",
+    "source": ",是因为区间的端点,虽不满",
+    "translation": ", is because interval endpoints, although not satis"
+  },
+  {
+    "id": "seg_00569",
+    "source": "足关于局部极值点的定义",
+    "translation": "fying the definition of local extreme points"
+  },
+  {
+    "id": "seg_00570",
+    "source": ",但是它有可能是全局极值点。",
+    "translation": ", may still be global extreme points."
+  },
+  {
+    "id": "seg_00571",
+    "source": "例如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00572",
+    "source": ",严格的单调函",
+    "translation": ", strictly monotonic func"
+  },
+  {
+    "id": "seg_00573",
+    "source": "数",
+    "translation": "where"
+  },
+  {
+    "id": "seg_00574",
+    "source": ",一定是在端点取得全局极值",
+    "translation": ", always attain global extreme values at endpoints"
+  },
+  {
+    "id": "seg_00575",
+    "source": ",并且内部没有局部极值点的。",
+    "translation": ", and have no local extreme points in the interior."
+  },
+  {
+    "id": "seg_00576",
+    "source": "那么",
+    "translation": "then"
+  },
+  {
+    "id": "seg_00577",
+    "source": ",如何判断我们辛苦找出来的函数的临界点是局部最大值",
+    "translation": ", how do we determine whether the critical points we've worked hard to find are local maxima"
+  },
+  {
+    "id": "seg_00578",
+    "source": ",还",
+    "translation": ", or"
+  },
+  {
+    "id": "seg_00579",
+    "source": "是局部最",
+    "translation": "local mini"
+  },
+  {
+    "id": "seg_00580",
+    "source": "小值呢?",
+    "translation": "ma?"
+  },
+  {
+    "id": "seg_00581",
+    "source": "要解决这个问题",
+    "translation": "To solve this problem"
+  },
+  {
+    "id": "seg_00582",
+    "source": ",还得请小趋势",
+    "translation": ", we need to call upon the local trend"
+  },
+  {
+    "id": "seg_00583",
+    "source": "导数出马",
+    "translation": "derivative"
+  },
+  {
+    "id": "seg_00584",
+    "source": "。我们在上一章就介绍过",
+    "translation": ". We introduced in the previous chapter"
+  },
+  {
+    "id": "seg_00585",
+    "source": "函",
+    "translation": "the"
+  },
+  {
+    "id": "seg_00586",
+    "source": "数的在一点的导数值的正负",
+    "translation": "sign of a function's derivative at a point"
+  },
+  {
+    "id": "seg_00587",
+    "source": ",决定着函数在此点的上升",
+    "translation": ", determines whether the function is increasing"
+  },
+  {
+    "id": "seg_00588",
+    "source": "或者下降的小趋势。",
+    "translation": "or decreasing at that point."
+  },
+  {
+    "id": "seg_00589",
+    "source": "由",
+    "translation": "From"
+  },
+  {
+    "id": "seg_00590",
+    "source": "此不难推出",
+    "translation": "this, it's not hard to deduce"
+  },
+  {
+    "id": "seg_00591",
+    "source": ",如果在某个区间内",
+    "translation": ", if on some interval"
+  },
+  {
+    "id": "seg_00592",
+    "source": "函数的导数为正",
+    "translation": "the function's derivative is positive"
+  },
+  {
+    "id": "seg_00593",
+    "source": ",则函数在此区间为增函数。",
+    "translation": ", then the function is increasing on that interval."
+  },
+  {
+    "id": "seg_00594",
+    "source": "反之",
+    "translation": "Conversely"
+  },
+  {
+    "id": "seg_00595",
+    "source": ",导数值为负",
+    "translation": ", if the derivative is negative"
+  },
+  {
+    "id": "seg_00596",
+    "source": ",则函数为减函数。",
+    "translation": ", then the function is decreasing."
+  },
+  {
+    "id": "seg_00597",
+    "source": "当然也可以说",
+    "translation": "当然也可以说"
+  },
+  {
+    "id": "seg_00598",
+    "source": "函数切线的斜率的正负",
+    "translation": "函数切线的斜率的正负"
+  },
+  {
+    "id": "seg_00599",
+    "source": ",决定着函数是递增函数",
+    "translation": ",决定着函数是递增函数"
+  },
+  {
+    "id": "seg_00600",
+    "source": ",还是",
+    "translation": ",还是"
+  },
+  {
+    "id": "seg_00601",
+    "source": "递减",
+    "translation": "递减"
+  },
+  {
+    "id": "seg_00602",
+    "source": "函数。",
+    "translation": "函数。"
+  },
+  {
+    "id": "seg_00603",
+    "source": "如上图所示",
+    "translation": "如上图所示"
+  },
+  {
+    "id": "seg_00604",
+    "source": "函数在",
+    "translation": "函数在"
+  },
+  {
+    "id": "seg_00605",
+    "source": "段和",
+    "translation": "段和"
+  },
+  {
+    "id": "seg_00606",
+    "source": "段都是增函数",
+    "translation": "段都是增函数"
+  },
+  {
+    "id": "seg_00607",
+    "source": "同时其切线斜率或者说导",
+    "translation": "同时其切线斜率或者说导"
+  },
+  {
+    "id": "seg_00608",
+    "source": "数都为正数。",
+    "translation": "数都为正数。"
+  },
+  {
+    "id": "seg_00609",
+    "source": "而函数在 ",
+    "translation": "而函数在 "
+  },
+  {
+    "id": "seg_00610",
+    "source": "段导数为负",
+    "translation": "段导数为负"
+  },
+  {
+    "id": "seg_00611",
+    "source": "因而是减函数。",
+    "translation": "因而是减函数。"
+  },
+  {
+    "id": "seg_00612",
+    "source": "很明显",
+    "translation": "很明显"
+  },
+  {
+    "id": "seg_00613",
+    "source": "函数在 ",
+    "translation": "函数在 "
+  },
+  {
+    "id": "seg_00614",
+    "source": "、",
+    "translation": "、"
+  },
+  {
+    "id": "seg_00615",
+    "source": "两点的导数为",
+    "translation": "两点的导数为"
+  },
+  {
+    "id": "seg_00616",
+    "source": "也就是说",
+    "translation": "也就是说"
+  },
+  {
+    "id": "seg_00617",
+    "source": "都是函数的相对极",
+    "translation": "都是函数的相对极"
+  },
+  {
+    "id": "seg_00618",
+    "source": "值点。",
+    "translation": "值点。"
+  },
+  {
+    "id": "seg_00619",
+    "source": "函数经过 ",
+    "translation": "函数经过 "
+  },
+  {
+    "id": "seg_00620",
+    "source": "的时候",
+    "translation": "的时候"
+  },
+  {
+    "id": "seg_00621",
+    "source": ",其导数是经历过一个由正而零、而负的过程",
+    "translation": ",其导数是经历过一个由正而零、而负的过程"
+  },
+  {
+    "id": "seg_00622",
+    "source": "的。",
+    "translation": "的。"
+  },
+  {
+    "id": "seg_00623",
+    "source": "相应",
+    "translation": "相应"
+  },
+  {
+    "id": "seg_00624",
+    "source": "如上图所示",
+    "translation": "如上图所示"
+  },
+  {
+    "id": "seg_00625",
+    "source": "函数在",
+    "translation": "函数在"
+  },
+  {
+    "id": "seg_00626",
+    "source": "段和",
+    "translation": "段和"
+  },
+  {
+    "id": "seg_00627",
+    "source": "段都是增函数",
+    "translation": "段都是增函数"
+  },
+  {
+    "id": "seg_00628",
+    "source": "同时其切线斜率或者说导",
+    "translation": "同时其切线斜率或者说导"
+  },
+  {
+    "id": "seg_00629",
+    "source": "数都为正数。",
+    "translation": "数都为正数。"
+  },
+  {
+    "id": "seg_00630",
+    "source": "而函数在 ",
+    "translation": "而函数在 "
+  },
+  {
+    "id": "seg_00631",
+    "source": "段导数为负",
+    "translation": "段导数为负"
+  },
+  {
+    "id": "seg_00632",
+    "source": "因而是减函数。",
+    "translation": "因而是减函数。"
+  },
+  {
+    "id": "seg_00633",
+    "source": "很明显",
+    "translation": "很明显"
+  },
+  {
+    "id": "seg_00634",
+    "source": "函数在 ",
+    "translation": "函数在 "
+  },
+  {
+    "id": "seg_00635",
+    "source": "、",
+    "translation": "、"
+  },
+  {
+    "id": "seg_00636",
+    "source": "两点的导数为",
+    "translation": "两点的导数为"
+  },
+  {
+    "id": "seg_00637",
+    "source": "也就是说",
+    "translation": "也就是说"
+  },
+  {
+    "id": "seg_00638",
+    "source": "都是函数的相对极",
+    "translation": "都是函数的相对极"
+  },
+  {
+    "id": "seg_00639",
+    "source": "值点。",
+    "translation": "值点。"
+  },
+  {
+    "id": "seg_00640",
+    "source": "函数经过 ",
+    "translation": "函数经过 "
+  },
+  {
+    "id": "seg_00641",
+    "source": "的时候",
+    "translation": "的时候"
+  },
+  {
+    "id": "seg_00642",
+    "source": ",其导数是经历过一个由正而零、而负的过程",
+    "translation": ",其导数是经历过一个由正而零、而负的过程"
+  },
+  {
+    "id": "seg_00643",
+    "source": "的。",
+    "translation": "的。"
+  },
+  {
+    "id": "seg_00644",
+    "source": "相应",
+    "translation": "相应"
+  },
+  {
+    "id": "seg_00645",
+    "source": "地",
+    "translation": "地"
+  },
+  {
+    "id": "seg_00646",
+    "source": "函数是由增函数变为减函数的。",
+    "translation": "函数是由增函数变为减函数的。"
+  },
+  {
+    "id": "seg_00647",
+    "source": "因而",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00648",
+    "source": "点是相对极大值点。",
+    "translation": "点是相对极大值点。"
+  },
+  {
+    "id": "seg_00649",
+    "source": "而函数经过 C",
+    "translation": "而函数经过 C"
+  },
+  {
+    "id": "seg_00650",
+    "source": "点的时候",
+    "translation": "点的时候"
+  },
+  {
+    "id": "seg_00651",
+    "source": ",其导数是经历过一个由负而零、而正的过程的。",
+    "translation": ",其导数是经历过一个由负而零、而正的过程的。"
+  },
+  {
+    "id": "seg_00652",
+    "source": "与之相对应",
+    "translation": "与之相对应"
+  },
+  {
+    "id": "seg_00653",
+    "source": "函数则是从 C点前的减函数",
+    "translation": "函数则是从 C点前的减函数"
+  },
+  {
+    "id": "seg_00654",
+    "source": ",变为 C点后的增函数。",
+    "translation": ",变为 C点后的增函数。"
+  },
+  {
+    "id": "seg_00655",
+    "source": "因此",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00656",
+    "source": ",C点是",
+    "translation": ",C点是"
+  },
+  {
+    "id": "seg_00657",
+    "source": "函数的相对最小值点。",
+    "translation": "函数的相对最小值点。"
+  },
+  {
+    "id": "seg_00658",
+    "source": "结论",
+    "translation": "结论"
+  },
+  {
+    "id": "seg_00659",
+    "source": ":如果函数的临界点左右的导数是由正变负",
+    "translation": ":如果函数的临界点左右的导数是由正变负"
+  },
+  {
+    "id": "seg_00660",
+    "source": ",则该临界",
+    "translation": ",则该临界"
+  },
+  {
+    "id": "seg_00661",
+    "source": "点为局部最大值",
+    "translation": "点为局部最大值"
+  },
+  {
+    "id": "seg_00662",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_00663",
+    "source": "。相反",
+    "translation": "。相反"
+  },
+  {
+    "id": "seg_00664",
+    "source": ",如果函数的临界点左右的导数是由负变正",
+    "translation": ",如果函数的临界点左右的导数是由负变正"
+  },
+  {
+    "id": "seg_00665",
+    "source": ",则该临界点为函数",
+    "translation": ",则该临界点为函数"
+  },
+  {
+    "id": "seg_00666",
+    "source": "的局部",
+    "translation": "的局部"
+  },
+  {
+    "id": "seg_00667",
+    "source": "最小值点。",
+    "translation": "最小值点。"
+  },
+  {
+    "id": "seg_00668",
+    "source": "至此",
+    "translation": "At this point"
+  },
+  {
+    "id": "seg_00669",
+    "source": ",求函数极值的套路算是基本摸清",
+    "translation": ",求函数极值的套路算是基本摸清"
+  },
+  {
+    "id": "seg_00670",
+    "source": "。那就把我们刚学",
+    "translation": "。那就把我们刚学"
+  },
+  {
+    "id": "seg_00671",
+    "source": "的花拳绣腿",
+    "translation": "的花拳绣腿"
+  },
+  {
+    "id": "seg_00672",
+    "source": ",拿出",
+    "translation": ",拿出"
+  },
+  {
+    "id": "seg_00673",
+    "source": "来比划比划",
+    "translation": "来比划比划"
+  },
+  {
+    "id": "seg_00674",
+    "source": ",看看中不中用。",
+    "translation": ",看看中不中用。"
+  },
+  {
+    "id": "seg_00675",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00676",
+    "source": "5):求函数 f(",
+    "translation": "5):求函数 f("
+  },
+  {
+    "id": "seg_00677",
+    "source": "在区间 [-2",
+    "translation": "在区间 [-2"
+  },
+  {
+    "id": "seg_00678",
+    "source": "的绝",
+    "translation": "的绝"
+  },
+  {
+    "id": "seg_00679",
+    "source": "对极值",
+    "translation": "对极值"
+  },
+  {
+    "id": "seg_00680",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00681",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00682",
+    "source": ":我们按套路出牌",
+    "translation": ":我们按套路出牌"
+  },
+  {
+    "id": "seg_00683",
+    "source": ",先找出临界点",
+    "translation": ",先找出临界点"
+  },
+  {
+    "id": "seg_00684",
+    "source": "由此可见",
+    "translation": "由此可见"
+  },
+  {
+    "id": "seg_00685",
+    "source": "和",
+    "translation": "and"
+  },
+  {
+    "id": "seg_00686",
+    "source": "是该函数的临界点",
+    "translation": "是该函数的临界点"
+  },
+  {
+    "id": "seg_00687",
+    "source": "比较临界点和端点的",
+    "translation": "比较临界点和端点的"
+  },
+  {
+    "id": "seg_00688",
+    "source": "函数值我们",
+    "translation": "函数值我们"
+  },
+  {
+    "id": "seg_00689",
+    "source": "发现",
+    "translation": "发现"
+  },
+  {
+    "id": "seg_00690",
+    "source": "因此",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00691",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00692",
+    "source": "本题的故事",
+    "translation": "本题的故事"
+  },
+  {
+    "id": "seg_00693",
+    "source": ",如下图所示",
+    "translation": ",如下图所示"
+  },
+  {
+    "id": "seg_00694",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00695",
+    "source": "6):求出函数",
+    "translation": "6):求出函数"
+  },
+  {
+    "id": "seg_00696",
+    "source": "的所有极值点以及相应的函数值",
+    "translation": "的所有极值点以及相应的函数值"
+  },
+  {
+    "id": "seg_00697",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00698",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00699",
+    "source": ":废话少说",
+    "translation": ":废话少说"
+  },
+  {
+    "id": "seg_00700",
+    "source": ",先找临界点",
+    "translation": ",先找临界点"
+  },
+  {
+    "id": "seg_00701",
+    "source": "临界点为",
+    "translation": "临界点为"
+  },
+  {
+    "id": "seg_00702",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00703",
+    "source": "下一步",
+    "translation": "下一步"
+  },
+  {
+    "id": "seg_00704",
+    "source": ",考察临界点左右导数的正负。",
+    "translation": ",考察临界点左右导数的正负。"
+  },
+  {
+    "id": "seg_00705",
+    "source": "观察可知",
+    "translation": "观察可知"
+  },
+  {
+    "id": "seg_00706",
+    "source": ":在",
+    "translation": ":在"
+  },
+  {
+    "id": "seg_00707",
+    "source": "-2点左边",
+    "translation": "-2点左边"
+  },
+  {
+    "id": "seg_00708",
+    "source": ",导数",
+    "translation": ",导数"
+  },
+  {
+    "id": "seg_00709",
+    "source": "为负",
+    "translation": "为负"
+  },
+  {
+    "id": "seg_00710",
+    "source": "在(-2,0)上",
+    "translation": "在(-2,0)上"
+  },
+  {
+    "id": "seg_00711",
+    "source": ",导数为正",
+    "translation": ",导数为正"
+  },
+  {
+    "id": "seg_00712",
+    "source": ";在(0,2)上导数为",
+    "translation": ";在(0,2)上导数为"
+  },
+  {
+    "id": "seg_00713",
+    "source": "负",
+    "translation": "负"
+  },
+  {
+    "id": "seg_00714",
+    "source": ";在 2点的右边",
+    "translation": ";在 2点的右边"
+  },
+  {
+    "id": "seg_00715",
+    "source": ",导数为正。",
+    "translation": ",导数为正。"
+  },
+  {
+    "id": "seg_00716",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00717",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00718",
+    "source": "由此可见,点",
+    "translation": "由此可见,点"
+  },
+  {
+    "id": "seg_00719",
+    "source": "-2和",
+    "translation": "-2和"
+  },
+  {
+    "id": "seg_00720",
+    "source": "为函数的相对极小值点,",
+    "translation": "为函数的相对极小值点,"
+  },
+  {
+    "id": "seg_00721",
+    "source": "点 ",
+    "translation": "points "
+  },
+  {
+    "id": "seg_00722",
+    "source": "为函数的相对极大值",
+    "translation": "为函数的相对极大值"
+  },
+  {
+    "id": "seg_00723",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_00724",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00725",
+    "source": "函数值分别为",
+    "translation": "函数值分别为"
+  },
+  {
+    "id": "seg_00726",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00727",
+    "source": "仔细考察可知",
+    "translation": "仔细考察可知"
+  },
+  {
+    "id": "seg_00728",
+    "source": "实际上",
+    "translation": "实际上"
+  },
+  {
+    "id": "seg_00729",
+    "source": "函数 f(",
+    "translation": "函数 f("
+  },
+  {
+    "id": "seg_00730",
+    "source": "没有绝对最大值",
+    "translation": "没有绝对最大值"
+  },
+  {
+    "id": "seg_00731",
+    "source": ",但是有绝对最小值。",
+    "translation": ",但是有绝对最小值。"
+  },
+  {
+    "id": "seg_00732",
+    "source": "本题中的相对最小值",
+    "translation": "本题中的相对最小值"
+  },
+  {
+    "id": "seg_00733",
+    "source": ",恰好也就是绝对最小值。",
+    "translation": ",恰好也就是绝对最小值。"
+  },
+  {
+    "id": "seg_00734",
+    "source": "推而广之",
+    "translation": "推而广之"
+  },
+  {
+    "id": "seg_00735",
+    "source": ",所有的 4次函数",
+    "translation": ",所有的 4次函数"
+  },
+  {
+    "id": "seg_00736",
+    "source": ",都",
+    "translation": ",都"
+  },
+  {
+    "id": "seg_00737",
+    "source": "没有绝对最大值",
+    "translation": "没有绝对最大值"
+  },
+  {
+    "id": "seg_00738",
+    "source": ",但是一定存在绝对最小值。",
+    "translation": ",但是一定存在绝对最小值。"
+  },
+  {
+    "id": "seg_00739",
+    "source": "当然",
+    "translation": "Of course"
+  },
+  {
+    "id": "seg_00740",
+    "source": ",闭区间的情形除外。",
+    "translation": ",闭区间的情形除外。"
+  },
+  {
+    "id": "seg_00741",
+    "source": "下图就是本题讲述的故事。",
+    "translation": "下图就是本题讲述的故事。"
+  },
+  {
+    "id": "seg_00742",
+    "source": "线性近似(",
+    "translation": "线性近似("
+  },
+  {
+    "id": "seg_00743",
+    "source": "我们在前面介绍过",
+    "translation": "我们在前面介绍过"
+  },
+  {
+    "id": "seg_00744",
+    "source": ",微积分处理曲线的方法",
+    "translation": ",微积分处理曲线的方法"
+  },
+  {
+    "id": "seg_00745",
+    "source": ",就是",
+    "translation": ",就是"
+  },
+  {
+    "id": "seg_00746",
+    "source": "分而治之",
+    "translation": "分而治之"
+  },
+  {
+    "id": "seg_00747",
+    "source": "。换句话说",
+    "translation": "。换句话说"
+  },
+  {
+    "id": "seg_00748",
+    "source": ",就是",
+    "translation": ",就是"
+  },
+  {
+    "id": "seg_00749",
+    "source": "把曲线分成若干段",
+    "translation": "把曲线分成若干段"
+  },
+  {
+    "id": "seg_00750",
+    "source": ",每一段按直线对待。",
+    "translation": ",每一段按直线对待。"
+  },
+  {
+    "id": "seg_00751",
+    "source": "当然",
+    "translation": "Of course"
+  },
+  {
+    "id": "seg_00752",
+    "source": ",这种处理结果并不精确",
+    "translation": ",这种处理结果并不精确"
+  },
+  {
+    "id": "seg_00753",
+    "source": "。但是",
+    "translation": "。但是"
+  },
+  {
+    "id": "seg_00754",
+    "source": ",当",
+    "translation": ",当"
+  },
+  {
+    "id": "seg_00755",
+    "source": "这个若干段的“若干”值变得无穷大的时候",
+    "translation": "这个若干段的“若干”值变得无穷大的时候"
+  },
+  {
+    "id": "seg_00756",
+    "source": ",这种直线处理的结果可以视为真理。",
+    "translation": ",这种直线处理的结果可以视为真理。"
+  },
+  {
+    "id": "seg_00757",
+    "source": "那么",
+    "translation": "then"
+  },
+  {
+    "id": "seg_00758",
+    "source": ",选择什么样的直线做为曲线的近似标的呢?  ",
+    "translation": ",选择什么样的直线做为曲线的近似标的呢?  "
+  },
+  {
+    "id": "seg_00759",
+    "source": "既然曲线在一个点的小",
+    "translation": "既然曲线在一个点的小"
+  },
+  {
+    "id": "seg_00760",
+    "source": "趋势是切线的方向",
+    "translation": "趋势是切线的方向"
+  },
+  {
+    "id": "seg_00761",
+    "source": ",那么自然就可以选择曲线在一个点的切线来替代曲线。",
+    "translation": ",那么自然就可以选择曲线在一个点的切线来替代曲线。"
+  },
+  {
+    "id": "seg_00762",
+    "source": "一",
+    "translation": "一"
+  },
+  {
+    "id": "seg_00763",
+    "source": "般来说",
+    "translation": "般来说"
+  },
+  {
+    "id": "seg_00764",
+    "source": ",离这个特定点越近",
+    "translation": ",离这个特定点越近"
+  },
+  {
+    "id": "seg_00765",
+    "source": ",近似程度越高。",
+    "translation": ",近似程度越高。"
+  },
+  {
+    "id": "seg_00766",
+    "source": "如上图所示",
+    "translation": "如上图所示"
+  },
+  {
+    "id": "seg_00767",
+    "source": ":所谓线性近似就是在 ",
+    "translation": ":所谓线性近似就是在 "
+  },
+  {
+    "id": "seg_00768",
+    "source": "点附近",
+    "translation": "点附近"
+  },
+  {
+    "id": "seg_00769",
+    "source": ",用线性函数",
+    "translation": ",用线性函数"
+  },
+  {
+    "id": "seg_00770",
+    "source": "切线",
+    "translation": "切线"
+  },
+  {
+    "id": "seg_00771",
+    "source": "来",
+    "translation": "来"
+  },
+  {
+    "id": "seg_00772",
+    "source": "近似地代表 f(",
+    "translation": "近似地代表 f("
+  },
+  {
+    "id": "seg_00773",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00774",
+    "source": "过点 ",
+    "translation": "过点 "
+  },
+  {
+    "id": "seg_00775",
+    "source": "的切线方程就是",
+    "translation": "的切线方程就是"
+  },
+  {
+    "id": "seg_00776",
+    "source": "因而",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00777",
+    "source": "点附近的线性近似就是",
+    "translation": "点附近的线性近似就是"
+  },
+  {
+    "id": "seg_00778",
+    "source": "线性近似是一种简洁的方式",
+    "translation": "线性近似是一种简洁的方式"
+  },
+  {
+    "id": "seg_00779",
+    "source": ",但同时也是一种没有办法的办法。",
+    "translation": ",但同时也是一种没有办法的办法。"
+  },
+  {
+    "id": "seg_00780",
+    "source": "用二次函",
+    "translation": "用二次函"
+  },
+  {
+    "id": "seg_00781",
+    "source": "数或者更高次函数来做近似的工具其精确性当然更高",
+    "translation": "数或者更高次函数来做近似的工具其精确性当然更高"
+  },
+  {
+    "id": "seg_00782",
+    "source": ",但是那得多费很多力气。",
+    "translation": ",但是那得多费很多力气。"
+  },
+  {
+    "id": "seg_00783",
+    "source": "尽管此法不完美",
+    "translation": "尽管此法不完美"
+  },
+  {
+    "id": "seg_00784",
+    "source": ",但是挺实用",
+    "translation": ",但是挺实用"
+  },
+  {
+    "id": "seg_00785",
+    "source": "。有人还给它起了一个更高大上的",
+    "translation": "。有人还给它起了一个更高大上的"
+  },
+  {
+    "id": "seg_00786",
+    "source": "名字叫",
+    "translation": "名字叫"
+  },
+  {
+    "id": "seg_00787",
+    "source": ":线",
+    "translation": ":线"
+  },
+  {
+    "id": "seg_00788",
+    "source": "性逼近。",
+    "translation": "性逼近。"
+  },
+  {
+    "id": "seg_00789",
+    "source": "来个例题诠释一下线性逼近是咋回事儿。",
+    "translation": "来个例题诠释一下线性逼近是咋回事儿。"
+  },
+  {
+    "id": "seg_00790",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00791",
+    "source": "7):求函数 f(",
+    "translation": "7):求函数 f("
+  },
+  {
+    "id": "seg_00792",
+    "source": "在点 ",
+    "translation": "在点 "
+  },
+  {
+    "id": "seg_00793",
+    "source": "的线性逼近",
+    "translation": "的线性逼近"
+  },
+  {
+    "id": "seg_00794",
+    "source": "并用它来估算",
+    "translation": "并用它来估算"
+  },
+  {
+    "id": "seg_00795",
+    "source": "(精确",
+    "translation": "(精确"
+  },
+  {
+    "id": "seg_00796",
+    "source": "到小数点后四位数) ,",
+    "translation": "到小数点后四位数) ,"
+  },
+  {
+    "id": "seg_00797",
+    "source": "比较这个估算值和精确值。",
+    "translation": "比较这个估算值和精确值。"
+  },
+  {
+    "id": "seg_00798",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00799",
+    "source": "由题意可知 f(27)",
+    "translation": "由题意可知 f(27)"
+  },
+  {
+    "id": "seg_00800",
+    "source": ",而函数的导函数为",
+    "translation": ",而函数的导函数为"
+  },
+  {
+    "id": "seg_00801",
+    "source": "所以",
+    "translation": "所以"
+  },
+  {
+    "id": "seg_00802",
+    "source": ",要求的线性逼近就是",
+    "translation": ",要求的线性逼近就是"
+  },
+  {
+    "id": "seg_00803",
+    "source": "另一方面",
+    "translation": "另一方面"
+  },
+  {
+    "id": "seg_00804",
+    "source": "用计算器直接计算得出",
+    "translation": "用计算器直接计算得出"
+  },
+  {
+    "id": "seg_00805",
+    "source": "由此可见",
+    "translation": "由此可见"
+  },
+  {
+    "id": "seg_00806",
+    "source": "估算值略大于精确值",
+    "translation": "估算值略大于精确值"
+  },
+  {
+    "id": "seg_00807",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00808",
+    "source": "经过计算可知",
+    "translation": "经过计算可知"
+  },
+  {
+    "id": "seg_00809",
+    "source": "其精确度达到了",
+    "translation": "其精确度达到了"
+  },
+  {
+    "id": "seg_00810",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00811",
+    "source": "现在",
+    "translation": "现在"
+  },
+  {
+    "id": "seg_00812",
+    "source": ",我们串一下两个知识点,线性近似和微分",
+    "translation": ",我们串一下两个知识点,线性近似和微分"
+  },
+  {
+    "id": "seg_00813",
+    "source": "。再把那个介绍函数微",
+    "translation": "。再把那个介绍函数微"
+  },
+  {
+    "id": "seg_00814",
+    "source": "分的",
+    "translation": "分的"
+  },
+  {
+    "id": "seg_00815",
+    "source": "图拿来看一下",
+    "translation": "图拿来看一下"
+  },
+  {
+    "id": "seg_00816",
+    "source": "我们知道",
+    "translation": "我们知道"
+  },
+  {
+    "id": "seg_00817",
+    "source": "点线性近似为",
+    "translation": "点线性近似为"
+  },
+  {
+    "id": "seg_00818",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00819",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00820",
+    "source": "其对应的点为",
+    "translation": "其对应的点为"
+  },
+  {
+    "id": "seg_00821",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00822",
+    "source": "而精确值为",
+    "translation": "而精确值为"
+  },
+  {
+    "id": "seg_00823",
+    "source": "它在图上的对应点是",
+    "translation": "它在图上的对应点是"
+  },
+  {
+    "id": "seg_00824",
+    "source": "Q点。",
+    "translation": "Q点。"
+  },
+  {
+    "id": "seg_00825",
+    "source": "近似值和精确值的差就是 ",
+    "translation": "近似值和精确值的差就是 "
+  },
+  {
+    "id": "seg_00826",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00827",
+    "source": "显然",
+    "translation": "显然"
+  },
+  {
+    "id": "seg_00828",
+    "source": "越小",
+    "translation": "越小"
+  },
+  {
+    "id": "seg_00829",
+    "source": "这种误差也就越",
+    "translation": "这种误差也就越"
+  },
+  {
+    "id": "seg_00830",
+    "source": "小",
+    "translation": "小"
+  },
+  {
+    "id": "seg_00831",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00832",
+    "source": "线性逼近看起来并不复杂",
+    "translation": "线性逼近看起来并不复杂"
+  },
+  {
+    "id": "seg_00833",
+    "source": ",甚至有时候并不是那么方便。",
+    "translation": ",甚至有时候并不是那么方便。"
+  },
+  {
+    "id": "seg_00834",
+    "source": "而且随着计算机",
+    "translation": "而且随着计算机"
+  },
+  {
+    "id": "seg_00835",
+    "source": "技术日新月异的发展",
+    "translation": "技术日新月异的发展"
+  },
+  {
+    "id": "seg_00836",
+    "source": ",其实用性会再打折扣",
+    "translation": ",其实用性会再打折扣"
+  },
+  {
+    "id": "seg_00837",
+    "source": "。但是我们还是单列一节来介",
+    "translation": "。但是我们还是单列一节来介"
+  },
+  {
+    "id": "seg_00838",
+    "source": "绍",
+    "translation": "绍"
+  },
+  {
+    "id": "seg_00839",
+    "source": ",一",
+    "translation": ",一"
+  },
+  {
+    "id": "seg_00840",
+    "source": "是因为",
+    "translation": "是因为"
+  },
+  {
+    "id": "seg_00841",
+    "source": ",它的化繁为简的解决问题的方法",
+    "translation": ",它的化繁为简的解决问题的方法"
+  },
+  {
+    "id": "seg_00842",
+    "source": ",既是微积分的基本手法",
+    "translation": ",既是微积分的基本手法"
+  },
+  {
+    "id": "seg_00843",
+    "source": ",也",
+    "translation": ",也"
+  },
+  {
+    "id": "seg_00844",
+    "source": "可以用来",
+    "translation": "可以用来"
+  },
+  {
+    "id": "seg_00845",
+    "source": "指导我们的日常工作;二是因为",
+    "translation": "指导我们的日常工作;二是因为"
+  },
+  {
+    "id": "seg_00846",
+    "source": ",这个看似简单的方法",
+    "translation": ",这个看似简单的方法"
+  },
+  {
+    "id": "seg_00847",
+    "source": "曾经很有作用",
+    "translation": "曾经很有作用"
+  },
+  {
+    "id": "seg_00848",
+    "source": ",并且耗费",
+    "translation": ",并且耗费"
+  },
+  {
+    "id": "seg_00849",
+    "source": "了许多前辈的辛勤劳动",
+    "translation": "了许多前辈的辛勤劳动"
+  },
+  {
+    "id": "seg_00850",
+    "source": "向他们致敬!",
+    "translation": "向他们致敬!"
+  },
+  {
+    "id": "seg_00851",
+    "source": "摸着石头过河",
+    "translation": "摸着石头过河"
+  },
+  {
+    "id": "seg_00852",
+    "source": "牛顿(",
+    "translation": "牛顿("
+  },
+  {
+    "id": "seg_00853",
+    "source": ")法",
+    "translation": ")法"
+  },
+  {
+    "id": "seg_00854",
+    "source": "提起一元一次方程",
+    "translation": "提起一元一次方程"
+  },
+  {
+    "id": "seg_00855",
+    "source": ",可能很多小学生都能解得像模像样。",
+    "translation": ",可能很多小学生都能解得像模像样。"
+  },
+  {
+    "id": "seg_00856",
+    "source": "而一元二次方程",
+    "translation": "而一元二次方程"
+  },
+  {
+    "id": "seg_00857",
+    "source": "差不多每一个高中生",
+    "translation": "差不多每一个高中生"
+  },
+  {
+    "id": "seg_00858",
+    "source": ",都能写出它的求根公式",
+    "translation": ",都能写出它的求根公式"
+  },
+  {
+    "id": "seg_00859",
+    "source": "。但是",
+    "translation": "。但是"
+  },
+  {
+    "id": "seg_00860",
+    "source": ",再",
+    "translation": ",再"
+  },
+  {
+    "id": "seg_00861",
+    "source": "复杂一点呢?",
+    "translation": "复杂一点呢?"
+  },
+  {
+    "id": "seg_00862",
+    "source": "例如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00863",
+    "source": "有点晕对吗?",
+    "translation": "有点晕对吗?"
+  },
+  {
+    "id": "seg_00864",
+    "source": "那要是再复杂点呢?",
+    "translation": "那要是再复杂点呢?"
+  },
+  {
+    "id": "seg_00865",
+    "source": "例如",
+    "translation": "For example"
+  },
+  {
+    "id": "seg_00866",
+    "source": "谁要让你给出个解这样方程的公式",
+    "translation": "谁要让你给出个解这样方程的公式"
+  },
+  {
+    "id": "seg_00867",
+    "source": ",你准得跟人急!",
+    "translation": ",你准得跟人急!"
+  },
+  {
+    "id": "seg_00868",
+    "source": "先别着急",
+    "translation": "先别着急"
+  },
+  {
+    "id": "seg_00869",
+    "source": ",真要对这样的方程写出求根公式",
+    "translation": ",真要对这样的方程写出求根公式"
+  },
+  {
+    "id": "seg_00870",
+    "source": ",不但你不行",
+    "translation": ",不但你不行"
+  },
+  {
+    "id": "seg_00871",
+    "source": "随便找个数学家",
+    "translation": "随便找个数学家"
+  },
+  {
+    "id": "seg_00872",
+    "source": "来干这活",
+    "translation": "来干这活"
+  },
+  {
+    "id": "seg_00873",
+    "source": ",也不行!",
+    "translation": ",也不行!"
+  },
+  {
+    "id": "seg_00874",
+    "source": "古代先贤教育我们",
+    "translation": "古代先贤教育我们"
+  },
+  {
+    "id": "seg_00875",
+    "source": ":人生不如意十之八九",
+    "translation": ":人生不如意十之八九"
+  },
+  {
+    "id": "seg_00876",
+    "source": "。精辟!",
+    "translation": "。精辟!"
+  },
+  {
+    "id": "seg_00877",
+    "source": "数学也如此",
+    "translation": "数学也如此"
+  },
+  {
+    "id": "seg_00878",
+    "source": "方程无求根",
+    "translation": "方程无求根"
+  },
+  {
+    "id": "seg_00879",
+    "source": "公式者",
+    "translation": "公式者"
+  },
+  {
+    "id": "seg_00880",
+    "source": ",十之九九!",
+    "translation": ",十之九九!"
+  },
+  {
+    "id": "seg_00881",
+    "source": "残酷的现实告诉我们",
+    "translation": "残酷的现实告诉我们"
+  },
+  {
+    "id": "seg_00882",
+    "source": ",各种应用科学中碰到的方程问",
+    "translation": ",各种应用科学中碰到的方程问"
+  },
+  {
+    "id": "seg_00883",
+    "source": "题",
+    "translation": "题"
+  },
+  {
+    "id": "seg_00884",
+    "source": "写不出求根公式",
+    "translation": "写不出求根公式"
+  },
+  {
+    "id": "seg_00885",
+    "source": "的",
+    "translation": ""
+  },
+  {
+    "id": "seg_00886",
+    "source": "占压倒性的绝大多数。",
+    "translation": "占压倒性的绝大多数。"
+  },
+  {
+    "id": "seg_00887",
+    "source": "数学前辈们早就发现很多方程不能得出精确的解",
+    "translation": "数学前辈们早就发现很多方程不能得出精确的解"
+  },
+  {
+    "id": "seg_00888",
+    "source": "。但是他们没有气馁",
+    "translation": "。但是他们没有气馁"
+  },
+  {
+    "id": "seg_00889",
+    "source": ",不",
+    "translation": ",不"
+  },
+  {
+    "id": "seg_00890",
+    "source": "能得出精确的解",
+    "translation": "能得出精确的解"
+  },
+  {
+    "id": "seg_00891",
+    "source": ",就想尽一切办法去求出近似解",
+    "translation": ",就想尽一切办法去求出近似解"
+  },
+  {
+    "id": "seg_00892",
+    "source": "。退而求其次、与不完美",
+    "translation": "。退而求其次、与不完美"
+  },
+  {
+    "id": "seg_00893",
+    "source": "拥抱、",
+    "translation": "拥抱、"
+  },
+  {
+    "id": "seg_00894",
+    "source": "与现实和解",
+    "translation": "与现实和解"
+  },
+  {
+    "id": "seg_00895",
+    "source": ",是人生的大智慧!",
+    "translation": ",是人生的大智慧!"
+  },
+  {
+    "id": "seg_00896",
+    "source": "大师牛顿(",
+    "translation": "大师牛顿("
+  },
+  {
+    "id": "seg_00897",
+    "source": "就采取了一种非常优美的方法来求出方程的",
+    "translation": "就采取了一种非常优美的方法来求出方程的"
+  },
+  {
+    "id": "seg_00898",
+    "source": "近似解。",
+    "translation": "近似解。"
+  },
+  {
+    "id": "seg_00899",
+    "source": "牛顿采用的方法",
+    "translation": "牛顿采用的方法"
+  },
+  {
+    "id": "seg_00900",
+    "source": ",就是微积分的标准手法",
+    "translation": ",就是微积分的标准手法"
+  },
+  {
+    "id": "seg_00901",
+    "source": ":用直线的方法解决非直线的问",
+    "translation": ":用直线的方法解决非直线的问"
+  },
+  {
+    "id": "seg_00902",
+    "source": "题",
+    "translation": "题"
+  },
+  {
+    "id": "seg_00903",
+    "source": "。思路如下",
+    "translation": "。思路如下"
+  },
+  {
+    "id": "seg_00904",
+    "source": "如图所示",
+    "translation": "如图所示"
+  },
+  {
+    "id": "seg_00905",
+    "source": "假设我们的任务是求出 ",
+    "translation": "假设我们的任务是求出 "
+  },
+  {
+    "id": "seg_00906",
+    "source": "的根 ",
+    "translation": "的根 "
+  },
+  {
+    "id": "seg_00907",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00908",
+    "source": "没有头绪的我们",
+    "translation": "没有头绪的我们"
+  },
+  {
+    "id": "seg_00909",
+    "source": "只能先蒙一个 ",
+    "translation": "只能先蒙一个 "
+  },
+  {
+    "id": "seg_00910",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00911",
+    "source": "当然",
+    "translation": "Of course"
+  },
+  {
+    "id": "seg_00912",
+    "source": ",几乎",
+    "translation": ",几乎"
+  },
+  {
+    "id": "seg_00913",
+    "source": "可以断",
+    "translation": "可以断"
+  },
+  {
+    "id": "seg_00914",
+    "source": "定",
+    "translation": "定"
+  },
+  {
+    "id": "seg_00915",
+    "source": "不是我们要求的",
+    "translation": "不是我们要求的"
+  },
+  {
+    "id": "seg_00916",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00917",
+    "source": "接下来",
+    "translation": "接下来"
+  },
+  {
+    "id": "seg_00918",
+    "source": ",我们请出曲线在点",
+    "translation": ",我们请出曲线在点"
+  },
+  {
+    "id": "seg_00919",
+    "source": "的切线L。",
+    "translation": "的切线L。"
+  },
+  {
+    "id": "seg_00920",
+    "source": "由于是",
+    "translation": "由于是"
+  },
+  {
+    "id": "seg_00921",
+    "source": "直线",
+    "translation": "直线"
+  },
+  {
+    "id": "seg_00922",
+    "source": ",我们会很容易找出直线 L和",
+    "translation": ",我们会很容易找出直线 L和"
+  },
+  {
+    "id": "seg_00923",
+    "source": "轴的交叉点",
+    "translation": "轴的交叉点"
+  },
+  {
+    "id": "seg_00924",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00925",
+    "source": "很自然",
+    "translation": "很自然"
+  },
+  {
+    "id": "seg_00926",
+    "source": "也大概率地不是",
+    "translation": "也大概率地不是"
+  },
+  {
+    "id": "seg_00927",
+    "source": "先生",
+    "translation": "先生"
+  },
+  {
+    "id": "seg_00928",
+    "source": "。但是",
+    "translation": "。但是"
+  },
+  {
+    "id": "seg_00929",
+    "source": "由于切线方向是函数的小趋",
+    "translation": "由于切线方向是函数的小趋"
+  },
+  {
+    "id": "seg_00930",
+    "source": "势",
+    "translation": "势"
+  },
+  {
+    "id": "seg_00931",
+    "source": ",代表着曲线在点 ",
+    "translation": ",代表着曲线在点 "
+  },
+  {
+    "id": "seg_00932",
+    "source": "处的 f(",
+    "translation": "处的 f("
+  },
+  {
+    "id": "seg_00933",
+    "source": "的走",
+    "translation": "的走"
+  },
+  {
+    "id": "seg_00934",
+    "source": "向。",
+    "translation": "向。"
+  },
+  {
+    "id": "seg_00935",
+    "source": "因而我们知道",
+    "translation": "因而我们知道"
+  },
+  {
+    "id": "seg_00936",
+    "source": ",尽管 ",
+    "translation": ",尽管 "
+  },
+  {
+    "id": "seg_00937",
+    "source": "也不是 ",
+    "translation": "也不是 "
+  },
+  {
+    "id": "seg_00938",
+    "source": "但",
+    "translation": "但"
+  },
+  {
+    "id": "seg_00939",
+    "source": "是它应该比 ",
+    "translation": "是它应该比 "
+  },
+  {
+    "id": "seg_00940",
+    "source": "离",
+    "translation": "离"
+  },
+  {
+    "id": "seg_00941",
+    "source": "更近",
+    "translation": "更近"
+  },
+  {
+    "id": "seg_00942",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00943",
+    "source": "隆重请出曲线在点 ",
+    "translation": "隆重请出曲线在点 "
+  },
+  {
+    "id": "seg_00944",
+    "source": "的切线",
+    "translation": "的切线"
+  },
+  {
+    "id": "seg_00945",
+    "source": "并找出它和 ",
+    "translation": "并找出它和 "
+  },
+  {
+    "id": "seg_00946",
+    "source": "轴的交点",
+    "translation": "轴的交点"
+  },
+  {
+    "id": "seg_00947",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00948",
+    "source": "比 ",
+    "translation": "比 "
+  },
+  {
+    "id": "seg_00949",
+    "source": "更",
+    "translation": "更"
+  },
+  {
+    "id": "seg_00950",
+    "source": "接近",
+    "translation": "接近"
+  },
+  {
+    "id": "seg_00951",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00952",
+    "source": "重复以上步骤",
+    "translation": "重复以上步骤"
+  },
+  {
+    "id": "seg_00953",
+    "source": "可以得到 ",
+    "translation": "可以得到 "
+  },
+  {
+    "id": "seg_00954",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00955",
+    "source": "由上图易见",
+    "translation": "由上图易见"
+  },
+  {
+    "id": "seg_00956",
+    "source": "推而广之",
+    "translation": "推而广之"
+  },
+  {
+    "id": "seg_00957",
+    "source": "即",
+    "translation": "即"
+  },
+  {
+    "id": "seg_00958",
+    "source": "结论",
+    "translation": "结论"
+  },
+  {
+    "id": "seg_00959",
+    "source": ":就是",
+    "translation": ":就是"
+  },
+  {
+    "id": "seg_00960",
+    "source": "值越大",
+    "translation": "值越大"
+  },
+  {
+    "id": "seg_00961",
+    "source": "越接近",
+    "translation": "越接近"
+  },
+  {
+    "id": "seg_00962",
+    "source": "。也就是",
+    "translation": "。也就是"
+  },
+  {
+    "id": "seg_00963",
+    "source": "看到极限",
+    "translation": "看到极限"
+  },
+  {
+    "id": "seg_00964",
+    "source": ",先别感觉麻烦",
+    "translation": ",先别感觉麻烦"
+  },
+  {
+    "id": "seg_00965",
+    "source": ",学校真要考你的话",
+    "translation": ",学校真要考你的话"
+  },
+  {
+    "id": "seg_00966",
+    "source": ",最多也就是算个两三",
+    "translation": ",最多也就是算个两三"
+  },
+  {
+    "id": "seg_00967",
+    "source": "步",
+    "translation": "步"
+  },
+  {
+    "id": "seg_00968",
+    "source": "比划",
+    "translation": "比划"
+  },
+  {
+    "id": "seg_00969",
+    "source": "一下就得了。",
+    "translation": "一下就得了。"
+  },
+  {
+    "id": "seg_00970",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_00971",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  },
+  {
+    "id": "seg_00972",
+    "source": "但是",
+    "translation": "但是"
+  },
+  {
+    "id": "seg_00973",
+    "source": ",这种数学思想",
+    "translation": ",这种数学思想"
+  },
+  {
+    "id": "seg_00974",
+    "source": ",值得好好揣摩。",
+    "translation": ",值得好好揣摩。"
+  },
+  {
+    "id": "seg_00975",
+    "source": "好",
+    "translation": "好"
+  },
+  {
+    "id": "seg_00976",
+    "source": ",接下来",
+    "translation": ",接下来"
+  },
+  {
+    "id": "seg_00977",
+    "source": ",学以致用",
+    "translation": ",学以致用"
+  },
+  {
+    "id": "seg_00978",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_00979",
+    "source": "8):从",
+    "translation": "8):从"
+  },
+  {
+    "id": "seg_00980",
+    "source": "出发",
+    "translation": "出发"
+  },
+  {
+    "id": "seg_00981",
+    "source": ",求方程",
+    "translation": ",求方程"
+  },
+  {
+    "id": "seg_00982",
+    "source": "的根的近似值",
+    "translation": "的根的近似值"
+  },
+  {
+    "id": "seg_00983",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00984",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_00985",
+    "source": ":我们知道",
+    "translation": ":我们知道"
+  },
+  {
+    "id": "seg_00986",
+    "source": "所以",
+    "translation": "所以"
+  },
+  {
+    "id": "seg_00987",
+    "source": ",按照牛顿方法我们有",
+    "translation": ",按照牛顿方法我们有"
+  },
+  {
+    "id": "seg_00988",
+    "source": "因而",
+    "translation": "therefore"
+  },
+  {
+    "id": "seg_00989",
+    "source": "的精确度如何呢?",
+    "translation": "的精确度如何呢?"
+  },
+  {
+    "id": "seg_00990",
+    "source": "随便找个计算器按两下",
+    "translation": "随便找个计算器按两下"
+  },
+  {
+    "id": "seg_00991",
+    "source": ",就可以得到",
+    "translation": ",就可以得到"
+  },
+  {
+    "id": "seg_00992",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_00993",
+    "source": "可见",
+    "translation": "可见"
+  },
+  {
+    "id": "seg_00994",
+    "source": "的精确度相当了得?",
+    "translation": "的精确度相当了得?"
+  },
+  {
+    "id": "seg_00995",
+    "source": "那么",
+    "translation": "then"
+  },
+  {
+    "id": "seg_00996",
+    "source": ",为啥举这个例子呢?",
+    "translation": ",为啥举这个例子呢?"
+  },
+  {
+    "id": "seg_00997",
+    "source": "记住了",
+    "translation": "记住了"
+  },
+  {
+    "id": "seg_00998",
+    "source": ",这道题目就是就是牛顿先生介绍牛顿法",
+    "translation": ",这道题目就是就是牛顿先生介绍牛顿法"
+  },
+  {
+    "id": "seg_00999",
+    "source": "的论文中的原装题目!",
+    "translation": "的论文中的原装题目!"
+  },
+  {
+    "id": "seg_01000",
+    "source": "虽然牛顿方法非常好用",
+    "translation": "虽然牛顿方法非常好用"
+  },
+  {
+    "id": "seg_01001",
+    "source": ",但要真是没有章法地乱用",
+    "translation": ",但要真是没有章法地乱用"
+  },
+  {
+    "id": "seg_01002",
+    "source": ",有的时候就会陷入误",
+    "translation": ",有的时候就会陷入误"
+  },
+  {
+    "id": "seg_01003",
+    "source": "区",
+    "translation": "区"
+  },
+  {
+    "id": "seg_01004",
+    "source": ",得不到应有的效果",
+    "translation": ",得不到应有的效果"
+  },
+  {
+    "id": "seg_01005",
+    "source": "。例如下图所示的情",
+    "translation": "。例如下图所示的情"
+  },
+  {
+    "id": "seg_01006",
+    "source": "形",
+    "translation": "形"
+  },
+  {
+    "id": "seg_01007",
+    "source": "看着还像那么回事",
+    "translation": "看着还像那么回事"
+  },
+  {
+    "id": "seg_01008",
+    "source": ",但是从 ",
+    "translation": ",但是从 "
+  },
+  {
+    "id": "seg_01009",
+    "source": "往后",
+    "translation": "往后"
+  },
+  {
+    "id": "seg_01010",
+    "source": ",和",
+    "translation": ",和"
+  },
+  {
+    "id": "seg_01011",
+    "source": "是渐行渐远啊",
+    "translation": "是渐行渐远啊"
+  },
+  {
+    "id": "seg_01012",
+    "source": "。那可真是黄鼠",
+    "translation": "。那可真是黄鼠"
+  },
+  {
+    "id": "seg_01013",
+    "source": "狼下崽",
+    "translation": "狼下崽"
+  },
+  {
+    "id": "seg_01014",
+    "source": ",一窝不如一窝!",
+    "translation": ",一窝不如一窝!"
+  },
+  {
+    "id": "seg_01015",
+    "source": "何也?  因为牛顿法中的第一步",
+    "translation": "何也?  因为牛顿法中的第一步"
+  },
+  {
+    "id": "seg_01016",
+    "source": "的",
+    "translation": ""
+  },
+  {
+    "id": "seg_01017",
+    "source": "选择",
+    "translation": "选择"
+  },
+  {
+    "id": "seg_01018",
+    "source": "是个技",
+    "translation": "是个技"
+  },
+  {
+    "id": "seg_01019",
+    "source": "术活!",
+    "translation": "术活!"
+  },
+  {
+    "id": "seg_01020",
+    "source": "就像大师手稿中的例题",
+    "translation": "就像大师手稿中的例题"
+  },
+  {
+    "id": "seg_01021",
+    "source": "他选择",
+    "translation": "他选择"
+  },
+  {
+    "id": "seg_01022",
+    "source": "为啥不选 ",
+    "translation": "为啥不选 "
+  },
+  {
+    "id": "seg_01023",
+    "source": "、",
+    "translation": "、"
+  },
+  {
+    "id": "seg_01024",
+    "source": "、",
+    "translation": "、"
+  },
+  {
+    "id": "seg_01025",
+    "source": "呢?",
+    "translation": "呢?"
+  },
+  {
+    "id": "seg_01026",
+    "source": "  比较一下就",
+    "translation": "  比较一下就"
+  },
+  {
+    "id": "seg_01027",
+    "source": "知道了",
+    "translation": "知道了"
+  },
+  {
+    "id": "seg_01028",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01029",
+    "source": "显然",
+    "translation": "显然"
+  },
+  {
+    "id": "seg_01030",
+    "source": ",f(-1)=-4而",
+    "translation": ",f(-1)=-4而"
+  },
+  {
+    "id": "seg_01031",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01032",
+    "source": "即使让你",
+    "translation": "即使让你"
+  },
+  {
+    "id": "seg_01033",
+    "source": "选",
+    "translation": "选"
+  },
+  {
+    "id": "seg_01034",
+    "source": "你也会选择函数值离 0最近的 2做为 ",
+    "translation": "你也会选择函数值离 0最近的 2做为 "
+  },
+  {
+    "id": "seg_01035",
+    "source": "吧",
+    "translation": "吧"
+  },
+  {
+    "id": "seg_01036",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01037",
+    "source": "牛顿方法的思想",
+    "translation": "牛顿方法的思想"
+  },
+  {
+    "id": "seg_01038",
+    "source": ",可以用一句伟人的经典语录概括",
+    "translation": ",可以用一句伟人的经典语录概括"
+  },
+  {
+    "id": "seg_01039",
+    "source": ":摸着石头过河。",
+    "translation": ":摸着石头过河。"
+  },
+  {
+    "id": "seg_01040",
+    "source": "但是",
+    "translation": "但是"
+  },
+  {
+    "id": "seg_01041",
+    "source": ",先摸哪块石头",
+    "translation": ",先摸哪块石头"
+  },
+  {
+    "id": "seg_01042",
+    "source": ",是个智慧活儿。",
+    "translation": ",是个智慧活儿。"
+  },
+  {
+    "id": "seg_01043",
+    "source": "在 ",
+    "translation": "在 "
+  },
+  {
+    "id": "seg_01044",
+    "source": "技术日趋发展的今天",
+    "translation": "技术日趋发展的今天"
+  },
+  {
+    "id": "seg_01045",
+    "source": ",牛顿法有着非常巨大的现实意义。",
+    "translation": ",牛顿法有着非常巨大的现实意义。"
+  },
+  {
+    "id": "seg_01046",
+    "source": "现在",
+    "translation": "现在"
+  },
+  {
+    "id": "seg_01047",
+    "source": ",很多",
+    "translation": ",很多"
+  },
+  {
+    "id": "seg_01048",
+    "source": "学生用的高级计算器都可以解各种非常规方程",
+    "translation": "学生用的高级计算器都可以解各种非常规方程"
+  },
+  {
+    "id": "seg_01049",
+    "source": ",其内核原理",
+    "translation": ",其内核原理"
+  },
+  {
+    "id": "seg_01050",
+    "source": ",大多是",
+    "translation": ",大多是"
+  },
+  {
+    "id": "seg_01051",
+    "source": "借用的牛顿",
+    "translation": "借用的牛顿"
+  },
+  {
+    "id": "seg_01052",
+    "source": "方法。",
+    "translation": "方法。"
+  },
+  {
+    "id": "seg_01053",
+    "source": "再来一道例题熟悉一下流程",
+    "translation": "再来一道例题熟悉一下流程"
+  },
+  {
+    "id": "seg_01054",
+    "source": "例 ",
+    "translation": "Example "
+  },
+  {
+    "id": "seg_01055",
+    "source": "9):用牛顿法求方程 ",
+    "translation": "9):用牛顿法求方程 "
+  },
+  {
+    "id": "seg_01056",
+    "source": "的根",
+    "translation": "的根"
+  },
+  {
+    "id": "seg_01057",
+    "source": "要求精确到小数点后四位",
+    "translation": "要求精确到小数点后四位"
+  },
+  {
+    "id": "seg_01058",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01059",
+    "source": "解",
+    "translation": "Solution"
+  },
+  {
+    "id": "seg_01060",
+    "source": "我们先画出",
+    "translation": "我们先画出"
+  },
+  {
+    "id": "seg_01061",
+    "source": "以及g(",
+    "translation": "以及g("
+  },
+  {
+    "id": "seg_01062",
+    "source": "的草",
+    "translation": "的草"
+  },
+  {
+    "id": "seg_01063",
+    "source": "图",
+    "translation": "图"
+  },
+  {
+    "id": "seg_01064",
+    "source": "由图可见",
+    "translation": "From the figure, we can see"
+  },
+  {
+    "id": "seg_01065",
+    "source": "大致在不到 ",
+    "translation": "大致在不到 "
+  },
+  {
+    "id": "seg_01066",
+    "source": "的地方",
+    "translation": "的地方"
+  },
+  {
+    "id": "seg_01067",
+    "source": "两线相交",
+    "translation": "两线相交"
+  },
+  {
+    "id": "seg_01068",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01069",
+    "source": "因此我们选",
+    "translation": "因此我们选"
+  },
+  {
+    "id": "seg_01070",
+    "source": "75来求方",
+    "translation": "75来求方"
+  },
+  {
+    "id": "seg_01071",
+    "source": "程h(",
+    "translation": "程h("
+  },
+  {
+    "id": "seg_01072",
+    "source": "的根",
+    "translation": "的根"
+  },
+  {
+    "id": "seg_01073",
+    "source": "因为",
+    "translation": "因为"
+  },
+  {
+    "id": "seg_01074",
+    "source": "所以",
+    "translation": "所以"
+  },
+  {
+    "id": "seg_01075",
+    "source": "把 ",
+    "translation": "把 "
+  },
+  {
+    "id": "seg_01076",
+    "source": "75带入上式中依次计算可以得到",
+    "translation": "75带入上式中依次计算可以得到"
+  },
+  {
+    "id": "seg_01077",
+    "source": "点",
+    "translation": "exist"
+  },
+  {
+    "id": "seg_01078",
+    "source": "四",
+    "translation": "四"
+  },
+  {
+    "id": "seg_01079",
+    "source": "经",
+    "translation": "经"
+  },
+  {
+    "id": "seg_01080",
+    "source": "重",
+    "translation": "重"
+  },
+  {
+    "id": "seg_01081",
+    "source": "合",
+    "translation": "合"
+  },
+  {
+    "id": "seg_01082",
+    "source": "就",
+    "translation": "means"
+  },
+  {
+    "id": "seg_01083",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01084",
+    "source": "是",
+    "translation": ":"
+  },
+  {
+    "id": "seg_01085",
+    "source": "。",
+    "translation": "."
+  },
+  {
+    "id": "seg_01086",
+    "source": "导数有啥用",
+    "translation": "What Are Derivatives Good For"
+  },
+  {
+    "id": "seg_01087",
+    "source": "第四章",
+    "translation": "Chapter 4"
+  }
+]

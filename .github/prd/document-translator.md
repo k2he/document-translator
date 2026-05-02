@@ -10,7 +10,7 @@
 
 A Chinese university-level Calculus textbook needs to be translated into North American English. The book is available in both PDF and Microsoft Word (DOCX) formats. It contains Chinese prose (chapter text, definitions, theorems, proofs) mixed with mathematical equations, graphs, diagrams, images, and tables.
 
-No automated pipeline exists to translate such a document while preserving its mathematical content, layout, and formatting. Manual translation is time-consuming and error-prone. General-purpose translation tools (e.g., Google Translate file upload) corrupt or silently drop mathematical notation.
+No automated pipeline exists to translate such a document while preserving its mathematical content and formatting. Manual translation is time-consuming and error-prone. General-purpose translation tools (e.g., Google Translate file upload) corrupt or silently drop mathematical notation.
 
 The solution must not require any external LLM API key — the only AI access available is GitHub Copilot via VS Code.
 
@@ -98,7 +98,8 @@ input/*.docx
 | Module | File | Responsibility |
 |---|---|---|
 | Extractor | `src/extract.py` | Load DOCX; walk all paragraphs and table cells; detect Chinese text via Unicode range `\u4e00`–`\u9fff`; write `work/extracted_segments.json`; supports `--test --pages N` |
-| Rebuilder | `src/rebuild.py` | Read `work/translated_segments.json`; patch only the Chinese `<w:t>` nodes by segment ID; apply North American page formatting; write `output/<name>_translated.docx` |
+| Translator | `src/translate.py` | Read `work/extracted_segments.json`; apply translation dictionary; write `work/translated_segments.json` |
+| Rebuilder | `src/rebuild.py` | Read `work/translated_segments.json`; patch translated text back into DOCX copy; **normalize English punctuation spacing at paragraph level** (remove spaces before ,. and ensure space after); apply North American page formatting; write `output/<name>_translated.docx` |
 | PDF Exporter | `src/to_pdf.py` | Run `soffice --headless --convert-to pdf` subprocess; auto-detect LibreOffice path on macOS and Windows |
 | Config | `src/config.py` | Centralize directory paths and North American formatting constants |
 | Skill | `.github/skills/document-translator/SKILL.md` | Orchestrate the three scripts; read extracted segments; translate Chinese → North American English using active Copilot model; write translated segments |
@@ -108,6 +109,64 @@ input/*.docx
 DOCX stores inline math as `<m:oMath>` elements and display math as `<m:oMathPara>` elements. These are siblings of `<w:r>` (text run) elements inside `<w:p>` (paragraph) nodes. `python-docx`'s `paragraph.runs` only yields `<w:r>` elements — OMML elements are never returned and therefore never modified. Patching `.text` on a run touches only `<w:t>` nodes inside `<w:r>` nodes.
 
 **Consequence**: A paragraph mixing Chinese prose with inline math will have its text runs translated and its OMML elements preserved in place. This holds for images and graphs embedded as `<w:drawing>` elements for the same reason.
+
+---
+
+## English Punctuation Spacing Normalization
+
+A critical postprocessing step during rebuild corrects spacing around English punctuation that arises when translation segments are combined across DOCX run boundaries.
+
+### Problem
+
+When Chinese text is extracted and translated in segments, punctuation spacing issues can occur:
+- **Input source**: "前两章 ,我们弄清楚了…" (space before Chinese comma)
+- **After segment translation**: Segment 1 = "In the first two chapters ", Segment 2 = ",we clarified…"
+- **Naive concatenation**: "In the first two chapters ,we clarified…" (space before comma, no space after)
+
+### Solution
+
+The `rebuild.py` script normalizes English punctuation at the **paragraph level** (after all translations are patched back):
+
+1. **Combine all runs in a paragraph** into a single text string
+2. **Apply normalization rules**:
+   - Remove all spaces before Western punctuation (`,` and `.`)
+   - Collapse multiple spaces after punctuation to a single space
+   - Ensure space after punctuation before word characters
+3. **Redistribute normalized text** back to the paragraph's first run while preserving formatting
+
+### Implementation
+
+```python
+def normalize_punctuation_spacing(text: str) -> str:
+    # Remove space(s) before Western punctuation
+    text = re.sub(r'\s+([,.])', r'\1', text)
+    
+    # Collapse multiple spaces after punctuation
+    text = re.sub(r'([,.])\s+', r'\1 ', text)
+    
+    # Ensure space after punctuation if followed by word character
+    text = re.sub(r'([,.])([a-zA-Z0-9])', r'\1 \2', text)
+    
+    return text
+```
+
+### Examples
+
+| Before | After |
+|---|---|
+| "chapters ,we clarified" | "chapters, we clarified" |
+| "slope ,  introducing" | "slope, introducing" |
+| "effort ," | "effort," |
+| "uses , to justify" | "uses, to justify" |
+
+### Why Paragraph Level?
+
+Individual run-level normalization misses spacing issues because:
+- Run 1: "chapters " (ends with space)
+- Run 2: ",we clarified" (comma at start of run)
+- Normalizing each run separately cannot fix "chapters ,we"
+
+Paragraph-level normalization combines all runs first, normalizing the complete text boundary issues.
 
 ---
 
@@ -210,13 +269,14 @@ pip install -r requirements.txt
 
 ---
 
-## Known Limitations (v1)
+## Known Limitations (v2)
 
-| Limitation | Impact | Planned Fix |
+| Limitation | Impact | Status |
 |---|---|---|
-| Inline math position may shift to end of paragraph when text runs are collapsed | Visual only; math content preserved | v2: per-run translation with position mapping |
-| Headers and footers not translated | Section headings in headers may remain Chinese | v2: iterate `doc.sections[].header` paragraphs |
-| Nested tables not walked recursively | Rare in textbooks | v2: recursive cell walker |
+| English punctuation spacing at segment boundaries | Combined segments may have spacing issues (e.g., "chapters ,we") | ✅ **FIXED (v2.1)**: Paragraph-level normalization in `rebuild.py` fixes all spacing across run boundaries |
+| Inline math position may shift to end of paragraph when text runs are collapsed | Visual only; math content preserved | v3: per-run translation with position mapping |
+| Headers and footers not translated | Section headings in headers may remain Chinese | v3: iterate `doc.sections[].header` paragraphs |
+| Nested tables not walked recursively | Rare in textbooks | v3: recursive cell walker |
 | Scanned images with Chinese text (photos of problems) not translated | OCR out of scope | Out of scope |
 | `charpter-4.docx` filename typo | Harmless; glob pattern matches all `.docx` in `input/` | Fix input filename manually if desired |
 

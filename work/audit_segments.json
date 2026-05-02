@@ -1,0 +1,2060 @@
+[
+  {
+    "id": "audit_00000",
+    "location": "body",
+    "para_index": 52,
+    "text": "Book ·1Proof [Final size: 170mm×240mm; text block :33 lines × 34 characters]"
+  },
+  {
+    "id": "audit_00001",
+    "location": "table_0",
+    "para_index": 64,
+    "text": "In the first two chapters, we clarified the most important concept of limits in calculus, and elevated what we learned in high school about the concept of slope, introducing the derivative."
+  },
+  {
+    "id": "audit_00002",
+    "location": "table_0",
+    "para_index": 65,
+    "text": "We also spentconsiderable effort, working hard to understand the methods for finding derivatives of various functions. understanding derivatives must have some special uses, to justify all our hard work?"
+  },
+  {
+    "id": "audit_00003",
+    "location": "table_0",
+    "para_index": 66,
+    "text": "Exactly, derivatives really are useful!"
+  },
+  {
+    "id": "audit_00004",
+    "location": "table_0",
+    "para_index": 67,
+    "text": "4. 1   More on Limits— L'Hôpital's Rule (L’Hospital’s Rule)"
+  },
+  {
+    "id": "audit_00005",
+    "location": "table_0",
+    "para_index": 69,
+    "text": "As mentioned earlier, limit problems are the core of calculus, and when dealing with limit problems, we often encounter two tricky types of limit problems :"
+  },
+  {
+    "id": "audit_00006",
+    "location": "table_0",
+    "para_index": 70,
+    "text": " type and  type"
+  },
+  {
+    "id": "audit_00007",
+    "location": "table_0",
+    "para_index": 71,
+    "text": "Seeing two sideways 8s compared, it feels like there's no way to startis correct."
+  },
+  {
+    "id": "audit_00008",
+    "location": "table_0",
+    "para_index": 72,
+    "text": "It's just like, we ordinary people, watching two tycoons compete in wealth, they both have more than we could spend in several lifetimes of money, so who's really better and will have the last laugh, is really hard to judge."
+  },
+  {
+    "id": "audit_00009",
+    "location": "table_0",
+    "para_index": 73,
+    "text": "Let's think a bit more about this, which of these two competing wealthy folks, in a long-term rivalry, will have the upper hand? Although the current amount is key, the determining factor should be the increment orthe rate of wealth increase. For example, Person A has 1 billion and grows annually at 7% ; Person Balthough having 5billion, but this person's wealth growth rate is 10%. With a bit of thought, it's not hard to conclude : in the long run, Person B will certainlysurpass Person A."
+  },
+  {
+    "id": "audit_00010",
+    "location": "table_0",
+    "para_index": 74,
+    "text": "The reason we conclude Person B wins, is because their 10% growth rate is really much better than 7% growth rate. What is growth rate, isn't it just rate of change. What is rate of change?  The derivative!"
+  },
+  {
+    "id": "audit_00011",
+    "location": "table_0",
+    "para_index": 75,
+    "text": "This leads us to think, if two∞compared give no conclusion, but the ratio of their derivatives shows a difference, then the ratio of the originals also has a result. This simple idea, was already proven by the French mathematician L'Hôpital (L, Hospital) over 300 years ago."
+  },
+  {
+    "id": "audit_00012",
+    "location": "table_0",
+    "para_index": 76,
+    "text": "L'Hôpital's Rule (L’Hospital, sRule)"
+  },
+  {
+    "id": "audit_00013",
+    "location": "table_0",
+    "para_index": 77,
+    "text": "Suppose functions f(x) and g(x), in a region containing point a are differentiable (not necessarily at a differentiable), and, g(x) ≠ 0. If :"
+  },
+  {
+    "id": "audit_00014",
+    "location": "table_0",
+    "para_index": 81,
+    "text": "Of course, provided that the limit on the right exists."
+  },
+  {
+    "id": "audit_00015",
+    "location": "table_1",
+    "para_index": 89,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00016",
+    "location": "table_1",
+    "para_index": 91,
+    "text": "L'Hôpital's Rule, kills two birds with one stone, solving two tricky problems at once. Regarding this rule, we need to point out a few things."
+  },
+  {
+    "id": "audit_00017",
+    "location": "table_1",
+    "para_index": 92,
+    "text": "First, when x →± ∞, the rule also applies ;"
+  },
+  {
+    "id": "audit_00018",
+    "location": "table_1",
+    "para_index": 93,
+    "text": "Second , if the limit of the ratio of the two functions' derivatives is again  type and  type , you can apply the rule again"
+  },
+  {
+    "id": "audit_00019",
+    "location": "table_1",
+    "para_index": 94,
+    "text": "to the second derivative or even n th order derivative."
+  },
+  {
+    "id": "audit_00020",
+    "location": "table_1",
+    "para_index": 95,
+    "text": "Finally, the proof of this rule, requires more advanced mathematical knowledge."
+  },
+  {
+    "id": "audit_00021",
+    "location": "table_1",
+    "para_index": 96,
+    "text": "For now, we can treat it like an axiom and accept it withoutproof. Knowing how to apply the rule is what matters."
+  },
+  {
+    "id": "audit_00022",
+    "location": "table_1",
+    "para_index": 97,
+    "text": "Example 1): Find : "
+  },
+  {
+    "id": "audit_00023",
+    "location": "table_1",
+    "para_index": 98,
+    "text": "Solution : By L'Hôpital's Rule, we have :"
+  },
+  {
+    "id": "audit_00024",
+    "location": "table_1",
+    "para_index": 99,
+    "text": "x - 1= (x - 1) '=  x = 1"
+  },
+  {
+    "id": "audit_00025",
+    "location": "table_1",
+    "para_index": 100,
+    "text": "Example 4  2): Find lim  2x"
+  },
+  {
+    "id": "audit_00026",
+    "location": "table_1",
+    "para_index": 101,
+    "text": "Solution : Using L'Hôpital's Rule, we get :"
+  },
+  {
+    "id": "audit_00027",
+    "location": "table_1",
+    "para_index": 103,
+    "text": "Fun, right? Let's look at these two limits :"
+  },
+  {
+    "id": "audit_00028",
+    "location": "table_1",
+    "para_index": 104,
+    "text": "Example 3): Find "
+  },
+  {
+    "id": "audit_00029",
+    "location": "table_1",
+    "para_index": 105,
+    "text": "Solution : To find this limit, we need to differentiate both numerator and denominator 3 times, before we can see the result clearly :"
+  },
+  {
+    "id": "audit_00030",
+    "location": "table_1",
+    "para_index": 108,
+    "text": "From the solution process, we can see that, even if the numerator is not x3, but rather x100 or higher powers, it would not change the result of the limit. Similarly, as long as the numerator has ax  in the a > 1, the result won't change, it's all ∞."
+  },
+  {
+    "id": "audit_00031",
+    "location": "table_1",
+    "para_index": 109,
+    "text": "This confirms what we said earlier about : ax type ∞ being so-called ministerial-level ∞, compared to xn these municipal-level ∞ there's no comparison. Let's look at municipal-level ∞ meeting lnx this county-level ∞, what happens :"
+  },
+  {
+    "id": "audit_00032",
+    "location": "table_2",
+    "para_index": 123,
+    "text": "This time, the municipal-level ∞ sends out a numerator with power one-half, while the county-level ∞ remains in the denominator as squared, PKThe result is still ∞ !  It seems,“官大一级压死人”绝非虚言!"
+  },
+  {
+    "id": "audit_00033",
+    "location": "table_2",
+    "para_index": 124,
+    "text": "Let me emphasize again, if you encounter ∞ :∞ type limit problems, just keep the highest-ranking term in numerator and denominator ∞ on duty, and the result will be correct."
+  },
+  {
+    "id": "audit_00034",
+    "location": "table_2",
+    "para_index": 125,
+    "text": "With L'Hôpital's Rule in hand, let's revisit the two famouslimits, which will become very intuitive :"
+  },
+  {
+    "id": "audit_00035",
+    "location": "table_2",
+    "para_index": 128,
+    "text": "When climbing a mountain, we find, the higher we climb, the better the view. The same goes for math, the more you practice, the things you've learned become clearer."
+  },
+  {
+    "id": "audit_00036",
+    "location": "table_2",
+    "para_index": 129,
+    "text": "Let's see what else derivatives are good for."
+  },
+  {
+    "id": "audit_00037",
+    "location": "table_2",
+    "para_index": 130,
+    "text": "4. 2   Extreme Value Problems (extremum)"
+  },
+  {
+    "id": "audit_00038",
+    "location": "table_2",
+    "para_index": 131,
+    "text": "People always like to focus on things that are a bit distant or extreme. For example : stories about royalty, always have an audience among common people. Another example : the richest, most beautiful, tallest, most dangerous, etc., always attract our attention the most."
+  },
+  {
+    "id": "audit_00039",
+    "location": "table_2",
+    "para_index": 132,
+    "text": "Similarly, for the functions we study, the maximum and minimum value problems, naturally attract people's great interest. Because in real life, extreme value problems are extremely useful. How to maximize limited resources to their fullest potential, is always our pursuit."
+  },
+  {
+    "id": "audit_00040",
+    "location": "table_2",
+    "para_index": 133,
+    "text": "To solve extreme value problems, derivatives can be a great help. Let's first clarify some concepts about extreme values :"
+  },
+  {
+    "id": "audit_00041",
+    "location": "table_2",
+    "para_index": 134,
+    "text": "Definition of Local Maximum (localmaximum) : If for some open interval containing c point allx values, the inequality f(x) ≤f(c) holds. then f(c) is a f(x) local maximum. Local maximum, is sometimes also called relative maximum (relativemaximum)."
+  },
+  {
+    "id": "audit_00042",
+    "location": "table_2",
+    "para_index": 135,
+    "text": "Where there's local, there's global."
+  },
+  {
+    "id": "audit_00043",
+    "location": "table_2",
+    "para_index": 136,
+    "text": "Definition of Global Maximum (global maximum) :If for all x values, the inequality f(x) ≤ f(c) holds. Then f(c) is the function f(x) 's global maximum. Global maximum, is sometimes"
+  },
+  {
+    "id": "audit_00044",
+    "location": "table_3",
+    "para_index": 144,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00045",
+    "location": "table_3",
+    "para_index": 146,
+    "text": "also called absolute maximum (absolutemaximum)."
+  },
+  {
+    "id": "audit_00046",
+    "location": "table_3",
+    "para_index": 147,
+    "text": "Let's continue discussing  our understanding of these two concepts. The term local, means :  as long as these in equal ity f(x) ≤f(c) holds even in a very small interval, f(c) it is a local maximum."
+  },
+  {
+    "id": "audit_00047",
+    "location": "table_3",
+    "para_index": 148,
+    "text": "For example, if we consider Earth's elevation as a function, then the height of the Five Sacred Mountains' peakswould all be local maxima. At the same time, the height of each stair step on your way home, or even the height of your slippers on the floor, are all genuine local maxima. But Mount Everest is the global maximum of this function."
+  },
+  {
+    "id": "audit_00048",
+    "location": "table_3",
+    "para_index": 149,
+    "text": "Another example, if we consider official rank as a function. Although a governor is impressive, a governor anda village chief alike, are both local maximum officials. Only the President, is the global maximum official."
+  },
+  {
+    "id": "audit_00049",
+    "location": "table_3",
+    "para_index": 150,
+    "text": "Everyone should have a scale in their heart to measure local versus global, and never overestimateyourself. How much love and hatred in the martial world, all arise from unclear judgment between local and global. How many oncequite  decent local bosses, lost their lives by mistaking themselves for global bosses. No matter how far you've  advanced, always consider yourself an ordinary person in a local, small local context, and things will probably turn out fine."
+  },
+  {
+    "id": "audit_00050",
+    "location": "table_3",
+    "para_index": 151,
+    "text": "Among the grand 64 hexagrams of the I Ching, only the Modesty hexagram, has no side effects!  With the concept of maximum, the concept of minimum follows naturally."
+  },
+  {
+    "id": "audit_00051",
+    "location": "table_3",
+    "para_index": 152,
+    "text": "Definition of Local Minimum (localminimum) : If for some open interval containing cpoint all x values, the inequality f(x) ≥f(c) holds. Then f(c) is the function f(x) 's local minimum. Local minimum, is sometimes also called relative minimum (relativeminimum)."
+  },
+  {
+    "id": "audit_00052",
+    "location": "table_3",
+    "para_index": 153,
+    "text": "Definition of Global Minimum (global maximum) :If for all x values, the inequality f(x) ≥ f(c) holds. Then f(c) is the function f(x) 's global minimum. Global minimum, is sometimes also called absolute minimum (absolutemaximum)."
+  },
+  {
+    "id": "audit_00053",
+    "location": "table_3",
+    "para_index": 154,
+    "text": "Now that we understand the concept of extreme values, we can discuss how to find them."
+  },
+  {
+    "id": "audit_00054",
+    "location": "table_3",
+    "para_index": 155,
+    "text": "To study how to find extreme values, we must first establish their existence. Therefore, understanding the Extreme Value Theorem, is necessary."
+  },
+  {
+    "id": "audit_00055",
+    "location": "table_3",
+    "para_index": 156,
+    "text": "The Extreme Value Theorem : If function f(x) is continuous on closed interval [a, b], then there must exist two"
+  },
+  {
+    "id": "audit_00056",
+    "location": "table_3",
+    "para_index": 157,
+    "text": "points cand d, such that f(c) is the absolute maximum, f(d) isthe absolute minimum. The figure below illustrates the Extreme Value Theorem."
+  },
+  {
+    "id": "audit_00057",
+    "location": "table_3",
+    "para_index": 159,
+    "text": "My insights from studying this theorem are :"
+  },
+  {
+    "id": "audit_00058",
+    "location": "table_4",
+    "para_index": 169,
+    "text": "1) although the absolute extreme values on a closed interval are always attained, they may not be unique ;"
+  },
+  {
+    "id": "audit_00059",
+    "location": "table_4",
+    "para_index": 170,
+    "text": "2) The two conditions for the theorem “连续”和 “闭区间”缺一不可。 The figure below shows cases missing continuity and interval closure respectively, causing the Extreme Value Theorem to fail."
+  },
+  {
+    "id": "audit_00060",
+    "location": "table_4",
+    "para_index": 172,
+    "text": "From the figure, we can see, the function on the left has no maximum, the function on the right has neither maximum, nor mini values. The reason is : the left function is not continuous, the right function's domain is notclosed."
+  },
+  {
+    "id": "audit_00061",
+    "location": "table_4",
+    "para_index": 173,
+    "text": "The existence problem is solved, now the task is to find ways to locate them based on the characteristics of extreme points."
+  },
+  {
+    "id": "audit_00062",
+    "location": "table_4",
+    "para_index": 174,
+    "text": "For a continuous function, since global extreme points exist on a closed interval. Generally speaking, global extreme points are selected from among many local extreme points, therefore, finding local extreme points first becomes the top priority. So what do local extreme points look like? See the theorem :"
+  },
+  {
+    "id": "audit_00063",
+    "location": "table_4",
+    "para_index": 175,
+    "text": "Fermat (Fermat) 's Theorem : If c is a point where function f(x) has a local extreme value, and f'(c) ex ists, then :"
+  },
+  {
+    "id": "audit_00064",
+    "location": "table_4",
+    "para_index": 177,
+    "text": "Proof : Let's first assume c is a local maximum of f(x), the minimumcase can be proved similarly. cBeing a local maximum, means : in a small region containing c, the following inequality holds :"
+  },
+  {
+    "id": "audit_00065",
+    "location": "table_4",
+    "para_index": 178,
+    "text": "f(x) ≤f(c)"
+  },
+  {
+    "id": "audit_00066",
+    "location": "table_4",
+    "para_index": 179,
+    "text": "Thus, we have :"
+  },
+  {
+    "id": "audit_00067",
+    "location": "table_4",
+    "para_index": 181,
+    "text": "In the above expression, since the numerator is non-negative, the denominator is negative, therefore : f'(c- ) ≥ 0 Similarly, we have :"
+  },
+  {
+    "id": "audit_00068",
+    "location": "table_5",
+    "para_index": 191,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00069",
+    "location": "table_5",
+    "para_index": 193,
+    "text": "At this point, we have obtained that the function at chas left and right derivatives that are non-negative on one side and non-positive on the other, the conclusion. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be : f'(c) =0."
+  },
+  {
+    "id": "audit_00070",
+    "location": "table_5",
+    "para_index": 194,
+    "text": "Important point : Fermat's Theorem only tells you, if a local extreme point has a derivative, then that derivative equals 0. It doesn't say, all local extreme points have derivative equal to 0. Why? Because :some local extreme points have derivatives that  do not exist!"
+  },
+  {
+    "id": "audit_00071",
+    "location": "table_5",
+    "para_index": 195,
+    "text": "These points where in ex 在 的 exist and points where is 0, are collectively called the function's critical  points (critical point)."
+  },
+  {
+    "id": "audit_00072",
+    "location": "table_5",
+    "para_index": 196,
+    "text": "After all this hard work, we've finally found some methods for finding extreme values!  First, findthe function's critical points, that is, those points where the derivative doesn't exist or equals 0 exist ; second, compare function values at interval endpoints and critical points, to determine global and local extreme values."
+  },
+  {
+    "id": "audit_00073",
+    "location": "table_5",
+    "para_index": 197,
+    "text": "The reason we need to separately compare the function values at interval endpoints, is because interval endpoints, although not satis fying the definition of local extreme points, may still be global extreme points. For example, strictly monotonic func where, always attain global extreme values at endpoints, and have no local extreme points in the interior."
+  },
+  {
+    "id": "audit_00074",
+    "location": "table_5",
+    "para_index": 198,
+    "text": "then, how do we determine whether the critical points we've worked hard to find are local maxima, orlocal mini ma?"
+  },
+  {
+    "id": "audit_00075",
+    "location": "table_5",
+    "para_index": 199,
+    "text": "To solve this problem, we need to call upon the local trend—derivative. We introduced in the previous chapter, the  sign of a function's derivative at a point, determines whether the function is increasingor decreasing at that point. From  this, it's not hard to deduce, if on some interval, the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing."
+  },
+  {
+    "id": "audit_00076",
+    "location": "table_5",
+    "para_index": 200,
+    "text": "当然也可以说, 函数切线的斜率的正负,决定着函数是递增函数,还是递减"
+  },
+  {
+    "id": "audit_00077",
+    "location": "table_5",
+    "para_index": 204,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00078",
+    "location": "table_5",
+    "para_index": 206,
+    "text": "At this point, we have obtained that the function at chas left and right derivatives that are non-negative on one side and non-positive on the other, the conclusion. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be : f'(c) =0."
+  },
+  {
+    "id": "audit_00079",
+    "location": "table_5",
+    "para_index": 207,
+    "text": "Important point : Fermat's Theorem only tells you, if a local extreme point has a derivative, then that derivative equals 0. It doesn't say, all local extreme points have derivative equal to 0. Why? Because :some local extreme points have derivatives that  do not exist!"
+  },
+  {
+    "id": "audit_00080",
+    "location": "table_5",
+    "para_index": 208,
+    "text": "These points where in ex 在 的 exist and points where is 0, are collectively called the function's critical  points (critical point)."
+  },
+  {
+    "id": "audit_00081",
+    "location": "table_5",
+    "para_index": 209,
+    "text": "After all this hard work, we've finally found some methods for finding extreme values!  First, findthe function's critical points, that is, those points where the derivative doesn't exist or equals 0 exist ; second, compare function values at interval endpoints and critical points, to determine global and local extreme values."
+  },
+  {
+    "id": "audit_00082",
+    "location": "table_5",
+    "para_index": 210,
+    "text": "The reason we need to separately compare the function values at interval endpoints, is because interval endpoints, although not satis fying the definition of local extreme points, may still be global extreme points. For example, strictly monotonic func where, always attain global extreme values at endpoints, and have no local extreme points in the interior."
+  },
+  {
+    "id": "audit_00083",
+    "location": "table_5",
+    "para_index": 211,
+    "text": "then, how do we determine whether the critical points we've worked hard to find are local maxima, orlocal mini ma?"
+  },
+  {
+    "id": "audit_00084",
+    "location": "table_5",
+    "para_index": 212,
+    "text": "To solve this problem, we need to call upon the local trend—derivative. We introduced in the previous chapter, the  sign of a function's derivative at a point, determines whether the function is increasingor decreasing at that point. From  this, it's not hard to deduce, if on some interval, the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing."
+  },
+  {
+    "id": "audit_00085",
+    "location": "table_5",
+    "para_index": 213,
+    "text": "当然也可以说, 函数切线的斜率的正负,决定着函数是递增函数,还是递减"
+  },
+  {
+    "id": "audit_00086",
+    "location": "table_5",
+    "para_index": 218,
+    "text": "如上图所示, 函数在 AB段和CD 段都是增函数, 同时其切线斜率或者说导 数都为正数。 而函数在 BC段导数为负, 因而是减函数。"
+  },
+  {
+    "id": "audit_00087",
+    "location": "table_5",
+    "para_index": 219,
+    "text": "很明显, 函数在 B、C 两点的导数为 0, 也就是说, BC都是函数的相对极 值点。"
+  },
+  {
+    "id": "audit_00088",
+    "location": "table_5",
+    "para_index": 220,
+    "text": "函数经过 B 的时候,其导数是经历过一个由正而零、而负的过程的。 相应"
+  },
+  {
+    "id": "audit_00089",
+    "location": "table_5",
+    "para_index": 225,
+    "text": "如上图所示, 函数在 AB段和CD 段都是增函数, 同时其切线斜率或者说导 数都为正数。 而函数在 BC段导数为负, 因而是减函数。"
+  },
+  {
+    "id": "audit_00090",
+    "location": "table_5",
+    "para_index": 226,
+    "text": "很明显, 函数在 B、C 两点的导数为 0, 也就是说, BC都是函数的相对极 值点。"
+  },
+  {
+    "id": "audit_00091",
+    "location": "table_5",
+    "para_index": 227,
+    "text": "函数经过 B 的时候,其导数是经历过一个由正而零、而负的过程的。 相应"
+  },
+  {
+    "id": "audit_00092",
+    "location": "table_6",
+    "para_index": 237,
+    "text": "地, 函数是由增函数变为减函数的。 therefore, B 点是相对极大值点。"
+  },
+  {
+    "id": "audit_00093",
+    "location": "table_6",
+    "para_index": 238,
+    "text": "而函数经过 C 点的时候,其导数是经历过一个由负而零、而正的过程的。 与之相对应, 函数则是从 C点前的减函数,变为 C点后的增函数。 therefore, C点是  函数的相对最小值点。"
+  },
+  {
+    "id": "audit_00094",
+    "location": "table_6",
+    "para_index": 239,
+    "text": "结论 :如果函数的临界点左右的导数是由正变负,则该临界点为局部最大值 exist 。相反,如果函数的临界点左右的导数是由负变正,则该临界点为函数的局部 最小值点。"
+  },
+  {
+    "id": "audit_00095",
+    "location": "table_6",
+    "para_index": 240,
+    "text": "At this point,求函数极值的套路算是基本摸清 。那就把我们刚学的花拳绣腿,拿出 来比划比划,看看中不中用。"
+  },
+  {
+    "id": "audit_00096",
+    "location": "table_6",
+    "para_index": 241,
+    "text": "Example 4  5):求函数 f(x) = 2x3 - 3x2 - 12x 在区间 [-2, 3] 的绝对极值. Solution :我们按套路出牌,先找出临界点 :"
+  },
+  {
+    "id": "audit_00097",
+    "location": "table_6",
+    "para_index": 242,
+    "text": "f'(x) = 6x2 - 6x - 12= 6(x2 - x -2) = 6(x -2)(x+1)"
+  },
+  {
+    "id": "audit_00098",
+    "location": "table_6",
+    "para_index": 243,
+    "text": "由此可见, 2and - 1 是该函数的临界点, 比较临界点和端点的函数值我们 发现 :"
+  },
+  {
+    "id": "audit_00099",
+    "location": "table_6",
+    "para_index": 244,
+    "text": "f(- 1) = 7, f(2) =-20, f(-2) =-4, f(3) =-9 therefore, fmax =f(- 1) = 7, fmin =f(2) =-20."
+  },
+  {
+    "id": "audit_00100",
+    "location": "table_6",
+    "para_index": 245,
+    "text": "本题的故事,如下图所示"
+  },
+  {
+    "id": "audit_00101",
+    "location": "table_6",
+    "para_index": 247,
+    "text": "Example 4  6):求出函数 f(x) =x4 - 8x2  的所有极值点以及相应的函数值. Solution :废话少说,先找临界点 :"
+  },
+  {
+    "id": "audit_00102",
+    "location": "table_6",
+    "para_index": 248,
+    "text": "f'(x) =4x3 - 16x =4x(x2 -4) =4x(x+2)(x -2) 临界点为 -2, 0, 2."
+  },
+  {
+    "id": "audit_00103",
+    "location": "table_6",
+    "para_index": 249,
+    "text": "下一步,考察临界点左右导数的正负。 观察可知 :在 -2点左边,导数为负 ; 在(-2, 0)上,导数为正 ;在(0, 2)上导数为负 ;在 2点的右边,导数为正。"
+  },
+  {
+    "id": "audit_00104",
+    "location": "table_7",
+    "para_index": 257,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00105",
+    "location": "table_7",
+    "para_index": 259,
+    "text": "由此可见,点 -2和 2 为函数的相对极小值点, points 0 为函数的相对极大值 exist. 函数值分别为 : f(-2) =f(2) =-16, f(0) =0."
+  },
+  {
+    "id": "audit_00106",
+    "location": "table_7",
+    "para_index": 260,
+    "text": "仔细考察可知 : 实际上, 函数 f(x) 没有绝对最大值,但是有绝对最小值。 本题中的相对最小值,恰好也就是绝对最小值。 推而广之,所有的 4次函数,都  没有绝对最大值,但是一定存在绝对最小值。 Of course,闭区间的情形除外。"
+  },
+  {
+    "id": "audit_00107",
+    "location": "table_7",
+    "para_index": 261,
+    "text": "下图就是本题讲述的故事。"
+  },
+  {
+    "id": "audit_00108",
+    "location": "table_7",
+    "para_index": 264,
+    "text": "4. 3   线性近似(linearapproximation)"
+  },
+  {
+    "id": "audit_00109",
+    "location": "table_7",
+    "para_index": 265,
+    "text": "我们在前面介绍过,微积分处理曲线的方法,就是分而治之 。换句话说,就是 把曲线分成若干段,每一段按直线对待。 Of course,这种处理结果并不精确 。但是,当   这个若干段的“若干”值变得无穷大的时候,这种直线处理的结果可以视为真理。"
+  },
+  {
+    "id": "audit_00110",
+    "location": "table_7",
+    "para_index": 266,
+    "text": "then,选择什么样的直线做为曲线的近似标的呢?  既然曲线在一个点的小 趋势是切线的方向,那么自然就可以选择曲线在一个点的切线来替代曲线。 一 般来说,离这个特定点越近,近似程度越高。"
+  },
+  {
+    "id": "audit_00111",
+    "location": "table_7",
+    "para_index": 268,
+    "text": "如上图所示 :所谓线性近似就是在 a 点附近,用线性函数—切线 L(x) 来 近似地代表 f(x)."
+  },
+  {
+    "id": "audit_00112",
+    "location": "table_8",
+    "para_index": 278,
+    "text": "过点 a 的切线方程就是 :"
+  },
+  {
+    "id": "audit_00113",
+    "location": "table_8",
+    "para_index": 279,
+    "text": "y=f(a) +f'(a)(x - a) therefore, a点附近的线性近似就是 :"
+  },
+  {
+    "id": "audit_00114",
+    "location": "table_8",
+    "para_index": 280,
+    "text": "L(x) =f(a) +f'(a)(x - a)"
+  },
+  {
+    "id": "audit_00115",
+    "location": "table_8",
+    "para_index": 281,
+    "text": "线性近似是一种简洁的方式,但同时也是一种没有办法的办法。 用二次函  数或者更高次函数来做近似的工具其精确性当然更高,但是那得多费很多力气。"
+  },
+  {
+    "id": "audit_00116",
+    "location": "table_8",
+    "para_index": 282,
+    "text": "尽管此法不完美,但是挺实用 。有人还给它起了一个更高大上的名字叫 :线 性逼近。"
+  },
+  {
+    "id": "audit_00117",
+    "location": "table_8",
+    "para_index": 283,
+    "text": "来个例题诠释一下线性逼近是咋回事儿。"
+  },
+  {
+    "id": "audit_00118",
+    "location": "table_8",
+    "para_index": 284,
+    "text": "Example 4 7):求函数 f(x) = 3 x 在点 27的线性逼近,并用它来估算 3 28 (精确 到小数点后四位数), 比较这个估算值和精确值。"
+  },
+  {
+    "id": "audit_00119",
+    "location": "table_8",
+    "para_index": 285,
+    "text": "Solution : 由题意可知 f(27)=3,而函数的导函数为"
+  },
+  {
+    "id": "audit_00120",
+    "location": "table_8",
+    "para_index": 287,
+    "text": "所以,要求的线性逼近就是 :"
+  },
+  {
+    "id": "audit_00121",
+    "location": "table_8",
+    "para_index": 291,
+    "text": "另一方面,用计算器直接计算得出 : 3 28 ≈ 3. 0366"
+  },
+  {
+    "id": "audit_00122",
+    "location": "table_8",
+    "para_index": 292,
+    "text": "由此可见,估算值略大于精确值.经过计算可知,其精确度达到了 ≤1. 3×10-4."
+  },
+  {
+    "id": "audit_00123",
+    "location": "table_8",
+    "para_index": 293,
+    "text": "现在,我们串一下两个知识点,线性近似和微分 。再把那个介绍函数微分的 图拿来看一下 :"
+  },
+  {
+    "id": "audit_00124",
+    "location": "table_8",
+    "para_index": 295,
+    "text": "我们知道, P 点线性近似为 :"
+  },
+  {
+    "id": "audit_00125",
+    "location": "table_9",
+    "para_index": 303,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00126",
+    "location": "table_9",
+    "para_index": 304,
+    "text": "L(x) =f(x) +f'(x)dx =f(x) +dy 其对应的点为 R."
+  },
+  {
+    "id": "audit_00127",
+    "location": "table_9",
+    "para_index": 306,
+    "text": "y=f(x) +Δy 它在图上的对应点是 Q点。"
+  },
+  {
+    "id": "audit_00128",
+    "location": "table_9",
+    "para_index": 307,
+    "text": "近似值和精确值的差就是 (dy-Δy).显然, dx 越小,这种误差也就越小."
+  },
+  {
+    "id": "audit_00129",
+    "location": "table_9",
+    "para_index": 308,
+    "text": "线性逼近看起来并不复杂,甚至有时候并不是那么方便。 而且随着计算机 技术日新月异的发展,其实用性会再打折扣 。但是我们还是单列一节来介绍,一 是因为,它的化繁为简的解决问题的方法,既是微积分的基本手法,也可以用来 指导我们的日常工作;二是因为,这个看似简单的方法, 曾经很有作用,并且耗费 了许多前辈的辛勤劳动, 向他们致敬!"
+  },
+  {
+    "id": "audit_00130",
+    "location": "table_9",
+    "para_index": 309,
+    "text": "4. 4  摸着石头过河— 牛顿(Newton)法"
+  },
+  {
+    "id": "audit_00131",
+    "location": "table_9",
+    "para_index": 310,
+    "text": "提起一元一次方程,可能很多小学生都能解得像模像样。 而一元二次方程, 差不多每一个高中生,都能写出它的求根公式 。但是,再复杂一点呢?  For example :"
+  },
+  {
+    "id": "audit_00132",
+    "location": "table_9",
+    "para_index": 311,
+    "text": "ax3 +bx2 + cx+d=0 有点晕对吗? 那要是再复杂点呢?  For example :"
+  },
+  {
+    "id": "audit_00133",
+    "location": "table_9",
+    "para_index": 312,
+    "text": "2x2 - 3xsinx - 5lnx=0"
+  },
+  {
+    "id": "audit_00134",
+    "location": "table_9",
+    "para_index": 313,
+    "text": "谁要让你给出个解这样方程的公式,你准得跟人急!"
+  },
+  {
+    "id": "audit_00135",
+    "location": "table_9",
+    "para_index": 314,
+    "text": "先别着急,真要对这样的方程写出求根公式,不但你不行, 随便找个数学家 来干这活,也不行!"
+  },
+  {
+    "id": "audit_00136",
+    "location": "table_9",
+    "para_index": 315,
+    "text": "古代先贤教育我们 :人生不如意十之八九 。精辟! 数学也如此,方程无求根 公式者,十之九九!"
+  },
+  {
+    "id": "audit_00137",
+    "location": "table_9",
+    "para_index": 316,
+    "text": "残酷的现实告诉我们,各种应用科学中碰到的方程问题, 写不出求根公式, 占压倒性的绝大多数。"
+  },
+  {
+    "id": "audit_00138",
+    "location": "table_9",
+    "para_index": 317,
+    "text": "数学前辈们早就发现很多方程不能得出精确的解 。但是他们没有气馁,不  能得出精确的解,就想尽一切办法去求出近似解 。退而求其次、与不完美拥抱、 与现实和解,是人生的大智慧!"
+  },
+  {
+    "id": "audit_00139",
+    "location": "table_9",
+    "para_index": 318,
+    "text": "大师牛顿(Netwon) 就采取了一种非常优美的方法来求出方程的近似解。"
+  },
+  {
+    "id": "audit_00140",
+    "location": "table_9",
+    "para_index": 319,
+    "text": "牛顿采用的方法,就是微积分的标准手法 :用直线的方法解决非直线的问"
+  },
+  {
+    "id": "audit_00141",
+    "location": "table_10",
+    "para_index": 329,
+    "text": "题 。思路如下 :"
+  },
+  {
+    "id": "audit_00142",
+    "location": "table_10",
+    "para_index": 330,
+    "text": "1) 如图所示,假设我们的任务是求出 f(x) 的根 r. 没有头绪的我们, 只能先蒙一个 x1. Of course,几乎可以断  定, x1 不是我们要求的 r."
+  },
+  {
+    "id": "audit_00143",
+    "location": "table_10",
+    "para_index": 331,
+    "text": "2) 接下来,我们请出曲线在点 x1 的切线L。 由于是 直线,我们会很容易找出直线 L和 x 轴的交叉点 x2."
+  },
+  {
+    "id": "audit_00144",
+    "location": "table_10",
+    "para_index": 332,
+    "text": "3) 很自然, x2 也大概率地不是 r先生 。但是, 由于切线方向是函数的小趋 势,代表着曲线在点 x1 处的 f(x) 的走向。 因而我们知道,尽管 x2 也不是 r,但 是它应该比 x1 离 r更近."
+  },
+  {
+    "id": "audit_00145",
+    "location": "table_10",
+    "para_index": 333,
+    "text": "4) 隆重请出曲线在点 x2  的切线,并找出它和 x 轴的交点 x3. x3  比 x2 更 接近 r."
+  },
+  {
+    "id": "audit_00146",
+    "location": "table_10",
+    "para_index": 334,
+    "text": "5) 重复以上步骤,可以得到 x4, x5, …xn."
+  },
+  {
+    "id": "audit_00147",
+    "location": "table_10",
+    "para_index": 336,
+    "text": "6)  由上图易见 :                "
+  },
+  {
+    "id": "audit_00148",
+    "location": "table_10",
+    "para_index": 341,
+    "text": "即 :                                   xn+1 =xn - "
+  },
+  {
+    "id": "audit_00149",
+    "location": "table_10",
+    "para_index": 342,
+    "text": "7) 结论 :就是 n值越大 xn 越接近 r。也就是 : xn =r"
+  },
+  {
+    "id": "audit_00150",
+    "location": "table_10",
+    "para_index": 343,
+    "text": "看到极限,先别感觉麻烦,学校真要考你的话,最多也就是算个两三步, 比划 一下就得了。"
+  },
+  {
+    "id": "audit_00151",
+    "location": "table_11",
+    "para_index": 351,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00152",
+    "location": "table_11",
+    "para_index": 353,
+    "text": "但是,这种数学思想,值得好好揣摩。 好,接下来,学以致用 :"
+  },
+  {
+    "id": "audit_00153",
+    "location": "table_11",
+    "para_index": 354,
+    "text": "Example 4  8):从 x1 = 2 出发,求方程 x3 - 2x - 5=0 的根的近似值 x3. Solution :我们知道,"
+  },
+  {
+    "id": "audit_00154",
+    "location": "table_11",
+    "para_index": 355,
+    "text": "f(x) =x3 -2x -5⇒f'(x) = 3x2 - 2 所以,按照牛顿方法我们有 :"
+  },
+  {
+    "id": "audit_00155",
+    "location": "table_11",
+    "para_index": 357,
+    "text": "therefore :"
+  },
+  {
+    "id": "audit_00156",
+    "location": "table_11",
+    "para_index": 360,
+    "text": "x3  的精确度如何呢?"
+  },
+  {
+    "id": "audit_00157",
+    "location": "table_11",
+    "para_index": 361,
+    "text": "随便找个计算器按两下,就可以得到 : f(2. 0946) = 5. 415 5 ×10-4. 可见 x3  的精确度相当了得? then,为啥举这个例子呢?"
+  },
+  {
+    "id": "audit_00158",
+    "location": "table_11",
+    "para_index": 362,
+    "text": "记住了,这道题目就是就是牛顿先生介绍牛顿法的论文中的原装题目!"
+  },
+  {
+    "id": "audit_00159",
+    "location": "table_11",
+    "para_index": 363,
+    "text": "虽然牛顿方法非常好用,但要真是没有章法地乱用,有的时候就会陷入误 区,得不到应有的效果 。例如下图所示的情形 :"
+  },
+  {
+    "id": "audit_00160",
+    "location": "table_11",
+    "para_index": 365,
+    "text": "x1 看着还像那么回事,但是从 x2 往后,和 r是渐行渐远啊 。那可真是黄鼠 狼下崽,一窝不如一窝!  何也?  因为牛顿法中的第一步, x1   选择, 是个技 术活!"
+  },
+  {
+    "id": "audit_00161",
+    "location": "table_11",
+    "para_index": 366,
+    "text": "就像大师手稿中的例题,他选择 x1 =2, 为啥不选 0、1、-1呢?  比较一下就 知道了.显然, f(0)=-5, f(1)=-6, f(-1)=-4而 f(2)=-1. 即使让你 选,你也会选择函数值离 0最近的 2做为 x1  吧."
+  },
+  {
+    "id": "audit_00162",
+    "location": "table_11",
+    "para_index": 367,
+    "text": "牛顿方法的思想,可以用一句伟人的经典语录概括 :摸着石头过河。 但是,先摸哪块石头,是个智慧活儿。"
+  },
+  {
+    "id": "audit_00163",
+    "location": "table_12",
+    "para_index": 377,
+    "text": "在 AI技术日趋发展的今天,牛顿法有着非常巨大的现实意义。 现在,很多 学生用的高级计算器都可以解各种非常规方程,其内核原理,大多是借用的牛顿 方法。"
+  },
+  {
+    "id": "audit_00164",
+    "location": "table_12",
+    "para_index": 378,
+    "text": "再来一道例题熟悉一下流程 :"
+  },
+  {
+    "id": "audit_00165",
+    "location": "table_12",
+    "para_index": 379,
+    "text": "Example 4 9):用牛顿法求方程 cosx- sinx=x 的根,要求精确到小数点后四位."
+  },
+  {
+    "id": "audit_00166",
+    "location": "table_12",
+    "para_index": 380,
+    "text": "Solution :我们先画出f(x) = cosx - sinx 以及g(x) =x 的草图 :"
+  },
+  {
+    "id": "audit_00167",
+    "location": "table_12",
+    "para_index": 383,
+    "text": "From the figure, we can see ,大致在不到  的地方 ,两线相交. 因此我们选 x1 =0. 75来求方"
+  },
+  {
+    "id": "audit_00168",
+    "location": "table_12",
+    "para_index": 384,
+    "text": "程h(x) = cosx - sinx - x =0 的根 :   因为 : h'(x) =-sinx - cosx - 1"
+  },
+  {
+    "id": "audit_00169",
+    "location": "table_12",
+    "para_index": 385,
+    "text": "所以 : xn+1 =xn + "
+  },
+  {
+    "id": "audit_00170",
+    "location": "table_12",
+    "para_index": 386,
+    "text": "把 x1 =0. 75带入上式中依次计算可以得到 :"
+  },
+  {
+    "id": "audit_00171",
+    "location": "table_12",
+    "para_index": 387,
+    "text": "x2 =0. 459965           x3 =0. 456646           x4 =0. 456625"
+  },
+  {
+    "id": "audit_00172",
+    "location": "table_12",
+    "para_index": 388,
+    "text": "3,,4exist)cs四-i经-重x合means,.: :r=0. 4566."
+  },
+  {
+    "id": "audit_00173",
+    "location": "table_13",
+    "para_index": 398,
+    "text": "What Are Derivatives Good For   Chapter 4"
+  },
+  {
+    "id": "audit_00174",
+    "location": "table_13",
+    "para_index": 400,
+    "text": "走到这儿,我们已经让导数派上了许多用场。 让我们再看看,导数还能有 啥用?"
+  },
+  {
+    "id": "audit_00175",
+    "location": "table_13",
+    "para_index": 401,
+    "text": "4. 5   中值定理与函数图形的形状"
+  },
+  {
+    "id": "audit_00176",
+    "location": "table_13",
+    "para_index": 402,
+    "text": "在研究函数的过程中,如果能准确把握函数图形的形状,善莫大焉!"
+  },
+  {
+    "id": "audit_00177",
+    "location": "table_13",
+    "para_index": 403,
+    "text": "做为函数走向的小趋势,导数当然对函数图形的形状起着关键的作用。 了 解这些作用,对把握函数的整体大趋势,很有帮助。"
+  },
+  {
+    "id": "audit_00178",
+    "location": "table_13",
+    "para_index": 404,
+    "text": "首先介绍一下 :"
+  },
+  {
+    "id": "audit_00179",
+    "location": "table_13",
+    "para_index": 405,
+    "text": "罗尔定理(Rolle, s Theorem) 假设函数 f(x)满足"
+  },
+  {
+    "id": "audit_00180",
+    "location": "table_13",
+    "para_index": 406,
+    "text": "1) 在区间 [a, b] 连续"
+  },
+  {
+    "id": "audit_00181",
+    "location": "table_13",
+    "para_index": 407,
+    "text": "2) 在区间 (a, b) 可导"
+  },
+  {
+    "id": "audit_00182",
+    "location": "table_13",
+    "para_index": 408,
+    "text": "3) f(a) =f(b)"
+  },
+  {
+    "id": "audit_00183",
+    "location": "table_13",
+    "para_index": 409,
+    "text": "那么,在区间 (a, b) 上一定存在一个实数 c,使得 : f'(c) =0"
+  },
+  {
+    "id": "audit_00184",
+    "location": "table_13",
+    "para_index": 410,
+    "text": "定理证明 :我们不妨分三种情形来证明罗尔定理。"
+  },
+  {
+    "id": "audit_00185",
+    "location": "table_13",
+    "para_index": 411,
+    "text": "情形一   如果对区间 [a, b] 上任意的 x 值,都有 f(x) =f(a) =f(b), 那 么函数 f(x) 的图像是一条平行于 x 轴的直线,这个时候区间 (a, b) 可导内的 任意一点的切线都平行于 x 轴。 随便找一个 c点,都满足 : f'(c) =0。"
+  },
+  {
+    "id": "audit_00186",
+    "location": "table_13",
+    "para_index": 412,
+    "text": "情形二   如果在区间 (a, b)  内,有某一点的函数值大于端点的函数值,那 么,根据极 值 定 理, 区 间  (a, b)  内, 必 然 存 在 一 个 c 点,使 得 f(c) 是 函 数 f(x) 在 [a, b] 上的极大值。"
+  },
+  {
+    "id": "audit_00187",
+    "location": "table_13",
+    "para_index": 413,
+    "text": "根据定义,这个 f(c), 同时也是一个相对极大值, 又加上 f(x) 在 c 点可 导, 因而根据费尔马定理,我们得知 : f'(c) =0。"
+  },
+  {
+    "id": "audit_00188",
+    "location": "table_13",
+    "para_index": 414,
+    "text": "情形三   如果在区间 (a, b) 内,有某一点的函数值小于端点的函数值,按照 情形二的证明方法,我们同样可以得到结论 : 区间 (a, b) 内存在一个点 c,满足 : f'(c) =0。"
+  },
+  {
+    "id": "audit_00189",
+    "location": "table_14",
+    "para_index": 426,
+    "text": "上图展示了罗尔定理成立的几种情形。"
+  },
+  {
+    "id": "audit_00190",
+    "location": "table_14",
+    "para_index": 427,
+    "text": "由图可见,罗尔定理的几何意义就是,在区间端点的函数值相等的情况下, 区间 (a, b) 内存在一个点 c,过该点的切线平行于 x 轴。"
+  },
+  {
+    "id": "audit_00191",
+    "location": "table_14",
+    "para_index": 428,
+    "text": "由于区间的端点函数值相等, 因此其连接线也平行于 x 轴, 罗尔定理就等 于说是在间 (a, b) 内存在一个点 c,函数过该点的切线平行于区间端点的连接 线 。我们自然要问,在端点的函数值不相等的情况下,这个结论成立吗?"
+  },
+  {
+    "id": "audit_00192",
+    "location": "table_14",
+    "para_index": 430,
+    "text": "拉格朗日中值定理(Lagrange, s Mean ValueTheorem) 假设函数 f(x) 满足"
+  },
+  {
+    "id": "audit_00193",
+    "location": "table_14",
+    "para_index": 431,
+    "text": "1) 在区间 [a, b] 连续"
+  },
+  {
+    "id": "audit_00194",
+    "location": "table_14",
+    "para_index": 432,
+    "text": "2) 在区间 (a, b) 可导"
+  },
+  {
+    "id": "audit_00195",
+    "location": "table_14",
+    "para_index": 433,
+    "text": "那么,在区间 (a, b) 上一定存在一个实数 c,使得 :"
+  },
+  {
+    "id": "audit_00196",
+    "location": "table_14",
+    "para_index": 436,
+    "text": "思路 : 由于刚刚证明过罗尔定理,而我们需证明的公式右边,又是区间端点 连接线的斜率。 因而,我们特别想找到一个函数,这个函数既和端点有关又要与 f(x) 有关,而且最好在两个端点的函数值相等。"
+  },
+  {
+    "id": "audit_00197",
+    "location": "table_14",
+    "para_index": 437,
+    "text": "如果把函数 f(x) 与端点连接线这条直线上的 y 值的差,定义为一个新函 数 g(x), 那么,这个新函数的端点值一定为 0。对它应用罗尔定理如何?"
+  },
+  {
+    "id": "audit_00198",
+    "location": "table_14",
+    "para_index": 438,
+    "text": "我们知道 :连接两个端点 (a, f(a)), (b, f(b)) 的直线方程为 :"
+  },
+  {
+    "id": "audit_00199",
+    "location": "table_14",
+    "para_index": 440,
+    "text": "所以,我们有 :"
+  },
+  {
+    "id": "audit_00200",
+    "location": "table_14",
+    "para_index": 442,
+    "text": "这个新生的 g(x) 有啥特点呢?  它不仅在区间 [a, b] 连续, 在区间 (a, b) 可导,更可爱的是 : g(a) =g(b) = 0, 至此罗尔定理成立的条件全齐了。 因 此,在区间 (a, b) 内,必存在一点 c,使得 : g'(c) =0。把这个结论带入到上面的 定义式内 :"
+  },
+  {
+    "id": "audit_00201",
+    "location": "table_15",
+    "para_index": 452,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00202",
+    "location": "table_15",
+    "para_index": 455,
+    "text": "在这个定理证明过程中,为应用罗尔定理而量身打造函数 g(x) 的手法,是 历代数学大师们创造性工作中的常用手法,具有非常高的技术含量。"
+  },
+  {
+    "id": "audit_00203",
+    "location": "table_15",
+    "para_index": 456,
+    "text": "中值定理的代数意义是,在区间 (a, b) 上存在点 c,使得函数 f(x) 在点 c 的瞬时变化率,等于函数 f(x) 整个区间 [a, b] 上的平均变化率。"
+  },
+  {
+    "id": "audit_00204",
+    "location": "table_15",
+    "para_index": 457,
+    "text": "中值定理的几何意义是,在区间上 (a, b) 存在点 c,使得函数过 c点的切线 平行于端点连线 。请参照下图 :"
+  },
+  {
+    "id": "audit_00205",
+    "location": "table_15",
+    "para_index": 459,
+    "text": "如图所示,左图是存在一个满足中值定理的 c点的情形。 右图展示的是有 两个满足中值定理的 c点的情形。"
+  },
+  {
+    "id": "audit_00206",
+    "location": "table_15",
+    "para_index": 461,
+    "text": "法国数学家    拉格朗日"
+  },
+  {
+    "id": "audit_00207",
+    "location": "table_15",
+    "para_index": 462,
+    "text": "关于中值定理的问题,一般是比较厚道的。 例如 :"
+  },
+  {
+    "id": "audit_00208",
+    "location": "table_15",
+    "para_index": 463,
+    "text": "例 4  9):验证函数 f(x) = 2x2 - 3x+ 1在区间[0, 2]上满足中值定理。 解 :我们的任务是在区间[0, 2]上找出一个 c, 使得 :"
+  },
+  {
+    "id": "audit_00209",
+    "location": "table_16",
+    "para_index": 475,
+    "text": "注意到 : f'(x) = 6x - 3"
+  },
+  {
+    "id": "audit_00210",
+    "location": "table_16",
+    "para_index": 476,
+    "text": "所以,只要下面关于 c 的方程有解,我们的任务就算完成了 :"
+  },
+  {
+    "id": "audit_00211",
+    "location": "table_16",
+    "para_index": 478,
+    "text": "上面的方程 ,显然有解 :c=3/4 。"
+  },
+  {
+    "id": "audit_00212",
+    "location": "table_16",
+    "para_index": 485,
+    "text": "又因为 f'(x) ≤ 9, 所以 :"
+  },
+  {
+    "id": "audit_00213",
+    "location": "table_16",
+    "para_index": 487,
+    "text": "或者 : f(3) +8≤18, 即 f(3) ≤ 10"
+  },
+  {
+    "id": "audit_00214",
+    "location": "table_16",
+    "para_index": 488,
+    "text": "因此,所求的 f(3) 可能达到的最大值为 10。"
+  },
+  {
+    "id": "audit_00215",
+    "location": "table_16",
+    "para_index": 489,
+    "text": "一方面,我们通过罗尔定理,可以证明拉格朗日定理 ;另一方面,罗尔定理又 可以做为拉格朗日定理的特例。 实际上, 朗格朗日定理亦可以做为另一个定理 的特例,这个定理就是著名的 :"
+  },
+  {
+    "id": "audit_00216",
+    "location": "table_16",
+    "para_index": 490,
+    "text": "柯西(Cauchy)中值定理"
+  },
+  {
+    "id": "audit_00217",
+    "location": "table_16",
+    "para_index": 491,
+    "text": "设函数 f(x), g(x) 在 [a, b] 连续, (a, b) 可导, 且 g(x) ≠0则一定存在一 个 : ξ∈ (a, b), 满足 :"
+  },
+  {
+    "id": "audit_00218",
+    "location": "table_16",
+    "para_index": 493,
+    "text": "柯西中值定理也同样可以通过证明拉格朗日定理的方法,从罗尔定理推出。 在实际上,对柯西中值定理的应用,更多地是对如下的参数方程表述的曲线进行  应用 :"
+  },
+  {
+    "id": "audit_00219",
+    "location": "table_17",
+    "para_index": 501,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00220",
+    "location": "table_17",
+    "para_index": 504,
+    "text": "因此,我们可以说,拉格朗日定理和柯西中值定理都是罗尔中值定理的推广 和发展。"
+  },
+  {
+    "id": "audit_00221",
+    "location": "table_17",
+    "para_index": 505,
+    "text": "实战中,柯西中值定理一般只在极个别爱难为学生的院校的考试中出现, 而且考得不多。 因为如果出题太简单, 出题者不愿意 ;但是如果太难,在这么 个知识点上就会耗时过长。 所以,这个定理,作为考生的您, 知道它长啥模样 就行。"
+  },
+  {
+    "id": "audit_00222",
+    "location": "table_17",
+    "para_index": 506,
+    "text": "罗尔定理和拉格朗日定理,都是从一定程度上诠释了函数图形在一定区间 内的一些形态。 比如说,切线的方向。"
+  },
+  {
+    "id": "audit_00223",
+    "location": "table_17",
+    "para_index": 507,
+    "text": "而根据函数的导数在某区间内的符号,又可以判断函数在此区间内是增函 数,还是减函数。"
+  },
+  {
+    "id": "audit_00224",
+    "location": "table_17",
+    "para_index": 508,
+    "text": "但是, 即使同样是增函数,下图中的两种增函数 f(x) 和 g(x) 是有明显区"
+  },
+  {
+    "id": "audit_00225",
+    "location": "table_17",
+    "para_index": 512,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00226",
+    "location": "table_17",
+    "para_index": 515,
+    "text": "因此,我们可以说,拉格朗日定理和柯西中值定理都是罗尔中值定理的推广 和发展。"
+  },
+  {
+    "id": "audit_00227",
+    "location": "table_17",
+    "para_index": 516,
+    "text": "实战中,柯西中值定理一般只在极个别爱难为学生的院校的考试中出现, 而且考得不多。 因为如果出题太简单, 出题者不愿意 ;但是如果太难,在这么 个知识点上就会耗时过长。 所以,这个定理,作为考生的您, 知道它长啥模样 就行。"
+  },
+  {
+    "id": "audit_00228",
+    "location": "table_17",
+    "para_index": 517,
+    "text": "罗尔定理和拉格朗日定理,都是从一定程度上诠释了函数图形在一定区间 内的一些形态。 比如说,切线的方向。"
+  },
+  {
+    "id": "audit_00229",
+    "location": "table_17",
+    "para_index": 518,
+    "text": "而根据函数的导数在某区间内的符号,又可以判断函数在此区间内是增函 数,还是减函数。"
+  },
+  {
+    "id": "audit_00230",
+    "location": "table_17",
+    "para_index": 519,
+    "text": "但是, 即使同样是增函数,下图中的两种增函数 f(x) 和 g(x) 是有明显区"
+  },
+  {
+    "id": "audit_00231",
+    "location": "table_17",
+    "para_index": 524,
+    "text": "我们通常把上图中左边那个开口向上的图形, 叫做下凸图形,而右边那个开 口向下的图形叫做上凸图形。"
+  },
+  {
+    "id": "audit_00232",
+    "location": "table_17",
+    "para_index": 525,
+    "text": "用数学行话表述就是 : 函数 f(x) 在区间 (a, b) 下凸, 函数 g(x) 在区间 (a, b) 上凸。"
+  },
+  {
+    "id": "audit_00233",
+    "location": "table_17",
+    "para_index": 526,
+    "text": "值得注意的是, 函数图形的凸凹性的表述, 中外是有区别的, 中文是按照哪 边“鼓起来”,就说是往哪边凸。 而西方的表述,重视的是开口方向,这个方向正 好和“鼓起来”的方向相反。"
+  },
+  {
+    "id": "audit_00234",
+    "location": "table_17",
+    "para_index": 527,
+    "text": "从而导致,我们所说的上凸函数,用英文表述就是 concavedown。 而我们的 所说的下凸(凹) 函数,相应的英文则是 concaveup。"
+  },
+  {
+    "id": "audit_00235",
+    "location": "table_17",
+    "para_index": 528,
+    "text": "上凸函数和下凸函数的一个明显的几何意义就是 :所有上凸函数的切线都 位于函数图形的上方 ; 而所有下凸函数的切线都在函数图形的下方。 如下图 所示 :"
+  },
+  {
+    "id": "audit_00236",
+    "location": "table_17",
+    "para_index": 533,
+    "text": "我们通常把上图中左边那个开口向上的图形, 叫做下凸图形,而右边那个开 口向下的图形叫做上凸图形。"
+  },
+  {
+    "id": "audit_00237",
+    "location": "table_17",
+    "para_index": 534,
+    "text": "用数学行话表述就是 : 函数 f(x) 在区间 (a, b) 下凸, 函数 g(x) 在区间 (a, b) 上凸。"
+  },
+  {
+    "id": "audit_00238",
+    "location": "table_17",
+    "para_index": 535,
+    "text": "值得注意的是, 函数图形的凸凹性的表述, 中外是有区别的, 中文是按照哪 边“鼓起来”,就说是往哪边凸。 而西方的表述,重视的是开口方向,这个方向正 好和“鼓起来”的方向相反。"
+  },
+  {
+    "id": "audit_00239",
+    "location": "table_17",
+    "para_index": 536,
+    "text": "从而导致,我们所说的上凸函数,用英文表述就是 concavedown。 而我们的 所说的下凸(凹) 函数,相应的英文则是 concaveup。"
+  },
+  {
+    "id": "audit_00240",
+    "location": "table_17",
+    "para_index": 537,
+    "text": "上凸函数和下凸函数的一个明显的几何意义就是 :所有上凸函数的切线都 位于函数图形的上方 ; 而所有下凸函数的切线都在函数图形的下方。 如下图 所示 :"
+  },
+  {
+    "id": "audit_00241",
+    "location": "table_18",
+    "para_index": 549,
+    "text": "由图可见,下凸函数 f(x) 的切线都在函数图形下边,而上凸函数 g(x) 的 切线都在函数图形上边。"
+  },
+  {
+    "id": "audit_00242",
+    "location": "table_18",
+    "para_index": 550,
+    "text": "那么如何判断函数的图形是上凸还是下凸呢?  法宝就是 : 二阶导数判别法"
+  },
+  {
+    "id": "audit_00243",
+    "location": "table_18",
+    "para_index": 551,
+    "text": "如果在区间 (a, b), 函数 f(x) 满足: f″(x) > 0, 那么函数 f(x) 在此区间 下凸。"
+  },
+  {
+    "id": "audit_00244",
+    "location": "table_18",
+    "para_index": 552,
+    "text": "如果在区间 (a, b), 函数 f(x) 满足: f″(x) < 0, 那么函数 f(x) 在此区间 上凸。"
+  },
+  {
+    "id": "audit_00245",
+    "location": "table_18",
+    "para_index": 553,
+    "text": "这个判别法是可以借助中值定理证明的,限于篇幅,本书不做介绍 。做为非 数学系的你,只要会用即可。"
+  },
+  {
+    "id": "audit_00246",
+    "location": "table_18",
+    "para_index": 554,
+    "text": "有了二阶导数判别法的帮助,我们对极值问题的处理又有了新的抓手。 根 据二阶导数的符号,我们很容易就得出了这样的结论 :"
+  },
+  {
+    "id": "audit_00247",
+    "location": "table_18",
+    "para_index": 555,
+    "text": "如果函数 f(x) 的二阶导数在点 c 附近连续,那么"
+  },
+  {
+    "id": "audit_00248",
+    "location": "table_18",
+    "para_index": 556,
+    "text": "1) 如果 f'(c) =0, f″(c) > 0, 则 f(c) 必为函数的相对极小值。"
+  },
+  {
+    "id": "audit_00249",
+    "location": "table_18",
+    "para_index": 557,
+    "text": "2) 如果 f'(c) =0, f″(c) < 0, 则 f(c) 必为函数的相对极大值。"
+  },
+  {
+    "id": "audit_00250",
+    "location": "table_18",
+    "para_index": 558,
+    "text": "上述结论,几何上非常直观。 现简要说明第一种情形, 由于二阶导数为 正,所以曲线下凸。 因而在 c点附近函数的切线在函数图形下方,又由于函数 在 c点的 切 线 为 水 平 切 线, 所 以 f(c) 就 成 为 函 数 的 相 对 极 小 值。 如 下 图 所示 :"
+  },
+  {
+    "id": "audit_00251",
+    "location": "table_18",
+    "para_index": 560,
+    "text": "至此,我们明白了所谓函数下凸、切线在函数图形下边、函数在下凸函数的"
+  },
+  {
+    "id": "audit_00252",
+    "location": "table_19",
+    "para_index": 568,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00253",
+    "location": "table_19",
+    "para_index": 570,
+    "text": "极值点为相对极小值点,是一脉相承的。"
+  },
+  {
+    "id": "audit_00254",
+    "location": "table_19",
+    "para_index": 571,
+    "text": "另一方面, 函数上凸、切线在函数图形上面、函数在上凸函数的极值点是相 对极大值点,环环相扣。"
+  },
+  {
+    "id": "audit_00255",
+    "location": "table_19",
+    "para_index": 572,
+    "text": "下凸、切线在下、函数极小是同一层面!  看来,还是中国的说法更好记!  窃 喜 ing"
+  },
+  {
+    "id": "audit_00256",
+    "location": "table_19",
+    "para_index": 573,
+    "text": "为了从更广泛的视角来观察凸凹性,我想提请你注意另一个事实,那就是上 凸函数的连接任意两点的割线,一定在函数图形的下方 。相反,下凸函数的割线 则一定在函数图形的上方 。如下图所示 :"
+  },
+  {
+    "id": "audit_00257",
+    "location": "table_19",
+    "para_index": 575,
+    "text": "学过了这一节的内容,我们今后在求函数极值的问题中,既可以根据一阶导 数在临界点左右的变号情况,来确定函数在极值点左右的增减性质,从而确定函 数的极值点是极大或者极小值 ;也可以简单根据函数的二阶导数的符号,直接判 断极值点的性质。"
+  },
+  {
+    "id": "audit_00258",
+    "location": "table_19",
+    "para_index": 576,
+    "text": "现在,我们可以对我们熟悉的二次函数 y =ax2 +bx + c来一个更高级的 小结 :"
+  },
+  {
+    "id": "audit_00259",
+    "location": "table_19",
+    "para_index": 577,
+    "text": "由 y'=0, 可求出 y 的临界点是 -  。所以 ,当 a>0时 , 由于 y″=2a >"
+  },
+  {
+    "id": "audit_00260",
+    "location": "table_19",
+    "para_index": 578,
+    "text": "0, y 在临界点是最小值 。反之,当 a<0时, 由于 y″=2a< 0, y 在临界点是最 大值。"
+  },
+  {
+    "id": "audit_00261",
+    "location": "table_19",
+    "para_index": 579,
+    "text": "现在照例插播一条例题 :"
+  },
+  {
+    "id": "audit_00262",
+    "location": "table_19",
+    "para_index": 580,
+    "text": "例 4  11):已知函数 f(x) 的导数 f'(x) = (x-1)ex, 求函数的临界点,并 说出该临界点的性质是极大? 极小? 抑或都不是。"
+  },
+  {
+    "id": "audit_00263",
+    "location": "table_19",
+    "para_index": 581,
+    "text": "解 :不妨使用老套路,令导数为 0, 即可得出f(x) 的临界点是唯一的点 1。 解法一   不难看出 :"
+  },
+  {
+    "id": "audit_00264",
+    "location": "table_19",
+    "para_index": 582,
+    "text": "当 x < 1时, f'(x) = (x - 1)ex < 0, 因而函数 f(x) 是减函数 ;"
+  },
+  {
+    "id": "audit_00265",
+    "location": "table_19",
+    "para_index": 583,
+    "text": "当 x >1时, f'(x) = (x-1)ex > 0, 因而函数 f(x) 是增函数 ; 因此这个 临界点是极小值点。"
+  },
+  {
+    "id": "audit_00266",
+    "location": "table_19",
+    "para_index": 584,
+    "text": "解法二   求二阶导数得到 f″(x) =xex, 所以 f″(1) =e> 0。 因此,点 1是 极小值点。"
+  },
+  {
+    "id": "audit_00267",
+    "location": "table_20",
+    "para_index": 595,
+    "text": "关于函数的图形的凸凹,还有一个概念,现在隆重地推出一下 : 拐点(pointofinflection)定义"
+  },
+  {
+    "id": "audit_00268",
+    "location": "table_20",
+    "para_index": 596,
+    "text": "如果函数 f(x) 的二阶导数是连续函数,并且在点 a左右符号相异,则称点 a 为函数f(x) 的拐点。"
+  },
+  {
+    "id": "audit_00269",
+    "location": "table_20",
+    "para_index": 597,
+    "text": "拐点概念学习心得"
+  },
+  {
+    "id": "audit_00270",
+    "location": "table_20",
+    "para_index": 598,
+    "text": "1) 拐点左右函数从上凸函数改成下凸函数或者正相反。"
+  },
+  {
+    "id": "audit_00271",
+    "location": "table_20",
+    "para_index": 599,
+    "text": "2) 拐点的二阶导数要么为 0,要么不存在。"
+  },
+  {
+    "id": "audit_00272",
+    "location": "table_20",
+    "para_index": 600,
+    "text": "先前学了个临界点,现在又学了个拐点 。把它们串比一下 :临界点是指的导 数为 0或者不存在的点,临界点是极值点的嫌疑点。 拐点是函数的二阶导数变 号的点,但要注意,二阶导数为 0或者不存在,只是该点成为拐点的必要条件,并 不是充分条件 。正如连续是可导的必要条件,但并不是可导的充分条件一样。"
+  },
+  {
+    "id": "audit_00273",
+    "location": "table_20",
+    "para_index": 601,
+    "text": "至此, 函数的图形在一个点附近的走向,我们应该可以说得比较清晰了。 图  形的走向演变,有点像汉语写法的基本笔画, 写汉语的笔画无非是横竖撇捺等  等,而一个函数的图形也无非是这么几种基本形态 :直线上升(下降) 就像/(\\)、 曲线上凸上升(下降) 就像 ∩ 的 左半边(右半边)、曲线下凸下降(上升) 就像 ∪  的 左半边(右半边) 。"
+  },
+  {
+    "id": "audit_00274",
+    "location": "table_20",
+    "para_index": 602,
+    "text": "有导数帮忙,我们对函数的增减、凸凹、零点等基本形态就会有所了解。 如 果再加上对渐近线的考虑, 即使对复杂一点的函数,我们也能把图形画个有模有 样了。"
+  },
+  {
+    "id": "audit_00275",
+    "location": "table_20",
+    "para_index": 603,
+    "text": "结合我们迄今所学,概括起来,要画出一个像样的函数图形,是可以有一些 标准动作的 :"
+  },
+  {
+    "id": "audit_00276",
+    "location": "table_20",
+    "para_index": 604,
+    "text": "1) 注意函数定义域"
+  },
+  {
+    "id": "audit_00277",
+    "location": "table_20",
+    "para_index": 605,
+    "text": "2) 找出函数和坐标轴的交点"
+  },
+  {
+    "id": "audit_00278",
+    "location": "table_20",
+    "para_index": 606,
+    "text": "3) 注意奇偶性也就是对称性"
+  },
+  {
+    "id": "audit_00279",
+    "location": "table_20",
+    "para_index": 607,
+    "text": "4) 观察有无渐近线"
+  },
+  {
+    "id": "audit_00280",
+    "location": "table_20",
+    "para_index": 608,
+    "text": "5) 找出相对极值点"
+  },
+  {
+    "id": "audit_00281",
+    "location": "table_20",
+    "para_index": 609,
+    "text": "6) 注意函数增减以及凸凹"
+  },
+  {
+    "id": "audit_00282",
+    "location": "table_20",
+    "para_index": 610,
+    "text": "例 4  12):画出下列函数的图形 :"
+  },
+  {
+    "id": "audit_00283",
+    "location": "table_21",
+    "para_index": 620,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00284",
+    "location": "table_21",
+    "para_index": 621,
+    "text": "解 :首先关注如下五点。"
+  },
+  {
+    "id": "audit_00285",
+    "location": "table_21",
+    "para_index": 623,
+    "text": "1) 函数的定义域为 2x2 - 5 ≠ 0⇒x≠±"
+  },
+  {
+    "id": "audit_00286",
+    "location": "table_21",
+    "para_index": 625,
+    "text": "2) 显然, 函数和坐标轴的交点为原点"
+  },
+  {
+    "id": "audit_00287",
+    "location": "table_21",
+    "para_index": 626,
+    "text": "3)  由于 f(x) =f(- x),所以该函数为偶函数,关于 y 轴对称。"
+  },
+  {
+    "id": "audit_00288",
+    "location": "table_21",
+    "para_index": 628,
+    "text": "所以 ,该 函数有一条水平渐近线 y=3/2"
+  },
+  {
+    "id": "audit_00289",
+    "location": "table_21",
+    "para_index": 632,
+    "text": "所以,该函数有一条两条竖直渐近线 :"
+  },
+  {
+    "id": "audit_00290",
+    "location": "table_21",
+    "para_index": 634,
+    "text": "5) 找出临界点 : f'(x) =0"
+  },
+  {
+    "id": "audit_00291",
+    "location": "table_21",
+    "para_index": 637,
+    "text": "由此可见, 0点是函数 f的唯一临界点,观察不难得知, 函数的导数在此点 的导数由正变负,也就是说 0点是该函数的相对极大值点。"
+  },
+  {
+    "id": "audit_00292",
+    "location": "table_21",
+    "para_index": 638,
+    "text": "6) 研究凸凹性 :"
+  },
+  {
+    "id": "audit_00293",
+    "location": "table_21",
+    "para_index": 639,
+    "text": "首先继续求出二阶导数,"
+  },
+  {
+    "id": "audit_00294",
+    "location": "table_21",
+    "para_index": 643,
+    "text": "所以 ,在区间 (-   0 ,   2  ), f″(x) < 0, 因而函数 f(x) 为上凸函数 ;而"
+  },
+  {
+    "id": "audit_00295",
+    "location": "table_22",
+    "para_index": 653,
+    "text": "在区间 和  , f″(x) > 0 因此函数为下凸函数。"
+  },
+  {
+    "id": "audit_00296",
+    "location": "table_22",
+    "para_index": 654,
+    "text": "综上所述,我们可以画出该函数的图形大致如下 :"
+  },
+  {
+    "id": "audit_00297",
+    "location": "table_22",
+    "para_index": 657,
+    "text": "4. 6   寻根之得—反导数"
+  },
+  {
+    "id": "audit_00298",
+    "location": "table_22",
+    "para_index": 658,
+    "text": "我们形容某个牛人对某篇文章的熟悉程度时,经常用“倒背如流”这个词儿。 如果给你一个函数的求导公式,你能够“倒背如流”,那就是相当于根据函数的导  数,来找出它是谁的导数。"
+  },
+  {
+    "id": "audit_00299",
+    "location": "table_22",
+    "para_index": 659,
+    "text": "也就等于,你在大街上看到一个无人认领的导数,你得根据已经学到的手 艺,迅速解答“这是谁家的导数”这个问题。"
+  },
+  {
+    "id": "audit_00300",
+    "location": "table_22",
+    "para_index": 660,
+    "text": "在微积分里混世界,是需要这种基本能力的。"
+  },
+  {
+    "id": "audit_00301",
+    "location": "table_22",
+    "para_index": 661,
+    "text": "例如,根据公式 (x2) '= 2x, 你可以很容易地说 2x 是 x2  它们家的导数。"
+  },
+  {
+    "id": "audit_00302",
+    "location": "table_22",
+    "para_index": 662,
+    "text": "由于这里的根据导数来找出原函数的寻根的动作,是完全和求导的过程反 过来的, 因此,有一个可以让人望文生义的名称用到这里—反导数。"
+  },
+  {
+    "id": "audit_00303",
+    "location": "table_22",
+    "para_index": 663,
+    "text": "例如,在说 2x 是 x2  的导数的时候,你就相当于在说 : x2 是 2x 的反导数。"
+  },
+  {
+    "id": "audit_00304",
+    "location": "table_22",
+    "para_index": 664,
+    "text": "一般来说,我们描述 F(x)是 f(x) 的反导数的时候,指的就是 : F'(x) =f(x)"
+  },
+  {
+    "id": "audit_00305",
+    "location": "table_22",
+    "para_index": 665,
+    "text": "熟练掌握导数的您, 自然知道,不仅仅是 (x2) '= 2x, 所有形如 x2 + c (其 中 c是常数) 的函数,它的导数都是 2x 。 换句话说, 函数 2x 的反导数不是唯 一的。"
+  },
+  {
+    "id": "audit_00306",
+    "location": "table_22",
+    "para_index": 666,
+    "text": "所以,我们先前那句话应该改为 : 函数 2x 是函数 x2 + c他们家族的导数。 显然,这里的 x2 + c不是一个函数,而是一组函数。"
+  },
+  {
+    "id": "audit_00307",
+    "location": "table_23",
+    "para_index": 674,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00308",
+    "location": "table_23",
+    "para_index": 676,
+    "text": "如此,则接下来的结论不证自明 :"
+  },
+  {
+    "id": "audit_00309",
+    "location": "table_23",
+    "para_index": 677,
+    "text": "如果, 函数 F(x) 和 G(x) 都是 f(x) 的反导数,那么 :   F(x) -G(x) =C      其中 C为常数。"
+  },
+  {
+    "id": "audit_00310",
+    "location": "table_23",
+    "para_index": 678,
+    "text": "例 4  13):求函数 xn  的反导数F(x),其中 n 为实数。 解 :我们必须分两步来做"
+  },
+  {
+    "id": "audit_00311",
+    "location": "table_23",
+    "para_index": 679,
+    "text": "首先,如果 n=-1, 由于 (ln(x)) '=x-1, 所以 lnx+C就是所求的反函数 ;"
+  },
+  {
+    "id": "audit_00312",
+    "location": "table_23",
+    "para_index": 680,
+    "text": "其次 ,如果 n≠-1, 因为 '=xn , 所以 为所求的反函"
+  },
+  {
+    "id": "audit_00313",
+    "location": "table_23",
+    "para_index": 683,
+    "text": "尽管我们一直在说, 函数的反导数通常是指一组函数,但是如果加上某种约 束条件,一般就可以有确定的函数了。"
+  },
+  {
+    "id": "audit_00314",
+    "location": "table_23",
+    "para_index": 684,
+    "text": "例 4  14):已知 : f″(x) = 2x3 + 3x2 -4x+5, f(0) = 2, f(1) =0, 求函数 f(x) 。"
+  },
+  {
+    "id": "audit_00315",
+    "location": "table_23",
+    "para_index": 685,
+    "text": "解 :根 据 例 4   12) 的 成 果, 我 们 知 道, f(x)″, f'(x)  的 反 导 数 f'(x), f(x) 分别为 :"
+  },
+  {
+    "id": "audit_00316",
+    "location": "table_23",
+    "para_index": 689,
+    "text": "把 f(0) = 2,, f(1) =0带入上式,得到 : C2 = 2"
+  },
+  {
+    "id": "audit_00317",
+    "location": "table_24",
+    "para_index": 698,
+    "text": "为方便您玩好这一小节 ，我再把基本函数和其对应的导数和反导数拉出 来跟您混个脸熟 。欢迎拿走随身携带!"
+  },
+  {
+    "id": "audit_00318",
+    "location": "table_24",
+    "para_index": 722,
+    "text": "一共是 10大金刚,不管把他们倒背一下抑或正着背一下,在反导数的世界 里走江湖,算是有盘缠啦!"
+  },
+  {
+    "id": "audit_00319",
+    "location": "table_24",
+    "para_index": 723,
+    "text": "在后面的章节里,您会发现 :这些看似平庸的反导数们,那是大有来头啊! 接下来,我们一起来见见定积分!"
+  },
+  {
+    "id": "audit_00320",
+    "location": "table_24",
+    "para_index": 724,
+    "text": "当然,出发前,总得先巩固学习成果—做习题。 练习四"
+  },
+  {
+    "id": "audit_00321",
+    "location": "table_24",
+    "para_index": 725,
+    "text": "4  1) 求如下函数的临界点"
+  },
+  {
+    "id": "audit_00322",
+    "location": "table_24",
+    "para_index": 726,
+    "text": "(1) y=x4+ x3+ x2 + 1                (2) y=|2x - 1 |"
+  },
+  {
+    "id": "audit_00323",
+    "location": "table_24",
+    "para_index": 727,
+    "text": "                        (4) y= 2cosx+sin2x"
+  },
+  {
+    "id": "audit_00324",
+    "location": "table_24",
+    "para_index": 728,
+    "text": "4  2) 求下列函数在指定区间的绝对极值 :"
+  },
+  {
+    "id": "audit_00325",
+    "location": "table_24",
+    "para_index": 729,
+    "text": "(1) y= -x2 + 2x - 1                 [0, 5]"
+  },
+  {
+    "id": "audit_00326",
+    "location": "table_25",
+    "para_index": 734,
+    "text": "导数有啥用   第四章"
+  },
+  {
+    "id": "audit_00327",
+    "location": "table_25",
+    "para_index": 736,
+    "text": "4  3) 用线性逼近法来估算如下各值"
+  },
+  {
+    "id": "audit_00328",
+    "location": "table_25",
+    "para_index": 737,
+    "text": "(1) (2. 999)4                                (2) sin1°                  (3)  3 1001  4  4) 用牛顿法求下列各方程的根,精确到小数点后 6位。"
+  },
+  {
+    "id": "audit_00329",
+    "location": "table_25",
+    "para_index": 738,
+    "text": "(1) 3cosx=x+ 1"
+  },
+  {
+    "id": "audit_00330",
+    "location": "table_25",
+    "para_index": 740,
+    "text": "(3) cos(x2 - x) =x4"
+  },
+  {
+    "id": "audit_00331",
+    "location": "table_25",
+    "para_index": 741,
+    "text": "4  5) 请验证下列函数在指定区间满足拉格朗日中值定理"
+  },
+  {
+    "id": "audit_00332",
+    "location": "table_25",
+    "para_index": 742,
+    "text": "(1) f(x) = 2x3 - 3x+ 1, [0, 2]"
+  },
+  {
+    "id": "audit_00333",
+    "location": "table_25",
+    "para_index": 744,
+    "text": "4  6) 证明 :方程 x3 - 15x+ c=0在区间 [-2, 2] 内,最多有一个根。 4  7) 如果 f(1) = 10, f'(x) ≥ 2(1≤ x ≤ 4), 请问 f(4) 有下限吗?  4  8) 对下列各函数,"
+  },
+  {
+    "id": "audit_00334",
+    "location": "table_25",
+    "para_index": 745,
+    "text": "a) 求出各个函数的上升和下降区间"
+  },
+  {
+    "id": "audit_00335",
+    "location": "table_25",
+    "para_index": 746,
+    "text": "b) 求出各函数的相对极值"
+  },
+  {
+    "id": "audit_00336",
+    "location": "table_25",
+    "para_index": 747,
+    "text": "c) 求出各个函数的拐点和上凸或下凸区间"
+  },
+  {
+    "id": "audit_00337",
+    "location": "table_25",
+    "para_index": 748,
+    "text": "(1) y=x3 - 12x+ 3                    (2) y= -x4 + 2x2 + 2"
+  },
+  {
+    "id": "audit_00338",
+    "location": "table_25",
+    "para_index": 749,
+    "text": "(3) y= (x+1)5 - 5x - 2            (4) y=x   6- x"
+  },
+  {
+    "id": "audit_00339",
+    "location": "table_25",
+    "para_index": 750,
+    "text": "(5) y= 2cosx+cos2x       (0≤ x ≤ 2π) 4  9) 求下列各函数的反导数"
+  },
+  {
+    "id": "audit_00340",
+    "location": "table_25",
+    "para_index": 751,
+    "text": "(1) y= 2x3 - 3x2 + x+ 1            "
+  },
+  {
+    "id": "audit_00341",
+    "location": "table_25",
+    "para_index": 752,
+    "text": "(3) y=4sec2x - 5x4                                       (4) y=e3"
+  },
+  {
+    "id": "audit_00342",
+    "location": "table_27",
+    "para_index": 826,
+    "text": "分 中 有积       定 积 分"
+  }
+]
