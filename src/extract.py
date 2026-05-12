@@ -14,7 +14,6 @@ import sys
 from pathlib import Path
 
 import docx
-from docx.oxml.ns import qn
 
 # Add repo root to path so config is importable from anywhere
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -23,18 +22,9 @@ from config import INPUT_DIR, WORK_DIR, EXTRACTED_SEGMENTS
 # Unicode range covering CJK Unified Ideographs (basic block)
 _CJK_RE = re.compile(r"[\u4e00-\u9fff\u3400-\u4dbf\uff00-\uffef\u3000-\u303f]+")
 
-# OMML math namespace — paragraphs that are entirely math expressions
-_MATH_PARA_TAG = qn("m:oMathPara")
-_MATH_TAG = qn("m:oMath")
-
 
 def _has_chinese(text: str) -> bool:
     return bool(_CJK_RE.search(text))
-
-
-def _is_math_element(element) -> bool:
-    """Return True if the XML element is an OMML math node."""
-    return element.tag in (_MATH_PARA_TAG, _MATH_TAG)
 
 
 def _paragraph_page_index(para_index: int, doc_paragraph_count: int) -> int:
@@ -72,11 +62,6 @@ def extract_segments(docx_path: Path, test_pages: int | None = None) -> list[dic
                 approx_page = _paragraph_page_index(abs_idx, len(paragraphs))
                 if approx_page >= test_pages:
                     break
-
-            # Skip paragraphs whose XML contains only math (oMathPara at top level)
-            para_xml = para._element
-            if any(_is_math_element(child) for child in para_xml):
-                continue
 
             for run_idx, run in enumerate(para.runs):
                 text = run.text

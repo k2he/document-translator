@@ -20,7 +20,6 @@ from pathlib import Path
 import docx
 from docx.oxml.ns import qn
 from docx.shared import Inches, Pt
-from docx.enum.text import WD_LINE_SPACING
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from config import (
@@ -74,6 +73,34 @@ def _load_translations(path: Path) -> dict[str, str]:
     return {item["id"]: item["translation"] for item in data}
 
 
+def _reset_run_font(run, font_name: str, font_size_pt: float) -> None:
+    """
+    Override the run-level font and size.
+
+    Translated runs keep the source document's SimSun/11pt rPr overrides.
+    Those override the paragraph style, so the text renders in the Chinese
+    font even though the content is now English.  This clears the run-level
+    font name and size so the paragraph style (Times New Roman 12pt set by
+    _apply_styles) takes effect instead.
+    """
+    from docx.oxml.ns import qn
+    from docx.shared import Pt
+
+    rPr = run._element.find(qn('w:rPr'))
+    if rPr is None:
+        return
+
+    # Remove all w:rFonts elements (explicit font override)
+    for rFonts in rPr.findall(qn('w:rFonts')):
+        rPr.remove(rFonts)
+
+    # Remove explicit size overrides (w:sz and w:szCs)
+    for sz in rPr.findall(qn('w:sz')):
+        rPr.remove(sz)
+    for szCs in rPr.findall(qn('w:szCs')):
+        rPr.remove(szCs)
+
+
 def _apply_page_format(doc: docx.Document) -> None:
     """Set US Letter page size and 1-inch margins on every section."""
     for section in doc.sections:
@@ -83,6 +110,50 @@ def _apply_page_format(doc: docx.Document) -> None:
         section.right_margin = MARGIN_EMU
         section.top_margin = MARGIN_EMU
         section.bottom_margin = MARGIN_EMU
+
+
+def _patch_doc_defaults(doc: docx.Document) -> None:
+    """Patch w:docDefaults in the styles part to set Times New Roman 12pt.
+
+    The source DOCX has SimSun 11pt in docDefaults, which is the lowest-priority
+    default but wins when no style or run-level override exists. Patching it
+    ensures all text without explicit formatting inherits the correct font.
+    """
+    W = 'http://schemas.openxmlformats.org/wordprocessingml/2006/main'
+    styles_elem = doc.part.styles._element
+    docDefaults = styles_elem.find(f'{{{W}}}docDefaults')
+    if docDefaults is None:
+        return
+    rPrDefault = docDefaults.find(f'{{{W}}}rPrDefault')
+    if rPrDefault is None:
+        return
+    rPr = rPrDefault.find(f'{{{W}}}rPr')
+    if rPr is None:
+        return
+
+    # Replace w:rFonts with Times New Roman on all four axes
+    for el in rPr.findall(f'{{{W}}}rFonts'):
+        rPr.remove(el)
+    from lxml import etree
+    rFonts = etree.SubElement(rPr, f'{{{W}}}rFonts')
+    rFonts.set(f'{{{W}}}ascii', BODY_FONT)
+    rFonts.set(f'{{{W}}}hAnsi', BODY_FONT)
+    rFonts.set(f'{{{W}}}eastAsia', BODY_FONT)
+    rFonts.set(f'{{{W}}}cs', BODY_FONT)
+    # Move rFonts to be first child of rPr
+    rPr.remove(rFonts)
+    rPr.insert(0, rFonts)
+
+    # Replace w:sz and w:szCs with 12pt (half-points: 24)
+    half_pts = str(int(BODY_FONT_SIZE_PT * 2))
+    for el in rPr.findall(f'{{{W}}}sz'):
+        rPr.remove(el)
+    for el in rPr.findall(f'{{{W}}}szCs'):
+        rPr.remove(el)
+    sz = etree.SubElement(rPr, f'{{{W}}}sz')
+    sz.set(f'{{{W}}}val', half_pts)
+    szCs = etree.SubElement(rPr, f'{{{W}}}szCs')
+    szCs.set(f'{{{W}}}val', half_pts)
 
 
 def _apply_styles(doc: docx.Document) -> None:
@@ -111,12 +182,11 @@ def _apply_styles(doc: docx.Document) -> None:
         },
     }
 
-    existing_style_names = {s.name for s in doc.styles}
-
     for style_name, props in style_updates.items():
-        if style_name not in existing_style_names:
-            continue
-        style = doc.styles[style_name]
+        style = next((s for s in doc.styles if s.name == style_name), None)
+        if style is None:
+            from docx.enum.style import WD_STYLE_TYPE
+            style = doc.styles.add_style(style_name, WD_STYLE_TYPE.PARAGRAPH)
         font = style.font
         font.name = props["font_name"]
         font.size = props["font_size"]
@@ -124,8 +194,7 @@ def _apply_styles(doc: docx.Document) -> None:
             font.bold = props["bold"]
 
         pf = style.paragraph_format
-        pf.line_spacing_rule = WD_LINE_SPACING.MULTIPLE
-        pf.line_spacing = Pt(BODY_FONT_SIZE_PT * 1.5)
+        pf.line_spacing = 1.5
         pf.space_after = Pt(PARA_SPACING_AFTER_PT)
 
 
@@ -282,6 +351,7 @@ def rebuild(docx_path: Path) -> Path:
             key = ("body", para_idx, run_idx)
             if key in patch_map:
                 run.text = patch_map[key]
+                _reset_run_font(run, BODY_FONT, BODY_FONT_SIZE_PT)
 
     # Patch table cells
     table_para_offset = len(doc.paragraphs)
@@ -294,11 +364,25 @@ def rebuild(docx_path: Path) -> Path:
                         key = (f"table_{tbl_idx}", abs_idx, run_idx)
                         if key in patch_map:
                             run.text = patch_map[key]
+                            _reset_run_font(run, BODY_FONT, BODY_FONT_SIZE_PT)
                 table_para_offset += len(cell.paragraphs)
+
+    # Second pass: clear SimSun run-level overrides on non-patched runs too.
+    for para in doc.paragraphs:
+        for run in para.runs:
+            _reset_run_font(run, BODY_FONT, BODY_FONT_SIZE_PT)
+
+    for table in doc.tables:
+        for row in table.rows:
+            for cell in row.cells:
+                for para in cell.paragraphs:
+                    for run in para.runs:
+                        _reset_run_font(run, BODY_FONT, BODY_FONT_SIZE_PT)
 
     # Apply punctuation spacing normalization to all paragraphs (body + tables)
     _normalize_all_paragraphs(doc)
 
+    _patch_doc_defaults(doc)
     _apply_page_format(doc)
     _apply_styles(doc)
 

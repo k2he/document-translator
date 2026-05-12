@@ -1,2081 +1,1343 @@
 {
-  "style_instruction": "Chinese storytelling teach-and-learn calculus textbook — conversational and engaging tone, uses everyday analogies from Chinese life, warm and encouraging, explains concepts through vivid stories and relatable examples, occasional light humour, addresses the reader directly as a fellow learner",
+  "style_instruction": "You are an expert translator of Chinese mathematical textbooks into North American English, with a deep command of mathematical concepts and precise mathematical language. When describing examples and formulas verbally, use accurate and precise mathematical language rather than casual approximations. Maintain a Chinese storytelling teach-and-learn calculus style — conversational and engaging, uses everyday analogies from Chinese life, warm and encouraging, explains concepts through vivid stories and relatable examples, occasional light humour, addresses the reader directly as a fellow learner.",
   "segments": [
     {
       "id": "audit_00000",
       "location": "body",
-      "para_index": 52,
-      "text": "Book ·1Proof [Final size: 170mm×240mm; text block :33 lines × 34 characters]"
+      "para_index": 0,
+      "text": "Table of contents"
     },
     {
       "id": "audit_00001",
-      "location": "table_0",
-      "para_index": 64,
-      "text": "In the first two chapters, we clarified the most important concept of limits in calculus, and elevated what we learned in high school about the concept of slope, introducing the derivative."
+      "location": "body",
+      "para_index": 1,
+      "text": "4. 1　Discussing limits again——Robetta's Law（L'Hôpital's Rule）"
     },
     {
       "id": "audit_00002",
-      "location": "table_0",
-      "para_index": 65,
-      "text": "We also spentconsiderable effort, working hard to understand the methods for finding derivatives of various functions. understanding derivatives must have some special uses, to justify all our hard work?"
+      "location": "body",
+      "para_index": 2,
+      "text": "4. 2　extreme value problem（Extremum）"
     },
     {
       "id": "audit_00003",
-      "location": "table_0",
-      "para_index": 66,
-      "text": "Exactly, derivatives really are useful!"
+      "location": "body",
+      "para_index": 3,
+      "text": "4. 3　linear approximation（Linear Approximation）"
     },
     {
       "id": "audit_00004",
-      "location": "table_0",
-      "para_index": 67,
-      "text": "4. 1   More on Limits— L'Hôpital's Rule (L’Hospital’s Rule)"
+      "location": "body",
+      "para_index": 4,
+      "text": "4. 4　Crossing the river by feeling the stones——newton(Newton) Law"
     },
     {
       "id": "audit_00005",
-      "location": "table_0",
-      "para_index": 69,
-      "text": "As mentioned earlier, limit problems are the core of calculus, and when dealing with limit problems, we often encounter two tricky types of limit problems :"
+      "location": "body",
+      "para_index": 5,
+      "text": "4. 5　The Mean Value Theorem and the Shape of Function Graphs"
     },
     {
       "id": "audit_00006",
-      "location": "table_0",
-      "para_index": 70,
-      "text": " type and  type"
+      "location": "body",
+      "para_index": 6,
+      "text": "4. 6　Finding one's roots——antiderivative（Antiderivative）"
     },
     {
       "id": "audit_00007",
-      "location": "table_0",
-      "para_index": 71,
-      "text": "Seeing two sideways 8s compared, it feels like there's no way to startis correct."
+      "location": "body",
+      "para_index": 7,
+      "text": "Exercise 4"
     },
     {
       "id": "audit_00008",
-      "location": "table_0",
-      "para_index": 72,
-      "text": "It's just like, we ordinary people, watching two tycoons compete in wealth, they both have more than we could spend in several lifetimes of money, so who's really better and will have the last laugh, is really hard to judge."
+      "location": "body",
+      "para_index": 9,
+      "text": "Chapter 4"
     },
     {
       "id": "audit_00009",
-      "location": "table_0",
-      "para_index": 73,
-      "text": "Let's think a bit more about this, which of these two competing wealthy folks, in a long-term rivalry, will have the upper hand? Although the current amount is key, the determining factor should be the increment orthe rate of wealth increase. For example, Person A has 1 billion and grows annually at 7% ; Person Balthough having 5billion, but this person's wealth growth rate is 10%. With a bit of thought, it's not hard to conclude : in the long run, Person B will certainlysurpass Person A."
+      "location": "body",
+      "para_index": 10,
+      "text": "What is the use of derivatives?"
     },
     {
       "id": "audit_00010",
-      "location": "table_0",
-      "para_index": 74,
-      "text": "The reason we conclude Person B wins, is because their 10% growth rate is really much better than 7% growth rate. What is growth rate, isn't it just rate of change. What is rate of change?  The derivative!"
+      "location": "body",
+      "para_index": 12,
+      "text": "84\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00011",
-      "location": "table_0",
-      "para_index": 75,
-      "text": "This leads us to think, if two∞compared give no conclusion, but the ratio of their derivatives shows a difference, then the ratio of the originals also has a result. This simple idea, was already proven by the French mathematician L'Hôpital (L, Hospital) over 300 years ago."
+      "location": "body",
+      "para_index": 14,
+      "text": "In the first two chapters, we clarified the most important concept of limit in calculus, sublimated the concept of slope learned in middle school, and introduced derivatives。"
     },
     {
       "id": "audit_00012",
-      "location": "table_0",
-      "para_index": 76,
-      "text": "L'Hôpital's Rule (L’Hospital, sRule)"
+      "location": "body",
+      "para_index": 15,
+      "text": "We also spent a lot of pen and ink trying to figure out how to find the small trend derivatives of various functions. This derivative must have some special purpose to be worthy of our efforts.？"
     },
     {
       "id": "audit_00013",
-      "location": "table_0",
-      "para_index": 77,
-      "text": "Suppose functions f(x) and g(x), in a region containing point a are differentiable (not necessarily at a differentiable), and, g(x) ≠ 0. If :"
+      "location": "body",
+      "para_index": 16,
+      "text": "Yes, derivatives are really useful！"
     },
     {
       "id": "audit_00014",
-      "location": "table_0",
-      "para_index": 81,
-      "text": "Of course, provided that the limit on the right exists."
+      "location": "body",
+      "para_index": 18,
+      "text": "4. 1  Discussing limits again——Robetta's Law（L'Hôpital's Rule）"
     },
     {
       "id": "audit_00015",
-      "location": "table_1",
-      "para_index": 89,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 19,
+      "text": "As mentioned before, limit problems are the core problem of calculus. When we deal with limit problems, we often encounter two kinds of thorny limit problems.："
     },
     {
       "id": "audit_00016",
-      "location": "table_1",
-      "para_index": 91,
-      "text": "L'Hôpital's Rule, kills two birds with one stone, solving two tricky problems at once. Regarding this rule, we need to point out a few things."
+      "location": "body",
+      "para_index": 23,
+      "text": "We saw two lying on their backs\"8\"，Feeling unable to start。"
     },
     {
       "id": "audit_00017",
-      "location": "table_1",
-      "para_index": 92,
-      "text": "First, when x →± ∞, the rule also applies ;"
+      "location": "body",
+      "para_index": 24,
+      "text": "Just like when we read a martial arts novel, two heroes compete with each other. They both possess unique skills. It is really difficult to judge who will have the last laugh. Let's think about it again. If two heroes compete for a long time, which one will have the upper hand? For another example, A has 10billion and growing every year7%；Although B only has5billion, but B’s wealth growth rate is10%。If you think about it carefully, it is not difficult to come to the conclusion: In the long run, B will definitely defeat A. The reason why we come to the conclusion that Y wins is because of his10%The growth rate is actually higher than7%The growth rate is much greater. What is growth rate, isn’t it just the rate of change? What is the rate of change? Derivative！"
     },
     {
       "id": "audit_00018",
-      "location": "table_1",
-      "para_index": 93,
-      "text": "Second , if the limit of the ratio of the two functions' derivatives is again  type and  type , you can apply the rule again"
+      "location": "body",
+      "para_index": 27,
+      "text": "Robetta's Law（L'Hôpital's Rule）"
     },
     {
       "id": "audit_00019",
-      "location": "table_1",
-      "para_index": 94,
-      "text": "to the second derivative or even n th order derivative."
+      "location": "body",
+      "para_index": 37,
+      "text": "Of course, the premise is that the limit on the right exists。"
     },
     {
       "id": "audit_00020",
-      "location": "table_1",
-      "para_index": 95,
-      "text": "Finally, the proof of this rule, requires more advanced mathematical knowledge."
+      "location": "body",
+      "para_index": 38,
+      "text": "Robita's Law kills two birds with one stone and solves two difficult problems at the same time. Regarding this rule, we should remind you of a few points。"
     },
     {
       "id": "audit_00021",
-      "location": "table_1",
-      "para_index": 96,
-      "text": "For now, we can treat it like an axiom and accept it withoutproof. Knowing how to apply the rule is what matters."
+      "location": "body",
+      "para_index": 40,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t85"
     },
     {
       "id": "audit_00022",
-      "location": "table_1",
-      "para_index": 97,
-      "text": "Example 1): Find : "
+      "location": "body",
+      "para_index": 44,
+      "text": "Finally, the proof of this law requires more advanced mathematical knowledge。"
     },
     {
       "id": "audit_00023",
-      "location": "table_1",
-      "para_index": 98,
-      "text": "Solution : By L'Hôpital's Rule, we have :"
+      "location": "body",
+      "para_index": 45,
+      "text": "For now, we can treat it as an axiom, think it is self-evident, and knowing how to use the rules is the last word.。"
     },
     {
       "id": "audit_00024",
-      "location": "table_1",
-      "para_index": 99,
-      "text": "x - 1= (x - 1) '=  x = 1"
+      "location": "body",
+      "para_index": 47,
+      "text": "Example 4-1）  beg"
     },
     {
       "id": "audit_00025",
-      "location": "table_1",
-      "para_index": 100,
-      "text": "Example 4  2): Find lim  2x"
+      "location": "body",
+      "para_index": 49,
+      "text": "Solution: According to Robetta's law, we have："
     },
     {
       "id": "audit_00026",
-      "location": "table_1",
-      "para_index": 101,
-      "text": "Solution : Using L'Hôpital's Rule, we get :"
+      "location": "body",
+      "para_index": 53,
+      "text": "Example 4-2）  beg"
     },
     {
       "id": "audit_00027",
-      "location": "table_1",
-      "para_index": 103,
-      "text": "Fun, right? Let's look at these two limits :"
+      "location": "body",
+      "para_index": 55,
+      "text": "Solution: Using Robetta’s rule, we get："
     },
     {
       "id": "audit_00028",
-      "location": "table_1",
-      "para_index": 104,
-      "text": "Example 3): Find "
+      "location": "body",
+      "para_index": 59,
+      "text": "Fun, right? Let’s look at two more limits。"
     },
     {
       "id": "audit_00029",
-      "location": "table_1",
-      "para_index": 105,
-      "text": "Solution : To find this limit, we need to differentiate both numerator and denominator 3 times, before we can see the result clearly :"
+      "location": "body",
+      "para_index": 61,
+      "text": "Example 4-3）  beg"
     },
     {
       "id": "audit_00030",
-      "location": "table_1",
-      "para_index": 108,
-      "text": "From the solution process, we can see that , even if the numerator is not x3 , but rather x100 or higher powers , it would not change the result of the limit. Similarly , as long as the numerator has ax  in the a > 1, the result won't change , it's all ∞ ."
+      "location": "body",
+      "para_index": 63,
+      "text": "Solution: To find this limit, you have to find the numerator and denominator respectively. 3Only by taking the second derivative can we see the result clearly.："
     },
     {
       "id": "audit_00031",
-      "location": "table_1",
-      "para_index": 109,
-      "text": "This confirms what we said earlier about : ax type ∞ being so-called ministerial-level ∞ , compared to xn these municipal-level ∞ there's no comparison . Let's look at municipal-level ∞ meeting lnx this county-level ∞ , what happens :"
+      "location": "body",
+      "para_index": 71,
+      "text": "Example 4-4）  beg"
     },
     {
       "id": "audit_00032",
-      "location": "table_2",
-      "para_index": 123,
-      "text": "This time, the municipal-level ∞ sends out a numerator with power one-half, while the county-level ∞ remains in the denominator as squared, PKThe result is still ∞ !  It seems, \"rank crushes rank — the higher always wins\" is no empty saying!"
+      "location": "body",
+      "para_index": 78,
+      "text": "86\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00033",
-      "location": "table_2",
-      "para_index": 124,
-      "text": "Let me emphasize again, if you encounter ∞ :∞ type limit problems, just keep the highest-ranking term in numerator and denominator ∞ on duty, and the result will be correct."
+      "location": "body",
+      "para_index": 82,
+      "text": "With Robetta's Law in mind, it will be very intuitive to look at the two famous limits that you are asked to remember in Chapter 2.："
     },
     {
       "id": "audit_00034",
-      "location": "table_2",
-      "para_index": 125,
-      "text": "With L'Hôpital's Rule in hand, let's revisit the two famouslimits, which will become very intuitive :"
+      "location": "body",
+      "para_index": 88,
+      "text": "When we climb mountains, we will find that the higher we climb, the better the view. The same goes for playing mathematics. The more you play, the clearer you can see what you have played with.。"
     },
     {
       "id": "audit_00035",
-      "location": "table_2",
-      "para_index": 128,
-      "text": "When climbing a mountain, we find, the higher we climb, the better the view. The same goes for math, the more you practice, the things you've learned become clearer."
+      "location": "body",
+      "para_index": 89,
+      "text": "Let’s see what else derivatives are used for。"
     },
     {
       "id": "audit_00036",
-      "location": "table_2",
-      "para_index": 129,
-      "text": "Let's see what else derivatives are good for."
+      "location": "body",
+      "para_index": 91,
+      "text": "4. 2  extreme value problem（Extremum）"
     },
     {
       "id": "audit_00037",
-      "location": "table_2",
-      "para_index": 130,
-      "text": "4. 2   Extreme Value Problems (extremum)"
+      "location": "body",
+      "para_index": 92,
+      "text": "People always like to pay attention to things that are a little far away from themselves and more extreme.。"
     },
     {
       "id": "audit_00038",
-      "location": "table_2",
-      "para_index": 131,
-      "text": "People always like to focus on things that are a bit distant or extreme. For example : stories about royalty, always have an audience among common people. Another example : the richest, most beautiful, tallest, most dangerous, etc., always attract our attention the most."
+      "location": "body",
+      "para_index": 93,
+      "text": "Similarly, the problem of maximum and minimum values ​​of functions naturally arouses great interest. Because in life, extreme values ​​are so useful。"
     },
     {
       "id": "audit_00039",
-      "location": "table_2",
-      "para_index": 132,
-      "text": "Similarly, for the functions we study, the maximum and minimum value problems, naturally attract people's great interest. Because in real life, extreme value problems are extremely useful. How to maximize limited resources to their fullest potential, is always our pursuit."
+      "location": "body",
+      "para_index": 94,
+      "text": "To solve extreme value problems, derivatives can be of great help. Let’s first clarify a few concepts about extreme value problems。"
     },
     {
       "id": "audit_00040",
-      "location": "table_2",
-      "para_index": 133,
-      "text": "To solve extreme value problems, derivatives can be a great help. Let's first clarify some concepts about extreme values :"
+      "location": "body",
+      "para_index": 96,
+      "text": "Where there is a local part there is a global situation。"
     },
     {
       "id": "audit_00041",
-      "location": "table_2",
-      "para_index": 134,
-      "text": "Definition of Local Maximum (localmaximum) : If for some open interval containing c point allx values, the inequality f(x) ≤f(c) holds. then f(c) is a f(x) local maximum. Local maximum, is sometimes also called relative maximum (relativemaximum)."
+      "location": "body",
+      "para_index": 99,
+      "text": "For example, if the altitude on the earth is used as a function, then the height of the top of the Five Mountains is a local maximum. At the same time, the height of each step you take to go home and even the height of the slippers you put on the floor is a local maximum. Mount Everest is the global maximum of this function."
     },
     {
       "id": "audit_00042",
-      "location": "table_2",
-      "para_index": 135,
-      "text": "Where there's local, there's global."
+      "location": "body",
+      "para_index": 100,
+      "text": "The concept of minimum value is opposite to the concept of maximum value。"
     },
     {
       "id": "audit_00043",
-      "location": "table_2",
-      "para_index": 136,
-      "text": "Definition of Global Maximum (global maximum) :If for all x values, the inequality f(x) ≤ f(c) holds. Then f(c) is the function f(x) 's global maximum. Global maximum, is sometimes"
+      "location": "body",
+      "para_index": 102,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t87"
     },
     {
       "id": "audit_00044",
-      "location": "table_3",
-      "para_index": 144,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 106,
+      "text": "Once you understand the concept of extreme values, you can discuss how to find extreme values.。"
     },
     {
       "id": "audit_00045",
-      "location": "table_3",
-      "para_index": 146,
-      "text": "also called absolute maximum (absolutemaximum)."
+      "location": "body",
+      "para_index": 107,
+      "text": "To study how to find the extreme value, we must first determine its existence. Therefore, it is necessary to understand the extreme value theorem。"
     },
     {
       "id": "audit_00046",
-      "location": "table_3",
-      "para_index": 147,
-      "text": "Let's continue discussing  our understanding of these two concepts. The term local, means :  as long as these in equal ity f(x) ≤f(c) holds even in a very small interval, f(c) it is a local maximum."
+      "location": "body",
+      "para_index": 109,
+      "text": "The figure below is a schematic diagram of the extreme value theorem.。"
     },
     {
       "id": "audit_00047",
-      "location": "table_3",
-      "para_index": 148,
-      "text": "For example, if we consider Earth's elevation as a function, then the height of the Five Sacred Mountains' peakswould all be local maxima. At the same time, the height of each stair step on your way home, or even the height of your slippers on the floor, are all genuine local maxima. But Mount Everest is the global maximum of this function."
+      "location": "body",
+      "para_index": 111,
+      "text": "My learning experience about this theorem is：（1）Although the absolute extreme value of a closed interval can certainly be reached, it is not necessarily unique.；（2）Two conditions for the existence of the theorem\"continuous\"and\"closed interval\"indispensable。"
     },
     {
       "id": "audit_00048",
-      "location": "table_3",
-      "para_index": 149,
-      "text": "Another example, if we consider official rank as a function. Although a governor is impressive, a governor anda village chief alike, are both local maximum officials. Only the President, is the global maximum official."
+      "location": "body",
+      "para_index": 112,
+      "text": "The figure below shows the situation where the two conditions of continuity and interval closure are missing respectively, and the extreme value theorem does not hold.。"
     },
     {
       "id": "audit_00049",
-      "location": "table_3",
-      "para_index": 150,
-      "text": "Everyone should have a scale in their heart to measure local versus global, and never overestimateyourself. How much love and hatred in the martial world, all arise from unclear judgment between local and global. How many oncequite  decent local bosses, lost their lives by mistaking themselves for global bosses. No matter how far you've  advanced, always consider yourself an ordinary person in a local, small local context, and things will probably turn out fine."
+      "location": "body",
+      "para_index": 114,
+      "text": "As can be seen from the above figure, the function on the left has no maximum value, and the function on the right has no maximum value. The reason is: the function on the left is not continuous, and the function definition interval on the right is not closed.。"
     },
     {
       "id": "audit_00050",
-      "location": "table_3",
-      "para_index": 151,
-      "text": "Among the grand 64 hexagrams of the I Ching, only the Modesty hexagram, has no side effects!  With the concept of maximum, the concept of minimum follows naturally."
+      "location": "body",
+      "para_index": 115,
+      "text": "With the existential problem solved, the next task is to find ways to find extreme points based on their characteristics. For a continuous function, since the global extreme point exists in the closed interval. Generally, the global extreme points are selected from many local extreme points, so it becomes a priority to find the local extreme points first."
     },
     {
       "id": "audit_00051",
-      "location": "table_3",
-      "para_index": 152,
-      "text": "Definition of Local Minimum (localminimum) : If for some open interval containing cpoint all x values, the inequality f(x) ≥f(c) holds. Then f(c) is the function f(x) 's local minimum. Local minimum, is sometimes also called relative minimum (relativeminimum)."
+      "location": "body",
+      "para_index": 118,
+      "text": "88\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00052",
-      "location": "table_3",
-      "para_index": 153,
-      "text": "Definition of Global Minimum (global maximum) :If for all x values, the inequality f(x) ≥ f(c) holds. Then f(c) is the function f(x) 's global minimum. Global minimum, is sometimes also called absolute minimum (absolutemaximum)."
+      "location": "body",
+      "para_index": 120,
+      "text": "urgency. So what does a local extreme point look like? Please see the theorem："
     },
     {
       "id": "audit_00053",
-      "location": "table_3",
-      "para_index": 154,
-      "text": "Now that we understand the concept of extreme values, we can discuss how to find them."
+      "location": "body",
+      "para_index": 121,
+      "text": "Fermat's theorem（Fermat's Theorem）"
     },
     {
       "id": "audit_00054",
-      "location": "table_3",
-      "para_index": 155,
-      "text": "To study how to find extreme values, we must first establish their existence. Therefore, understanding the Extreme Value Theorem, is necessary."
+      "location": "body",
+      "para_index": 126,
+      "text": "So, we have："
     },
     {
       "id": "audit_00055",
-      "location": "table_3",
-      "para_index": 156,
-      "text": "The Extreme Value Theorem : If function f(x) is continuous on closed interval [a, b], then there must exist two"
+      "location": "body",
+      "para_index": 131,
+      "text": "Note: Fermat’s theorem only tells you that if there is a derivative at the local extreme point, then the derivative is 0。He did not say that the derivatives of all local extreme points are 0。Why? Because there are some local extreme points, the derivative does not exist! The points at which these derivatives do not exist and the derivatives are 0 The points are collectively called the critical points of the function（Critical Point）。"
     },
     {
       "id": "audit_00056",
-      "location": "table_3",
-      "para_index": 157,
-      "text": "points cand d, such that f(c) is the absolute maximum, f(d) isthe absolute minimum. The figure below illustrates the Extreme Value Theorem."
+      "location": "body",
+      "para_index": 132,
+      "text": "After working hard to get here, I finally found a way to find the ultimate value! First, find the critical points of the function, that is, those where there is no derivative or the derivative is 0 point; secondly, by comparing the values ​​of the function at the end points and critical points of the interval, the global extreme value and local extreme value can be determined。"
     },
     {
       "id": "audit_00057",
-      "location": "table_3",
-      "para_index": 159,
-      "text": "My insights from studying this theorem are :"
+      "location": "body",
+      "para_index": 133,
+      "text": "The reason why the function values ​​at the endpoints of the interval should be compared alone is because although the endpoint of the interval does not meet the definition of a local extreme point, it may be a global extreme point. For example, a strictly monotonic function must obtain a global extreme value at the endpoint and have no local extreme points inside."
     },
     {
       "id": "audit_00058",
-      "location": "table_4",
-      "para_index": 169,
-      "text": "1) although the absolute extreme values on a closed interval are always attained, they may not be unique ;"
+      "location": "body",
+      "para_index": 134,
+      "text": "So, how to judge whether the critical point of the function we have worked hard to find is a local maximum or a local minimum? To solve this problem, we have to ask small trends——Derivatives come into play. As we introduced in the previous chapter, the positive or negative value of the derivative at each point of the function determines the upward or downward trend of the function at this point. Depend on"
     },
     {
       "id": "audit_00059",
-      "location": "table_4",
-      "para_index": 170,
-      "text": "2) The two conditions for the theorem \"continuity\" and \"closed interval\" are both indispensable. The figure below shows cases missing continuity and interval closure respectively, causing the Extreme Value Theorem to fail."
+      "location": "body",
+      "para_index": 137,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t89"
     },
     {
       "id": "audit_00060",
-      "location": "table_4",
-      "para_index": 172,
-      "text": "From the figure, we can see, the function on the left has no maximum, the function on the right has neither maximum, nor mini values. The reason is : the left function is not continuous, the right function's domain is notclosed."
+      "location": "body",
+      "para_index": 139,
+      "text": "It is not difficult to deduce that if the derivative of a function is positive within a certain interval, then the function is an increasing function in this interval. On the contrary, if the derivative is negative, the function is a decreasing function。"
     },
     {
       "id": "audit_00061",
-      "location": "table_4",
-      "para_index": 173,
-      "text": "The existence problem is solved, now the task is to find ways to locate them based on the characteristics of extreme points."
+      "location": "body",
+      "para_index": 140,
+      "text": "Of course, it can also be said that the positive or negative slope of the tangent line of a function determines whether the function is an increasing function or a decreasing function.。"
     },
     {
       "id": "audit_00062",
-      "location": "table_4",
-      "para_index": 174,
-      "text": "For a continuous function, since global extreme points exist on a closed interval. Generally speaking, global extreme points are selected from among many local extreme points, therefore, finding local extreme points first becomes the top priority. So what do local extreme points look like? See the theorem :"
+      "location": "body",
+      "para_index": 142,
+      "text": "As shown in the figure above, the function is in AB Duan He CD Segments are all increasing functions, and their tangent slopes or derivatives are all positive. And the function is in BC The segment derivative is negative, so BC Segment is a decreasing function。"
     },
     {
       "id": "audit_00063",
-      "location": "table_4",
-      "para_index": 175,
-      "text": "Fermat (Fermat) 's Theorem : If c is a point where function f(x) has a local extreme value, and f'(c) ex ists, then :"
+      "location": "body",
+      "para_index": 143,
+      "text": "Obviously, the function is B、C The derivative of two points is 0，That is to say，B、C They are all relative extreme points of the function.。"
     },
     {
       "id": "audit_00064",
-      "location": "table_4",
-      "para_index": 177,
-      "text": "Proof : Let's first assume c is a local maximum of f(x), the minimumcase can be proved similarly. cBeing a local maximum, means : in a small region containing c, the following inequality holds :"
+      "location": "body",
+      "para_index": 144,
+      "text": "function passes B When, its derivative goes through a process from positive to zero, and then to negative. Correspondingly, the function changes from an increasing function to a decreasing function. so，B point is the relative maximum point。"
     },
     {
       "id": "audit_00065",
-      "location": "table_4",
-      "para_index": 178,
-      "text": "f(x) ≤f(c)"
+      "location": "body",
+      "para_index": 145,
+      "text": "And the function goes through C point, its derivative goes through a process from negative to zero, and then to positive. Correspondingly, the function is derived from C The decreasing function before the point becomes C The increasing function after the point. therefore，C A point is the relative minimum point of a function。"
     },
     {
       "id": "audit_00066",
-      "location": "table_4",
-      "para_index": 179,
-      "text": "Thus, we have :"
+      "location": "body",
+      "para_index": 146,
+      "text": "Conclusion: If the derivative around the critical point of the function changes from positive to negative, then the critical point is a local maximum point. On the contrary, if the derivative around the critical point of the function changes from negative to positive, then the critical point is the local minimum point of the function."
     },
     {
       "id": "audit_00067",
-      "location": "table_4",
-      "para_index": 181,
-      "text": "In the above expression , since the numerator is non-negative ,the denominator is negative , therefore : f'(c- ) ≥ 0 Similarly , we have :"
+      "location": "body",
+      "para_index": 147,
+      "text": "At this point, the routine for finding the extreme value of a function is basically understood. Then take out the skills we just learned and use them to show the effect.。"
     },
     {
       "id": "audit_00068",
-      "location": "table_5",
-      "para_index": 191,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 150,
+      "text": "Solution: We play according to the routine and first find the critical point："
     },
     {
       "id": "audit_00069",
-      "location": "table_5",
-      "para_index": 193,
-      "text": "At this point, we have obtained that the function at chas left and right derivatives that are non-negative on one side and non-positive on the other, the conclusion. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be : f'(c) =0."
+      "location": "body",
+      "para_index": 152,
+      "text": "It can be seen that, 2 and −1is the critical point of the function. Comparing the function values ​​at critical points and endpoints, we find："
     },
     {
       "id": "audit_00070",
-      "location": "table_5",
-      "para_index": 194,
-      "text": "Important point : Fermat's Theorem only tells you, if a local extreme point has a derivative, then that derivative equals 0. It doesn't say, all local extreme points have derivative equal to 0. Why? Because :some local extreme points have derivatives that  do not exist!"
+      "location": "body",
+      "para_index": 154,
+      "text": "therefore："
     },
     {
       "id": "audit_00071",
-      "location": "table_5",
-      "para_index": 195,
-      "text": "These points where in ex at  exist and points where is 0, are collectively called the function's critical  points (critical point)."
+      "location": "body",
+      "para_index": 156,
+      "text": "The function of this question is shown in the figure below："
     },
     {
       "id": "audit_00072",
-      "location": "table_5",
-      "para_index": 196,
-      "text": "After all this hard work, we've finally found some methods for finding extreme values!  First, findthe function's critical points, that is, those points where the derivative doesn't exist or equals 0 exist ; second, compare function values at interval endpoints and critical points, to determine global and local extreme values."
+      "location": "body",
+      "para_index": 160,
+      "text": "90\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00073",
-      "location": "table_5",
-      "para_index": 197,
-      "text": "The reason we need to separately compare the function values at interval endpoints, is because interval endpoints, although not satis fying the definition of local extreme points, may still be global extreme points. For example, strictly monotonic func where, always attain global extreme values at endpoints, and have no local extreme points in the interior."
+      "location": "body",
+      "para_index": 162,
+      "text": "Example 4-6）  Find the function f(x) = x⁴ − 8x² All extreme points of and corresponding function values。"
     },
     {
       "id": "audit_00074",
-      "location": "table_5",
-      "para_index": 198,
-      "text": "then, how do we determine whether the critical points we've worked hard to find are local maxima, orlocal mini ma?"
+      "location": "body",
+      "para_index": 163,
+      "text": "Solution: Find the critical point first："
     },
     {
       "id": "audit_00075",
-      "location": "table_5",
-      "para_index": 199,
-      "text": "To solve this problem, we need to call upon the local trend—derivative. We introduced in the previous chapter, the  sign of a function's derivative at a point, determines whether the function is increasingor decreasing at that point. From  this, it's not hard to deduce, if on some interval, the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing."
+      "location": "body",
+      "para_index": 165,
+      "text": "The critical point is −2，0，2。"
     },
     {
       "id": "audit_00076",
-      "location": "table_5",
-      "para_index": 200,
-      "text": "Equivalently,, the sign of the slope of the tangent line to the function, determines whether the function is increasing, ordecreasing"
+      "location": "body",
+      "para_index": 166,
+      "text": "Next, examine the positive and negative derivatives around the critical point. It can be seen from observation: in −2 To the left of the point, the derivative is negative; at (−2, 0) above, the derivative is positive; at (0, 2) The upper derivative is negative; in 2 To the right of the point, the derivative is positive。"
     },
     {
       "id": "audit_00077",
-      "location": "table_5",
-      "para_index": 204,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 169,
+      "text": "The picture below is the graph of this question："
     },
     {
       "id": "audit_00078",
-      "location": "table_5",
-      "para_index": 206,
-      "text": "At this point, we have obtained that the function at chas left and right derivatives that are non-negative on one side and non-positive on the other, the conclusion. Since f'(c) exists, its left and right derivatives must be equal. Then it can only be : f'(c) =0."
+      "location": "body",
+      "para_index": 173,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t91"
     },
     {
       "id": "audit_00079",
-      "location": "table_5",
-      "para_index": 207,
-      "text": "Important point : Fermat's Theorem only tells you, if a local extreme point has a derivative, then that derivative equals 0. It doesn't say, all local extreme points have derivative equal to 0. Why? Because :some local extreme points have derivatives that  do not exist!"
+      "location": "body",
+      "para_index": 175,
+      "text": "4. 3  linear approximation（Linear Approximation）"
     },
     {
       "id": "audit_00080",
-      "location": "table_5",
-      "para_index": 208,
-      "text": "These points where in ex at  exist and points where is 0, are collectively called the function's critical  points (critical point)."
+      "location": "body",
+      "para_index": 176,
+      "text": "As we introduced before, the method of dealing with curves in calculus is to divide and conquer. In other words, the curve is divided into several segments, and each segment is treated as a straight line. Of course, the results of this processing are not precise. However, when this paragraph of \"several\"When the value becomes infinite, the result of this straight-line processing can be regarded as the truth。"
     },
     {
       "id": "audit_00081",
-      "location": "table_5",
-      "para_index": 209,
-      "text": "After all this hard work, we've finally found some methods for finding extreme values!  First, findthe function's critical points, that is, those points where the derivative doesn't exist or equals 0 exist ; second, compare function values at interval endpoints and critical points, to determine global and local extreme values."
+      "location": "body",
+      "para_index": 177,
+      "text": "So, what kind of straight line should be chosen as an approximate representative of the curve? Since the minor trend of the curve at a point is the direction of the tangent, it is natural to choose the tangent of the curve at a point to replace the curve. Generally speaking, the closer you are to this specific point, the better the approximation."
     },
     {
       "id": "audit_00082",
-      "location": "table_5",
-      "para_index": 210,
-      "text": "The reason we need to separately compare the function values at interval endpoints, is because interval endpoints, although not satis fying the definition of local extreme points, may still be global extreme points. For example, strictly monotonic func where, always attain global extreme values at endpoints, and have no local extreme points in the interior."
+      "location": "body",
+      "para_index": 181,
+      "text": "so，a The linear approximation near the point is："
     },
     {
       "id": "audit_00083",
-      "location": "table_5",
-      "para_index": 211,
-      "text": "then, how do we determine whether the critical points we've worked hard to find are local maxima, orlocal mini ma?"
+      "location": "body",
+      "para_index": 183,
+      "text": "Linear approximation is a concise way, but it is also a hopeless method. Approximation tools that use quadratic functions or higher-order functions are certainly more accurate, but they require a lot more effort. Although this method is not perfect, it is very practical. Some people also gave it a more noble name: linear approximation."
     },
     {
       "id": "audit_00084",
-      "location": "table_5",
-      "para_index": 212,
-      "text": "To solve this problem, we need to call upon the local trend—derivative. We introduced in the previous chapter, the  sign of a function's derivative at a point, determines whether the function is increasingor decreasing at that point. From  this, it's not hard to deduce, if on some interval, the function's derivative is positive, then the function is increasing on that interval. Conversely, if the derivative is negative, then the function is decreasing."
+      "location": "body",
+      "para_index": 184,
+      "text": "Let’s take an example to explain linear approximation.。"
     },
     {
       "id": "audit_00085",
-      "location": "table_5",
-      "para_index": 213,
-      "text": "Equivalently,, the sign of the slope of the tangent line to the function, determines whether the function is increasing, ordecreasing"
+      "location": "body",
+      "para_index": 187,
+      "text": "Solution: It can be seen from the meaning of the question f(27) = 3，The derivative function of the function is："
     },
     {
       "id": "audit_00086",
-      "location": "table_5",
-      "para_index": 214,
-      "text": "function."
+      "location": "body",
+      "para_index": 191,
+      "text": "92\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00087",
-      "location": "table_5",
-      "para_index": 218,
-      "text": "As shown in the figure above,, the function on the ABandCD intervals is increasing,, and its tangent slope, i. e., the derivative, is positive. On the BCinterval the derivative is negative,, so the function is decreasing."
+      "location": "body",
+      "para_index": 193,
+      "text": "Therefore, the required linear approximation is："
     },
     {
       "id": "audit_00088",
-      "location": "table_5",
-      "para_index": 219,
-      "text": "Clearly,, the function at BandC has derivative equal to 0, That is,, BCare both relative extreme value points."
+      "location": "body",
+      "para_index": 198,
+      "text": "Now, let’s connect the two knowledge points in series——Linear approximation and differentiation. Let’s take a look at the diagram introducing function differentiation.："
     },
     {
       "id": "audit_00089",
-      "location": "table_5",
-      "para_index": 220,
-      "text": "As the function passes through B, its derivative undergoes a transition from positive to zero to negative. Correspondingly,"
+      "location": "body",
+      "para_index": 200,
+      "text": "we know，P Point linear approximation is："
     },
     {
       "id": "audit_00090",
-      "location": "table_5",
-      "para_index": 225,
-      "text": "As shown in the figure above,, the function on the ABandCD intervals is increasing,, and its tangent slope, i. e., the derivative, is positive. On the BCinterval the derivative is negative,, so the function is decreasing."
+      "location": "body",
+      "para_index": 202,
+      "text": "The corresponding point is R。The exact value is："
     },
     {
       "id": "audit_00091",
-      "location": "table_5",
-      "para_index": 226,
-      "text": "Clearly,, the function at BandC has derivative equal to 0, That is,, BCare both relative extreme value points."
+      "location": "body",
+      "para_index": 204,
+      "text": "Its corresponding point on the diagram is Q point. The difference between the approximate value and the exact value is (dy − Δy)。obviously，dx The smaller it is, the smaller the error will be.。"
     },
     {
       "id": "audit_00092",
-      "location": "table_5",
-      "para_index": 227,
-      "text": "As the function passes through B, its derivative undergoes a transition from positive to zero to negative. Correspondingly,"
+      "location": "body",
+      "para_index": 205,
+      "text": "Linear approximation does not seem complicated, but sometimes it is not so convenient, and with the rapid development of computer technology, its practicality will be further reduced. But we still introduce it in a separate section. First, because its method of solving complex problems by simplifying it is not only the basic method of calculus, but also can be used to guide our daily work; second, because this seemingly simple method was once very effective and was the result of the hard work of many predecessors. I pay tribute to them!"
     },
     {
       "id": "audit_00093",
-      "location": "table_6",
-      "para_index": 237,
-      "text": ", the function changes from increasing to decreasing. therefore, B is a relative maximum point."
+      "location": "body",
+      "para_index": 208,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t93"
     },
     {
       "id": "audit_00094",
-      "location": "table_6",
-      "para_index": 238,
-      "text": "As the function passes through C, its derivative undergoes a transition from negative to zero to positive. Correspondingly,, the function transitions from decreasing before C to increasing after C. therefore, C is  a relative minimum point of the function."
+      "location": "body",
+      "para_index": 210,
+      "text": "4. 4  Crossing the river by feeling the stones——newton(Newton) Law"
     },
     {
       "id": "audit_00095",
-      "location": "table_6",
-      "para_index": 239,
-      "text": "Conclusion : if the derivative changes from positive to negative on either side of a critical point, then that criticalpoint is a local maximum exist. Conversely, if the derivative changes from negative to positive on either side of a critical point, then that critical point isa local minimum point of the function."
+      "location": "body",
+      "para_index": 211,
+      "text": "When it comes to linear equations of one variable, many primary school students may be able to solve them decently. As for the quadratic equation, almost every high school student can write its root formula. But what about something a little more complicated? For example:"
     },
     {
       "id": "audit_00096",
-      "location": "table_6",
-      "para_index": 240,
-      "text": "At this point, the general procedure for finding extreme values is now clear. Let us apply what we have just learned and put it to work to see whether it is effective."
+      "location": "body",
+      "para_index": 213,
+      "text": "A little dizzy, right? What if it was more complicated? For example："
     },
     {
       "id": "audit_00097",
-      "location": "table_6",
-      "para_index": 241,
-      "text": "Example 4  5): Find f(x) = 2x3 - 3x2 - 12x on the interval [−2,,3] theabsolute extreme values.. Solution : Following the standard procedure, we first find the critical points. :"
+      "location": "body",
+      "para_index": 215,
+      "text": "Who wants you to give the formula to solve such an equation? Who are you in a hurry with? Don't worry, if you really want to write the formula for finding the roots of this kind of equation, not only you can't do it, but you can't find any mathematician to do it either! Most of the equation problems encountered in various applied sciences cannot be written down the root formula."
     },
     {
       "id": "audit_00098",
-      "location": "table_6",
-      "para_index": 242,
-      "text": "f'(x) = 6x2 - 6x - 12= 6(x2 - x -2) = 6(x -2)(x+1)"
+      "location": "body",
+      "para_index": 216,
+      "text": "Mathematics predecessors have long discovered that many equations cannot yield accurate solutions. But they were not discouraged. They could not get an accurate solution, so they tried every means to find an approximate solution. Taking a step back, embracing imperfection, and reconciling with reality is also the great wisdom of life!"
     },
     {
       "id": "audit_00099",
-      "location": "table_6",
-      "para_index": 243,
-      "text": "From this it is clear that, 2and - 1 are the critical points of the function., Comparing the function values at the critical points and endpoints, we find :"
+      "location": "body",
+      "para_index": 217,
+      "text": "The master Newton adopted a very elegant method to find approximate solutions to equations. The method adopted by Newton is the standard method of calculus: using the straight line method to solve non-straight line problems.。"
     },
     {
       "id": "audit_00100",
-      "location": "table_6",
-      "para_index": 244,
-      "text": "f(- 1) = 7, f(2) =-20, f(-2) =-4, f(3) =-9 therefore, fmax =f(- 1) = 7, fmin =f(2) =-20."
+      "location": "body",
+      "para_index": 218,
+      "text": "The idea is as follows："
     },
     {
       "id": "audit_00101",
-      "location": "table_6",
-      "para_index": 245,
-      "text": "The situation for this example is shown in the figure below."
+      "location": "body",
+      "para_index": 220,
+      "text": "2）Next, we find the point where the curve is x₁ tangent L。Since it is a straight line, it is easy for us to find the straight lineL and xaxis intersection x₂。"
     },
     {
       "id": "audit_00102",
-      "location": "table_6",
-      "para_index": 247,
-      "text": "Example 4  6): Find all extreme points and the corresponding function values of the function f(x) =x4 - 8x2  .. Solution : Without further ado, let us first find the critical points. :"
+      "location": "body",
+      "para_index": 222,
+      "text": "4）Find the point where the curve is x₂ tangent to, and find it and x axis intersectionx₃. x₃ to x₂closer r。"
     },
     {
       "id": "audit_00103",
-      "location": "table_6",
-      "para_index": 248,
-      "text": "f'(x) =4x3 - 16x =4x(x2 -4) =4x(x+2)(x -2) The critical points are -2,0,2."
+      "location": "body",
+      "para_index": 224,
+      "text": "5）Repeat the above steps to get x₁, x₂, x₃, …，xₙ, …"
     },
     {
       "id": "audit_00104",
-      "location": "table_6",
-      "para_index": 249,
-      "text": "Next, examine the sign of the derivative on either side of each critical point. Inspection shows that to the left of −2, the derivativeis negative; ; on (−2, 0), the derivative is positive; on (0, 2) the derivative isnegative; and to the right of 2, the derivative is positive."
+      "location": "body",
+      "para_index": 228,
+      "text": "94\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00105",
-      "location": "table_7",
-      "para_index": 257,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 230,
+      "text": "It is easy to see from the above picture："
     },
     {
       "id": "audit_00106",
-      "location": "table_7",
-      "para_index": 259,
-      "text": "From this it follows that −2 and 2 are relative minimum points of the function, points 0 is a relative maximum exist. The corresponding function values are : f(-2) =f(2) =-16, f(0) =0."
+      "location": "body",
+      "para_index": 233,
+      "text": "By extension："
     },
     {
       "id": "audit_00107",
-      "location": "table_7",
-      "para_index": 260,
-      "text": "Careful examination shows that : in fact, function f(x) has no absolute maximum, but has an absolute minimum. The relative minimum in this example is also the absolute minimum. More generally, all degree-4 functions have  no absolute maximum, but always have an absolute minimum. Of course, except on a closed interval."
+      "location": "body",
+      "para_index": 235,
+      "text": "Right now:"
     },
     {
       "id": "audit_00108",
-      "location": "table_7",
-      "para_index": 261,
-      "text": "The figure below illustrates this example."
+      "location": "body",
+      "para_index": 237,
+      "text": "7）Conclusion: Yes n The larger the value，xₙ The closer r。That is："
     },
     {
       "id": "audit_00109",
-      "location": "table_7",
-      "para_index": 264,
-      "text": "4. 3   Linear Approximation (linearapproximation)"
+      "location": "body",
+      "para_index": 239,
+      "text": "Don't feel troublesome when you see the limit. This mathematical idea is worth pondering. Okay, next, apply what you have learned。"
     },
     {
       "id": "audit_00110",
-      "location": "table_7",
-      "para_index": 265,
-      "text": "We introduced earlier that calculus handles curves bydivide and conquer. In other words, by dividing the curve into segments and treating each segment as a straight line. Of course, this approach is not exact. However, when   the number of segments becomes infinite, this linear treatment may be regarded as exact."
+      "location": "body",
+      "para_index": 241,
+      "text": "Example 4-8）  from x₁ = 2 Let’s start and find the equation x³ − 2x − 5 = 0 Approximate value of the root of (accurate to four decimal places）。"
     },
     {
       "id": "audit_00111",
-      "location": "table_7",
-      "para_index": 266,
-      "text": "then what kind of line should we choose as the linear approximation?Since the local behavior of a curve at a point follows the tangent direction, it is natural to use the tangent line at that point to approximate the curve. In general, the closer we are to that particular point, the better the approximation."
+      "location": "body",
+      "para_index": 244,
+      "text": "So, following Newton's method, we have："
     },
     {
       "id": "audit_00112",
-      "location": "table_7",
-      "para_index": 268,
-      "text": "As shown in the figure above: linear approximation near a means using the linear function ——the tangent line — L(x) to approximately represent f(x)."
+      "location": "body",
+      "para_index": 250,
+      "text": "Although Newton's method is very easy to use, if it is used in a haphazard way, sometimes it will lead to mistakes."
     },
     {
       "id": "audit_00113",
-      "location": "table_8",
-      "para_index": 278,
-      "text": "The tangent line through a has equation :"
+      "location": "body",
+      "para_index": 253,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t95"
     },
     {
       "id": "audit_00114",
-      "location": "table_8",
-      "para_index": 279,
-      "text": "y=f(a) +f'(a)(x - a) therefore, athe linear approximation near the point is :"
+      "location": "body",
+      "para_index": 255,
+      "text": "area and cannot achieve the desired effect. Please see the picture below："
     },
     {
       "id": "audit_00115",
-      "location": "table_8",
-      "para_index": 280,
-      "text": "L(x) =f(a) +f'(a)(x - a)"
+      "location": "body",
+      "para_index": 257,
+      "text": "x₁ It still looks like that, but since x₂ later, and r It's drifting away. Why? Because the first step in Newton's method，x₁ The choice is a technical job！"
     },
     {
       "id": "audit_00116",
-      "location": "table_8",
-      "para_index": 281,
-      "text": "Linear approximation is a concise method, but it is also a method of last resort. Using a quadratic  or higher-degree function as the approximation tool would of course be more accurate, but that requires considerably more effort."
+      "location": "body",
+      "para_index": 258,
+      "text": "Just like the example in the master's manuscript, he chose x₁ = 2，why not choose 0, 1, −1 Woolen cloth? Just compare it and you will know. obviously，f(0) = −5，f(1) = −6，f(−1) = −4, whilef(2) = −1。Even if you were given a choice, you would choose the function value distance 0 latest 2 asx₁ bar."
     },
     {
       "id": "audit_00117",
-      "location": "table_8",
-      "para_index": 282,
-      "text": "Although this method is imperfect, it is quite practical. Some have given it an even more impressive name: linear approximation."
+      "location": "body",
+      "para_index": 259,
+      "text": "The idea of ​​Newton's method can be summarized by a classic saying of the great man: Cross the river by feeling for the stones. But which stone to touch first is a matter of wisdom.。"
     },
     {
       "id": "audit_00118",
-      "location": "table_8",
-      "para_index": 283,
-      "text": "The following example illustrates what linear approximation is all about."
+      "location": "body",
+      "para_index": 260,
+      "text": "Today, with the gradual development of AI technology, Newton's method has great practical significance. Nowadays, many advanced calculators used by students can solve various unconventional equations, and their core principles are mostly Newton's method."
     },
     {
       "id": "audit_00119",
-      "location": "table_8",
-      "para_index": 284,
-      "text": "Example 4 7): Find the linear approximation of f(x) = 3 x at the point 27and use it to estimate ,and compare the estimate with the exact value 3 28 (accurate to four decimal places). Compare the estimate with the exact value."
+      "location": "body",
+      "para_index": 261,
+      "text": "Let’s take another example to familiarize ourselves with the process.。"
     },
     {
       "id": "audit_00120",
-      "location": "table_8",
-      "para_index": 285,
-      "text": "Solution : From the problem, f(27)=3, and the derivative of the function is"
+      "location": "body",
+      "para_index": 271,
+      "text": "96\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00121",
-      "location": "table_8",
-      "para_index": 287,
-      "text": "Therefore, the required linear approximation is :"
+      "location": "body",
+      "para_index": 273,
+      "text": "Let x₁ = 0. 75Substituting into the above formula and calculating sequentially, we can get："
     },
     {
       "id": "audit_00122",
-      "location": "table_8",
-      "para_index": 291,
-      "text": "On the other hand, ,direct calculation with a calculator gives : 3 28 ≈ 3. 0366"
+      "location": "body",
+      "para_index": 277,
+      "text": "because x₃、x₄ The first four decimal places of have overlapped, so the root we require is：x = 0. 4566。"
     },
     {
       "id": "audit_00123",
-      "location": "table_8",
-      "para_index": 292,
-      "text": "From this it is clear that ,the estimate is slightly greater than the exact value..Computing further, ,the accuracy is ≤1. 3×10-4."
+      "location": "body",
+      "para_index": 279,
+      "text": "At this point, derivatives have come in many uses. Let's see again, what else is the derivative used for?。"
     },
     {
       "id": "audit_00124",
-      "location": "table_8",
-      "para_index": 293,
-      "text": "Now, let us connect two concepts: linear approximation and the differential. Bring back the figure that introduced the differential of a function and examine it again. :"
+      "location": "body",
+      "para_index": 281,
+      "text": "4. 5  The Mean Value Theorem and the Shape of Function Graphs"
     },
     {
       "id": "audit_00125",
-      "location": "table_8",
-      "para_index": 295,
-      "text": "We know that, P the linear approximation at the point is :"
+      "location": "body",
+      "para_index": 282,
+      "text": "In the process of studying functions, it will be of great benefit if you can accurately grasp the shape of the function graph! As a small trend in the direction of a function, the derivative certainly plays a key role in the shape of the function graph. Understanding these effects helps to grasp the overall trend of the function."
     },
     {
       "id": "audit_00126",
-      "location": "table_9",
-      "para_index": 303,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 283,
+      "text": "First introduce："
     },
     {
       "id": "audit_00127",
-      "location": "table_9",
-      "para_index": 304,
-      "text": "L(x) =f(x) +f'(x)dx =f(x) +dy its corresponding point is R."
+      "location": "body",
+      "para_index": 284,
+      "text": "Rolle's theorem（Rolle's Theorem）"
     },
     {
       "id": "audit_00128",
-      "location": "table_9",
-      "para_index": 305,
-      "text": "and the exact value is :"
+      "location": "body",
+      "para_index": 286,
+      "text": "1）in the interval [a, b] continuous"
     },
     {
       "id": "audit_00129",
-      "location": "table_9",
-      "para_index": 306,
-      "text": "y=f(x) +Δy Its corresponding point on the figure is point Q."
+      "location": "body",
+      "para_index": 287,
+      "text": "2）in the interval (a, b) Derivable"
     },
     {
       "id": "audit_00130",
-      "location": "table_9",
-      "para_index": 307,
-      "text": "The difference between the approximate and exact values is (dy-Δy). Clearly,, dx the smaller,, the smaller this errorbecomes.."
+      "location": "body",
+      "para_index": 289,
+      "text": "Then, in the interval (a, b) There must be a real number on c，make："
     },
     {
       "id": "audit_00131",
-      "location": "table_9",
-      "para_index": 308,
-      "text": "Linear approximation is not particularly complex, and is sometimes not very convenient. Moreover, as computer technology continues to advance rapidly, its practical utility is further diminished. Nevertheless, we dedicate a separate section to it. First, because its approach of reducing complexity is both a fundamental technique in calculus andcan guide everyday problem-solving. Second, because this seemingly simple method, was once very effective and required the diligent effort of many predecessors., We salute them!"
+      "location": "body",
+      "para_index": 291,
+      "text": "Proof of theorem: We might as well prove Rolle’s theorem in three situations。"
     },
     {
       "id": "audit_00132",
-      "location": "table_9",
-      "para_index": 309,
-      "text": "4. 4  Feeling One's Way Across the River— Newton (Newton)'s Method"
+      "location": "body",
+      "para_index": 294,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t97"
     },
     {
       "id": "audit_00133",
-      "location": "table_9",
-      "para_index": 310,
-      "text": "Consider a linear equation: most elementary school students can solve it easily. For a quadratic equation,, nearly every high school student can write out the quadratic formula. But what about somethingmore complex?  For example :"
+      "location": "body",
+      "para_index": 300,
+      "text": "The figure above shows several situations in which Rolle's theorem holds. As can be seen from the figure, the geometric meaning of Rolle's theorem is that when the function values ​​at the endpoints of the interval are equal, the interval (a, b) memory at a point c，The tangent through this point is parallel tox-axis."
     },
     {
       "id": "audit_00134",
-      "location": "table_9",
-      "para_index": 311,
-      "text": "ax3 +bx2 + cx+d=0 Feeling a bit lost? Good. What if it gets even more complex?  For example :"
+      "location": "body",
+      "para_index": 301,
+      "text": "Since the endpoint function values ​​of the intervals are equal, their connecting lines are also parallel to x axis, Rolle's theorem is equal to, in the interval (a, b) memory at a point c，The tangent line of the function through this point is parallel to the line connecting the endpoints of the interval. We naturally have to ask, does this conclusion hold true when the function values ​​at the endpoints are not equal? The answer is yes！"
     },
     {
       "id": "audit_00135",
-      "location": "table_9",
-      "para_index": 312,
-      "text": "2x2 - 3xsinx - 5lnx=0"
+      "location": "body",
+      "para_index": 302,
+      "text": "Lagrange's mean value theorem（Lagrange's Mean Value Theorem）"
     },
     {
       "id": "audit_00136",
-      "location": "table_9",
-      "para_index": 313,
-      "text": "If someone asked you to produce a formula for solving such an equation, you would certainly lose your patience!"
+      "location": "body",
+      "para_index": 304,
+      "text": "1）in the interval [a, b] continuous"
     },
     {
       "id": "audit_00137",
-      "location": "table_9",
-      "para_index": 314,
-      "text": "Take a breath. Writing a closed-form solution for such an equation is beyond not only you,, but any mathematician in the world as well!"
+      "location": "body",
+      "para_index": 305,
+      "text": "2）in the interval (a, b) Derivable"
     },
     {
       "id": "audit_00138",
-      "location": "table_9",
-      "para_index": 315,
-      "text": "The ancient sages taught us: nine out of ten things in life will not go as planned. Profound! Mathematics is the same., Equations lacking closed-form solutions account for ninety-nine out of a hundred!"
+      "location": "body",
+      "para_index": 306,
+      "text": "Then, in the interval (a, b) There must be a real number on c，make："
     },
     {
       "id": "audit_00139",
-      "location": "table_9",
-      "para_index": 316,
-      "text": "The harsh reality is this: equations arising in applied sciences, that have no closed-form solution, represent an overwhelming majority."
+      "location": "body",
+      "para_index": 308,
+      "text": "Theorem Proof: Idea: Since Rolle’s theorem has just been proved, and the right side of the formula we need to prove is the endpoint of the interval."
     },
     {
       "id": "audit_00140",
-      "location": "table_9",
-      "para_index": 317,
-      "text": "Mathematical predecessors long recognized that many equations admit no exact solution. But they did not give up. Unable  to find an exact solution, they devised every means to find approximate solutions. To settle for the next best thing — to embrace imperfection, to make peace with reality — is true wisdom in life!"
+      "location": "body",
+      "para_index": 311,
+      "text": "98\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00141",
-      "location": "table_9",
-      "para_index": 318,
-      "text": "The great Newton (Netwon) devised a remarkably elegant method for findingapproximate solutions to equations."
+      "location": "body",
+      "para_index": 317,
+      "text": "So, we have："
     },
     {
       "id": "audit_00142",
-      "location": "table_9",
-      "para_index": 319,
-      "text": "The method Newton employed is the standard calculus approach: use linear methods to solve non-linear prob"
+      "location": "body",
+      "para_index": 324,
+      "text": "The geometric meaning of the mean value theorem is that on the interval (a, b) point of existence c，Make the function pass c The tangent to a point is parallel to the line connecting the endpoints. Please refer to the picture below："
     },
     {
       "id": "audit_00143",
-      "location": "table_10",
-      "para_index": 329,
-      "text": "lems. The idea is as follows. :"
+      "location": "body",
+      "para_index": 326,
+      "text": "As shown in the figure above, in the figure on the left there is a value that satisfies the mean value theorem. c In the case of points, the picture on the right shows that there are two points that satisfy the mean value theorem. c point situation。"
     },
     {
       "id": "audit_00144",
-      "location": "table_10",
-      "para_index": 330,
-      "text": "1) As shown in the figure,, suppose our task is to find f(x) the root r. Without a starting point,, we can only guess an initial value x1. Of course. It is almostcertain, x1 that this is not the root we seek. r."
+      "location": "body",
+      "para_index": 329,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t99"
     },
     {
       "id": "audit_00145",
-      "location": "table_10",
-      "para_index": 331,
-      "text": "2) Next, we draw the tangent line L to the curve at x1 the point. Since it is a straight line, we can easily find where line L intersects the x x-axis. x2."
+      "location": "body",
+      "para_index": 332,
+      "text": "Take two questions to get a feel for it："
     },
     {
       "id": "audit_00146",
-      "location": "table_10",
-      "para_index": 332,
-      "text": "3) Naturally,, x2 this is also almost certainly not r. However,, since the tangent direction represents the local behavior of the function, representing the behavior of f(x1 ) near the point x) its direction. Therefore we know that although x2 is also not r,, it should be closer to x1  rthan."
+      "location": "body",
+      "para_index": 334,
+      "text": "Example 4-10）  Verification function f(x) = 2x² − 3x + 1 in the interval [0, 2] satisfies the mean value theorem。"
     },
     {
       "id": "audit_00147",
-      "location": "table_10",
-      "para_index": 333,
-      "text": "4) We now draw the tangent line to the curve at x2  and find, its intersection with the x x-axis. x3. x3  is closer to x2. r."
+      "location": "body",
+      "para_index": 335,
+      "text": "Solution: Our task is to be in the interval [0, 2] Find one on c，make："
     },
     {
       "id": "audit_00148",
-      "location": "table_10",
-      "para_index": 334,
-      "text": "5) Repeating the above steps, yields x4, x5, …xn."
+      "location": "body",
+      "para_index": 339,
+      "text": "The above equation obviously has a solution：c = 1。"
     },
     {
       "id": "audit_00149",
-      "location": "table_10",
-      "para_index": 336,
-      "text": "6)  From the figure it is clear that :                "
+      "location": "body",
+      "para_index": 340,
+      "text": "Sometimes, the question can be twisted, please see the following example question。"
     },
     {
       "id": "audit_00150",
-      "location": "table_10",
-      "para_index": 339,
-      "text": "in general, :"
+      "location": "body",
+      "para_index": 342,
+      "text": "Example 4-11）  known, the whole region differentiable function f(x)，satisfyf′(x) ≤ 9 andf(1) = −8. begf(3) the maximum possible value。"
     },
     {
       "id": "audit_00151",
-      "location": "table_10",
-      "para_index": 341,
-      "text": "that is, :                                   xn+1 =xn - "
+      "location": "body",
+      "para_index": 343,
+      "text": "Solution: According to the mean value theorem, we know that in the interval (1, 3) There must be something c make："
     },
     {
       "id": "audit_00152",
-      "location": "table_10",
-      "para_index": 342,
-      "text": "7) Conclusion : nthe larger xn , the closer to r. That is, : xn =r"
+      "location": "body",
+      "para_index": 349,
+      "text": "100\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00153",
-      "location": "table_10",
-      "para_index": 343,
-      "text": "Do not be intimidated when you see a limit. If an exam tests this, it will at most require only two or threesteps, of iteration. "
+      "location": "body",
+      "para_index": 352,
+      "text": "On the one hand, we can prove Lagrange's theorem through Rolle's theorem; on the other hand, Rolle's theorem can be used as a special case of Lagrange's theorem. In fact, Lagrange's theorem can also be used as a special case of another theorem, which is the famous Cauchy's mean value theorem."
     },
     {
       "id": "audit_00154",
-      "location": "table_11",
-      "para_index": 351,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 353,
+      "text": "Cauchy（Cauchy）mean value theorem"
     },
     {
       "id": "audit_00155",
-      "location": "table_11",
-      "para_index": 353,
-      "text": "However, this mathematical idea is worth careful reflection. All right, let us now put theory into practice. :"
+      "location": "body",
+      "para_index": 356,
+      "text": "Cauchy's mean value theorem can also be derived from Rolle's theorem by proving Lagrange's theorem. In fact, the application of Cauchy's mean value theorem is more about the application of curves expressed by the following parametric equations:"
     },
     {
       "id": "audit_00156",
-      "location": "table_11",
-      "para_index": 354,
-      "text": "Example 4  8): Starting from x1 = 2  find an approximate root of the equation x3 - 2x - 5=0 . x3. Solution : We know ,"
+      "location": "body",
+      "para_index": 359,
+      "text": "Therefore, we can say that Lagrange's theorem and Cauchy's mean value theorem are both generalizations and developments of Rolle's mean value theorem. In fact, Cauchy's mean value theorem is not tested frequently. Therefore, as a candidate, it is enough to know what this theorem looks like."
     },
     {
       "id": "audit_00157",
-      "location": "table_11",
-      "para_index": 355,
-      "text": "f(x) =x3 -2x -5⇒f'(x) = 3x2 - 2 Therefore, applying Newton's method gives :"
+      "location": "body",
+      "para_index": 360,
+      "text": "Rolle's theorem and Lagrange's theorem both explain some forms of function graphs within a certain interval to a certain extent. For example, the direction of the tangent. According to the sign of the derivative of the function in a certain interval, it can be judged whether the function is an increasing function or a decreasing function in this interval."
     },
     {
       "id": "audit_00158",
-      "location": "table_11",
-      "para_index": 357,
-      "text": "therefore :"
+      "location": "body",
+      "para_index": 363,
+      "text": "We usually call the figure with the upward opening on the left in the picture above called a convex figure, while the figure with the opening on the right is downward."
     },
     {
       "id": "audit_00159",
-      "location": "table_11",
-      "para_index": 360,
-      "text": "x3  How accurate is"
+      "location": "body",
+      "para_index": 366,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t101"
     },
     {
       "id": "audit_00160",
-      "location": "table_11",
-      "para_index": 361,
-      "text": "A quick calculator computation gives : f(2. 0946) = 5. 415 5 ×10-4. Thus x3  is remarkably accurate. then Why this particular example?"
+      "location": "body",
+      "para_index": 369,
+      "text": "It is worth noting that there are differences between Chinese and foreign expressions of the concavity and convexity of function graphs. The Chinese method is based on\"Which side is bulging?\"，Just say which way it bulges. In Western expressions, emphasis is placed on the direction of the opening, which is exactly the same as the direction of the opening.\"drum up\"in the opposite direction. Therefore, what we call an upward convex function can be expressed in English as Concave Down。And what we call the downward convex function, the corresponding English is Concave Up。"
     },
     {
       "id": "audit_00161",
-      "location": "table_11",
-      "para_index": 362,
-      "text": "Note: this problem is exactly the example Newton used to introduce Newton's methodin his original paper!"
+      "location": "body",
+      "para_index": 370,
+      "text": "An obvious geometric meaning of upward convex functions and downward convex functions is that the tangent lines of all upward convex functions are located above the function graph; while the tangent lines of all downward convex functions are below the function graph.。"
     },
     {
       "id": "audit_00162",
-      "location": "table_11",
-      "para_index": 363,
-      "text": "Although Newton's method is very powerful, applying it carelessly can sometimes lead into  a trap where convergence fails. Consider the situation shown in the figure below. :"
+      "location": "body",
+      "para_index": 372,
+      "text": "So how to determine whether the graph of a function is convex upward or downward? The magic weapon is the second-order derivative discrimination method。"
     },
     {
       "id": "audit_00163",
-      "location": "table_11",
-      "para_index": 365,
-      "text": "x1 Things look promising at first, but from x2 onward, and rdiverge further and further. This is truly a case where each iteration is worse than the last!   Why? Because in Newton's method, the choice of the initial value, x1, is a skilled art!"
+      "location": "body",
+      "para_index": 374,
+      "text": "This discriminant method can be proved with the help of the mean value theorem. Due to space limitations, this book will not introduce it in detail.。"
     },
     {
       "id": "audit_00164",
-      "location": "table_11",
-      "para_index": 366,
-      "text": "Just as in the master's original example,, he chose x1 =2,. Why not 0, 1,-1?A brief comparison makes it clear.. Clearly,, f(0)=-5, f(1)=-6f(−1) = −4, while f(2)=-1. Even if the choice were up to you,, you would choose the value whose function value is closest to 0, namely 2, as x1.."
+      "location": "body",
+      "para_index": 375,
+      "text": "With the help of the second-order derivative discrimination method, we have a new starting point for dealing with extreme value problems. According to the sign of the second derivative, we can easily draw the conclusion："
     },
     {
       "id": "audit_00165",
-      "location": "table_11",
-      "para_index": 367,
-      "text": "The philosophy behind Newton's method can be summarized in a well-known saying: feel your way across the river, one stone at a time. But which stone to step on first requires wisdom."
+      "location": "body",
+      "para_index": 382,
+      "text": "102\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00166",
-      "location": "table_12",
-      "para_index": 377,
-      "text": "In the AIage of rapid technological advancement, Newton's method has enormous practical significance. Today, many advanced graphing calculators used by students can solve a wide variety of non-standard equations, and the underlying principle is most oftenbased on Newton's method."
+      "location": "body",
+      "para_index": 385,
+      "text": "On the one hand, if the function is convex downward, the tangent line is below the function graph, and the extreme point of the function convex downward is the relative minimum point, which is consistent; on the other hand, the function is convex upward, the tangent line is above the function graph, and the extreme point of the function convex upward is the relative maximum point, which is also consistent."
     },
     {
       "id": "audit_00167",
-      "location": "table_12",
-      "para_index": 378,
-      "text": "Here is another example to practice the procedure. :"
+      "location": "body",
+      "para_index": 387,
+      "text": "After learning the contents of this section, when we find the extreme value of a function in the future, we can either determine the increase or decrease properties of the function around the extreme point based on the sign change of the first-order derivative around the critical point, thereby determining whether the extreme point of the function is a maximum or minimum value; we can also directly determine the properties of the extreme point simply based on the sign of the second-order derivative of the function."
     },
     {
       "id": "audit_00168",
-      "location": "table_12",
-      "para_index": 379,
-      "text": "Example 4 9): Use Newton's method to find the root of the equation cosx- sinx=x, accurate to four decimal places.."
+      "location": "body",
+      "para_index": 390,
+      "text": "Please see examples。"
     },
     {
       "id": "audit_00169",
-      "location": "table_12",
-      "para_index": 380,
-      "text": "Solution :We first sketchf(x) = cosx - sinx and g(x) =x roughly. :"
+      "location": "body",
+      "para_index": 392,
+      "text": "Example 4-12）  known function f(x) Derivative of f′(x) = (x − 1)eˣ，Find the critical point of the function and explain the properties of the critical point。"
     },
     {
       "id": "audit_00170",
-      "location": "table_12",
-      "para_index": 383,
-      "text": "From the figure, we can see ,approximately just below  , ,the two curves intersect.. We therefore choose x1 =0. 0.75 to find the root of"
+      "location": "body",
+      "para_index": 398,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t103"
     },
     {
       "id": "audit_00171",
-      "location": "table_12",
-      "para_index": 384,
-      "text": "h(x) = cosx - sinx - x =0. :   Since : h'(x) =-sinx - cosx - 1"
+      "location": "body",
+      "para_index": 400,
+      "text": "so c = 1 This critical point is the minimum point。"
     },
     {
       "id": "audit_00172",
-      "location": "table_12",
-      "para_index": 385,
-      "text": "therefore : xn+1 =xn + "
+      "location": "body",
+      "para_index": 402,
+      "text": "Interesting? Regarding the concavity and convexity of function graphs, there is another concept, and now I will introduce it ceremoniously.。"
     },
     {
       "id": "audit_00173",
-      "location": "table_12",
-      "para_index": 386,
-      "text": "Substituting x1 =0. 0. 75 into the formula and computing iteratively gives :"
+      "location": "body",
+      "para_index": 403,
+      "text": "inflection point（Point of Inflection）"
     },
     {
       "id": "audit_00174",
-      "location": "table_12",
-      "para_index": 387,
-      "text": "x2 =0. 459965           x3 =0. 456646           x4 =0. 456625"
+      "location": "body",
+      "para_index": 405,
+      "text": "Learning experience of turning point concept："
     },
     {
       "id": "audit_00175",
-      "location": "table_12",
-      "para_index": 388,
-      "text": "3,,4exist)csfour-iiterations-conxverge.,.The answer is :r=0. 4566."
+      "location": "body",
+      "para_index": 406,
+      "text": "1）The function around the inflection point changes from an upper convex function to a lower convex function or vice versa.；"
     },
     {
       "id": "audit_00176",
-      "location": "table_13",
-      "para_index": 398,
-      "text": "What Are Derivatives Good For   Chapter 4"
+      "location": "body",
+      "para_index": 407,
+      "text": "2）The second derivative of the inflection point is either 0，or does not exist。"
     },
     {
       "id": "audit_00177",
-      "location": "table_13",
-      "para_index": 400,
-      "text": "走到这儿,我们已经让导数派上了许多用场。 让我们再看看,导数还能有 啥用?"
+      "location": "body",
+      "para_index": 408,
+      "text": "I learned a critical point before, and now I learned an inflection point. Compare them: the critical point is where the guideline number is 0 Or non-existent points, critical points are suspected points of extreme points. The inflection point is the point where the second derivative of the function changes sign, but it should be noted that the second derivative is 0 Or it does not exist. It is only a necessary condition for this point to become an inflection point, but it is not a sufficient condition. Just as continuity is a necessary condition for differentiability, but it is not a sufficient condition for differentiability.。"
     },
     {
       "id": "audit_00178",
-      "location": "table_13",
-      "para_index": 401,
-      "text": "4. 5   中值定理与函数图形的形状"
+      "location": "body",
+      "para_index": 409,
+      "text": "At this point, we should be able to explain more clearly the direction of the graph of the function near a point. The evolution of graphics is a bit like the basic strokes of Chinese writing. The strokes of writing Chinese are nothing more than horizontal and vertical strokes. The graph of a function is nothing more than the following basic forms: straight up (down) like \"/\"shape, the curve rises (falls) convexly like\"∩\"the left half of the shape (right half），The convex descending (rising) curve is like\"∪\"the left half of the shape (right half）。"
     },
     {
       "id": "audit_00179",
-      "location": "table_13",
-      "para_index": 402,
-      "text": "在研究函数的过程中,如果能准确把握函数图形的形状,善莫大焉!"
+      "location": "body",
+      "para_index": 410,
+      "text": "With the help of derivatives, we will have an understanding of the basic forms of functions such as increase and decrease, concavity and convexity. If we consider asymptotes again, we can draw a more realistic graph even for a more complex function.。"
     },
     {
       "id": "audit_00180",
-      "location": "table_13",
-      "para_index": 403,
-      "text": "做为函数走向的小趋势,导数当然对函数图形的形状起着关键的作用。 了 解这些作用,对把握函数的整体大趋势,很有帮助。"
+      "location": "body",
+      "para_index": 411,
+      "text": "Based on what you have learned, to summarize, there are some standard actions to draw a decent function graph.："
     },
     {
       "id": "audit_00181",
-      "location": "table_13",
-      "para_index": 404,
-      "text": "首先介绍一下 :"
+      "location": "body",
+      "para_index": 412,
+      "text": "1）Pay attention to the function domain；"
     },
     {
       "id": "audit_00182",
-      "location": "table_13",
-      "para_index": 405,
-      "text": "罗尔定理(Rolle, s Theorem) 假设函数 f(x)满足"
+      "location": "body",
+      "para_index": 413,
+      "text": "2）Find the intersection of the function and the coordinate axis；"
     },
     {
       "id": "audit_00183",
-      "location": "table_13",
-      "para_index": 406,
-      "text": "1) 在区间 [a, b] 连续"
+      "location": "body",
+      "para_index": 414,
+      "text": "3）Pay attention to parity or symmetry；"
     },
     {
       "id": "audit_00184",
-      "location": "table_13",
-      "para_index": 407,
-      "text": "2) 在区间 (a, b) 可导"
+      "location": "body",
+      "para_index": 415,
+      "text": "4）Observe whether there is an asymptote；"
     },
     {
       "id": "audit_00185",
-      "location": "table_13",
-      "para_index": 408,
-      "text": "3) f(a) =f(b)"
+      "location": "body",
+      "para_index": 416,
+      "text": "5）Find relative extreme points；"
     },
     {
       "id": "audit_00186",
-      "location": "table_13",
-      "para_index": 409,
-      "text": "那么,在区间 (a, b) 上一定存在一个实数 c,使得 : f'(c) =0"
+      "location": "body",
+      "para_index": 417,
+      "text": "6）Pay attention to the increase and decrease of functions and the bumps and convexities。"
     },
     {
       "id": "audit_00187",
-      "location": "table_13",
-      "para_index": 410,
-      "text": "定理证明 :我们不妨分三种情形来证明罗尔定理。"
+      "location": "body",
+      "para_index": 419,
+      "text": "Example 4-13）  Graph the following functions："
     },
     {
       "id": "audit_00188",
-      "location": "table_13",
-      "para_index": 411,
-      "text": "情形一   如果对区间 [a, b] 上任意的 x 值,都有 f(x) =f(a) =f(b), 那 么函数 f(x) 的图像是一条平行于 x 轴的直线,这个时候区间 (a, b) 可导内的 任意一点的切线都平行于 x 轴。 随便找一个 c点,都满足 : f'(c) =0。"
+      "location": "body",
+      "para_index": 423,
+      "text": "104\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00189",
-      "location": "table_13",
-      "para_index": 412,
-      "text": "情形二   如果在区间 (a, b)  内,有某一点的函数值大于端点的函数值,那 么,根据极 值 定 理, 区 间  (a, b)  内, 必 然 存 在 一 个 c 点,使 得 f(c) 是 函 数 f(x) 在 [a, b] 上的极大值。"
+      "location": "body",
+      "para_index": 425,
+      "text": "Solution: First pay attention to the following five points："
     },
     {
       "id": "audit_00190",
-      "location": "table_13",
-      "para_index": 413,
-      "text": "根据定义,这个 f(c), 同时也是一个相对极大值, 又加上 f(x) 在 c 点可 导, 因而根据费尔马定理,我们得知 : f'(c) =0。"
+      "location": "body",
+      "para_index": 427,
+      "text": "2）Obviously, the intersection point of the function and the coordinate axis is the origin。"
     },
     {
       "id": "audit_00191",
-      "location": "table_13",
-      "para_index": 414,
-      "text": "情形三   如果在区间 (a, b) 内,有某一点的函数值小于端点的函数值,按照 情形二的证明方法,我们同样可以得到结论 : 区间 (a, b) 内存在一个点 c,满足 : f'(c) =0。"
+      "location": "body",
+      "para_index": 429,
+      "text": "4）because："
     },
     {
       "id": "audit_00192",
-      "location": "table_14",
-      "para_index": 426,
-      "text": "上图展示了罗尔定理成立的几种情形。"
+      "location": "body",
+      "para_index": 431,
+      "text": "Therefore, the function has a horizontal asymptote y = 3/2。And because："
     },
     {
       "id": "audit_00193",
-      "location": "table_14",
-      "para_index": 427,
-      "text": "由图可见,罗尔定理的几何意义就是,在区间端点的函数值相等的情况下, 区间 (a, b) 内存在一个点 c,过该点的切线平行于 x 轴。"
+      "location": "body",
+      "para_index": 437,
+      "text": "Next, study the concavity and convexity："
     },
     {
       "id": "audit_00194",
-      "location": "table_14",
-      "para_index": 428,
-      "text": "由于区间的端点函数值相等, 因此其连接线也平行于 x 轴, 罗尔定理就等 于说是在间 (a, b) 内存在一个点 c,函数过该点的切线平行于区间端点的连接 线 。我们自然要问,在端点的函数值不相等的情况下,这个结论成立吗?"
+      "location": "body",
+      "para_index": 438,
+      "text": "The first step is to find the second derivative："
     },
     {
       "id": "audit_00195",
-      "location": "table_14",
-      "para_index": 430,
-      "text": "拉格朗日中值定理(Lagrange, s Mean ValueTheorem) 假设函数 f(x) 满足"
+      "location": "body",
+      "para_index": 443,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t105"
     },
     {
       "id": "audit_00196",
-      "location": "table_14",
-      "para_index": 431,
-      "text": "1) 在区间 [a, b] 连续"
+      "location": "body",
+      "para_index": 446,
+      "text": "To sum up, we can draw the graph of this function, roughly as follows："
     },
     {
       "id": "audit_00197",
-      "location": "table_14",
-      "para_index": 432,
-      "text": "2) 在区间 (a, b) 可导"
+      "location": "body",
+      "para_index": 449,
+      "text": "4. 6  The way to find your roots——antiderivative（Antiderivative）"
     },
     {
       "id": "audit_00198",
-      "location": "table_14",
-      "para_index": 433,
-      "text": "那么,在区间 (a, b) 上一定存在一个实数 c,使得 :"
+      "location": "body",
+      "para_index": 450,
+      "text": "When we describe someone's familiarity with an article, we often use\"Memorize backwards and forwards\"the word. If you are given the derivative formula of a function, you can\"Memorize backwards and forwards\"，It is equivalent to finding out whose derivative it is based on the derivative. In other words, if you see one on the street\"unclaimed\"The derivative of, you can quickly solve it based on the skills you have learned\"Whose derivative is this?\"This question. In calculus, this basic ability is needed。"
     },
     {
       "id": "audit_00199",
-      "location": "table_14",
-      "para_index": 436,
-      "text": "思路 : 由于刚刚证明过罗尔定理,而我们需证明的公式右边,又是区间端点 连接线的斜率。 因而,我们特别想找到一个函数,这个函数既和端点有关又要与 f(x) 有关,而且最好在两个端点的函数值相等。"
+      "location": "body",
+      "para_index": 452,
+      "text": "Since the action of finding the root of the original function based on the derivative is completely opposite to the process of derivation, it has a name that is reminiscent of——antiderivative。"
     },
     {
       "id": "audit_00200",
-      "location": "table_14",
-      "para_index": 437,
-      "text": "如果把函数 f(x) 与端点连接线这条直线上的 y 值的差,定义为一个新函 数 g(x), 那么,这个新函数的端点值一定为 0。对它应用罗尔定理如何?"
+      "location": "body",
+      "para_index": 453,
+      "text": "For example, when saying2x is x²When using the derivative, it is equivalent to saying:x² is 2xantiderivative of。"
     },
     {
       "id": "audit_00201",
-      "location": "table_14",
-      "para_index": 438,
-      "text": "我们知道 :连接两个端点 (a, f(a)), (b, f(b)) 的直线方程为 :"
+      "location": "body",
+      "para_index": 459,
+      "text": "106\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00202",
-      "location": "table_14",
-      "para_index": 440,
-      "text": "所以,我们有 :"
+      "location": "body",
+      "para_index": 461,
+      "text": "Obviously, here x² + C Not a function, but a set of functions. Thus, the following conclusion is self-evident。"
     },
     {
       "id": "audit_00203",
-      "location": "table_14",
-      "para_index": 442,
-      "text": "这个新生的 g(x) 有啥特点呢?  它不仅在区间 [a, b] 连续, 在区间 (a, b) 可导,更可爱的是 : g(a) =g(b) = 0, 至此罗尔定理成立的条件全齐了。 因 此,在区间 (a, b) 内,必存在一点 c,使得 : g'(c) =0。把这个结论带入到上面的 定义式内 :"
+      "location": "body",
+      "para_index": 464,
+      "text": "Example 4-14）  Find function xⁿ antiderivative of F(x)，in n is a real number。"
     },
     {
       "id": "audit_00204",
-      "location": "table_15",
-      "para_index": 452,
-      "text": "导数有啥用   第四章"
+      "location": "body",
+      "para_index": 465,
+      "text": "Solution: We must do it in two steps。"
     },
     {
       "id": "audit_00205",
-      "location": "table_15",
-      "para_index": 455,
-      "text": "在这个定理证明过程中,为应用罗尔定理而量身打造函数 g(x) 的手法,是 历代数学大师们创造性工作中的常用手法,具有非常高的技术含量。"
+      "location": "body",
+      "para_index": 472,
+      "text": "Although we have been saying that the antiderivative of a function usually refers to a set of functions, if certain constraints are added, a definite function can generally be obtained。"
     },
     {
       "id": "audit_00206",
-      "location": "table_15",
-      "para_index": 456,
-      "text": "中值定理的代数意义是,在区间 (a, b) 上存在点 c,使得函数 f(x) 在点 c 的瞬时变化率,等于函数 f(x) 整个区间 [a, b] 上的平均变化率。"
+      "location": "body",
+      "para_index": 482,
+      "text": "Solve the equation to get："
     },
     {
       "id": "audit_00207",
-      "location": "table_15",
-      "para_index": 457,
-      "text": "中值定理的几何意义是,在区间上 (a, b) 存在点 c,使得函数过 c点的切线 平行于端点连线 。请参照下图 :"
+      "location": "body",
+      "para_index": 488,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t107"
     },
     {
       "id": "audit_00208",
-      "location": "table_15",
-      "para_index": 459,
-      "text": "如图所示,左图是存在一个满足中值定理的 c点的情形。 右图展示的是有 两个满足中值定理的 c点的情形。"
+      "location": "body",
+      "para_index": 490,
+      "text": "To make it easier for you to play this section, I will pull out the basic functions and their corresponding antiderivatives to make you familiar with them. Welcome to take it with you！"
     },
     {
       "id": "audit_00209",
-      "location": "table_15",
-      "para_index": 461,
-      "text": "法国数学家    拉格朗日"
+      "location": "body",
+      "para_index": 493,
+      "text": "A total of ten\"King Kong\"，As long as you memorize them backwards and forwards, you will be able to travel in the world of antiderivatives.！"
     },
     {
       "id": "audit_00210",
-      "location": "table_15",
-      "para_index": 462,
-      "text": "关于中值定理的问题,一般是比较厚道的。 例如 :"
+      "location": "body",
+      "para_index": 494,
+      "text": "In the following chapters, you will find that these seemingly mediocre antiderivatives have great origins.！"
     },
     {
       "id": "audit_00211",
-      "location": "table_15",
-      "para_index": 463,
-      "text": "例 4  9):验证函数 f(x) = 2x2 - 3x+ 1在区间[0,2]上满足中值定理。 解 :我们的任务是在区间[0,2]上找出一个 c, 使得 :"
+      "location": "body",
+      "para_index": 495,
+      "text": "Next, let’s meet the definite integral! Of course, before setting off, you must first consolidate your learning achievements——do exercises。"
     },
     {
       "id": "audit_00212",
-      "location": "table_16",
-      "para_index": 475,
-      "text": "注意到 : f'(x) = 6x - 3"
+      "location": "body",
+      "para_index": 498,
+      "text": "108\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00213",
-      "location": "table_16",
-      "para_index": 476,
-      "text": "所以,只要下面关于 c 的方程有解,我们的任务就算完成了 :"
+      "location": "body",
+      "para_index": 500,
+      "text": "Exercise 4"
     },
     {
       "id": "audit_00214",
-      "location": "table_16",
-      "para_index": 478,
-      "text": "上面的方程 ,显然有解 :c=3/4 。"
+      "location": "body",
+      "para_index": 501,
+      "text": "4-1）Find the critical point of the following function："
     },
     {
       "id": "audit_00215",
-      "location": "table_16",
-      "para_index": 485,
-      "text": "又因为 f'(x) ≤ 9, 所以 :"
+      "location": "body",
+      "para_index": 507,
+      "text": "4-2）Find the absolute extreme value of the following function in the specified interval："
     },
     {
       "id": "audit_00216",
-      "location": "table_16",
-      "para_index": 487,
-      "text": "或者 : f(3) +8≤18, 即 f(3) ≤ 10"
+      "location": "body",
+      "para_index": 515,
+      "text": "4-3）Use the linear approximation method to estimate the following values："
     },
     {
       "id": "audit_00217",
-      "location": "table_16",
-      "para_index": 488,
-      "text": "因此,所求的 f(3) 可能达到的最大值为 10。"
+      "location": "body",
+      "para_index": 520,
+      "text": "4-4）Use Newton's method to find the roots of each of the following equations (accurate to the decimal point)6 digits):"
     },
     {
       "id": "audit_00218",
-      "location": "table_16",
-      "para_index": 489,
-      "text": "一方面,我们通过罗尔定理,可以证明拉格朗日定理 ;另一方面,罗尔定理又 可以做为拉格朗日定理的特例。 实际上, 朗格朗日定理亦可以做为另一个定理 的特例,这个定理就是著名的 :"
+      "location": "body",
+      "para_index": 525,
+      "text": "4-5）Please verify that the following functions satisfy Lagrange's mean value theorem in the specified interval："
     },
     {
       "id": "audit_00219",
-      "location": "table_16",
-      "para_index": 490,
-      "text": "柯西(Cauchy)中值定理"
+      "location": "body",
+      "para_index": 533,
+      "text": "4-8）For each of the following functions：a）Find the rising and falling intervals of each function；b）Find the relative extreme values ​​of each function；c）Find the inflection point and upper or lower convex interval of each function。"
     },
     {
       "id": "audit_00220",
-      "location": "table_16",
-      "para_index": 491,
-      "text": "设函数 f(x), g(x) 在 [a, b] 连续, (a, b) 可导, 且 g(x) ≠0则一定存在一 个 : ξ∈ (a, b), 满足 :"
+      "location": "body",
+      "para_index": 540,
+      "text": "4-9）Find the antiderivative of each of the following functions："
     },
     {
       "id": "audit_00221",
-      "location": "table_16",
-      "para_index": 493,
-      "text": "柯西中值定理也同样可以通过证明拉格朗日定理的方法,从罗尔定理推出。 在实际上,对柯西中值定理的应用,更多地是对如下的参数方程表述的曲线进行  应用 :"
+      "location": "table_0",
+      "para_index": 546,
+      "text": "function"
     },
     {
       "id": "audit_00222",
-      "location": "table_17",
-      "para_index": 501,
-      "text": "导数有啥用   第四章"
-    },
-    {
-      "id": "audit_00223",
-      "location": "table_17",
-      "para_index": 504,
-      "text": "因此,我们可以说,拉格朗日定理和柯西中值定理都是罗尔中值定理的推广 和发展。"
-    },
-    {
-      "id": "audit_00224",
-      "location": "table_17",
-      "para_index": 505,
-      "text": "实战中,柯西中值定理一般只在极个别爱难为学生的院校的考试中出现, 而且考得不多。 因为如果出题太简单, 出题者不愿意 ;但是如果太难,在这么 个知识点上就会耗时过长。 所以,这个定理,作为考生的您, 知道它长啥模样 就行。"
-    },
-    {
-      "id": "audit_00225",
-      "location": "table_17",
-      "para_index": 506,
-      "text": "罗尔定理和拉格朗日定理,都是从一定程度上诠释了函数图形在一定区间 内的一些形态。 比如说,切线的方向。"
-    },
-    {
-      "id": "audit_00226",
-      "location": "table_17",
-      "para_index": 507,
-      "text": "而根据函数的导数在某区间内的符号,又可以判断函数在此区间内是增函 数,还是减函数。"
-    },
-    {
-      "id": "audit_00227",
-      "location": "table_17",
-      "para_index": 508,
-      "text": "但是, 即使同样是增函数,下图中的两种增函数 f(x) 和 g(x) 是有明显区"
-    },
-    {
-      "id": "audit_00228",
-      "location": "table_17",
-      "para_index": 512,
-      "text": "导数有啥用   第四章"
-    },
-    {
-      "id": "audit_00229",
-      "location": "table_17",
-      "para_index": 515,
-      "text": "因此,我们可以说,拉格朗日定理和柯西中值定理都是罗尔中值定理的推广 和发展。"
-    },
-    {
-      "id": "audit_00230",
-      "location": "table_17",
-      "para_index": 516,
-      "text": "实战中,柯西中值定理一般只在极个别爱难为学生的院校的考试中出现, 而且考得不多。 因为如果出题太简单, 出题者不愿意 ;但是如果太难,在这么 个知识点上就会耗时过长。 所以,这个定理,作为考生的您, 知道它长啥模样 就行。"
-    },
-    {
-      "id": "audit_00231",
-      "location": "table_17",
-      "para_index": 517,
-      "text": "罗尔定理和拉格朗日定理,都是从一定程度上诠释了函数图形在一定区间 内的一些形态。 比如说,切线的方向。"
-    },
-    {
-      "id": "audit_00232",
-      "location": "table_17",
-      "para_index": 518,
-      "text": "而根据函数的导数在某区间内的符号,又可以判断函数在此区间内是增函 数,还是减函数。"
-    },
-    {
-      "id": "audit_00233",
-      "location": "table_17",
-      "para_index": 519,
-      "text": "但是, 即使同样是增函数,下图中的两种增函数 f(x) 和 g(x) 是有明显区"
-    },
-    {
-      "id": "audit_00234",
-      "location": "table_17",
-      "para_index": 524,
-      "text": "我们通常把上图中左边那个开口向上的图形, 叫做下凸图形,而右边那个开 口向下的图形叫做上凸图形。"
-    },
-    {
-      "id": "audit_00235",
-      "location": "table_17",
-      "para_index": 525,
-      "text": "用数学行话表述就是 : 函数 f(x) 在区间 (a, b) 下凸, 函数 g(x) 在区间 (a, b) 上凸。"
-    },
-    {
-      "id": "audit_00236",
-      "location": "table_17",
-      "para_index": 526,
-      "text": "值得注意的是, 函数图形的凸凹性的表述, 中外是有区别的, 中文是按照哪 边“鼓起来”,就说是往哪边凸。 而西方的表述,重视的是开口方向,这个方向正 好和“鼓起来”的方向相反。"
-    },
-    {
-      "id": "audit_00237",
-      "location": "table_17",
-      "para_index": 527,
-      "text": "从而导致,我们所说的上凸函数,用英文表述就是 concavedown。 而我们的 所说的下凸(凹) 函数,相应的英文则是 concaveup。"
-    },
-    {
-      "id": "audit_00238",
-      "location": "table_17",
-      "para_index": 528,
-      "text": "上凸函数和下凸函数的一个明显的几何意义就是 :所有上凸函数的切线都 位于函数图形的上方 ; 而所有下凸函数的切线都在函数图形的下方。 如下图 所示 :"
-    },
-    {
-      "id": "audit_00239",
-      "location": "table_17",
-      "para_index": 533,
-      "text": "我们通常把上图中左边那个开口向上的图形, 叫做下凸图形,而右边那个开 口向下的图形叫做上凸图形。"
-    },
-    {
-      "id": "audit_00240",
-      "location": "table_17",
-      "para_index": 534,
-      "text": "用数学行话表述就是 : 函数 f(x) 在区间 (a, b) 下凸, 函数 g(x) 在区间 (a, b) 上凸。"
-    },
-    {
-      "id": "audit_00241",
-      "location": "table_17",
-      "para_index": 535,
-      "text": "值得注意的是, 函数图形的凸凹性的表述, 中外是有区别的, 中文是按照哪 边“鼓起来”,就说是往哪边凸。 而西方的表述,重视的是开口方向,这个方向正 好和“鼓起来”的方向相反。"
-    },
-    {
-      "id": "audit_00242",
-      "location": "table_17",
-      "para_index": 536,
-      "text": "从而导致,我们所说的上凸函数,用英文表述就是 concavedown。 而我们的 所说的下凸(凹) 函数,相应的英文则是 concaveup。"
-    },
-    {
-      "id": "audit_00243",
-      "location": "table_17",
-      "para_index": 537,
-      "text": "上凸函数和下凸函数的一个明显的几何意义就是 :所有上凸函数的切线都 位于函数图形的上方 ; 而所有下凸函数的切线都在函数图形的下方。 如下图 所示 :"
-    },
-    {
-      "id": "audit_00244",
-      "location": "table_18",
-      "para_index": 549,
-      "text": "由图可见,下凸函数 f(x) 的切线都在函数图形下边,而上凸函数 g(x) 的 切线都在函数图形上边。"
-    },
-    {
-      "id": "audit_00245",
-      "location": "table_18",
-      "para_index": 550,
-      "text": "那么如何判断函数的图形是上凸还是下凸呢?  法宝就是 : 二阶导数判别法"
-    },
-    {
-      "id": "audit_00246",
-      "location": "table_18",
-      "para_index": 551,
-      "text": "如果在区间 (a, b), 函数 f(x) 满足: f″(x) > 0, 那么函数 f(x) 在此区间 下凸。"
-    },
-    {
-      "id": "audit_00247",
-      "location": "table_18",
-      "para_index": 552,
-      "text": "如果在区间 (a, b), 函数 f(x) 满足: f″(x) < 0, 那么函数 f(x) 在此区间 上凸。"
-    },
-    {
-      "id": "audit_00248",
-      "location": "table_18",
-      "para_index": 553,
-      "text": "这个判别法是可以借助中值定理证明的,限于篇幅,本书不做介绍 。做为非 数学系的你,只要会用即可。"
-    },
-    {
-      "id": "audit_00249",
-      "location": "table_18",
-      "para_index": 554,
-      "text": "有了二阶导数判别法的帮助,我们对极值问题的处理又有了新的抓手。 根 据二阶导数的符号,我们很容易就得出了这样的结论 :"
-    },
-    {
-      "id": "audit_00250",
-      "location": "table_18",
-      "para_index": 555,
-      "text": "如果函数 f(x) 的二阶导数在点 c 附近连续,那么"
-    },
-    {
-      "id": "audit_00251",
-      "location": "table_18",
-      "para_index": 556,
-      "text": "1) 如果 f'(c) =0, f″(c) > 0, 则 f(c) 必为函数的相对极小值。"
-    },
-    {
-      "id": "audit_00252",
-      "location": "table_18",
-      "para_index": 557,
-      "text": "2) 如果 f'(c) =0, f″(c) < 0, 则 f(c) 必为函数的相对极大值。"
-    },
-    {
-      "id": "audit_00253",
-      "location": "table_18",
-      "para_index": 558,
-      "text": "上述结论,几何上非常直观。 现简要说明第一种情形, 由于二阶导数为 正,所以曲线下凸。 因而在 c点附近函数的切线在函数图形下方,又由于函数 在 c点的 切 线 为 水 平 切 线, 所 以 f(c) 就 成 为 函 数 的 相 对 极 小 值。 如 下 图 所示 :"
-    },
-    {
-      "id": "audit_00254",
-      "location": "table_18",
-      "para_index": 560,
-      "text": "至此,我们明白了所谓函数下凸、切线在函数图形下边、函数在下凸函数的"
-    },
-    {
-      "id": "audit_00255",
-      "location": "table_19",
-      "para_index": 568,
-      "text": "导数有啥用   第四章"
-    },
-    {
-      "id": "audit_00256",
-      "location": "table_19",
-      "para_index": 570,
-      "text": "极值点为相对极小值点,是一脉相承的。"
-    },
-    {
-      "id": "audit_00257",
-      "location": "table_19",
-      "para_index": 571,
-      "text": "另一方面, 函数上凸、切线在函数图形上面、函数在上凸函数的极值点是相 对极大值点,环环相扣。"
-    },
-    {
-      "id": "audit_00258",
-      "location": "table_19",
-      "para_index": 572,
-      "text": "下凸、切线在下、函数极小是同一层面!  看来,还是中国的说法更好记!  窃 喜 ing"
-    },
-    {
-      "id": "audit_00259",
-      "location": "table_19",
-      "para_index": 573,
-      "text": "为了从更广泛的视角来观察凸凹性,我想提请你注意另一个事实,那就是上 凸函数的连接任意两点的割线,一定在函数图形的下方 。相反,下凸函数的割线 则一定在函数图形的上方 。如下图所示 :"
-    },
-    {
-      "id": "audit_00260",
-      "location": "table_19",
-      "para_index": 575,
-      "text": "学过了这一节的内容,我们今后在求函数极值的问题中,既可以根据一阶导 数在临界点左右的变号情况,来确定函数在极值点左右的增减性质,从而确定函 数的极值点是极大或者极小值 ;也可以简单根据函数的二阶导数的符号,直接判 断极值点的性质。"
-    },
-    {
-      "id": "audit_00261",
-      "location": "table_19",
-      "para_index": 576,
-      "text": "现在 ,我们可以对我们熟悉的二次函数 y =ax2 +bx + c来一个更高级的 小结 :"
-    },
-    {
-      "id": "audit_00262",
-      "location": "table_19",
-      "para_index": 577,
-      "text": "由 y'=0, 可求出 y 的临界点是 -  。所以 ,当 a>0时 , 由于 y″=2a >"
-    },
-    {
-      "id": "audit_00263",
-      "location": "table_19",
-      "para_index": 578,
-      "text": "0, y 在临界点是最小值 。反之,当 a<0时, 由于 y″=2a< 0, y 在临界点是最 大值。"
-    },
-    {
-      "id": "audit_00264",
-      "location": "table_19",
-      "para_index": 579,
-      "text": "现在照例插播一条例题 :"
-    },
-    {
-      "id": "audit_00265",
-      "location": "table_19",
-      "para_index": 580,
-      "text": "例 4  11):已知函数 f(x) 的导数 f'(x) = (x-1)ex  , 求函数的临界点,并 说出该临界点的性质是极大? 极小? 抑或都不是。"
-    },
-    {
-      "id": "audit_00266",
-      "location": "table_19",
-      "para_index": 581,
-      "text": "解 :不妨使用老套路,令导数为 0, 即可得出f(x) 的临界点是唯一的点 1。 解法一   不难看出 :"
-    },
-    {
-      "id": "audit_00267",
-      "location": "table_19",
-      "para_index": 582,
-      "text": "当 x < 1时 , f'(x) = (x - 1)ex < 0, 因而函数 f(x) 是减函数 ;"
-    },
-    {
-      "id": "audit_00268",
-      "location": "table_19",
-      "para_index": 583,
-      "text": "当 x >1时, f'(x) = (x-1)ex > 0, 因而函数 f(x) 是增函数 ; 因此这个 临界点是极小值点。"
-    },
-    {
-      "id": "audit_00269",
-      "location": "table_19",
-      "para_index": 584,
-      "text": "解法二   求二阶导数得到 f″(x) =xex , 所以 f″(1) =e> 0。 因此,点 1是 极小值点。"
-    },
-    {
-      "id": "audit_00270",
-      "location": "table_20",
-      "para_index": 595,
-      "text": "关于函数的图形的凸凹,还有一个概念,现在隆重地推出一下 : 拐点(pointofinflection)定义"
-    },
-    {
-      "id": "audit_00271",
-      "location": "table_20",
-      "para_index": 596,
-      "text": "如果函数 f(x) 的二阶导数是连续函数,并且在点 a左右符号相异,则称点 a 为函数f(x) 的拐点。"
-    },
-    {
-      "id": "audit_00272",
-      "location": "table_20",
-      "para_index": 597,
-      "text": "拐点概念学习心得"
-    },
-    {
-      "id": "audit_00273",
-      "location": "table_20",
-      "para_index": 598,
-      "text": "1) 拐点左右函数从上凸函数改成下凸函数或者正相反。"
-    },
-    {
-      "id": "audit_00274",
-      "location": "table_20",
-      "para_index": 599,
-      "text": "2) 拐点的二阶导数要么为 0,要么不存在。"
-    },
-    {
-      "id": "audit_00275",
-      "location": "table_20",
-      "para_index": 600,
-      "text": "先前学了个临界点,现在又学了个拐点 。把它们串比一下 :临界点是指的导 数为 0或者不存在的点,临界点是极值点的嫌疑点。 拐点是函数的二阶导数变 号的点,但要注意,二阶导数为 0或者不存在,只是该点成为拐点的必要条件,并 不是充分条件 。正如连续是可导的必要条件,但并不是可导的充分条件一样。"
-    },
-    {
-      "id": "audit_00276",
-      "location": "table_20",
-      "para_index": 601,
-      "text": "至此, 函数的图形在一个点附近的走向,我们应该可以说得比较清晰了。 图  形的走向演变,有点像汉语写法的基本笔画, 写汉语的笔画无非是横竖撇捺等  等,而一个函数的图形也无非是这么几种基本形态 :直线上升(下降) 就像/(\\)、 曲线上凸上升(下降) 就像 ∩ 的 左半边(右半边)、曲线下凸下降(上升) 就像 ∪  的 左半边(右半边) 。"
-    },
-    {
-      "id": "audit_00277",
-      "location": "table_20",
-      "para_index": 602,
-      "text": "有导数帮忙,我们对函数的增减、凸凹、零点等基本形态就会有所了解。 如 果再加上对渐近线的考虑, 即使对复杂一点的函数,我们也能把图形画个有模有 样了。"
-    },
-    {
-      "id": "audit_00278",
-      "location": "table_20",
-      "para_index": 603,
-      "text": "结合我们迄今所学,概括起来,要画出一个像样的函数图形,是可以有一些 标准动作的 :"
-    },
-    {
-      "id": "audit_00279",
-      "location": "table_20",
-      "para_index": 604,
-      "text": "1) 注意函数定义域"
-    },
-    {
-      "id": "audit_00280",
-      "location": "table_20",
-      "para_index": 605,
-      "text": "2) 找出函数和坐标轴的交点"
-    },
-    {
-      "id": "audit_00281",
-      "location": "table_20",
-      "para_index": 606,
-      "text": "3) 注意奇偶性也就是对称性"
-    },
-    {
-      "id": "audit_00282",
-      "location": "table_20",
-      "para_index": 607,
-      "text": "4) 观察有无渐近线"
-    },
-    {
-      "id": "audit_00283",
-      "location": "table_20",
-      "para_index": 608,
-      "text": "5) 找出相对极值点"
-    },
-    {
-      "id": "audit_00284",
-      "location": "table_20",
-      "para_index": 609,
-      "text": "6) 注意函数增减以及凸凹"
-    },
-    {
-      "id": "audit_00285",
-      "location": "table_20",
-      "para_index": 610,
-      "text": "例 4  12):画出下列函数的图形 :"
-    },
-    {
-      "id": "audit_00286",
-      "location": "table_21",
-      "para_index": 620,
-      "text": "导数有啥用   第四章"
-    },
-    {
-      "id": "audit_00287",
-      "location": "table_21",
-      "para_index": 621,
-      "text": "解 :首先关注如下五点。"
-    },
-    {
-      "id": "audit_00288",
-      "location": "table_21",
-      "para_index": 623,
-      "text": "1) 函数的定义域为 2x2 - 5 ≠ 0⇒x≠±"
-    },
-    {
-      "id": "audit_00289",
-      "location": "table_21",
-      "para_index": 625,
-      "text": "2) 显然, 函数和坐标轴的交点为原点"
-    },
-    {
-      "id": "audit_00290",
-      "location": "table_21",
-      "para_index": 626,
-      "text": "3)  由于 f(x) =f(- x),所以该函数为偶函数,关于 y 轴对称。"
-    },
-    {
-      "id": "audit_00291",
-      "location": "table_21",
-      "para_index": 628,
-      "text": "所以 ,该 函数有一条水平渐近线 y=3/2"
-    },
-    {
-      "id": "audit_00292",
-      "location": "table_21",
-      "para_index": 632,
-      "text": "所以,该函数有一条两条竖直渐近线 :"
-    },
-    {
-      "id": "audit_00293",
-      "location": "table_21",
-      "para_index": 634,
-      "text": "5) 找出临界点 : f'(x) =0"
-    },
-    {
-      "id": "audit_00294",
-      "location": "table_21",
-      "para_index": 637,
-      "text": "由此可见, 0点是函数 f的唯一临界点,观察不难得知, 函数的导数在此点 的导数由正变负,也就是说 0点是该函数的相对极大值点。"
-    },
-    {
-      "id": "audit_00295",
-      "location": "table_21",
-      "para_index": 638,
-      "text": "6) 研究凸凹性 :"
-    },
-    {
-      "id": "audit_00296",
-      "location": "table_21",
-      "para_index": 639,
-      "text": "首先继续求出二阶导数,"
-    },
-    {
-      "id": "audit_00297",
-      "location": "table_21",
-      "para_index": 643,
-      "text": "所以 ,在区间 (-   0 ,   2  ), f″(x) < 0, 因而函数 f(x) 为上凸函数 ;而"
-    },
-    {
-      "id": "audit_00298",
-      "location": "table_22",
-      "para_index": 653,
-      "text": "在区间 和  , f″(x) > 0 因此函数为下凸函数。"
-    },
-    {
-      "id": "audit_00299",
-      "location": "table_22",
-      "para_index": 654,
-      "text": "综上所述,我们可以画出该函数的图形大致如下 :"
-    },
-    {
-      "id": "audit_00300",
-      "location": "table_22",
-      "para_index": 657,
-      "text": "4. 6   寻根之得—反导数"
-    },
-    {
-      "id": "audit_00301",
-      "location": "table_22",
-      "para_index": 658,
-      "text": "我们形容某个牛人对某篇文章的熟悉程度时,经常用“倒背如流”这个词儿。 如果给你一个函数的求导公式,你能够“倒背如流”,那就是相当于根据函数的导  数,来找出它是谁的导数。"
-    },
-    {
-      "id": "audit_00302",
-      "location": "table_22",
-      "para_index": 659,
-      "text": "也就等于,你在大街上看到一个无人认领的导数,你得根据已经学到的手 艺,迅速解答“这是谁家的导数”这个问题。"
-    },
-    {
-      "id": "audit_00303",
-      "location": "table_22",
-      "para_index": 660,
-      "text": "在微积分里混世界,是需要这种基本能力的。"
-    },
-    {
-      "id": "audit_00304",
-      "location": "table_22",
-      "para_index": 661,
-      "text": "例如 ,根据公式 (x2) '= 2x , 你可以很容易地说 2x 是 x2  它们家的导数。"
-    },
-    {
-      "id": "audit_00305",
-      "location": "table_22",
-      "para_index": 662,
-      "text": "由于这里的根据导数来找出原函数的寻根的动作,是完全和求导的过程反 过来的, 因此,有一个可以让人望文生义的名称用到这里—反导数。"
-    },
-    {
-      "id": "audit_00306",
-      "location": "table_22",
-      "para_index": 663,
-      "text": "例如 ,在说 2x 是 x2  的导数的时候 ,你就相当于在说 : x2 是 2x 的反导数。"
-    },
-    {
-      "id": "audit_00307",
-      "location": "table_22",
-      "para_index": 664,
-      "text": "一般来说,我们描述 F(x)是 f(x) 的反导数的时候,指的就是 : F'(x) =f(x)"
-    },
-    {
-      "id": "audit_00308",
-      "location": "table_22",
-      "para_index": 665,
-      "text": "熟练掌握导数的您 , 自然知道 ,不仅仅是 (x2) '= 2x , 所有形如 x2 + c (其 中 c是常数) 的函数 ,它的导数都是 2x 。 换句话说 , 函数 2x 的反导数不是唯 一的。"
-    },
-    {
-      "id": "audit_00309",
-      "location": "table_22",
-      "para_index": 666,
-      "text": "所以 ,我们先前那句话应该改为 : 函数 2x 是函数 x2 + c他们家族的导数。 显然 ,这里的 x2 + c不是一个函数 ,而是一组函数。"
-    },
-    {
-      "id": "audit_00310",
-      "location": "table_23",
-      "para_index": 674,
-      "text": "导数有啥用   第四章"
-    },
-    {
-      "id": "audit_00311",
-      "location": "table_23",
-      "para_index": 676,
-      "text": "如此,则接下来的结论不证自明 :"
-    },
-    {
-      "id": "audit_00312",
-      "location": "table_23",
-      "para_index": 677,
-      "text": "如果, 函数 F(x) 和 G(x) 都是 f(x) 的反导数,那么 :   F(x) -G(x) =C      其中 C为常数。"
-    },
-    {
-      "id": "audit_00313",
-      "location": "table_23",
-      "para_index": 678,
-      "text": "例 4  13):求函数 xn  的反导数F(x) ,其中 n 为实数。 解 :我们必须分两步来做"
-    },
-    {
-      "id": "audit_00314",
-      "location": "table_23",
-      "para_index": 679,
-      "text": "首先 ,如果 n=-1, 由于 (ln(x)) '=x-1 , 所以 lnx+C就是所求的反函数 ;"
-    },
-    {
-      "id": "audit_00315",
-      "location": "table_23",
-      "para_index": 680,
-      "text": "其次 ,如果 n≠-1, 因为 '=xn , 所以 为所求的反函"
-    },
-    {
-      "id": "audit_00316",
-      "location": "table_23",
-      "para_index": 683,
-      "text": "尽管我们一直在说, 函数的反导数通常是指一组函数,但是如果加上某种约 束条件,一般就可以有确定的函数了。"
-    },
-    {
-      "id": "audit_00317",
-      "location": "table_23",
-      "para_index": 684,
-      "text": "例 4  14):已知 : f″(x) = 2x3 + 3x2 -4x+5,f(0) = 2,f(1) =0, 求函数 f(x) 。"
-    },
-    {
-      "id": "audit_00318",
-      "location": "table_23",
-      "para_index": 685,
-      "text": "解 :根 据 例 4   12) 的 成 果, 我 们 知 道, f(x)″, f'(x)  的 反 导 数 f'(x), f(x) 分别为 :"
-    },
-    {
-      "id": "audit_00319",
-      "location": "table_23",
-      "para_index": 689,
-      "text": "把 f(0) = 2,, f(1) =0带入上式,得到 : C2 = 2"
-    },
-    {
-      "id": "audit_00320",
-      "location": "table_24",
-      "para_index": 698,
-      "text": "为方便您玩好这一小节 ，我再把基本函数和其对应的导数和反导数拉出 来跟您混个脸熟 。欢迎拿走随身携带!"
-    },
-    {
-      "id": "audit_00321",
-      "location": "table_24",
-      "para_index": 722,
-      "text": "一共是 10大金刚,不管把他们倒背一下抑或正着背一下,在反导数的世界 里走江湖,算是有盘缠啦!"
-    },
-    {
-      "id": "audit_00322",
-      "location": "table_24",
-      "para_index": 723,
-      "text": "在后面的章节里,您会发现 :这些看似平庸的反导数们,那是大有来头啊! 接下来,我们一起来见见定积分!"
-    },
-    {
-      "id": "audit_00323",
-      "location": "table_24",
-      "para_index": 724,
-      "text": "当然,出发前,总得先巩固学习成果—做习题。 练习四"
-    },
-    {
-      "id": "audit_00324",
-      "location": "table_24",
-      "para_index": 725,
-      "text": "4  1) 求如下函数的临界点"
-    },
-    {
-      "id": "audit_00325",
-      "location": "table_24",
-      "para_index": 726,
-      "text": "(1) y=x4+ x3+ x2 + 1                (2) y=|2x - 1 |"
-    },
-    {
-      "id": "audit_00326",
-      "location": "table_24",
-      "para_index": 727,
-      "text": "                        (4) y= 2cosx+sin2x"
-    },
-    {
-      "id": "audit_00327",
-      "location": "table_24",
-      "para_index": 728,
-      "text": "4  2) 求下列函数在指定区间的绝对极值 :"
-    },
-    {
-      "id": "audit_00328",
-      "location": "table_24",
-      "para_index": 729,
-      "text": "(1) y= -x2 + 2x - 1                 [0,5]"
-    },
-    {
-      "id": "audit_00329",
-      "location": "table_25",
-      "para_index": 734,
-      "text": "导数有啥用   第四章"
-    },
-    {
-      "id": "audit_00330",
-      "location": "table_25",
-      "para_index": 736,
-      "text": "4  3) 用线性逼近法来估算如下各值"
-    },
-    {
-      "id": "audit_00331",
-      "location": "table_25",
-      "para_index": 737,
-      "text": "(1) (2. 999)4                                (2) sin1°                  (3)  3 1001  4  4) 用牛顿法求下列各方程的根 ,精确到小数点后 6位。"
-    },
-    {
-      "id": "audit_00332",
-      "location": "table_25",
-      "para_index": 738,
-      "text": "(1) 3cosx=x+ 1"
-    },
-    {
-      "id": "audit_00333",
-      "location": "table_25",
-      "para_index": 740,
-      "text": "(3) cos(x2 - x) =x4"
-    },
-    {
-      "id": "audit_00334",
-      "location": "table_25",
-      "para_index": 741,
-      "text": "4  5) 请验证下列函数在指定区间满足拉格朗日中值定理"
-    },
-    {
-      "id": "audit_00335",
-      "location": "table_25",
-      "para_index": 742,
-      "text": "(1) f(x) = 2x3 - 3x+ 1,             [0,2]"
-    },
-    {
-      "id": "audit_00336",
-      "location": "table_25",
-      "para_index": 744,
-      "text": "4  6) 证明 :方程 x3 - 15x+ c=0在区间 [-2,2] 内 ,最多有一个根。 4  7) 如果 f(1) = 10,f'(x) ≥ 2(1≤ x ≤ 4) , 请问 f(4) 有下限吗?  4  8) 对下列各函数 ,"
-    },
-    {
-      "id": "audit_00337",
-      "location": "table_25",
-      "para_index": 745,
-      "text": "a) 求出各个函数的上升和下降区间"
-    },
-    {
-      "id": "audit_00338",
-      "location": "table_25",
-      "para_index": 746,
-      "text": "b) 求出各函数的相对极值"
-    },
-    {
-      "id": "audit_00339",
-      "location": "table_25",
-      "para_index": 747,
-      "text": "c) 求出各个函数的拐点和上凸或下凸区间"
-    },
-    {
-      "id": "audit_00340",
-      "location": "table_25",
-      "para_index": 748,
-      "text": "(1) y=x3 - 12x+ 3                    (2) y= -x4 + 2x2 + 2"
-    },
-    {
-      "id": "audit_00341",
-      "location": "table_25",
-      "para_index": 749,
-      "text": "(3) y= (x+1)5 - 5x - 2            (4) y=x   6- x"
-    },
-    {
-      "id": "audit_00342",
-      "location": "table_25",
-      "para_index": 750,
-      "text": "(5) y= 2cosx+cos2x       (0≤ x ≤ 2π) 4  9) 求下列各函数的反导数"
-    },
-    {
-      "id": "audit_00343",
-      "location": "table_25",
-      "para_index": 751,
-      "text": "(1) y= 2x3 - 3x2 + x+ 1            "
-    },
-    {
-      "id": "audit_00344",
-      "location": "table_25",
-      "para_index": 752,
-      "text": "(3) y=4sec2x - 5x4                                       (4) y=e3"
-    },
-    {
-      "id": "audit_00345",
-      "location": "table_27",
-      "para_index": 826,
-      "text": "分 中 有积       定 积 分"
+      "location": "table_0",
+      "para_index": 547,
+      "text": "antiderivative"
     }
   ]
 }

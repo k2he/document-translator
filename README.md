@@ -195,6 +195,8 @@ document-translator/
 > **Output isolation**: each preset gets its own subfolder under `output/`. Switching `"active"` in `translation_config.json` never overwrites a previous run.
 
 ---
+由本题的解题过程可知 , 即使分子上不是 x3 , 而是 x100 或者更高次方 ,也不 会改变极限的结果。 同样 ,只要分子上 ax  中的 a > 1, 结果不会变 ,都是 ∞ 。
+这也就印证了我们前面说过的 : ax 型的 ∞ 是所谓部级的 ∞ , 跟 xn 这些地 市级的 ∞ 没有可比性 。我们再看一下地市级的 ∞ 遇上 lnx 这种区县级的 ∞ , 会发生什么
 
 ## Features
 

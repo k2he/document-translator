@@ -249,6 +249,37 @@ If test mode was used, remind the user they can switch Copilot models and re-run
 
 ---
 
+## Known Bugs & Fixed Issues
+
+### Bug 1 — Mixed Chinese+math paragraphs skipped by extractor (FIXED)
+**Symptom**: Paragraphs that mix Chinese prose with inline math equations (e.g., "由此我们想到，如果两个∞相比...") appear untranslated in the output.
+
+**Root cause**: `extract.py` originally had a guard that skipped any paragraph containing an OMML `<m:oMath>` math element. Since many paragraphs interleave Chinese text runs with inline math, those Chinese runs were never extracted and therefore never translated.
+
+**Fix**: The guard was removed. `para.runs` in python-docx only yields `<w:r>` run elements — it never touches `<m:oMath>` nodes. Math is preserved automatically at the run-patching level. The guard was unnecessary and harmful.
+
+**Corollary**: `audit.py` `extract_for_audit()` must still call `_has_protected_content(para)` before extracting a paragraph for AI review, because the audit's `_replace_paragraph_text()` collapses all runs, which would destroy embedded math.
+
+---
+
+### Bug 2 — SimSun font persists after translation (FIXED)
+**Symptom**: Translated paragraphs render in a Chinese-style font (SimSun) even though the text is English. In Word/LibreOffice the text looks "Chinese-styled" or renders in a CJK glyph set.
+
+**Root cause**: The source DOCX sets `<w:rFonts>` (SimSun), `<w:sz>` (11pt), and `<w:szCs>` at the *run level* on every Chinese text run. Run-level formatting overrides the paragraph style. Replacing `run.text` with English does not clear these overrides, so `_apply_styles()` which sets Times New Roman at the style level has no effect on those runs.
+
+**Fix**: `_reset_run_font()` in `rebuild.py` removes `<w:rFonts>`, `<w:sz>`, and `<w:szCs>` from `<w:rPr>` of every run whose text was patched. This allows the paragraph style (Times New Roman 12pt) to take effect.
+
+---
+
+### Bug 3 — `doc.styles[name]` KeyError on some DOCX files (FIXED)
+**Symptom**: Rebuild fails with `KeyError: "no style with name 'Heading 1'"`.
+
+**Root cause**: python-docx's `doc.styles[name]` dict-style lookup raises KeyError on some DOCX files even when the style exists.
+
+**Fix**: Use `next((s for s in doc.styles if s.name == name), None)` instead of direct dict access.
+
+---
+
 ## Error Handling
 
 | Error | Resolution |

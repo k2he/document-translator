@@ -48,6 +48,12 @@ def extract_for_audit(docx_path: Path) -> None:
 
     # Body paragraphs
     for para_idx, para in enumerate(doc.paragraphs):
+        # Skip paragraphs that contain math or images — the audit mechanism
+        # replaces the entire paragraph's run text, which would destroy
+        # embedded math elements. These paragraphs are correctly translated
+        # at the run level by rebuild.py and don't need AI audit.
+        if _has_protected_content(para):
+            continue
         text = "".join(run.text for run in para.runs)
         if _is_auditable(text):
             segments.append({
@@ -64,6 +70,8 @@ def extract_for_audit(docx_path: Path) -> None:
         for row in table.rows:
             for cell in row.cells:
                 for para_idx, para in enumerate(cell.paragraphs):
+                    if _has_protected_content(para):
+                        continue
                     text = "".join(run.text for run in para.runs)
                     if _is_auditable(text):
                         segments.append({
