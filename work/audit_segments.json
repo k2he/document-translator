@@ -1,5 +1,5 @@
 {
-  "style_instruction": "You are an expert translator of Chinese mathematical textbooks into North American English, with a deep command of mathematical concepts and precise mathematical language. When describing examples and formulas verbally, use accurate and precise mathematical language rather than casual approximations. Maintain a Chinese storytelling teach-and-learn calculus style — conversational and engaging, uses everyday analogies from Chinese life, warm and encouraging, explains concepts through vivid stories and relatable examples, occasional light humour, addresses the reader directly as a fellow learner.",
+  "style_instruction": "You are a scholar with deep expertise in translating Chinese academic and scientific literature into North American English, specializing in mathematics and mathematical pedagogy. You have a precise command of standard mathematical terminology and notation as used in North American university curricula. When translating examples, proofs, and theorems, you render all mathematical descriptions using exact, discipline-standard language — never informal approximations. The output reads as a formal North American academic textbook: precise, concise, third-person passive voice, no analogies, no humour, definitions and theorems stated rigorously.",
   "segments": [
     {
       "id": "audit_00000",
@@ -11,37 +11,37 @@
       "id": "audit_00001",
       "location": "body",
       "para_index": 1,
-      "text": "4. 1　Discussing limits again——Robetta's Law（L'Hôpital's Rule）"
+      "text": "4. 1 Re-discussing limits - L'Hôpital's Rule"
     },
     {
       "id": "audit_00002",
       "location": "body",
       "para_index": 2,
-      "text": "4. 2　extreme value problem（Extremum）"
+      "text": "4. 2 Extreme value problem (Extremum)"
     },
     {
       "id": "audit_00003",
       "location": "body",
       "para_index": 3,
-      "text": "4. 3　linear approximation（Linear Approximation）"
+      "text": "4. 3 Linear Approximation"
     },
     {
       "id": "audit_00004",
       "location": "body",
       "para_index": 4,
-      "text": "4. 4　Crossing the river by feeling the stones——newton(Newton) Law"
+      "text": "4. 4 Crossing the river by feeling for the stones - Newton’s method"
     },
     {
       "id": "audit_00005",
       "location": "body",
       "para_index": 5,
-      "text": "4. 5　The Mean Value Theorem and the Shape of Function Graphs"
+      "text": "4. 5 Mean value theorem and the shape of function graphs"
     },
     {
       "id": "audit_00006",
       "location": "body",
       "para_index": 6,
-      "text": "4. 6　Finding one's roots——antiderivative（Antiderivative）"
+      "text": "4. 6 The result of finding roots - Antiderivative"
     },
     {
       "id": "audit_00007",
@@ -71,61 +71,61 @@
       "id": "audit_00011",
       "location": "body",
       "para_index": 14,
-      "text": "In the first two chapters, we clarified the most important concept of limit in calculus, sublimated the concept of slope learned in middle school, and introduced derivatives。"
+      "text": "In the first two chapters, we clarified the most important concept of limit in calculus, sublimated the concept of slope learned in middle school, and introduced derivatives."
     },
     {
       "id": "audit_00012",
       "location": "body",
       "para_index": 15,
-      "text": "We also spent a lot of pen and ink trying to figure out how to find the small trend derivatives of various functions. This derivative must have some special purpose to be worthy of our efforts.？"
+      "text": "We also spent a lot of pen and ink trying to figure out how to find the small trend derivatives of various functions. This derivative must have some special purpose to be worthy of our efforts, right?"
     },
     {
       "id": "audit_00013",
       "location": "body",
       "para_index": 16,
-      "text": "Yes, derivatives are really useful！"
+      "text": "Yes, derivatives are really useful!"
     },
     {
       "id": "audit_00014",
       "location": "body",
       "para_index": 18,
-      "text": "4. 1  Discussing limits again——Robetta's Law（L'Hôpital's Rule）"
+      "text": "4. 1 Re-discussing limits - L'Hôpital's Rule"
     },
     {
       "id": "audit_00015",
       "location": "body",
       "para_index": 19,
-      "text": "As mentioned before, limit problems are the core problem of calculus. When we deal with limit problems, we often encounter two kinds of thorny limit problems.："
+      "text": "As mentioned before, limit problems are the core problem of calculus. When we deal with limit problems, we often encounter two kinds of thorny limit problems:"
     },
     {
       "id": "audit_00016",
       "location": "body",
       "para_index": 23,
-      "text": "We saw two lying on their backs\"8\"，Feeling unable to start。"
+      "text": "We saw two \"8\"s lying sideways and felt at a loss as to where to start."
     },
     {
       "id": "audit_00017",
       "location": "body",
       "para_index": 24,
-      "text": "Just like when we read a martial arts novel, two heroes compete with each other. They both possess unique skills. It is really difficult to judge who will have the last laugh. Let's think about it again. If two heroes compete for a long time, which one will have the upper hand? For another example, A has 10billion and growing every year7%；Although B only has5billion, but B’s wealth growth rate is10%。If you think about it carefully, it is not difficult to come to the conclusion: In the long run, B will definitely defeat A. The reason why we come to the conclusion that Y wins is because of his10%The growth rate is actually higher than7%The growth rate is much greater. What is growth rate, isn’t it just the rate of change? What is the rate of change? Derivative！"
+      "text": "Just like when we read a martial arts novel, two heroes compete with each other. They both possess unique skills. It is really difficult to judge who will have the last laugh. Let's think about it again. If two heroes compete for a long time, which one will have the upper hand? For another example, A has 1 billion yuan and the annual growth rate is 7%; although B only has 500 million yuan, the growth rate of B's ​​wealth is 10%. If you think about it carefully, it is not difficult to come to the conclusion: In the long run, B will definitely defeat A. The reason why we came to the conclusion that Yi wins is because his 10% growth rate is much better than the 7% growth rate. What is growth rate, isn’t it just the rate of change? What is the rate of change? Derivative!"
     },
     {
       "id": "audit_00018",
       "location": "body",
       "para_index": 27,
-      "text": "Robetta's Law（L'Hôpital's Rule）"
+      "text": "L'Hôpital's Rule"
     },
     {
       "id": "audit_00019",
       "location": "body",
       "para_index": 37,
-      "text": "Of course, the premise is that the limit on the right exists。"
+      "text": "Of course, the premise is that the limit on the right exists."
     },
     {
       "id": "audit_00020",
       "location": "body",
       "para_index": 38,
-      "text": "Robita's Law kills two birds with one stone and solves two difficult problems at the same time. Regarding this rule, we should remind you of a few points。"
+      "text": "Robita's Law kills two birds with one stone and solves two difficult problems at the same time. Regarding this law, we would like to remind you of a few points."
     },
     {
       "id": "audit_00021",
@@ -137,61 +137,61 @@
       "id": "audit_00022",
       "location": "body",
       "para_index": 44,
-      "text": "Finally, the proof of this law requires more advanced mathematical knowledge。"
+      "text": "Finally, the proof of this law requires more advanced mathematical knowledge."
     },
     {
       "id": "audit_00023",
       "location": "body",
       "para_index": 45,
-      "text": "For now, we can treat it as an axiom, think it is self-evident, and knowing how to use the rules is the last word.。"
+      "text": "For now, we can regard it as an axiom, think it is self-evident, and know how to use the rules as a last resort."
     },
     {
       "id": "audit_00024",
       "location": "body",
       "para_index": 47,
-      "text": "Example 4-1）  beg"
+      "text": "Example 4-1)beg"
     },
     {
       "id": "audit_00025",
       "location": "body",
       "para_index": 49,
-      "text": "Solution: According to Robetta's law, we have："
+      "text": "Solution: According to Robetta's law, we have:"
     },
     {
       "id": "audit_00026",
       "location": "body",
       "para_index": 53,
-      "text": "Example 4-2）  beg"
+      "text": "Example 4-2)beg"
     },
     {
       "id": "audit_00027",
       "location": "body",
       "para_index": 55,
-      "text": "Solution: Using Robetta’s rule, we get："
+      "text": "Solution: Using Robetta’s rule, we get:"
     },
     {
       "id": "audit_00028",
       "location": "body",
       "para_index": 59,
-      "text": "Fun, right? Let’s look at two more limits。"
+      "text": "Fun, right? Let’s look at two more limits."
     },
     {
       "id": "audit_00029",
       "location": "body",
       "para_index": 61,
-      "text": "Example 4-3）  beg"
+      "text": "Example 4-3)beg"
     },
     {
       "id": "audit_00030",
       "location": "body",
       "para_index": 63,
-      "text": "Solution: To find this limit, you have to find the numerator and denominator respectively. 3Only by taking the second derivative can we see the result clearly.："
+      "text": "Solution: To find this limit, you have to find three derivatives of the numerator and denominator to see the result clearly:"
     },
     {
       "id": "audit_00031",
       "location": "body",
       "para_index": 71,
-      "text": "Example 4-4）  beg"
+      "text": "Example 4-4)beg"
     },
     {
       "id": "audit_00032",
@@ -203,49 +203,49 @@
       "id": "audit_00033",
       "location": "body",
       "para_index": 82,
-      "text": "With Robetta's Law in mind, it will be very intuitive to look at the two famous limits that you are asked to remember in Chapter 2.："
+      "text": "With Robetta's Law in mind, it will be very intuitive to look at the two famous limits that you are asked to remember in Chapter 2:"
     },
     {
       "id": "audit_00034",
       "location": "body",
       "para_index": 88,
-      "text": "When we climb mountains, we will find that the higher we climb, the better the view. The same goes for playing mathematics. The more you play, the clearer you can see what you have played with.。"
+      "text": "When we climb mountains, we will find that the higher we climb, the better the view. The same goes for playing mathematics. The more you play, the clearer you will see what you have played with."
     },
     {
       "id": "audit_00035",
       "location": "body",
       "para_index": 89,
-      "text": "Let’s see what else derivatives are used for。"
+      "text": "Let's see what else derivatives are used for."
     },
     {
       "id": "audit_00036",
       "location": "body",
       "para_index": 91,
-      "text": "4. 2  extreme value problem（Extremum）"
+      "text": "4. 2 Extreme value problem (Extremum)"
     },
     {
       "id": "audit_00037",
       "location": "body",
       "para_index": 92,
-      "text": "People always like to pay attention to things that are a little far away from themselves and more extreme.。"
+      "text": "People always like to pay attention to things that are a little far away from themselves and more extreme."
     },
     {
       "id": "audit_00038",
       "location": "body",
       "para_index": 93,
-      "text": "Similarly, the problem of maximum and minimum values ​​of functions naturally arouses great interest. Because in life, extreme values ​​are so useful。"
+      "text": "Similarly, the problem of maximum and minimum values ​​of functions naturally arouses great interest. Because in life, extreme values ​​are so useful."
     },
     {
       "id": "audit_00039",
       "location": "body",
       "para_index": 94,
-      "text": "To solve extreme value problems, derivatives can be of great help. Let’s first clarify a few concepts about extreme value problems。"
+      "text": "To solve extreme value problems, derivatives can be of great help. Let’s first clarify a few concepts about extreme value problems."
     },
     {
       "id": "audit_00040",
       "location": "body",
       "para_index": 96,
-      "text": "Where there is a local part there is a global situation。"
+      "text": "Where there is a local part, there is a global situation."
     },
     {
       "id": "audit_00041",
@@ -257,7 +257,7 @@
       "id": "audit_00042",
       "location": "body",
       "para_index": 100,
-      "text": "The concept of minimum value is opposite to the concept of maximum value。"
+      "text": "The concept of minimum value is opposite to the concept of maximum value."
     },
     {
       "id": "audit_00043",
@@ -269,37 +269,37 @@
       "id": "audit_00044",
       "location": "body",
       "para_index": 106,
-      "text": "Once you understand the concept of extreme values, you can discuss how to find extreme values.。"
+      "text": "Once we understand the concept of extreme values, we can discuss how to find extreme values."
     },
     {
       "id": "audit_00045",
       "location": "body",
       "para_index": 107,
-      "text": "To study how to find the extreme value, we must first determine its existence. Therefore, it is necessary to understand the extreme value theorem。"
+      "text": "To study how to find the extreme value, we must first determine its existence. Therefore, it is necessary to understand the extreme value theorem."
     },
     {
       "id": "audit_00046",
       "location": "body",
       "para_index": 109,
-      "text": "The figure below is a schematic diagram of the extreme value theorem.。"
+      "text": "The figure below is a schematic diagram of the extreme value theorem."
     },
     {
       "id": "audit_00047",
       "location": "body",
       "para_index": 111,
-      "text": "My learning experience about this theorem is：（1）Although the absolute extreme value of a closed interval can certainly be reached, it is not necessarily unique.；（2）Two conditions for the existence of the theorem\"continuous\"and\"closed interval\"indispensable。"
+      "text": "My learning experience about this theorem is: (1) Although the absolute extreme value of a closed interval can certainly be reached, it is not necessarily unique; (2) The two conditions for the existence of the theorem, \"continuity\" and \"closed interval\", are indispensable."
     },
     {
       "id": "audit_00048",
       "location": "body",
       "para_index": 112,
-      "text": "The figure below shows the situation where the two conditions of continuity and interval closure are missing respectively, and the extreme value theorem does not hold.。"
+      "text": "The figure below shows the situation where the two conditions of continuity and interval closure are missing respectively, and the extreme value theorem does not hold."
     },
     {
       "id": "audit_00049",
       "location": "body",
       "para_index": 114,
-      "text": "As can be seen from the above figure, the function on the left has no maximum value, and the function on the right has no maximum value. The reason is: the function on the left is not continuous, and the function definition interval on the right is not closed.。"
+      "text": "As can be seen from the above figure, the function on the left has no maximum value, and the function on the right has no maximum value. The reason is: the function on the left is not continuous, and the function definition interval on the right is not closed."
     },
     {
       "id": "audit_00050",
@@ -317,31 +317,31 @@
       "id": "audit_00052",
       "location": "body",
       "para_index": 120,
-      "text": "urgency. So what does a local extreme point look like? Please see the theorem："
+      "text": "urgency. So what does a local extreme point look like? Please see the theorem:"
     },
     {
       "id": "audit_00053",
       "location": "body",
       "para_index": 121,
-      "text": "Fermat's theorem（Fermat's Theorem）"
+      "text": "Fermat's Theorem"
     },
     {
       "id": "audit_00054",
       "location": "body",
       "para_index": 126,
-      "text": "So, we have："
+      "text": "So, we have:"
     },
     {
       "id": "audit_00055",
       "location": "body",
       "para_index": 131,
-      "text": "Note: Fermat’s theorem only tells you that if there is a derivative at the local extreme point, then the derivative is 0。He did not say that the derivatives of all local extreme points are 0。Why? Because there are some local extreme points, the derivative does not exist! The points at which these derivatives do not exist and the derivatives are 0 The points are collectively called the critical points of the function（Critical Point）。"
+      "text": "Note: Fermat's theorem only tells you that if there is a derivative at a local extreme point, then the derivative is 0. He did not say that at all local extreme points, the derivatives are 0. Why? Because there are some local extreme points, the derivative does not exist! These points where the derivative does not exist and the points where the derivative is 0 are collectively called critical points of the function."
     },
     {
       "id": "audit_00056",
       "location": "body",
       "para_index": 132,
-      "text": "After working hard to get here, I finally found a way to find the ultimate value! First, find the critical points of the function, that is, those where there is no derivative or the derivative is 0 point; secondly, by comparing the values ​​of the function at the end points and critical points of the interval, the global extreme value and local extreme value can be determined。"
+      "text": "After working hard to get here, I finally found a way to find the ultimate value! First, find the critical points of the function, that is, those points where there is no derivative or the derivative is 0; second, by comparing the values ​​of the function at the end points of the interval and the critical points, you can determine the global extreme value and the local extreme value."
     },
     {
       "id": "audit_00057",
@@ -353,7 +353,7 @@
       "id": "audit_00058",
       "location": "body",
       "para_index": 134,
-      "text": "So, how to judge whether the critical point of the function we have worked hard to find is a local maximum or a local minimum? To solve this problem, we have to ask small trends——Derivatives come into play. As we introduced in the previous chapter, the positive or negative value of the derivative at each point of the function determines the upward or downward trend of the function at this point. Depend on"
+      "text": "So, how to judge whether the critical point of the function we have worked hard to find is a local maximum or a local minimum? To solve this problem, we have to ask the small trend - the derivative to take action. As we introduced in the previous chapter, the positive or negative value of the derivative at each point of the function determines the upward or downward trend of the function at this point. Depend on"
     },
     {
       "id": "audit_00059",
@@ -365,37 +365,37 @@
       "id": "audit_00060",
       "location": "body",
       "para_index": 139,
-      "text": "It is not difficult to deduce that if the derivative of a function is positive within a certain interval, then the function is an increasing function in this interval. On the contrary, if the derivative is negative, the function is a decreasing function。"
+      "text": "It is not difficult to deduce that if the derivative of a function is positive within a certain interval, then the function is an increasing function in this interval. On the contrary, if the derivative is negative, the function is a decreasing function."
     },
     {
       "id": "audit_00061",
       "location": "body",
       "para_index": 140,
-      "text": "Of course, it can also be said that the positive or negative slope of the tangent line of a function determines whether the function is an increasing function or a decreasing function.。"
+      "text": "Of course, it can also be said that the positive or negative slope of the tangent line of a function determines whether the function is an increasing function or a decreasing function."
     },
     {
       "id": "audit_00062",
       "location": "body",
       "para_index": 142,
-      "text": "As shown in the figure above, the function is in AB Duan He CD Segments are all increasing functions, and their tangent slopes or derivatives are all positive. And the function is in BC The segment derivative is negative, so BC Segment is a decreasing function。"
+      "text": "As shown in the figure above, the function is an increasing function in the AB segment and the CD segment, and its tangent slope or derivative is positive. The derivative of the function in segment BC is negative, so segment BC is a decreasing function."
     },
     {
       "id": "audit_00063",
       "location": "body",
       "para_index": 143,
-      "text": "Obviously, the function is B、C The derivative of two points is 0，That is to say，B、C They are all relative extreme points of the function.。"
+      "text": "Obviously, the derivative of the function at points B and C is 0, that is to say, B and C are both relative extreme points of the function."
     },
     {
       "id": "audit_00064",
       "location": "body",
       "para_index": 144,
-      "text": "function passes B When, its derivative goes through a process from positive to zero, and then to negative. Correspondingly, the function changes from an increasing function to a decreasing function. so，B point is the relative maximum point。"
+      "text": "When the function passes through B, its derivative goes through a process from positive to zero, and then to negative. Correspondingly, the function changes from an increasing function to a decreasing function. Therefore, point B is the relative maximum point."
     },
     {
       "id": "audit_00065",
       "location": "body",
       "para_index": 145,
-      "text": "And the function goes through C point, its derivative goes through a process from negative to zero, and then to positive. Correspondingly, the function is derived from C The decreasing function before the point becomes C The increasing function after the point. therefore，C A point is the relative minimum point of a function。"
+      "text": "When the function passes through point C, its derivative undergoes a process from negative to zero, and then to positive. Correspondingly, the function changes from a decreasing function before point C to an increasing function after point C. Therefore, point C is the relative minimum point of the function."
     },
     {
       "id": "audit_00066",
@@ -407,31 +407,31 @@
       "id": "audit_00067",
       "location": "body",
       "para_index": 147,
-      "text": "At this point, the routine for finding the extreme value of a function is basically understood. Then take out the skills we just learned and use them to show the effect.。"
+      "text": "At this point, the routine for finding the extreme value of a function is basically understood. Then take out the skills we just learned and use them to show the effect."
     },
     {
       "id": "audit_00068",
       "location": "body",
       "para_index": 150,
-      "text": "Solution: We play according to the routine and first find the critical point："
+      "text": "Solution: Let’s play the cards according to the routine and first find the critical point:"
     },
     {
       "id": "audit_00069",
       "location": "body",
       "para_index": 152,
-      "text": "It can be seen that, 2 and −1is the critical point of the function. Comparing the function values ​​at critical points and endpoints, we find："
+      "text": "It follows that 2 and −1 are critical points of the function. Comparing the function values ​​at critical points and endpoints, we find:"
     },
     {
       "id": "audit_00070",
       "location": "body",
       "para_index": 154,
-      "text": "therefore："
+      "text": "therefore:"
     },
     {
       "id": "audit_00071",
       "location": "body",
       "para_index": 156,
-      "text": "The function of this question is shown in the figure below："
+      "text": "The function of this question is shown in the figure below:"
     },
     {
       "id": "audit_00072",
@@ -442,901 +442,811 @@
     {
       "id": "audit_00073",
       "location": "body",
-      "para_index": 162,
-      "text": "Example 4-6）  Find the function f(x) = x⁴ − 8x² All extreme points of and corresponding function values。"
+      "para_index": 163,
+      "text": "Solution: First find the critical point:"
     },
     {
       "id": "audit_00074",
       "location": "body",
-      "para_index": 163,
-      "text": "Solution: Find the critical point first："
+      "para_index": 165,
+      "text": "The critical points are −2, 0, 2."
     },
     {
       "id": "audit_00075",
       "location": "body",
-      "para_index": 165,
-      "text": "The critical point is −2，0，2。"
+      "para_index": 166,
+      "text": "Next, examine the positive and negative derivatives around the critical point. Observation shows that: to the left of point −2, the derivative is negative; on (−2, 0), the derivative is positive; on (0, 2), the derivative is negative; to the right of point 2, the derivative is positive."
     },
     {
       "id": "audit_00076",
       "location": "body",
-      "para_index": 166,
-      "text": "Next, examine the positive and negative derivatives around the critical point. It can be seen from observation: in −2 To the left of the point, the derivative is negative; at (−2, 0) above, the derivative is positive; at (0, 2) The upper derivative is negative; in 2 To the right of the point, the derivative is positive。"
+      "para_index": 169,
+      "text": "The picture below is the graph of this question:"
     },
     {
       "id": "audit_00077",
-      "location": "body",
-      "para_index": 169,
-      "text": "The picture below is the graph of this question："
-    },
-    {
-      "id": "audit_00078",
       "location": "body",
       "para_index": 173,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t91"
     },
     {
-      "id": "audit_00079",
+      "id": "audit_00078",
       "location": "body",
       "para_index": 175,
-      "text": "4. 3  linear approximation（Linear Approximation）"
+      "text": "4. 3 Linear Approximation"
+    },
+    {
+      "id": "audit_00079",
+      "location": "body",
+      "para_index": 176,
+      "text": "As we introduced before, the method of dealing with curves in calculus is to divide and conquer. In other words, the curve is divided into several segments, and each segment is treated as a straight line. Of course, the results of this processing are not precise. However, when the \"several\" values ​​of these segments become infinite, the result of this straight-line processing can be regarded as the truth."
     },
     {
       "id": "audit_00080",
-      "location": "body",
-      "para_index": 176,
-      "text": "As we introduced before, the method of dealing with curves in calculus is to divide and conquer. In other words, the curve is divided into several segments, and each segment is treated as a straight line. Of course, the results of this processing are not precise. However, when this paragraph of \"several\"When the value becomes infinite, the result of this straight-line processing can be regarded as the truth。"
-    },
-    {
-      "id": "audit_00081",
       "location": "body",
       "para_index": 177,
       "text": "So, what kind of straight line should be chosen as an approximate representative of the curve? Since the minor trend of the curve at a point is the direction of the tangent, it is natural to choose the tangent of the curve at a point to replace the curve. Generally speaking, the closer you are to this specific point, the better the approximation."
     },
     {
-      "id": "audit_00082",
+      "id": "audit_00081",
       "location": "body",
       "para_index": 181,
-      "text": "so，a The linear approximation near the point is："
+      "text": "Therefore, the linear approximation near point a is:"
     },
     {
-      "id": "audit_00083",
+      "id": "audit_00082",
       "location": "body",
       "para_index": 183,
       "text": "Linear approximation is a concise way, but it is also a hopeless method. Approximation tools that use quadratic functions or higher-order functions are certainly more accurate, but they require a lot more effort. Although this method is not perfect, it is very practical. Some people also gave it a more noble name: linear approximation."
     },
     {
-      "id": "audit_00084",
+      "id": "audit_00083",
       "location": "body",
       "para_index": 184,
-      "text": "Let’s take an example to explain linear approximation.。"
+      "text": "Let’s take an example to explain linear approximation."
+    },
+    {
+      "id": "audit_00084",
+      "location": "body",
+      "para_index": 187,
+      "text": "Solution: From the meaning of the question, we know that f(27) = 3, and the derivative of the function is:"
     },
     {
       "id": "audit_00085",
-      "location": "body",
-      "para_index": 187,
-      "text": "Solution: It can be seen from the meaning of the question f(27) = 3，The derivative function of the function is："
-    },
-    {
-      "id": "audit_00086",
       "location": "body",
       "para_index": 191,
       "text": "92\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00087",
+      "id": "audit_00086",
       "location": "body",
       "para_index": 193,
-      "text": "Therefore, the required linear approximation is："
+      "text": "Therefore, the required linear approximation is:"
+    },
+    {
+      "id": "audit_00087",
+      "location": "body",
+      "para_index": 198,
+      "text": "Now, let's connect two knowledge points - linear approximation and differential calculus. Let’s take a look at the diagram introducing function differentiation:"
     },
     {
       "id": "audit_00088",
       "location": "body",
-      "para_index": 198,
-      "text": "Now, let’s connect the two knowledge points in series——Linear approximation and differentiation. Let’s take a look at the diagram introducing function differentiation.："
+      "para_index": 200,
+      "text": "We know that the linear approximation of point a is:"
     },
     {
       "id": "audit_00089",
       "location": "body",
-      "para_index": 200,
-      "text": "we know，P Point linear approximation is："
+      "para_index": 202,
+      "text": "Its corresponding point is R. And the exact value is:"
     },
     {
       "id": "audit_00090",
       "location": "body",
-      "para_index": 202,
-      "text": "The corresponding point is R。The exact value is："
+      "para_index": 204,
+      "text": "Its corresponding point on the graph is point Q. The difference between the approximate value and the exact value is (dy − Δy). Obviously, the smaller dx is, the smaller this error will be."
     },
     {
       "id": "audit_00091",
-      "location": "body",
-      "para_index": 204,
-      "text": "Its corresponding point on the diagram is Q point. The difference between the approximate value and the exact value is (dy − Δy)。obviously，dx The smaller it is, the smaller the error will be.。"
-    },
-    {
-      "id": "audit_00092",
       "location": "body",
       "para_index": 205,
       "text": "Linear approximation does not seem complicated, but sometimes it is not so convenient, and with the rapid development of computer technology, its practicality will be further reduced. But we still introduce it in a separate section. First, because its method of solving complex problems by simplifying it is not only the basic method of calculus, but also can be used to guide our daily work; second, because this seemingly simple method was once very effective and was the result of the hard work of many predecessors. I pay tribute to them!"
     },
     {
-      "id": "audit_00093",
+      "id": "audit_00092",
       "location": "body",
       "para_index": 208,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t93"
     },
     {
-      "id": "audit_00094",
+      "id": "audit_00093",
       "location": "body",
       "para_index": 210,
-      "text": "4. 4  Crossing the river by feeling the stones——newton(Newton) Law"
+      "text": "4. 4 Crossing the river by feeling for the stones - Newton’s method"
     },
     {
-      "id": "audit_00095",
+      "id": "audit_00094",
       "location": "body",
       "para_index": 211,
       "text": "When it comes to linear equations of one variable, many primary school students may be able to solve them decently. As for the quadratic equation, almost every high school student can write its root formula. But what about something a little more complicated? For example:"
     },
     {
-      "id": "audit_00096",
+      "id": "audit_00095",
       "location": "body",
       "para_index": 213,
-      "text": "A little dizzy, right? What if it was more complicated? For example："
+      "text": "A little dizzy, right? What if it was more complicated? For example:"
     },
     {
-      "id": "audit_00097",
+      "id": "audit_00096",
       "location": "body",
       "para_index": 215,
       "text": "Who wants you to give the formula to solve such an equation? Who are you in a hurry with? Don't worry, if you really want to write the formula for finding the roots of this kind of equation, not only you can't do it, but you can't find any mathematician to do it either! Most of the equation problems encountered in various applied sciences cannot be written down the root formula."
     },
     {
-      "id": "audit_00098",
+      "id": "audit_00097",
       "location": "body",
       "para_index": 216,
       "text": "Mathematics predecessors have long discovered that many equations cannot yield accurate solutions. But they were not discouraged. They could not get an accurate solution, so they tried every means to find an approximate solution. Taking a step back, embracing imperfection, and reconciling with reality is also the great wisdom of life!"
     },
     {
-      "id": "audit_00099",
+      "id": "audit_00098",
       "location": "body",
       "para_index": 217,
-      "text": "The master Newton adopted a very elegant method to find approximate solutions to equations. The method adopted by Newton is the standard method of calculus: using the straight line method to solve non-straight line problems.。"
+      "text": "The master Newton adopted a very elegant method to find approximate solutions to equations. The method adopted by Newton is the standard method of calculus: using straight line method to solve non-straight line problems."
+    },
+    {
+      "id": "audit_00099",
+      "location": "body",
+      "para_index": 218,
+      "text": "The idea is as follows:"
     },
     {
       "id": "audit_00100",
-      "location": "body",
-      "para_index": 218,
-      "text": "The idea is as follows："
-    },
-    {
-      "id": "audit_00101",
-      "location": "body",
-      "para_index": 220,
-      "text": "2）Next, we find the point where the curve is x₁ tangent L。Since it is a straight line, it is easy for us to find the straight lineL and xaxis intersection x₂。"
-    },
-    {
-      "id": "audit_00102",
-      "location": "body",
-      "para_index": 222,
-      "text": "4）Find the point where the curve is x₂ tangent to, and find it and x axis intersectionx₃. x₃ to x₂closer r。"
-    },
-    {
-      "id": "audit_00103",
-      "location": "body",
-      "para_index": 224,
-      "text": "5）Repeat the above steps to get x₁, x₂, x₃, …，xₙ, …"
-    },
-    {
-      "id": "audit_00104",
       "location": "body",
       "para_index": 228,
       "text": "94\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00105",
+      "id": "audit_00101",
       "location": "body",
       "para_index": 230,
-      "text": "It is easy to see from the above picture："
+      "text": "It is easy to see from the picture above:"
     },
     {
-      "id": "audit_00106",
+      "id": "audit_00102",
       "location": "body",
       "para_index": 233,
-      "text": "By extension："
+      "text": "By extension:"
     },
     {
-      "id": "audit_00107",
+      "id": "audit_00103",
       "location": "body",
       "para_index": 235,
       "text": "Right now:"
     },
     {
-      "id": "audit_00108",
+      "id": "audit_00104",
       "location": "body",
       "para_index": 237,
-      "text": "7）Conclusion: Yes n The larger the value，xₙ The closer r。That is："
+      "text": "7) Conclusion: The larger the value of n, the closer xₙ is to r. That is:"
     },
     {
-      "id": "audit_00109",
+      "id": "audit_00105",
       "location": "body",
       "para_index": 239,
-      "text": "Don't feel troublesome when you see the limit. This mathematical idea is worth pondering. Okay, next, apply what you have learned。"
+      "text": "Don't feel troublesome when you see the limit. This mathematical idea is worth pondering. Okay, next, apply what you have learned."
     },
     {
-      "id": "audit_00110",
-      "location": "body",
-      "para_index": 241,
-      "text": "Example 4-8）  from x₁ = 2 Let’s start and find the equation x³ − 2x − 5 = 0 Approximate value of the root of (accurate to four decimal places）。"
-    },
-    {
-      "id": "audit_00111",
+      "id": "audit_00106",
       "location": "body",
       "para_index": 244,
-      "text": "So, following Newton's method, we have："
+      "text": "So, following Newton's method, we have:"
     },
     {
-      "id": "audit_00112",
+      "id": "audit_00107",
       "location": "body",
       "para_index": 250,
       "text": "Although Newton's method is very easy to use, if it is used in a haphazard way, sometimes it will lead to mistakes."
     },
     {
-      "id": "audit_00113",
+      "id": "audit_00108",
       "location": "body",
       "para_index": 253,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t95"
     },
     {
-      "id": "audit_00114",
+      "id": "audit_00109",
       "location": "body",
       "para_index": 255,
-      "text": "area and cannot achieve the desired effect. Please see the picture below："
+      "text": "area and cannot achieve the desired effect. Please look at the picture below:"
     },
     {
-      "id": "audit_00115",
-      "location": "body",
-      "para_index": 257,
-      "text": "x₁ It still looks like that, but since x₂ later, and r It's drifting away. Why? Because the first step in Newton's method，x₁ The choice is a technical job！"
-    },
-    {
-      "id": "audit_00116",
-      "location": "body",
-      "para_index": 258,
-      "text": "Just like the example in the master's manuscript, he chose x₁ = 2，why not choose 0, 1, −1 Woolen cloth? Just compare it and you will know. obviously，f(0) = −5，f(1) = −6，f(−1) = −4, whilef(2) = −1。Even if you were given a choice, you would choose the function value distance 0 latest 2 asx₁ bar."
-    },
-    {
-      "id": "audit_00117",
+      "id": "audit_00110",
       "location": "body",
       "para_index": 259,
-      "text": "The idea of ​​Newton's method can be summarized by a classic saying of the great man: Cross the river by feeling for the stones. But which stone to touch first is a matter of wisdom.。"
+      "text": "The idea of ​​Newton's method can be summarized by a classic saying of the great man: Cross the river by feeling for the stones. But which stone to touch first is a matter of wisdom."
     },
     {
-      "id": "audit_00118",
+      "id": "audit_00111",
       "location": "body",
       "para_index": 260,
       "text": "Today, with the gradual development of AI technology, Newton's method has great practical significance. Nowadays, many advanced calculators used by students can solve various unconventional equations, and their core principles are mostly Newton's method."
     },
     {
-      "id": "audit_00119",
+      "id": "audit_00112",
       "location": "body",
       "para_index": 261,
-      "text": "Let’s take another example to familiarize ourselves with the process.。"
+      "text": "Let’s take another example to familiarize ourselves with the process."
     },
     {
-      "id": "audit_00120",
+      "id": "audit_00113",
       "location": "body",
       "para_index": 271,
       "text": "96\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00121",
-      "location": "body",
-      "para_index": 273,
-      "text": "Let x₁ = 0. 75Substituting into the above formula and calculating sequentially, we can get："
-    },
-    {
-      "id": "audit_00122",
-      "location": "body",
-      "para_index": 277,
-      "text": "because x₃、x₄ The first four decimal places of have overlapped, so the root we require is：x = 0. 4566。"
-    },
-    {
-      "id": "audit_00123",
+      "id": "audit_00114",
       "location": "body",
       "para_index": 279,
-      "text": "At this point, derivatives have come in many uses. Let's see again, what else is the derivative used for?。"
+      "text": "At this point, derivatives have come in many uses. Let's see again what else derivatives are used for."
     },
     {
-      "id": "audit_00124",
+      "id": "audit_00115",
       "location": "body",
       "para_index": 281,
-      "text": "4. 5  The Mean Value Theorem and the Shape of Function Graphs"
+      "text": "4. 5 Mean value theorem and the shape of function graphs"
     },
     {
-      "id": "audit_00125",
+      "id": "audit_00116",
       "location": "body",
       "para_index": 282,
       "text": "In the process of studying functions, it will be of great benefit if you can accurately grasp the shape of the function graph! As a small trend in the direction of a function, the derivative certainly plays a key role in the shape of the function graph. Understanding these effects helps to grasp the overall trend of the function."
     },
     {
-      "id": "audit_00126",
+      "id": "audit_00117",
       "location": "body",
       "para_index": 283,
-      "text": "First introduce："
+      "text": "First let me introduce:"
     },
     {
-      "id": "audit_00127",
+      "id": "audit_00118",
       "location": "body",
       "para_index": 284,
-      "text": "Rolle's theorem（Rolle's Theorem）"
+      "text": "Rolle's Theorem"
     },
     {
-      "id": "audit_00128",
+      "id": "audit_00119",
       "location": "body",
       "para_index": 286,
-      "text": "1）in the interval [a, b] continuous"
+      "text": "1) Continuous in the interval [a, b]"
     },
     {
-      "id": "audit_00129",
+      "id": "audit_00120",
       "location": "body",
       "para_index": 287,
-      "text": "2）in the interval (a, b) Derivable"
+      "text": "2) Differentiable in the interval (a, b)"
     },
     {
-      "id": "audit_00130",
+      "id": "audit_00121",
       "location": "body",
       "para_index": 289,
-      "text": "Then, in the interval (a, b) There must be a real number on c，make："
+      "text": "Then, there must be a real number c on the interval (a, b) such that:"
     },
     {
-      "id": "audit_00131",
+      "id": "audit_00122",
       "location": "body",
       "para_index": 291,
-      "text": "Proof of theorem: We might as well prove Rolle’s theorem in three situations。"
+      "text": "Proof of theorem: We might as well prove Rolle's theorem in three situations."
     },
     {
-      "id": "audit_00132",
+      "id": "audit_00123",
       "location": "body",
       "para_index": 294,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t97"
     },
     {
-      "id": "audit_00133",
+      "id": "audit_00124",
       "location": "body",
       "para_index": 300,
-      "text": "The figure above shows several situations in which Rolle's theorem holds. As can be seen from the figure, the geometric meaning of Rolle's theorem is that when the function values ​​at the endpoints of the interval are equal, the interval (a, b) memory at a point c，The tangent through this point is parallel tox-axis."
+      "text": "The figure above shows several situations in which Rolle's theorem holds. As can be seen from the figure, the geometric meaning of Rolle's theorem is that when the function values ​​at the end points of the interval are equal, there is a point c in the interval (a, b), and the tangent passing through the point is parallel to the x-axis."
     },
     {
-      "id": "audit_00134",
+      "id": "audit_00125",
       "location": "body",
       "para_index": 301,
-      "text": "Since the endpoint function values ​​of the intervals are equal, their connecting lines are also parallel to x axis, Rolle's theorem is equal to, in the interval (a, b) memory at a point c，The tangent line of the function through this point is parallel to the line connecting the endpoints of the interval. We naturally have to ask, does this conclusion hold true when the function values ​​at the endpoints are not equal? The answer is yes！"
+      "text": "Since the function values ​​at the endpoints of the interval are equal, their connecting lines are also parallel to the x-axis. Rolle's theorem is equivalent to the fact that there is a point c in the interval (a, b), and the tangent line of the function passing through this point is parallel to the connecting line between the endpoints of the interval. We naturally have to ask, does this conclusion hold true when the function values ​​at the endpoints are not equal? The answer is yes!"
     },
     {
-      "id": "audit_00135",
+      "id": "audit_00126",
       "location": "body",
       "para_index": 302,
-      "text": "Lagrange's mean value theorem（Lagrange's Mean Value Theorem）"
+      "text": "Lagrange's Mean Value Theorem"
     },
     {
-      "id": "audit_00136",
+      "id": "audit_00127",
       "location": "body",
       "para_index": 304,
-      "text": "1）in the interval [a, b] continuous"
+      "text": "1) Continuous in the interval [a, b]"
     },
     {
-      "id": "audit_00137",
+      "id": "audit_00128",
       "location": "body",
       "para_index": 305,
-      "text": "2）in the interval (a, b) Derivable"
+      "text": "2) Differentiable in the interval (a, b)"
     },
     {
-      "id": "audit_00138",
+      "id": "audit_00129",
       "location": "body",
       "para_index": 306,
-      "text": "Then, in the interval (a, b) There must be a real number on c，make："
+      "text": "Then, there must be a real number c on the interval (a, b) such that:"
     },
     {
-      "id": "audit_00139",
+      "id": "audit_00130",
       "location": "body",
       "para_index": 308,
       "text": "Theorem Proof: Idea: Since Rolle’s theorem has just been proved, and the right side of the formula we need to prove is the endpoint of the interval."
     },
     {
-      "id": "audit_00140",
+      "id": "audit_00131",
       "location": "body",
       "para_index": 311,
       "text": "98\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00141",
+      "id": "audit_00132",
       "location": "body",
       "para_index": 317,
-      "text": "So, we have："
+      "text": "So, we have:"
     },
     {
-      "id": "audit_00142",
+      "id": "audit_00133",
       "location": "body",
       "para_index": 324,
-      "text": "The geometric meaning of the mean value theorem is that on the interval (a, b) point of existence c，Make the function pass c The tangent to a point is parallel to the line connecting the endpoints. Please refer to the picture below："
+      "text": "The geometric meaning of the mean value theorem is that there is a point c on the interval (a, b) such that the tangent line of the function passing through point c is parallel to the line connecting the endpoints. Please refer to the picture below:"
     },
     {
-      "id": "audit_00143",
+      "id": "audit_00134",
       "location": "body",
       "para_index": 326,
-      "text": "As shown in the figure above, in the figure on the left there is a value that satisfies the mean value theorem. c In the case of points, the picture on the right shows that there are two points that satisfy the mean value theorem. c point situation。"
+      "text": "As shown in the figure above, the left figure shows a situation where there is a point c that satisfies the mean value theorem, and the right figure shows a situation where there are two c points that satisfy the mean value theorem."
     },
     {
-      "id": "audit_00144",
+      "id": "audit_00135",
       "location": "body",
       "para_index": 329,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t99"
     },
     {
-      "id": "audit_00145",
+      "id": "audit_00136",
       "location": "body",
       "para_index": 332,
-      "text": "Take two questions to get a feel for it："
+      "text": "Take two questions to get a feel for it:"
     },
     {
-      "id": "audit_00146",
-      "location": "body",
-      "para_index": 334,
-      "text": "Example 4-10）  Verification function f(x) = 2x² − 3x + 1 in the interval [0, 2] satisfies the mean value theorem。"
-    },
-    {
-      "id": "audit_00147",
+      "id": "audit_00137",
       "location": "body",
       "para_index": 335,
-      "text": "Solution: Our task is to be in the interval [0, 2] Find one on c，make："
+      "text": "Solution: Our task is to find a c on the interval [0, 2] such that:"
     },
     {
-      "id": "audit_00148",
+      "id": "audit_00138",
       "location": "body",
       "para_index": 339,
-      "text": "The above equation obviously has a solution：c = 1。"
+      "text": "The above equation obviously has a solution: c = 1."
     },
     {
-      "id": "audit_00149",
+      "id": "audit_00139",
       "location": "body",
       "para_index": 340,
-      "text": "Sometimes, the question can be twisted, please see the following example question。"
+      "text": "Sometimes, the questions can be twisted, please see the following example questions."
     },
     {
-      "id": "audit_00150",
-      "location": "body",
-      "para_index": 342,
-      "text": "Example 4-11）  known, the whole region differentiable function f(x)，satisfyf′(x) ≤ 9 andf(1) = −8. begf(3) the maximum possible value。"
-    },
-    {
-      "id": "audit_00151",
+      "id": "audit_00140",
       "location": "body",
       "para_index": 343,
-      "text": "Solution: According to the mean value theorem, we know that in the interval (1, 3) There must be something c make："
+      "text": "Solution: According to the mean value theorem, we know that on the interval (1, 3), there must be a point c such that:"
     },
     {
-      "id": "audit_00152",
+      "id": "audit_00141",
       "location": "body",
       "para_index": 349,
       "text": "100\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00153",
+      "id": "audit_00142",
       "location": "body",
       "para_index": 352,
       "text": "On the one hand, we can prove Lagrange's theorem through Rolle's theorem; on the other hand, Rolle's theorem can be used as a special case of Lagrange's theorem. In fact, Lagrange's theorem can also be used as a special case of another theorem, which is the famous Cauchy's mean value theorem."
     },
     {
-      "id": "audit_00154",
+      "id": "audit_00143",
       "location": "body",
       "para_index": 353,
-      "text": "Cauchy（Cauchy）mean value theorem"
+      "text": "Cauchy's mean value theorem"
     },
     {
-      "id": "audit_00155",
+      "id": "audit_00144",
       "location": "body",
       "para_index": 356,
       "text": "Cauchy's mean value theorem can also be derived from Rolle's theorem by proving Lagrange's theorem. In fact, the application of Cauchy's mean value theorem is more about the application of curves expressed by the following parametric equations:"
     },
     {
-      "id": "audit_00156",
+      "id": "audit_00145",
       "location": "body",
       "para_index": 359,
       "text": "Therefore, we can say that Lagrange's theorem and Cauchy's mean value theorem are both generalizations and developments of Rolle's mean value theorem. In fact, Cauchy's mean value theorem is not tested frequently. Therefore, as a candidate, it is enough to know what this theorem looks like."
     },
     {
-      "id": "audit_00157",
+      "id": "audit_00146",
       "location": "body",
       "para_index": 360,
       "text": "Rolle's theorem and Lagrange's theorem both explain some forms of function graphs within a certain interval to a certain extent. For example, the direction of the tangent. According to the sign of the derivative of the function in a certain interval, it can be judged whether the function is an increasing function or a decreasing function in this interval."
     },
     {
-      "id": "audit_00158",
+      "id": "audit_00147",
       "location": "body",
       "para_index": 363,
       "text": "We usually call the figure with the upward opening on the left in the picture above called a convex figure, while the figure with the opening on the right is downward."
     },
     {
-      "id": "audit_00159",
+      "id": "audit_00148",
       "location": "body",
       "para_index": 366,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t101"
     },
     {
-      "id": "audit_00160",
+      "id": "audit_00149",
       "location": "body",
       "para_index": 369,
-      "text": "It is worth noting that there are differences between Chinese and foreign expressions of the concavity and convexity of function graphs. The Chinese method is based on\"Which side is bulging?\"，Just say which way it bulges. In Western expressions, emphasis is placed on the direction of the opening, which is exactly the same as the direction of the opening.\"drum up\"in the opposite direction. Therefore, what we call an upward convex function can be expressed in English as Concave Down。And what we call the downward convex function, the corresponding English is Concave Up。"
+      "text": "It is worth noting that there are differences in the expression of the concavity and convexity of function graphs between China and foreign countries. In Chinese, it is based on \"which side bulges out\", that is, which way it bulges. The Western expression focuses on the direction of the opening, which is exactly opposite to the direction of \"bulging up\". Therefore, the convex function we call is Concave Down in English. The corresponding English equivalent of what we call the downward convex function is Concave Up."
     },
     {
-      "id": "audit_00161",
+      "id": "audit_00150",
       "location": "body",
       "para_index": 370,
-      "text": "An obvious geometric meaning of upward convex functions and downward convex functions is that the tangent lines of all upward convex functions are located above the function graph; while the tangent lines of all downward convex functions are below the function graph.。"
+      "text": "An obvious geometric meaning of upward convex functions and downward convex functions is that the tangent lines of all upward convex functions are located above the function graph; while the tangent lines of all downward convex functions are below the function graph."
     },
     {
-      "id": "audit_00162",
+      "id": "audit_00151",
       "location": "body",
       "para_index": 372,
-      "text": "So how to determine whether the graph of a function is convex upward or downward? The magic weapon is the second-order derivative discrimination method。"
+      "text": "So how to determine whether the graph of a function is convex upward or downward? The magic weapon is the second-order derivative discrimination method."
     },
     {
-      "id": "audit_00163",
+      "id": "audit_00152",
       "location": "body",
       "para_index": 374,
-      "text": "This discriminant method can be proved with the help of the mean value theorem. Due to space limitations, this book will not introduce it in detail.。"
+      "text": "This discrimination method can be proved with the help of the mean value theorem. Due to space limitations, this book will not introduce it in detail."
     },
     {
-      "id": "audit_00164",
+      "id": "audit_00153",
       "location": "body",
       "para_index": 375,
-      "text": "With the help of the second-order derivative discrimination method, we have a new starting point for dealing with extreme value problems. According to the sign of the second derivative, we can easily draw the conclusion："
+      "text": "With the help of the second-order derivative discrimination method, we have a new starting point for dealing with extreme value problems. According to the sign of the second derivative, we can easily draw the following conclusion:"
     },
     {
-      "id": "audit_00165",
+      "id": "audit_00154",
       "location": "body",
       "para_index": 382,
       "text": "102\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00166",
+      "id": "audit_00155",
       "location": "body",
       "para_index": 385,
       "text": "On the one hand, if the function is convex downward, the tangent line is below the function graph, and the extreme point of the function convex downward is the relative minimum point, which is consistent; on the other hand, the function is convex upward, the tangent line is above the function graph, and the extreme point of the function convex upward is the relative maximum point, which is also consistent."
     },
     {
-      "id": "audit_00167",
+      "id": "audit_00156",
+      "location": "body",
+      "para_index": 386,
+      "text": "In order to observe concavity from a broader perspective, I would like to draw your attention to another fact, that is, the secant line connecting any two points of an upper convex function must be below the function graph. On the contrary, the secant line of a downward convex function must be above the function graph."
+    },
+    {
+      "id": "audit_00157",
       "location": "body",
       "para_index": 387,
       "text": "After learning the contents of this section, when we find the extreme value of a function in the future, we can either determine the increase or decrease properties of the function around the extreme point based on the sign change of the first-order derivative around the critical point, thereby determining whether the extreme point of the function is a maximum or minimum value; we can also directly determine the properties of the extreme point simply based on the sign of the second-order derivative of the function."
     },
     {
-      "id": "audit_00168",
+      "id": "audit_00158",
       "location": "body",
       "para_index": 390,
-      "text": "Please see examples。"
+      "text": "Please see examples."
     },
     {
-      "id": "audit_00169",
-      "location": "body",
-      "para_index": 392,
-      "text": "Example 4-12）  known function f(x) Derivative of f′(x) = (x − 1)eˣ，Find the critical point of the function and explain the properties of the critical point。"
-    },
-    {
-      "id": "audit_00170",
+      "id": "audit_00159",
       "location": "body",
       "para_index": 398,
       "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t103"
     },
     {
-      "id": "audit_00171",
+      "id": "audit_00160",
       "location": "body",
       "para_index": 400,
-      "text": "so c = 1 This critical point is the minimum point。"
+      "text": "So the critical point c = 1 is the minimum point."
+    },
+    {
+      "id": "audit_00161",
+      "location": "body",
+      "para_index": 402,
+      "text": "Interesting? There is another concept about the concavity and convexity of function graphs, which I would like to introduce now."
+    },
+    {
+      "id": "audit_00162",
+      "location": "body",
+      "para_index": 403,
+      "text": "Point of Inflection"
+    },
+    {
+      "id": "audit_00163",
+      "location": "body",
+      "para_index": 405,
+      "text": "Learning experience of turning point concept:"
+    },
+    {
+      "id": "audit_00164",
+      "location": "body",
+      "para_index": 406,
+      "text": "1) The function around the inflection point changes from an upward convex function to a downward convex function or vice versa;"
+    },
+    {
+      "id": "audit_00165",
+      "location": "body",
+      "para_index": 407,
+      "text": "2) The second derivative of the inflection point is either 0 or does not exist."
+    },
+    {
+      "id": "audit_00166",
+      "location": "body",
+      "para_index": 408,
+      "text": "I learned a critical point before, and now I learned an inflection point. Compare them: a critical point is a point where the guide coefficient is 0 or does not exist, and a critical point is a suspected extreme point. The inflection point is the point where the second derivative of a function changes sign. However, it should be noted that the second derivative is 0 or does not exist. This is only a necessary condition for this point to become an inflection point, but it is not a sufficient condition. Just as continuity is a necessary condition for differentiability, but it is not a sufficient condition for differentiability."
+    },
+    {
+      "id": "audit_00167",
+      "location": "body",
+      "para_index": 409,
+      "text": "At this point, we should be able to explain more clearly the direction of the graph of the function near a point. The evolution of graphics is a bit like the basic strokes of Chinese writing. The strokes of writing Chinese are nothing more than horizontal and vertical strokes. The graph of a function is nothing more than the following basic shapes: a straight rise (fall) is like a \"/\" shape, a convex rise (fall) on a curve is like the left half (right half) of a \"∩\" shape, and a convex drop (rise) on a curve is like the left half (right half) of a \"∪\" shape."
+    },
+    {
+      "id": "audit_00168",
+      "location": "body",
+      "para_index": 410,
+      "text": "With the help of derivatives, we will have an understanding of the basic forms of functions such as increase and decrease, concavity and convexity. If we consider asymptotes again, we can draw a more realistic graph even for a more complex function."
+    },
+    {
+      "id": "audit_00169",
+      "location": "body",
+      "para_index": 411,
+      "text": "Based on what you have learned, to summarize, there are some standard actions to draw a decent function graph:"
+    },
+    {
+      "id": "audit_00170",
+      "location": "body",
+      "para_index": 412,
+      "text": "1) Pay attention to the function domain;"
+    },
+    {
+      "id": "audit_00171",
+      "location": "body",
+      "para_index": 413,
+      "text": "2) Find the intersection point of the function and the coordinate axis;"
     },
     {
       "id": "audit_00172",
       "location": "body",
-      "para_index": 402,
-      "text": "Interesting? Regarding the concavity and convexity of function graphs, there is another concept, and now I will introduce it ceremoniously.。"
+      "para_index": 414,
+      "text": "3) Pay attention to parity, which is symmetry;"
     },
     {
       "id": "audit_00173",
       "location": "body",
-      "para_index": 403,
-      "text": "inflection point（Point of Inflection）"
+      "para_index": 415,
+      "text": "4) Observe whether there is an asymptote;"
     },
     {
       "id": "audit_00174",
       "location": "body",
-      "para_index": 405,
-      "text": "Learning experience of turning point concept："
+      "para_index": 416,
+      "text": "5) Find the relative extreme points;"
     },
     {
       "id": "audit_00175",
       "location": "body",
-      "para_index": 406,
-      "text": "1）The function around the inflection point changes from an upper convex function to a lower convex function or vice versa.；"
+      "para_index": 417,
+      "text": "6) Pay attention to the increase and decrease of functions and the concavity and convexity."
     },
     {
       "id": "audit_00176",
       "location": "body",
-      "para_index": 407,
-      "text": "2）The second derivative of the inflection point is either 0，or does not exist。"
+      "para_index": 419,
+      "text": "Example 4-13)Sketch the graph of the following function:"
     },
     {
       "id": "audit_00177",
-      "location": "body",
-      "para_index": 408,
-      "text": "I learned a critical point before, and now I learned an inflection point. Compare them: the critical point is where the guideline number is 0 Or non-existent points, critical points are suspected points of extreme points. The inflection point is the point where the second derivative of the function changes sign, but it should be noted that the second derivative is 0 Or it does not exist. It is only a necessary condition for this point to become an inflection point, but it is not a sufficient condition. Just as continuity is a necessary condition for differentiability, but it is not a sufficient condition for differentiability.。"
-    },
-    {
-      "id": "audit_00178",
-      "location": "body",
-      "para_index": 409,
-      "text": "At this point, we should be able to explain more clearly the direction of the graph of the function near a point. The evolution of graphics is a bit like the basic strokes of Chinese writing. The strokes of writing Chinese are nothing more than horizontal and vertical strokes. The graph of a function is nothing more than the following basic forms: straight up (down) like \"/\"shape, the curve rises (falls) convexly like\"∩\"the left half of the shape (right half），The convex descending (rising) curve is like\"∪\"the left half of the shape (right half）。"
-    },
-    {
-      "id": "audit_00179",
-      "location": "body",
-      "para_index": 410,
-      "text": "With the help of derivatives, we will have an understanding of the basic forms of functions such as increase and decrease, concavity and convexity. If we consider asymptotes again, we can draw a more realistic graph even for a more complex function.。"
-    },
-    {
-      "id": "audit_00180",
-      "location": "body",
-      "para_index": 411,
-      "text": "Based on what you have learned, to summarize, there are some standard actions to draw a decent function graph.："
-    },
-    {
-      "id": "audit_00181",
-      "location": "body",
-      "para_index": 412,
-      "text": "1）Pay attention to the function domain；"
-    },
-    {
-      "id": "audit_00182",
-      "location": "body",
-      "para_index": 413,
-      "text": "2）Find the intersection of the function and the coordinate axis；"
-    },
-    {
-      "id": "audit_00183",
-      "location": "body",
-      "para_index": 414,
-      "text": "3）Pay attention to parity or symmetry；"
-    },
-    {
-      "id": "audit_00184",
-      "location": "body",
-      "para_index": 415,
-      "text": "4）Observe whether there is an asymptote；"
-    },
-    {
-      "id": "audit_00185",
-      "location": "body",
-      "para_index": 416,
-      "text": "5）Find relative extreme points；"
-    },
-    {
-      "id": "audit_00186",
-      "location": "body",
-      "para_index": 417,
-      "text": "6）Pay attention to the increase and decrease of functions and the bumps and convexities。"
-    },
-    {
-      "id": "audit_00187",
-      "location": "body",
-      "para_index": 419,
-      "text": "Example 4-13）  Graph the following functions："
-    },
-    {
-      "id": "audit_00188",
       "location": "body",
       "para_index": 423,
       "text": "104\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
-      "id": "audit_00189",
+      "id": "audit_00178",
       "location": "body",
       "para_index": 425,
-      "text": "Solution: First pay attention to the following five points："
+      "text": "Solution: First pay attention to the following five points:"
+    },
+    {
+      "id": "audit_00179",
+      "location": "body",
+      "para_index": 427,
+      "text": "2) Obviously, the intersection of the function and the coordinate axis is the origin."
+    },
+    {
+      "id": "audit_00180",
+      "location": "body",
+      "para_index": 429,
+      "text": "4) Because:"
+    },
+    {
+      "id": "audit_00181",
+      "location": "body",
+      "para_index": 438,
+      "text": "Next, study the concavity and convexity:"
+    },
+    {
+      "id": "audit_00182",
+      "location": "body",
+      "para_index": 439,
+      "text": "The first step is to find the second derivative:"
+    },
+    {
+      "id": "audit_00183",
+      "location": "body",
+      "para_index": 444,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t105"
+    },
+    {
+      "id": "audit_00184",
+      "location": "body",
+      "para_index": 447,
+      "text": "To sum up, we can draw the graph of this function, roughly as follows:"
+    },
+    {
+      "id": "audit_00185",
+      "location": "body",
+      "para_index": 450,
+      "text": "4. 6 The way to find roots - Antiderivative"
+    },
+    {
+      "id": "audit_00186",
+      "location": "body",
+      "para_index": 451,
+      "text": "When we describe someone's familiarity with a certain article, we often use the word \"remember it like a charm\". If you are given the derivative formula of a function, you can \"recite it backwards and forwards\", which is equivalent to finding out whose derivative it is based on the derivatives. In other words, if you see an \"unclaimed\" derivative on the street, you can quickly answer the question \"whose derivative is this\" based on the skills you have learned. In calculus, this basic ability is required."
+    },
+    {
+      "id": "audit_00187",
+      "location": "body",
+      "para_index": 453,
+      "text": "Since the root-finding action of finding the original function based on the derivative is completely opposite to the process of derivation, it has an evocative name - antiderivative."
+    },
+    {
+      "id": "audit_00188",
+      "location": "body",
+      "para_index": 460,
+      "text": "106\t\t\t\t\t\t\t\t\t\tPlay with calculus"
+    },
+    {
+      "id": "audit_00189",
+      "location": "body",
+      "para_index": 466,
+      "text": "Solution: We have to do it in two steps."
     },
     {
       "id": "audit_00190",
       "location": "body",
-      "para_index": 427,
-      "text": "2）Obviously, the intersection point of the function and the coordinate axis is the origin。"
+      "para_index": 473,
+      "text": "Although we have been saying that the antiderivative of a function usually refers to a set of functions, if certain constraints are added, a definite function can generally be obtained."
     },
     {
       "id": "audit_00191",
       "location": "body",
-      "para_index": 429,
-      "text": "4）because："
+      "para_index": 483,
+      "text": "Solving the equation we get:"
     },
     {
       "id": "audit_00192",
       "location": "body",
-      "para_index": 431,
-      "text": "Therefore, the function has a horizontal asymptote y = 3/2。And because："
+      "para_index": 489,
+      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t107"
     },
     {
       "id": "audit_00193",
       "location": "body",
-      "para_index": 437,
-      "text": "Next, study the concavity and convexity："
+      "para_index": 491,
+      "text": "To make it easier for you to play this section, I will pull out the basic functions and their corresponding antiderivatives to make you familiar with them. Welcome to take it with you!"
     },
     {
       "id": "audit_00194",
       "location": "body",
-      "para_index": 438,
-      "text": "The first step is to find the second derivative："
+      "para_index": 494,
+      "text": "There are ten \"King Kong\" in total. As long as you memorize them backwards and forwards, you will be able to travel in the world of antiderivatives, and you will have a lot of money!"
     },
     {
       "id": "audit_00195",
       "location": "body",
-      "para_index": 443,
-      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t105"
+      "para_index": 495,
+      "text": "In the following chapters, you will find that these seemingly mediocre antiderivatives have great origins!"
     },
     {
       "id": "audit_00196",
       "location": "body",
-      "para_index": 446,
-      "text": "To sum up, we can draw the graph of this function, roughly as follows："
+      "para_index": 496,
+      "text": "Next, let’s meet the definite integral! Of course, before setting out, you must first consolidate your learning results—do exercises."
     },
     {
       "id": "audit_00197",
       "location": "body",
-      "para_index": 449,
-      "text": "4. 6  The way to find your roots——antiderivative（Antiderivative）"
+      "para_index": 499,
+      "text": "108\t\t\t\t\t\t\t\t\t\tPlay with calculus"
     },
     {
       "id": "audit_00198",
       "location": "body",
-      "para_index": 450,
-      "text": "When we describe someone's familiarity with an article, we often use\"Memorize backwards and forwards\"the word. If you are given the derivative formula of a function, you can\"Memorize backwards and forwards\"，It is equivalent to finding out whose derivative it is based on the derivative. In other words, if you see one on the street\"unclaimed\"The derivative of, you can quickly solve it based on the skills you have learned\"Whose derivative is this?\"This question. In calculus, this basic ability is needed。"
+      "para_index": 501,
+      "text": "Exercise 4"
     },
     {
       "id": "audit_00199",
       "location": "body",
-      "para_index": 452,
-      "text": "Since the action of finding the root of the original function based on the derivative is completely opposite to the process of derivation, it has a name that is reminiscent of——antiderivative。"
+      "para_index": 502,
+      "text": "4-1）Find the critical points of the following functions:"
     },
     {
       "id": "audit_00200",
       "location": "body",
-      "para_index": 453,
-      "text": "For example, when saying2x is x²When using the derivative, it is equivalent to saying:x² is 2xantiderivative of。"
+      "para_index": 508,
+      "text": "4-2）Find the absolute extreme value of the following function in the specified interval:"
     },
     {
       "id": "audit_00201",
       "location": "body",
-      "para_index": 459,
-      "text": "106\t\t\t\t\t\t\t\t\t\tPlay with calculus"
+      "para_index": 516,
+      "text": "4-3）Use the linear approximation method to estimate the following values:"
     },
     {
       "id": "audit_00202",
       "location": "body",
-      "para_index": 461,
-      "text": "Obviously, here x² + C Not a function, but a set of functions. Thus, the following conclusion is self-evident。"
+      "para_index": 521,
+      "text": "4-4）Use Newton's method to find the roots of each of the following equations (accurate to 6 decimal places):"
     },
     {
       "id": "audit_00203",
       "location": "body",
-      "para_index": 464,
-      "text": "Example 4-14）  Find function xⁿ antiderivative of F(x)，in n is a real number。"
+      "para_index": 526,
+      "text": "4-5）Please verify that the following functions satisfy Lagrange's mean value theorem in the specified interval:"
     },
     {
       "id": "audit_00204",
       "location": "body",
-      "para_index": 465,
-      "text": "Solution: We must do it in two steps。"
+      "para_index": 534,
+      "text": "4-8）For each of the following functions: a) find the rising and falling intervals of each function; b) find the relative extreme values ​​of each function; c) find the inflection point and the upper or lower convex interval of each function."
     },
     {
       "id": "audit_00205",
       "location": "body",
-      "para_index": 472,
-      "text": "Although we have been saying that the antiderivative of a function usually refers to a set of functions, if certain constraints are added, a definite function can generally be obtained。"
+      "para_index": 541,
+      "text": "4-9）Find the antiderivative of each of the following functions:"
     },
     {
       "id": "audit_00206",
-      "location": "body",
-      "para_index": 482,
-      "text": "Solve the equation to get："
-    },
-    {
-      "id": "audit_00207",
-      "location": "body",
-      "para_index": 488,
-      "text": "Chapter 4│What is the use of derivatives?\t\t\t\t\t\t\t\t\t\t107"
-    },
-    {
-      "id": "audit_00208",
-      "location": "body",
-      "para_index": 490,
-      "text": "To make it easier for you to play this section, I will pull out the basic functions and their corresponding antiderivatives to make you familiar with them. Welcome to take it with you！"
-    },
-    {
-      "id": "audit_00209",
-      "location": "body",
-      "para_index": 493,
-      "text": "A total of ten\"King Kong\"，As long as you memorize them backwards and forwards, you will be able to travel in the world of antiderivatives.！"
-    },
-    {
-      "id": "audit_00210",
-      "location": "body",
-      "para_index": 494,
-      "text": "In the following chapters, you will find that these seemingly mediocre antiderivatives have great origins.！"
-    },
-    {
-      "id": "audit_00211",
-      "location": "body",
-      "para_index": 495,
-      "text": "Next, let’s meet the definite integral! Of course, before setting off, you must first consolidate your learning achievements——do exercises。"
-    },
-    {
-      "id": "audit_00212",
-      "location": "body",
-      "para_index": 498,
-      "text": "108\t\t\t\t\t\t\t\t\t\tPlay with calculus"
-    },
-    {
-      "id": "audit_00213",
-      "location": "body",
-      "para_index": 500,
-      "text": "Exercise 4"
-    },
-    {
-      "id": "audit_00214",
-      "location": "body",
-      "para_index": 501,
-      "text": "4-1）Find the critical point of the following function："
-    },
-    {
-      "id": "audit_00215",
-      "location": "body",
-      "para_index": 507,
-      "text": "4-2）Find the absolute extreme value of the following function in the specified interval："
-    },
-    {
-      "id": "audit_00216",
-      "location": "body",
-      "para_index": 515,
-      "text": "4-3）Use the linear approximation method to estimate the following values："
-    },
-    {
-      "id": "audit_00217",
-      "location": "body",
-      "para_index": 520,
-      "text": "4-4）Use Newton's method to find the roots of each of the following equations (accurate to the decimal point)6 digits):"
-    },
-    {
-      "id": "audit_00218",
-      "location": "body",
-      "para_index": 525,
-      "text": "4-5）Please verify that the following functions satisfy Lagrange's mean value theorem in the specified interval："
-    },
-    {
-      "id": "audit_00219",
-      "location": "body",
-      "para_index": 533,
-      "text": "4-8）For each of the following functions：a）Find the rising and falling intervals of each function；b）Find the relative extreme values ​​of each function；c）Find the inflection point and upper or lower convex interval of each function。"
-    },
-    {
-      "id": "audit_00220",
-      "location": "body",
-      "para_index": 540,
-      "text": "4-9）Find the antiderivative of each of the following functions："
-    },
-    {
-      "id": "audit_00221",
       "location": "table_0",
-      "para_index": 546,
+      "para_index": 547,
       "text": "function"
     },
     {
-      "id": "audit_00222",
+      "id": "audit_00207",
       "location": "table_0",
-      "para_index": 547,
+      "para_index": 548,
       "text": "antiderivative"
     }
   ]
